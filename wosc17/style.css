@@ -24,9 +24,9 @@ h6, .h6 {
  * Override Bootstrap's default container.
  */
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .container {
-    width: 970px;
+    width: 900px;
   }
 }
 
