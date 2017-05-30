@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First International Workshop on Serverless Computing (WoSC) 2017</title>
+  <meta name="description" content="Serverless Computing">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+   <link href="blog.css" rel="stylesheet">
+
+     
+</head>
+
+<body>
+
+      <div class="blog-masthead">
+      <div class="container">
+  <p>
+    <a href="http://icdcs2017.gatech.edu/"><img src="header.png" width="940" height="198" ></img></a>
+  </p>
+      </div>
+    </div>
+
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">First International Workshop on Serverless Computing (WoSC) 2017</h1>
+        <p class="lead blog-description"><a href="https://icdcs2017.gatech.edu/workshops/">ICDCS 2017 Workshop</a></p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 blog-main">
+     <div class="blog-post">
+
+  <h2>Agenda</h2>
+
+
+  <p>
+    1:30pm <a href='#keynote'>Keynote: Serverless Computing: Patterns and Road Ahead Roger Barga, Amazon Web Services</a>
+  </p>
+
+  <p>
+    2:20pm Short break
+  </p>
+
+  <p>
+    2:30pm Paper presentations
+
+    <br/><a href='#p1'>Ripple: Home Automation for Research Data Management</a>
+
+    <br/><a href='#p2'>Pipsqueak: Lean Lambdas with Large Libraries</a>
+    
+    <br/><a href='#p3'>Leveraging the Serverless Architecture for Securing Linux Containers</a>
+  </p>
+
+  <p>
+    3:30pm Afternoon break shared between workshops
+
+  </p>
+
+  <p>
+    4:00pm Paper presentations 
+    <br/>
+    <a href='#p4'>Serverless Computing: Design, Implementation, and Performance</a>
+  </p>
+
+  <p>
+    4:20pm <a href='#panel'>Panel debate on the novelty and challenges of serverless computing Participants to be determined</a>
+  </p>
+
+<h2 id='keynote'>Keynote Title: Serverless Computing: Patterns and Road Ahead</h2>
+
+
+<p>
+Abstract: Serverless architectures let you build and deploy applications and services with utility computing resources that require zero administration. In the past, you would have to provision and scale servers to run your application code, install and operate distributed databases, and build and run custom software to handle API requests. Serverless architectures provide fully-managed services that eliminates these operational complexities. As serverless architectures become more popular, developers need a framework of patterns to help them deploy their workloads without managing servers or operating systems. This talk introduces and describes reusable serverless patterns for web apps, stream processing, batch processing, and automation. For each, we provide a TCO analysis and comparison with its server-based counterpart. We also discuss the considerations and nuances associated with each pattern and share customer experiences.  This talk will address how serverless computing is becoming a core component in how companies build and run their applications and services, how serverless computing will continue to evolve, and open research challenges.
+</p>
+<p>
+Bio: Roger Barga is a General Manager and Director of Development at Amazon Web Services. Roger is also an Affiliate Professor at the University of Washington, where he is a lecturer in the Data Science and Machine Learning programs. Roger holds a PhD in Computer Science, M.Sc. in Computer Science with an emphasis on Machine Learning, and a B.Sc. in Mathematics and Computing Science. He has published over 100 peer-reviewed technical papers, book chapters, along with a book on Machine Learning, and collaborated with over 200 co-authors.
+</p>
+
+<h2>Paper abstracts</h2>
+
+<h3 id='p1'>Ripple: Home Automation for Research Data Management</h3>
+<p>
+  Ryan Chard (Argonne National Laboratory), Kyle Chard (University of Chicago and Argonne National Lab), Jason Alt (National Center for Supercomputing Applications), Dilworth Parkinson (Lawrence Berkeley National Laboratory), Steve Tuecke (University of Chicago and Argonne National Lab), Ian Foster (Argonne National Laboratory & The University of Chicago)
+</p>
+<p>]
+Exploding data volumes and acquisition rates, plus ever more complex research processes, place significant strain on research data management processes. It is increasingly common for data to flow through pipelines comprised of dozens of dif- ferent management, organization, and analysis steps distributed across multiple institutions and storage systems. To alleviate the resulting complexity, we propose a home automation approach to managing data throughout its lifecycle, in which users specify via high-level rules the actions that should be performed on data at different times and locations. To this end, we have developed RIPPLE, a responsive storage architecture that allows users to express data management tasks via a rules notation. RIPPLE monitors storage systems for events, evaluates rules, and uses serverless computing techniques to execute actions in response to these events. We evaluate our solution by applying RIPPLE to the data lifecycles of two real-world projects, in astronomy and light source science, and show that it can automate many mundane and cumbersome data management processes.
+</p>
+
+<h3 id='p2'>Pipsqueak: Lean Lambdas with Large Libraries</h3>
+<p>
+Edward Oakes (University of Wisconsin-Madison), Leon Yang (University of Wisconsin-Madison), Kevin Houck (University of Wisconsin-Madison), Tyler Harter (Microsoft Gray Systems Lab), Andrea C. Arpaci-Dusseau (University of Wisconsin-Madison), Remzi H. Arpaci-Dusseau (University of Wisconsin-Madison)
+</p>
+<p>
+Microservices are usually fast to deploy because each microservice is small, and thus each can be installed and started quickly. Unfortunately, lean microservices that depend on large libraries will start slowly and harm elasticity. In this paper, we explore the challenges of lean microservices that rely on large libraries in the context of Python packages and the OpenLambda serverless computing platform. We analyze the package types and compressibility of libraries distributed via the Python Package Index and propose PipBench, a new tool for evaluating package support. We also propose Pipsqueak, a package-aware compute platform based on OpenLambda.
+</p>
+
+
+<h3 id='p3'>Leveraging the Serverless Architecture for Securing Linux Containers</h3>
+
+<p>
+Nilton Bila (IBM), Paolo Dettori (IBM), Ali Kanso (IBM), Yuji Watanabe (IBM), Alaa Youssef (IBM)
+</p>
+<p>
+Linux containers present a lightweight solution to package applications into images and instantiate them in isolated environments. Such images may include vulnerabilities that can be exploited at runtime. A vulnerability scanning service can detect these vulnerabilities by periodically scanning the containers and their images for potential threats. When a threat is detected, an event may be generated to (1) quarantine or remove the compromised container(s) and optionally (2) remedy the vulnerability by rebuilding a secure image. We believe that such event-driven process is a great fit to be implemented in a serverless architecture. In this paper we present our design and implementation of a serverless security analytics service based on OpenWhisk and Kubernetes.
+
+
+<h3 id='p4'>Serverless Computing: Design, Implementation, and Performance</h3>
+<p>
+Garrett McGrath (University of Notre Dame), Paul R. Brenner (University of Notre Dame)
+</p>
+<p>
+We present the design of a novel performance-oriented serverless computing platform implemented in .NET, deployed in Microsoft Azure, and utilizing Windows containers as function execution environments. Implementation challenges such as function scaling and container discovery, lifecycle, and reuse are discussed in detail. We propose metrics to evaluate the execution performance of serverless platforms and conduct tests on our prototype as well as AWS Lambda, Azure Functions and IBM’s deployment of Apache OpenWhisk. Our measurements show the prototype achieving greater throughput than other platforms at most concurrency levels, and we examine the scaling and instance expiration trends in the implementations. Additionally, we discuss the gaps and limitations in our current design, propose possible solutions, and highlight future research.
+</p>
+
+<h2 id='panel'>Panel: Debate on the status of serverless computing and Function-as-a-Service
+</h2>
+
+<p>
+   Each panelist will be given a chance to give a five-minute talk about your thoughts, followed by a discussion. Here are some ideas about what you could talk about:
+   <ul>
+<li>Describe current state of field in terms of technology and adoption
+  </li><li>
+Argue that serverless computing is nothing new and point out the relevant literature and past achievements
+  </li><li>
+Take the position that serverless computing is fundamentally different and requires revisiting common assumptions.
+  </li><li>
+Discuss challenging real-world problems that could be research issues.
+  </li><li>
+Propose a benchmark to compare serverless platforms.
+  </li><li>
+Suggest a timeline for evolution of technology and adoption for area 
+</li>
+</ul>
+
+
+  <h2>
+    Organizers
+  </h2>
+
+  <p>
+    Paul Castro, IBM Research Vatche Ishakian, IBM Research<br/> Vinod Muthusamy, IBM Research<br/> 
+    Aleksander Slominski,
+    IBM Research<br/>
+  </p>
+
+  <h2>
+    Workshop Chair
+  </h2>
+
+  <p>
+    Geoffrey C. Fox, Indiana University
+  </p>
+
+  <h2>
+    Program Committee
+  </h2>
+
+  <p>
+    Gul Agha, University of Illinois at Urbana-Champaign<br/> Ioana Baldini, IBM Research<br/> Roger Barga, Amazon<br/> Azer
+    Bestavros, Boston University<br/> Flavio Esposito, Saint Louis University<br/> Rodrigo Fonseca, Brown University<br/>    Ian Foster, University of Chicago and Argonne National Laboratory<br/> Dennis Gannon, Indiana University &amp; Formerly
+    Microsoft Research<br/> Tyler Harter, Microsoft<br/> Arno Jacobsen, MSRG (Middleware Systems Research Group)<br/> Pietro
+    Michiardi, Eurocom<br/> Peter Pietzuch, Imperial College<br/> Rich Wolski, University of California, Santa Barbara<br/>
+  </p>
+
+
+  <h2>Warkshop call for papers</h2>
+  <p>
+    <a href="/wosc17/cfp/">Call For Papers (CFP)</a>
+  </p>
+
+          </div><!-- /.blog-post -->
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+</body>
+
+</html>
