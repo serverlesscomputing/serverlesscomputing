@@ -1,0 +1,41 @@
+
+Create an OpenWhisk action called hello
+  wsk action create hello hello.js
+List the actions you created
+  wsk action list
+To run an action use the wsk action invoke command.
+  wsk action invoke --blocking hello
+you can retrieve the list of activations at any time
+  wsk activation list
+Enter the invokation ID as shown using the command above
+  wsk activation get
+You can delete an action
+  wsk action delete hello
+Create the new hello action
+  wsk action create hellowithparams hellowithparams.js
+You can pass named parameters as JSON payload or via the CLI
+  wsk action invoke -b hellowithparams -p name "Bernie" -p place "Vermont" --result
+  {
+    "message": "Hello, Bernie from Vermont"
+  }
+
+Run the following commands to create the action and invoke it
+  wsk action create yahooWeather weather.js
+  wsk action invoke --blocking --result yahooWeather --param location "Brooklyn, NY"
+
+Let’s create a trigger to send user location updates:
+  wsk trigger create locationUpdate
+  wsk trigger list
+
+So far we have only created a named channel to which events can be fired. Now lets fire the trigger.
+  wsk trigger fire locationUpdate -p name "Donald" -p place "Washington, D.C"
+
+Rules are used to associate a trigger with an action
+  wsk rule create myRule locationUpdate hellowithparams
+  wsk trigger fire locationUpdate -p name "Donald" -p place "Washington, D.C"
+Check whether the action was really invoked
+  wsk activation list hello
+  wsk activation result xxxxxxxxxx
+
+
+  wsk action update hellowithparams --web true
