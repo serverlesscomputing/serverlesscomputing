@@ -7,14 +7,24 @@ To generate gallery for the workshop
 
 Install thumbsup from https://thumbsup.github.io/docs/
 
-Then run:
+
+### Wosc17 Gallery
+
+Run:
+
+```
+cd tutorial/
+thumbsup --input ./photos --output ./gallery --title 'Serverless Tutorial 2017 Gallery' --theme cards --thumb-size 200 --albums-from date  --sort-media-by filename
+```
+
+
+### Wosc17 Gallery
+
+Run:
 
 ```
 cd wosc17/
-```
-
-```
-thumbsup --input ./workshop-pictures --output ./gallery --title 'First International Workshop on Serverless Computing (WoSC) 2017 Gallery' --theme cards --thumb-size 200 --albums-from date  --sort-media-by filename
+thumbsup --input ./photos --output ./gallery --title 'First International Workshop on Serverless Computing (WoSC) 2017 Gallery' --theme cards --thumb-size 200 --albums-from date  --sort-media-by filename
 ```
 
 Then edit gallery/2017-06.html
