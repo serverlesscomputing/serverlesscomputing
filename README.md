@@ -8,15 +8,6 @@ To generate gallery for the workshop
 Install thumbsup from https://thumbsup.github.io/docs/
 
 
-### Wosc17 Gallery
-
-Run:
-
-```
-cd tutorial/
-thumbsup --input ./photos --output ./gallery --title 'Serverless Tutorial 2017 Gallery' --theme cards --thumb-size 200 --albums-from date  --sort-media-by filename
-```
-
 
 ### Wosc17 Gallery
 
@@ -44,3 +35,15 @@ or manually:
     <a class="breadcrumb-item" href="../index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="2017-06.html">2017-06</a>
 ```
 
+### Tutorial Gallery
+
+Run:
+
+```
+cd tutorial/
+thumbsup --input ./photos --output ./gallery --title 'Serverless Tutorial 2017 Gallery' --theme cards --thumb-size 200 --albums-from date 
+```
+
+```
+sed -i '' -e 's/index.html/..\/index.html/g' gallery/2017-06.html
+```
