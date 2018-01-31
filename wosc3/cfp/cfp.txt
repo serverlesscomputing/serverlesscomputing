@@ -75,7 +75,7 @@ Ian Foster, University of Chicago and Argonne National Laboratory
 Geoffrey Fox, Indiana University 
 Dennis Gannon, Indiana University & Formerly Microsoft Research 
 Arno Jacobsen, MSRG (Middleware Systems Research Group) 
-Tyler Harter, Microsoft 
+Tyler Harter, GSL, Microsoft 
 Pietro Michiardi, Eurocom 
 Peter Pietzuch, Imperial College 
 Rodric Rabbah, IBM Research 
