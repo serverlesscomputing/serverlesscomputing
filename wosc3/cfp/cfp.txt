@@ -76,7 +76,7 @@ Geoffrey Fox, Indiana University
 Dennis Gannon, Indiana University & Formerly Microsoft Research 
 Arno Jacobsen, MSRG (Middleware Systems Research Group) 
 Tyler Harter, GSL, Microsoft 
-Pietro Michiardi, Eurocom 
+Pietro Michiardi, Eurecom 
 Peter Pietzuch, Imperial College 
 Rodric Rabbah, IBM Research 
 Rich Wolski, University of California, Santa Barbara
