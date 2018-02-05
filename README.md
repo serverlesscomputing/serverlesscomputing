@@ -8,6 +8,31 @@ To generate gallery for the workshop
 Install thumbsup from https://thumbsup.github.io/docs/
 
 
+### WoSC 2 Gallery
+
+```
+cd wosc2/
+thumbsup --input ./photos --output ./gallery --title 'Second International Workshop on Serverless Computing (WoSC) 2017 Gallery' --theme cards --thumb-size 200 --albums-from date  --sort-media-by filename
+```
+
+
+
+Then edit gallery/2017-12.html
+to point to workshop index.html with ../index.html:
+
+
+```
+sed -i '' -e 's/index.html/..\/index.html/g' gallery/2017-12.html
+```
+
+### TODO Using Docker 
+
+Currently fails missing .congif somehow ...
+
+```
+docker run -t -v `pwd`:/work -u $(id -u):$(id -g) thumbsupgallery/thumbsup thumbsup --input ./photos --output ./gallery --title 'Second International Workshop on Serverless Computing (WoSC) 2017 Gallery' --theme cards --thumb-size 200 --albums-from date  --sort-media-by filename
+```
+
 
 ### Wosc17 Gallery
 
