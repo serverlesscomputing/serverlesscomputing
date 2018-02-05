@@ -3,7 +3,7 @@
 Third International Workshop on Serverless Computing (WoSC) 2018
 Between July 2nd (Sunday) and 7th (Friday) - the exact schedule will be available soon. 
 San Francisco, CA, USA.
-Held in conjunction with the IEEE International Conference on Cloud Computing (IEEE CLOUD 2018)
+Held in conjunction with the IEEE International Conference on Cloud Computing (IEEE CLOUD 2018) affiliated with 2018 IEEE World Congress on Services (IEEE SERVICES 2018)
 http://serverlesscomputing.org/wosc3 
 **************************************** 
 
