@@ -1,4 +1,3 @@
-
 ******* 3nd WoSC 2018 Workshop ******* 
 Third International Workshop on Serverless Computing (WoSC) 2018
 Between July 2nd (Sunday) and 7th (Friday) - the exact schedule will be available soon. 
@@ -26,9 +25,9 @@ Topics: this workshop solicits papers from both academia and industry on the sta
 
 Important Dates: 
 
-Paper Submission: February 21, 2018 (Extended Deadline) 
-Notification of Acceptance: March 22, 2018 
-Final Camera-Ready Manuscript Due: April 6, 2018
+Paper Submission: March 7, 2018 (Final)
+Notification of Acceptance: April 18, 2018 (Extended)
+Final Camera-Ready Manuscript Due: May 9, 2018 (Extended)
 
 Papers and Submissions:
 
