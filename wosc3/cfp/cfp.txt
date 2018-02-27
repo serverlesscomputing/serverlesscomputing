@@ -60,6 +60,7 @@ Aleksander Slominski, IBM Research
 
 Steering Committee (tentative)
 
+Roger Barga, Amazon Web Services
 Geoffrey Fox, Indiana University 
 Dennis Gannon, Indiana University & Formerly Microsoft Research 
 Arno Jacobsen, MSRG (Middleware Systems Research Group) 
