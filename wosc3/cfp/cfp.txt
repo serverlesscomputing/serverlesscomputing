@@ -25,7 +25,7 @@ Topics: this workshop solicits papers from both academia and industry on the sta
 
 Important Dates: 
 
-Paper Submission: March 7, 2018 (Final)
+Paper Submission: March 21, 2018 (Final)
 Notification of Acceptance: April 18, 2018 (Extended)
 Final Camera-Ready Manuscript Due: May 9, 2018 (Extended)
 
@@ -37,9 +37,9 @@ All submitted manuscripts will be peer-reviewed by at least 3 program committee 
 
 Submitted papers will be limited to 8 (IEEE Proceedings style) pages and REQUIRED to be formatted using the IEEE Proceedings template. Submitted Work-in-Progress Papers will be limited to 4 (IEEE Proceedings style) pages. Unformatted papers and papers beyond the page limit may not be reviewed. Electronic submission of manuscripts (in PDF format) is required. Please download the paper template in WORD or LaTeX.
 
-Manuscripts should be submitted to the IEEE CLOUD 2018 Paper Submission/Review System powered by EasyChair.org. Full-length papers should be submitted to the Research Track; and short papers be submitted to the Work-in-Progress Track. When submitting a full-length paper, one should select serverless workshop (single choice).
+Manuscripts should be submitted to the IEEE CLOUD 2018 Serverless Workshop Paper Submission/Review System powered by EasyChair.org. Full-length papers should be submitted to the Research Track; and short papers be submitted to the Work-in-Progress Track. When submitting a full-length paper, one should select serverless workshop (single choice).
 
-https://easychair.org/conferences/?conf=ieeecloud2018
+https://easychair.org/conferences/?conf=wosc3
 
 All papers will be reviewed by the same program committee to ensure quality and consistency.
 
