@@ -39,7 +39,7 @@ Submitted papers will be limited to 8 (IEEE Proceedings style) pages and REQUIRE
 
 Manuscripts should be submitted to the IEEE CLOUD 2018 Serverless Workshop Paper Submission/Review System powered by EasyChair.org. Full-length papers should be submitted to the Research Track; and short papers be submitted to the Work-in-Progress Track. When submitting a full-length paper, one should select serverless workshop (single choice).
 
-https://easychair.org/conferences/?conf=wosc3
+https://easychair.org/conferences/?conf=ieeecloud2018
 
 All papers will be reviewed by the same program committee to ensure quality and consistency.
 
