@@ -1,4 +1,4 @@
-******* 3nd WoSC 2018 Workshop ******* 
+******* 3rd WoSC 2018 Workshop ******* 
 Third International Workshop on Serverless Computing (WoSC) 2018
 Between July 2nd (Sunday) and 7th (Friday) - the exact schedule will be available soon. 
 San Francisco, CA, USA.
