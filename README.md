@@ -7,6 +7,30 @@ To generate gallery for the workshop
 
 Install thumbsup from https://thumbsup.github.io/docs/
 
+Copy JPG files to photos/ subdirectory in woscN/ directory
+
+```
+cd woscN
+mkdir photos
+```
+
+### WoSC 2 Gallery
+
+```
+cd wosc3/
+thumbsup --input ./photos --output ./gallery --title 'Third International Workshop on Serverless Computing (WoSC) 2018 Gallery' --theme cards --thumb-size 200 --albums-from date  
+```
+
+
+
+Then edit gallery/2018-07.html
+to point to workshop index.html with ../index.html:
+
+
+```
+sed -i '' -e 's/index.html/..\/index.html/g' gallery/2018-07.html
+```
+
 
 ### WoSC 2 Gallery
 
