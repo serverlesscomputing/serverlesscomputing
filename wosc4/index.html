@@ -56,7 +56,10 @@
       <h3 id='news'>News</h3>
 
       <p>
-        2018-09-12: <a href="./cfp/index.html">Deadline extended</a><br/>
+        2018-10-10: <a href="#papers">List of accepted papers with abstracts added</a>
+        <br/>
+        2018-09-12: <a href="./cfp/index.html">Deadline extended</a>
+        <br/>
         2018-06-01: <a href="./cfp/index.html">CFP available</a>
           </p>
 
@@ -88,6 +91,189 @@ Serverless architectures offer different tradeoffs in terms of control, cost, an
 <p>
   TBD
 </p>
+
+<h2 id="papers">Paper abstracts</h2>
+
+<h3 id='p1'>EdgeBench: Benchmarking Edge Computing Platforms	
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Anirban Das, Stacy Patterson
+  <br/>
+  Rensselaer Polytechnic Institute, United States	
+  <br/>
+  Mike Wittie
+  <br/>
+  Montana State University, United States	
+</p>
+
+<p>
+    Abstract:
+    The emerging trend of edge computing has led several cloud providers to release their own platforms for performing computation at the `edge' of the network. We compare two such platforms, Amazon AWS Greengrass and Microsoft Azure IoT Edge, using a new benchmark comprising a suite of performance metrics. We also compare the performance of the edge frameworks to cloud-only implementations available in their respective cloud ecosystems. Amazon AWS Greengrass and Azure IoT Edge use different underlying technologies, edge Lambda functions vs. containers, and so we also elaborate on platform features available to developers. Our study shows that both of these edge platforms provide comparable performance, which nevertheless differs in important ways for key types of workloads used in edge applications. Finally, we discuss several current issues and challenges we faced in deploying these platforms.
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+
+<h3 id='p2'>A Review of Serverless Frameworks	
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Kyriakos Kritikos
+  <br/>
+  Institute of Computer Science, FORTH	
+  <br/>
+  Pawel Skrzypek
+  <br/>
+  7Bulls, Poland
+</p>
+
+<p>
+    Abstract:
+    Serverless computing is a new computing paradigm that promises to revolutionize the way applications are built and provisioned. In this computing kind, small pieces of software called functions are deployed in the cloud with zero administration and minimal costs for the software developer. Further, this computing kind has various applications in areas like image processing and scientific computing. Due to the above advantages, the current uptake of serverless computing is being addressed by traditional big cloud providers like Amazon, who offer serverless platforms for serverless application deployment and provisioning. However, as in the case of cloud computing, such providers attempt to lock-in their customers with the supply of complementary services which provide added-value support to serverless applications. To this end, to resolve this issue, serverless frameworks have been recently developed. Such frameworks either abstract away from serverless platform specificities, or they enable the production of a mini serverless platform on top of existing clouds. However, these frameworks differ in various features that do have an impact on the serverless application lifecycle. To this end, to assist the developers in selecting the most suitable framework, this paper attempts to review these frameworks according to a certain set of criteria that directly map to the application lifecycle. Further, based on the review results, some remaining challenges are supplied, which when confronted will make serverless frameworks highly usable and suitable for the handling of both serverless as well as mixed application kinds.
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+<h3 id='p3'>Cold Start Influencing Factors in Function as a Service	
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Johannes Manner, Martin Endreß, Tobias Heckel and Guido Wirtz
+  <br/>
+  University of Bamberg, Distributed Systems Group, Germany	
+</p>
+
+<p>
+    Abstract:
+    Function as a Service (FaaS) is a young and rapidly 
+    evolving cloud paradigm. Due to the virtualization dependency, 
+    inherent virtualization problems need an assessment from the 
+    FaaS point of view. Especially avoidance of idling and scaling 
+    on demand cause a lot of container starts and as a consequence 
+    a lot of cold starts for FaaS users. The aim of this paper is to 
+    address the cold start problem in a benchmark and investigate 
+    influential factors on the duration of the perceived cold start. 
+    We conducted a benchmark on AWS Lambda and Microsoft 
+    Azure Functions with 49500 cloud function executions. Formulated 
+    as hypotheses, the influence of the chosen programming 
+    language, platform, memory size for the cloud function, and size 
+    of the deployed artifact are the dimensions of our experiment. 
+    Cold starts on the platform as well as the cold starts for users 
+    were measured and compared to each other. Our results show 
+    that there is an enormous difference for the overhead the user 
+    perceives compared to the billed duration. In our experiment, 
+    the average cold start overheads on the user’s side ranged from 
+    300ms to 24s for the chosen configurations.
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+<h3 id='p4'>Comparison of Production Serverless Function Orchestration Systems	
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Pedro García López, Marc Sánchez-Artigas, Gerard París, Daniel Barcelona Pons, Álvaro Ruiz Ollobarren and David Arroyo Pinto
+  <br/>
+  Universitat Rovira i Virgili, Spain
+</p>
+
+<p>
+    Abstract:
+    Since the appearance of Amazon Lambda in 2014, all major cloud providers have embraced the Function as a Service (FaaS) model, because of its enormous potential for a wide variety of applications. As expected (and also desired), the competition is fierce in the serverless world, and includes aspects such as the run-time support for the orchestration of serverless functions. In this regard, the three major players are currently Amazon Step Functions (December 2016), Azure Durable Functions (June 2017), and IBM Composer (October 2017), still young and experimental projects with a long way ahead. 
+    In this article, we will compare and analyze these three serverless orchestration services under a common evaluation framework. We will study their architectures, programming and billing models, and their effective support for parallel execution, among others. Through a series of experiments, we will also evaluate the run-time overhead of the different infrastructures for different types of workflows.
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+<h3 id='p5'>An Investigation of the Impact of Language Runtime on the Performance and Cost of Serverless Functions	
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+    David Jackson and Gary Clynch
+    <br/>
+    Institute of Technology, Tallaght, Ireland      
+</p>
+
+<p>
+    Abstract:
+    Serverless, otherwise known as "Function-as-a-Service" (FaaS), is a compelling evolution of cloud computing that is highly scalable and event-driven. Serverless applications are composed of multiple independent functions, each of which can be implemented in a range of programming languages. This paper seeks to understand the impact of the choice of language runtime on the performance and subsequent cost of serverless function execution. It presents the design and implementation of a new serverless performance testing framework created to analyse performance and cost metrics for both AWS Lambda and Azure Functions. For optimum performance and cost management of serverless applications, Python is the clear choice on AWS Lambda. C# .NET is the top performer and most economical option for Azure Functions. NodeJS on Azure Functions and .NET Core 2 on AWS should be avoided or at the very least, used carefully in order to avoid their potentially slow and costly start-up times.
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+<h3 id='p6'>Visual-textual framework for serverless computation: a Luna Language approach.	
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Piotr Moczurad and Maciej Malawski
+  <br/>
+  AGH University of Science and Technology, Poland
+</p>
+
+<p>
+    Abstract:
+    As serverless technologies are emerging as a breakthrough in the cloud computing industry, the lack of proper tooling is becoming apparent. The model of computation that the serverless is imposing is as flexible as it is hard to manage and grasp. We present a novel approach towards serverless computing that tightly integrates it with the visual-textual, functional programming language: Luna. This way we achieve the clarity and cognitive ease of visual solutions while retaining the flexibility and expressive power of textual programming languages. Moreover, we propose a more functional paradigm for the serverless computations.
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+<h3 id='p7'>Improving Application Migration to Serverless Computing Platforms: Latency Mitigation with Keep-Alive Workloads	
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Minh Vu, Baojia Zhang and Wes Lloyd
+  <br/>
+  University of Washington, United States	
+  <br/>
+  Olaf David and George Leavesley 
+  <br/>
+  Colorado State University, United States	
+</p>
+
+<p>
+    Abstract:
+    Serverless computing platforms provide Function(s)-as-a-Service (FaaS) to end users while promising reduced hosting costs, high availability, fault tolerance, and dynamic elasticity for hosting individual functions known as microservices. Serverless Computing environments, unlike Infrastructure-as-Service (IaaS) cloud platforms, abstract infrastructure management including creation of virtual machines (VMs), containers, and load balancing from users. To conserve cloud server capacity and energy, cloud providers allow serverless computing infrastructure to go COLD, deprovisioning hosting infrastructure when demand falls, freeing capacity to be harnessed by others. In this paper, we present as a case study our results on the migration of the Precipitation Runoff Modeling System (PRMS), a Java-based environmental modeling application to the AWS Lambda serverless platform. We investigate performance and cost implications of memory reservation size, and evaluate scaling performance for increasing concurrent workloads. We then investigate the use of Keep-Alive client workloads to preserve serverless infrastructure to minimize infrastructure initialization latency to ensure consistent performance over long idle periods for many concurrent users. We show how Keep-Alive workloads can be generated using cloud-based scheduled event triggers, enabling minimization of costs, to provide VM-like performance for applications hosted on serverless platforms for a fraction of the cost.
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+<h3 id='p8'>Benchmarking FaaS Platforms: Call for Community Participation	
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Jörn Kuhlenkamp and Sebastian Werner
+  <br/>
+  Information Systems Engineering,TU Berlin, Germany
+</p>
+
+<p>
+    Abstract:
+    The number of available FaaS platforms increases with the rising popularity of a “serverless” architecture and development paradigm. 
+    As a consequence, a high demand for benchmarking FaaS platforms exists. 
+    In response to this demand, new benchmarking approaches that focus on different objectives continuously emerge. 
+    In this paper, we call for community participation to conduct a collaborative structured literature review with the goal to establish a community-driven knowledge base.
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+
 
   <h2 id='org'>Organization</h2>
 
