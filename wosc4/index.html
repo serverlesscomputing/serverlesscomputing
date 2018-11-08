@@ -59,9 +59,11 @@
       <h3 id='news'>News</h3>
 
       <p>
-          2018-10-19: <a href="#keynote">Keynote by Google Cloud Functions added</a>
-          <br/>
-          2018-10-10: <a href="#papers">List of accepted papers with abstracts added</a>
+        2018-11-08: <a href="#s1">Invited speaker from IBM Research Zurich</a>
+        <br/>
+        2018-10-19: <a href="#keynote">Keynote by Google Cloud Functions added</a>
+        <br/>
+        2018-10-10: <a href="#papers">List of accepted papers with abstracts added</a>
         <br/>
         2018-09-12: <a href="./cfp/index.html">Deadline extended</a>
         <br/>
@@ -103,6 +105,8 @@ Serverless architectures offer different tradeoffs in terms of control, cost, an
 
 <p>
   <b>10.10-11.00 Invited speaker</b>  (BASIC room)
+  <br/>
+  <a href="#s1">Efficient management of ephemeral data in serverless computing</a>
 </p>
 
 <p>
@@ -174,7 +178,29 @@ Serverless architectures offer different tradeoffs in terms of control, cost, an
 
 </p>
 
-<p>Presentation [<a href=''>PDF</a>]</p>
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+
+
+<h3 id='s1'>Efficient management of ephemeral data in serverless computing	
+</h3>
+
+<p>Speaker: Patrick Stuedi, IBM Research, Zurich, Switzerland
+</p>
+
+<p>
+    Abstract:
+    Serverless  computing  frameworks  achieve  high  elasticity and scalability partially by requiring functions to be short running and stateless. In turn, these restrictions make sharing of intermediate data among serverless tasks difficult, a challenge for more complex serverless workloads consisting of multiple stages. Today, the current practice is store intermediate data in a common, remote storage service. In this talk, I argue that existing storage systems are not designed to meet the elasticity, performance and granular cost requirements of serverless applications. I'll show several data points from deployments on AWS as well as from on-premise clusters that showcase the limitations and overheads of existing storage platforms in serverless workloads. I will then present two research projects that aim to overcome these limitations through efficient and elastic management of ephemeral data. In the first part of the talk, I will show how we turned Apache Spark into a serverless service that can efficiently serve multiple users by dynamically scaling its resources up and down in a fine-grained manner. One key aspect that made this possible is the use of Apache Crail as a fast way to store ephemeral data on remote DRAM and flash. In the second part, I'll show how to improve the efficiency and reduce the cost of serverless applications built on AWS lambda by using Pocket, a new elastic storage platform designed from scratch for storing ephemeral data in serverless applications.
+</p>
+
+<p>
+  Bio:
+Patrick is a member of the research staff at IBM Research Zurich. His research interests are in distributed systems, networking and operating systems. Patrick graduated with a PhD from ETH Zurich in 2008 and spent two years (2008-2010) as a Postdoc at Microsoft Research Silicon Valley. The general theme of his work is to explore how modern networking and storage hardware can be exploited in distributed systems. Patrick is the creator of several open source projects such as DiSNI (RDMA for Java), DaRPC (Low latency RPC) and co-founder of Apache Crail (Incubating).
+</p>
+
+<p>Presentation [<a href='presentations/'></a>PDF]</p>
+
+
 
 
 <h2 id="papers">Paper abstracts</h2>
