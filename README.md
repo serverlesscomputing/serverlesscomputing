@@ -14,7 +14,19 @@ cd woscN
 mkdir photos
 ```
 
-### WoSC 2 Gallery
+### WoSC  Gallery
+
+
+```
+cd wosc4/
+thumbsup --input ./photos --output ./gallery --title 'Fourth International Workshop on Serverless Computing (WoSC) 2018 Gallery' --theme cards --thumb-size 200 --albums-from date  
+```
+
+```
+sed -i '' -e 's/index.html/..\/index.html/g' gallery/2018-12.html
+```
+
+And link form woscN index.htmnl page
 
 ```
 cd wosc3/
@@ -51,7 +63,7 @@ sed -i '' -e 's/index.html/..\/index.html/g' gallery/2017-12.html
 
 ### TODO Using Docker 
 
-Currently fails missing .congif somehow ...
+Currently fails missing .config somehow ...
 
 ```
 docker run -t -v `pwd`:/work -u $(id -u):$(id -g) thumbsupgallery/thumbsup thumbsup --input ./photos --output ./gallery --title 'Second International Workshop on Serverless Computing (WoSC) 2017 Gallery' --theme cards --thumb-size 200 --albums-from date  --sort-media-by filename
