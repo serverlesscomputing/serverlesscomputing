@@ -1,7 +1,7 @@
 CFP: Fifth International Workshop on Serverless Computing (WoSC) 2019
 
    Part of [1]39th IEEE International Conference on Distributed Computing
-   Systems (ICDCS 2019).
+   Systems (ICDCS 2019)
 
    The workshop will take place in Dallas, Texas, USA.
 
@@ -53,12 +53,12 @@ Topics
      * Use cases, experiences
      * Benchmarks
      * Cost models, pricing models, and economics of serverless
-     * DevOps (customer side)
+     * DevOps
      * Other topics related to serverless computing
 
 Important Dates
 
-   Paper Submission: March 15, 2019
+   Paper Submission: March 25, 2019
    Notification of Acceptance: April 25, 2019
    Final Camera-Ready Manuscript: May 1, 2019
    Author registration deadline: TBD
@@ -137,11 +137,15 @@ Program Committee (tentative)
    Ian Foster, University of Chicago and Argonne National Laboratory
    Geoffrey Fox, Indiana University
    Dennis Gannon, Indiana University & Formerly Microsoft Research
+   Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
-   Tyler Harter, GSL, Microsoft.
+   Tyler Harter, GSL, Microsoft
+   Visnja Krizanovic, Josip Juraj Strossmayer University of Osijek
+   Theo Lynn, Dublin City University, Ireland
    Maciej Malawski, AGH University of Science and Technology, Poland
    Pietro Michiardi, Eurecom
-   Peter Pietzuch, Imperial College
+   Lucas Nussbaum, LORIA, France
+   Eric Rozner, University of Colorado Boulder
    Josef Spillner, Zurich University of Applied Sciences
    Rich Wolski, University of California, Santa Barbara
 
