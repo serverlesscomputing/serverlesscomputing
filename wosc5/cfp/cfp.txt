@@ -1,7 +1,5 @@
-CFP: Fifth International Workshop on Serverless Computing (WoSC) 2019 [1]
-
+CFP: Fifth International Workshop on Serverless Computing (WoSC) 2019
 Part of 39th IEEE International Conference on Distributed Computing Systems (ICDCS 2019)
-
 The workshop will take place in Dallas, Texas, USA.
 
 Over the last four to five years, Serverless Computing (Serverless) has
@@ -37,7 +35,8 @@ applied to composition in a serverless environment.
 Authors are invited to submit research papers, experience papers,
 demonstrations, or position papers.
 
-The latest version of this CFP is available at http://serverlesscomputing.org/wosc5/  
+The latest version of this CFP is available at 
+http://serverlesscomputing.org/wosc5/  
 
 Topics
 
