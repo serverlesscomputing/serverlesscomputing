@@ -1,45 +1,43 @@
-CFP: Fifth International Workshop on Serverless Computing (WoSC) 2019
+CFP: Fifth International Workshop on Serverless Computing (WoSC) 2019 [1]
 
-   Part of [1]39th IEEE International Conference on Distributed Computing
-   Systems (ICDCS 2019)
+Part of 39th IEEE International Conference on Distributed Computing Systems (ICDCS 2019)
 
-   The workshop will take place in Dallas, Texas, USA.
+The workshop will take place in Dallas, Texas, USA.
 
-   Over the last four to five years, Serverless Computing (Serverless) has
-   gained an enthusiastic following in industry as a compelling paradigm
-   for the deployment of cloud applications, and is enabled by the recent
-   shift of enterprise application architectures to containers and
-   micro-services. Many of the major cloud vendors, have released
-   serverless platforms, including Amazon Lambda, Google Cloud Functions,
-   Microsoft Azure Functions, IBM Cloud Functions. There is, however,
-   little attention from the research community. This workshop brings
-   together researchers and practitioners to discuss their experiences and
-   thoughts on future directions.
+Over the last four to five years, Serverless Computing (Serverless) has
+gained an enthusiastic following in industry as a compelling paradigm
+for the deployment of cloud applications, and is enabled by the recent
+shift of enterprise application architectures to containers and
+micro-services. Many of the major cloud vendors, have released
+serverless platforms, including Amazon Lambda, Google Cloud Functions,
+Microsoft Azure Functions, IBM Cloud Functions. There is, however,
+little attention from the research community. This workshop brings
+together researchers and practitioners to discuss their experiences and
+thoughts on future directions.
 
-   Serverless architectures offer different tradeoffs in terms of control,
-   cost, and flexibility. For example, this requires developers to more
-   carefully consider the resources used by their code (time to execute,
-   memory used, etc.) when modularizing their applications. This is in
-   contrast to concerns around latency, scalability, and elasticity, which
-   is where significant development effort has traditionally been spent
-   when building cloud services. In addition, tools and techniques to
-   monitor and debug applications aren't applicable in serverless
-   architectures, and new approaches are needed. As well, test and
-   development pipelines may need to be adapted. Another decision that
-   developers face are the appropriateness of the serverless ecosystem to
-   their application requirements. A rich ecosystem of services built into
-   the platform is typically easier to compose and would offer better
-   performance. However, composing external services may be unavoidable,
-   and in such cases, many of the benefits of serverless disappear,
-   including performance and availability guarantees. This presents an
-   important research challenge, and it is not clear how existing results
-   and best practices, such as workflow composition research, can be
-   applied to composition in a serverless environment.
-   Authors are invited to submit research papers, experience papers,
-   demonstrations, or position papers.
+Serverless architectures offer different tradeoffs in terms of control,
+cost, and flexibility. For example, this requires developers to more
+carefully consider the resources used by their code (time to execute,
+memory used, etc.) when modularizing their applications. This is in
+contrast to concerns around latency, scalability, and elasticity, which
+is where significant development effort has traditionally been spent
+when building cloud services. In addition, tools and techniques to
+monitor and debug applications aren't applicable in serverless
+architectures, and new approaches are needed. As well, test and
+development pipelines may need to be adapted. Another decision that
+developers face are the appropriateness of the serverless ecosystem to
+their application requirements. A rich ecosystem of services built into
+the platform is typically easier to compose and would offer better
+performance. However, composing external services may be unavoidable,
+and in such cases, many of the benefits of serverless disappear,
+including performance and availability guarantees. This presents an
+important research challenge, and it is not clear how existing results
+and best practices, such as workflow composition research, can be
+applied to composition in a serverless environment.
+Authors are invited to submit research papers, experience papers,
+demonstrations, or position papers.
 
-   The latest version of this CFP is available at
-   [2]http://serverlesscomputing.org/wosc5/
+The latest version of this CFP is available at http://serverlesscomputing.org/wosc5/  
 
 Topics
 
@@ -72,8 +70,9 @@ Papers and Submissions
 
    Submitted manuscripts should be structured as technical papers and may
    not exceed six (6) single-spaced double-column pages using 10-point
-   size font on 8.5x11 inch pages ([3]IEEE conference style), including
+   size font on 8.5x11 inch pages (IEEE conference style ), including
    figures, tables, and references.
+   https://www.ieee.org/conferences/publishing/templates.html
 
    Authors should submit the manuscript in PDF format. All manuscripts
    will be reviewed and will be judged on correctness, originality,
@@ -81,7 +80,7 @@ Papers and Submissions
    presentation, and interest and relevance to the conference attendees.
    Papers conforming to the above guidelines can be submitted through the
    paper submission system
-   [4]https://easychair.org/conferences/?conf=icdcs2019 select "Workshop
+   https://easychair.org/conferences/?conf=icdcs2019 select "Workshop
    on Serverless Computing" Track after clicking New Submission (top right
    button in toolbar).
 
@@ -149,9 +148,3 @@ Program Committee (tentative)
    Josef Spillner, Zurich University of Applied Sciences
    Rich Wolski, University of California, Santa Barbara
 
-References
-
-   1. https://theory.utdallas.edu/ICDCS2019/index.html
-   2. http://serverlesscomputing.org/wosc5/
-   3. https://www.ieee.org/conferences/publishing/templates.html
-   4. https://easychair.org/conferences/?conf=icdcs2019
