@@ -139,7 +139,6 @@ Program Committee (tentative)
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
    Tyler Harter, GSL, Microsoft
    Visnja Krizanovic, Josip Juraj Strossmayer University of Osijek
-   Theo Lynn, Dublin City University, Ireland
    Maciej Malawski, AGH University of Science and Technology, Poland
    Pietro Michiardi, Eurecom
    Lucas Nussbaum, LORIA, France
