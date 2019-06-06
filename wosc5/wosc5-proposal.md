@@ -3,7 +3,7 @@ We would like to propose the 5th iteration of the established series of workshop
 # Workshop Proposal (draft)
 
 ## Title
-5th International Workshop on Serverless Computing (WoSC5) part of 20th ACM/IFIP International Conference (Middleware 2019) Dec 9-13, 2019 in UC Davis, CA, USA.
+5th International Workshop on Serverless Computing (WoSC5) part of 20th ACM/IFIP International Conference Middleware, Dec 9-13, 2019 in UC Davis, CA, USA.
 
 ### Brief Technical Description
 Over the last four to five years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and micro-services. Many of the major cloud vendors, have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions. This workshop brings together researchers and practitioners to discuss their experiences and thoughts on future directions of serverless research.
