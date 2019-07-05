@@ -1,6 +1,10 @@
-CFP: Fifth International Workshop on Serverless Computing (WoSC) 2019
-Part of 39th IEEE International Conference on Distributed Computing Systems (ICDCS 2019)
-The workshop will take place in Dallas, Texas, USA.
+
+  CFP: Fifth International Workshop on Serverless Computing (WoSC) 2019
+
+Part of 20th ACM/IFIP International Conference Middleware, Dec 9-13,
+2019 in UC Davis, CA, USA. <http://2019.middleware-conference.org/>
+
+The workshop will take place in UC Davis, CA, USA.
 
 Over the last four to five years, Serverless Computing (Serverless) has
 gained an enthusiastic following in industry as a compelling paradigm
@@ -8,141 +12,165 @@ for the deployment of cloud applications, and is enabled by the recent
 shift of enterprise application architectures to containers and
 micro-services. Many of the major cloud vendors, have released
 serverless platforms, including Amazon Lambda, Google Cloud Functions,
-Microsoft Azure Functions, IBM Cloud Functions. There is, however,
-little attention from the research community. This workshop brings
+Microsoft Azure Functions, IBM Cloud Functions. This workshop brings
 together researchers and practitioners to discuss their experiences and
-thoughts on future directions.
+thoughts on future directions of serverless research.
 
 Serverless architectures offer different tradeoffs in terms of control,
-cost, and flexibility. For example, this requires developers to more
-carefully consider the resources used by their code (time to execute,
-memory used, etc.) when modularizing their applications. This is in
-contrast to concerns around latency, scalability, and elasticity, which
-is where significant development effort has traditionally been spent
-when building cloud services. In addition, tools and techniques to
-monitor and debug applications aren't applicable in serverless
-architectures, and new approaches are needed. As well, test and
-development pipelines may need to be adapted. Another decision that
-developers face are the appropriateness of the serverless ecosystem to
-their application requirements. A rich ecosystem of services built into
-the platform is typically easier to compose and would offer better
-performance. However, composing external services may be unavoidable,
-and in such cases, many of the benefits of serverless disappear,
-including performance and availability guarantees. This presents an
-important research challenge, and it is not clear how existing results
-and best practices, such as workflow composition research, can be
-applied to composition in a serverless environment.
+cost, and flexibility compared to distributed applications built on an
+Infrastructure as a Service (IaaS) substrate. For example, a serverless
+architecture requires developers to more carefully consider the
+resources used by their code (time to execute, memory used, etc.) when
+modularizing their applications. This is in contrast to concerns around
+latency, scalability, and elasticity, which is where significant
+development effort has traditionally been spent when building cloud
+services. In addition, tools and techniques to monitor and debug
+applications aren't applicable in serverless architectures, and new
+approaches are needed. As well, test and development pipelines may need
+to be adapted. Another decision that developers face are the
+appropriateness of the serverless ecosystem to their application
+requirements. A rich ecosystem of services built into the platform is
+typically easier to compose and would offer better performance. However,
+composing external services may be unavoidable, and in such cases, many
+of the benefits of serverless disappear, including performance and
+availability guarantees. This presents an important research challenge,
+and it is not clear how existing results and best practices, such as
+workflow composition research, can be applied to composition in a
+serverless environment.
+
 Authors are invited to submit research papers, experience papers,
 demonstrations, or position papers.
 
-The latest version of this CFP is available at 
-http://serverlesscomputing.org/wosc5/  
+The latest version of this CFP is available at
+http://serverlesscomputing.org/wosc5/
 
-Topics
 
-   This workshop solicits papers from both academia and industry on the
-   state of practice and state of the art in serverless computing. Topics
-   of interest include but are not limited to:
-     * Infrastructure and network optimizations for serverless
-       applications
-     * Debugging serverless applications
-     * Programming models
-     * Use cases, experiences
-     * Benchmarks
-     * Cost models, pricing models, and economics of serverless
-     * DevOps
-     * Other topics related to serverless computing
+    Topics
 
-Important Dates
+This workshop solicits papers from both academia and industry on the
+state of practice and state of the art in serverless computing. Topics
+of interest include but are not limited to:
 
-   Paper Submission: March 25, 2019
-   Notification of Acceptance: April 25, 2019
-   Final Camera-Ready Manuscript: May 1, 2019
-   Author registration deadline: TBD
-   Conference: July 7-10, 2019
+  * Infrastructure and network optimizations for serverless applications
+  * Debugging serverless applications
+  * Programming models
+  * Use cases, experiences
+  * Benchmarks
+  * Cost models, pricing models, and economics of serverless
+  * DevOps
+  * Other topics related to serverless computing
 
-Papers and Submissions
 
-   Authors are invited to submit original, unpublished
-   research/application papers that are not being considered in another
-   forum.
+    Important Dates
 
-   Submitted manuscripts should be structured as technical papers and may
-   not exceed six (6) single-spaced double-column pages using 10-point
-   size font on 8.5x11 inch pages (IEEE conference style ), including
-   figures, tables, and references.
-   https://www.ieee.org/conferences/publishing/templates.html
+Paper Submission: *August 30, 2019*
+Notification of Acceptance: September 27, 2019
+Final Camera-Ready Manuscript (Hard Deadline): October 18, 2019
+Author registration deadline: TBD
+Conference: December 9-13, 2019
 
-   Authors should submit the manuscript in PDF format. All manuscripts
-   will be reviewed and will be judged on correctness, originality,
-   technical strength, rigour in analysis, quality of results, quality of
-   presentation, and interest and relevance to the conference attendees.
-   Papers conforming to the above guidelines can be submitted through the
-   paper submission system
-   https://easychair.org/conferences/?conf=icdcs2019 select "Workshop
-   on Serverless Computing" Track after clicking New Submission (top right
-   button in toolbar).
 
-   All submitted manuscripts will be peer-reviewed by at least 3 program
-   committee members. Accepted papers (from both tracks and workshops)
-   with confirmed presentation will appear in the conference proceedings
-   published by the IEEE Computer Society Press and will be made available
-   online through the IEEE Digital Library, as well as through the ACM
-   Digital Library.
+    Papers and Submissions
 
-Review policy
+Authors are invited to submit original, unpublished research/application
+papers that are not being considered in another forum.
 
-   IEEE Policy and professional ethics require that referees treat the
-   contents of papers under review as privileged information not to be
-   disclosed to others before publication. It is expected that no one with
-   access to a paper under review will make any inappropriate use of the
-   special knowledge, which that access provides. Contents of abstracts
-   submitted to conference program committees should be regarded as
-   privileged as well, and handled in the same manner. The Conference
-   Publications Chair shall ensure that referees adhere to this practice.
+Submitted manuscripts should be structured as technical papers and may
+not exceed six (6) single-spaced double-column pages using ACM SIGPLAN
+style, which can found on the ACM template page. Please note that it is
+preferable, although not mandatory, to use a 10pt font instead of 9pt one..
 
-   Organizers of IEEE conferences are expected to provide an appropriate
-   forum for the oral presentation and discussion of all accepted papers.
-   An author, in offering a paper for presentation at an IEEE conference,
-   or accepting an invitation to present a paper, is expected to be
-   present at the meeting to deliver the paper. In the event that
-   circumstances unknown at the time of submission of a paper preclude its
-   presentation by an author, the program chair should be informed on
-   time, and appropriate substitute arrangements should be made. In some
-   cases it may help reduce no-shows for the Conference to require advance
-   registration together with the submission of the final manuscript.
+Authors should submit the manuscript in PDF format. All manuscripts will
+be reviewed and will be judged on correctness, originality, technical
+strength, rigour in analysis, quality of results, quality of
+presentation, and interest and relevance to the conference attendees.
+Papers conforming to the above guidelines can be submitted through the
+paper submission system powered by HotCRP (URL TBD).
 
-Workshop co-chairs
+All submitted manuscripts (following MIDDLEWARE conference requirements
+on formatting and page limits) will be peer-reviewed by at least 3
+program committee members. Accepted papers with confirmed presentation
+will appear in the conference proceedings as well as in the ACM Digital
+Library.
 
-   Paul Castro, IBM Research
-   Vatche Ishakian, Bentley University
-   Vinod Muthusamy, IBM Research
-   Aleksander Slominski, IBM Research
 
-Steering Committee (tentative)
+      Workshop co-chairs
 
-   Roger Barga, Amazon Web Services
-   Geoffrey Fox, Indiana University
-   Dennis Gannon, Indiana University & Formerly Microsoft Research
-   Arno Jacobsen, MSRG (Middleware Systems Research Group)
+Paul Castro, IBM Research
+Vatche Ishakian, Bentley University
+Vinod Muthusamy, IBM Research
+Aleksander Slominski, IBM Research
 
-Program Committee (tentative)
 
-   Gul Agha, University of Illinois at Urbana-Champaign
-   Azer Bestavros, Boston University
-   Flavio Esposito, Saint Louis University
-   Rodrigo Fonseca, Brown University
-   Ian Foster, University of Chicago and Argonne National Laboratory
-   Geoffrey Fox, Indiana University
-   Dennis Gannon, Indiana University & Formerly Microsoft Research
-   Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)
-   Arno Jacobsen, MSRG (Middleware Systems Research Group)
-   Tyler Harter, GSL, Microsoft
-   Visnja Krizanovic, Josip Juraj Strossmayer University of Osijek
-   Maciej Malawski, AGH University of Science and Technology, Poland
-   Pietro Michiardi, Eurecom
-   Lucas Nussbaum, LORIA, France
-   Eric Rozner, University of Colorado Boulder
-   Josef Spillner, Zurich University of Applied Sciences
-   Rich Wolski, University of California, Santa Barbara
+      Steering Committee (tentative)
+
+Roger Barga, Amazon Web Services
+Geoffrey Fox, Indiana University
+Dennis Gannon, Indiana University & Formerly Microsoft Research
+Arno Jacobsen, MSRG (Middleware Systems Research Group)
+
+
+      Program Committee (tentative)
+
+Gul Agha, University of Illinois at Urbana-Champaign
+Azer Bestavros, Boston University
+Flavio Esposito, Saint Louis University
+Rodrigo Fonseca, Brown University
+Ian Foster, University of Chicago and Argonne National Laboratory
+Geoffrey Fox, Indiana University
+Dennis Gannon, Indiana University & Formerly Microsoft Research
+Arno Jacobsen, MSRG (Middleware Systems Research Group)
+Wes Lloyd, University of Washington Tacoma
+Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)
+Tyler Harter, GSL, Microsoft
+Višnja Križanović, Josip Juraj Strossmayer University of Osijek
+Maciej Malawski, AGH University of Science and Technology, Poland
+Pietro Michiardi, Eurecom
+Lucas Nussbaum, LORIA, France
+Eric Rozner, University of Colorado Boulder
+Josef Spillner, Zurich University of Applied Sciences
+Rich Wolski, University of California, Santa Barbara
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
