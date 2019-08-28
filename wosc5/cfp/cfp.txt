@@ -77,8 +77,9 @@ papers that are not being considered in another forum.
 
 Submitted manuscripts should be structured as technical papers and may
 not exceed six (6) single-spaced double-column pages using ACM SIGPLAN
-style, which can found on the ACM template page. Please note that it is
-preferable, although not mandatory, to use a 10pt font instead of 9pt one..
+style, which can found on the ACM template page. The page limit contains 
+all the content, including bibliography, appendix, etc. Please note that 
+it is preferable, although not mandatory, to use a 10pt font instead of 9pt one.
 
 Authors should submit the manuscript in PDF format. All manuscripts will
 be reviewed and will be judged on correctness, originality, technical
