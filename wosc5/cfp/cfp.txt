@@ -86,7 +86,7 @@ be reviewed and will be judged on correctness, originality, technical
 strength, rigour in analysis, quality of results, quality of
 presentation, and interest and relevance to the conference attendees.
 Papers conforming to the above guidelines can be submitted through the
-paper submission system powered by HotCRP (URL TBD).
+paper submission system powered by HotCRP (https://wosc19.hotcrp.com/).
 
 All submitted manuscripts (following MIDDLEWARE conference requirements
 on formatting and page limits) will be peer-reviewed by at least 3
