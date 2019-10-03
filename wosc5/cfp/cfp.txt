@@ -103,7 +103,7 @@ Vinod Muthusamy, IBM Research
 Aleksander Slominski, IBM Research
 
 
-      Steering Committee (tentative)
+      Steering Committee
 
 Roger Barga, Amazon Web Services
 Geoffrey Fox, Indiana University
@@ -111,7 +111,7 @@ Dennis Gannon, Indiana University & Formerly Microsoft Research
 Arno Jacobsen, MSRG (Middleware Systems Research Group)
 
 
-      Program Committee (tentative)
+      Program Committee
 
 Gul Agha, University of Illinois at Urbana-Champaign
 Azer Bestavros, Boston University
