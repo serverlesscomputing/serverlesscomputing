@@ -109,11 +109,187 @@ TBA
 
 <h2 id="papers">Paper abstracts</h2>
 
-TBA
 
-  <h2 id='org'>Organization</h2>
+<h3 id='p1'>Real-time Serverless: Enabling Application Performance Guarantees 
+	
+</h3>
 
-  <h3>Workshop co-chairs</h3>
+<p>Presenter: </p>
+
+<p>
+  Authors: H. Nguyen, C. Zhang, Z. Xiao, A. Chien
+</p>
+
+<p>
+    Abstract:
+    Today's serverless provides ``function-as-a-service'' enabling new cloud applications with dynamic scaling and fine-grained resource charging. Serverless is provided as a best-effort service.
+
+    We propose an extension to the serverless interface, called real-time serverless. It provides an invocation rate guarantee, specified by the application and requires the underlying implementation to delivers this SLO. This change enables real-time serverless to support novel bursty, real-time cloud and edge applications efficiently. We show how applications can guarantee real-time performance, study real-time serverless behavior analytically and empirically to explore its benefits. Finally, we use a case study, traffic monitoring to illustrate the use and benefits of real-time serverless, and demonstrate our prototype implementation.
+    </p>
+
+
+<p>Presentation [<a href=''>PDF</a>] 
+  [<a href=''>PPTX</a>]</p>
+    
+<h3 id='p2'>Selena: a Serverless Energy Management System
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Authors: F. Huber, N. Körber, M. Mock	
+</p>
+
+<p>
+    Abstract:
+    Reduction of CO2 emissions has become a significant challenge faced by humanity today. Energy management systems try to contribute to addressing this challenge by enabling an intelligent use and combination of different energy sources by capturing and visualizing energy usage and production data to enable energy efficiency improvement measures. In this paper, we present Selena, a prototypical energy management system that is implemented using the serverless computing paradigm. Essential design goals for Selena are both extensibility, so that many different data sources and providers (e.g., measurement systems) can be integrated easily, as well as efficient scalability, so that the system can be used from small (e.g., one building) to large installations (potentially entire neighborhoods) with deployment cost commensurate with the installation size. Our initial experiences with Selena indicate that the serverless paradigm is very well suited to capture and process energy-related data reliably and has excellent scaling properties due to the elastic compute platform that it is built upon.
+
+</p>
+
+<p>Presentation [<a href=''>PDF</a>] 
+  [<a href=''>PPTX</a>]</p>
+    
+<h3 id='p3'>Towards Serverless as Commodity: a case of Knative
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Authors: N. Kaviani, D. Kalinin, M. Maximilien
+</p>
+
+<p>
+    Abstract:
+    Serverless computing promises to evolve cloud computing architecture from VMs and containers-as-a-service (CaaS) to function-as-a-service (FaaS). This takes away complexities of managing and scaling underlying infrastructure and can result in simpler code, cheaper realization of services, and higher availability. Nonetheless, one of the primary drawbacks customers face when making decision to move their software to a serverless platform is the potential for getting locked-in with a particular provider. This used to be a concern with Platform-as-a-Service (PaaS) offerings too. However with Kubernetes emerging as the industry standard PaaS layer, PaaS is closer to becoming commodity with the Kubernetes API as its common interface. The question is if a similar unification for the API interface layer and runtime contracts can be achieved for serverless. If achieved, this would free up serverless users from their fears of platform lock-in. Our goal in this paper is to extract a minimal common denominator model of execution that can move us closer to a unified serverless platform. As contributors to Knative~\cite{knative} with in-depth understanding of its internal design, we use Knative as the baseline for this comparison and contrast its API interface and runtime contracts against other prominent serverless platforms to identify commonalities and differences. Influenced by the work in Knative, we also discuss challenges as well as the necessary evolution we expect to see as serverless platforms themselves reach commodity status.
+</p>
+
+<p>Presentation [<a href=''>PDF</a>] 
+[<a href=''>PPTX</a>]</p>
+
+<h3 id='p4'>FnSched: An Efficient Scheduler for Serverless Functions
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+  Authors: A. Suresh, A. Gandhi
+</p>
+
+<p>
+    Abstract:
+    An imminent challenge in the serverless computing landscape is the escalating cost of infrastructure needed to handle the growing traffic at scale. This work presents FnSched, a function-level scheduler designed to minimize provider resource costs while meeting customer performance requirements. FnSched works by carefully regulating the resource usage of colocated functions on each invoker, and autoscaling capacity by concentrating load on few invokers in response to varying traffic. We implement a prototype of FnSched and show that, compared to existing baselines, FnSched significantly improves resource efficiency, by as much as 36%--55%, while providing acceptable application latency.
+</p>
+
+<p>Presentation [<a href=''>PDF</a>] 
+[<a href=''>PPTX</a>]
+</p>
+  
+<h3 id='p5'>FaaS Orchestration of Parallel Workloads
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+    Authors: D. Barcelona-Pons, P. García-López, Á. Ruiz-Ollobarren, A. Gómez-Gómez, G. París, M. Sánchez-Artigas
+</p>
+
+<p>
+    Abstract:
+    Function as a Service (FaaS) is based on a reactive programming model where functions are activated by triggers in response to cloud events (e.g., objects added to an object store). The inherent elasticity and the pay-per-use model of serverless functions make them very appropriate for embarrassingly parallel tasks like data preprocessing, or even the execution of MapReduce jobs in the cloud.
+
+But current Serverless orchestration systems are not designed for managing parallel fork-join workflows in a scalable and efficient way. We demonstrate in this paper that existing services like AWS Step Functions or Azure Durable Functions incur in considerable overheads, and only Composer at IBM Cloud provides suitable performance.
+
+Successively, we analyze the architecture of OpenWhisk as an open-source FaaS systems and its orchestration features (Composer). We outline its architecture problems and propose guidelines for orchestrating massively parallel workloads using serverless functions.
+
+</p>
+
+<p>Presentation [<a href=''>PDF</a>] 
+  [<a href=''>PPTX</a>]
+  </p>
+      
+<h3 id='p6'>Extending storage support for unikernel containers
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+    Authors: O. Lagkas Nikolos, K. Papazafeiropoulos, S. Psomadakis, A. Nanos, N. Koziris
+</p>
+
+<p>
+    Abstract:
+    In recent years, the rapid adoption of the serverless computing paradigm has led to the proliferation of Function-as-a-Service computing frameworks. The majority of these frameworks utilize containers, a lightweight operating system virtualization technique, to ensure isolated function execution. Unikernels, which package applications within a single-address space library operating system, have been proposed as an alternative function isolation mechanism, which offers stronger isolation guarantees without suffering the performance penalties of full hardware virtualization. However, due to different storage semantics between containers and unikernels, the state-of-the-art approaches for using unikernels in place of containers result in decreased performance, inefficient resource utilization and limited functionality.
+
+In this paper we bridge the storage gap between containers and unikernels in the context of serverless computing. First, we examine and categorize the storage requirements for building and running functions based on unikernels. Based on these requirements, we design and prototype a framework, which extends the Docker storage layer to support unikernel images. Our framework enables the sharing of common read-only unikernel image layers between functions and moves the unikernel image building overhead away from the critical path of function execution. We show that our framework improves function instantiation times while reducing storage space overhead.
+
+</p>
+
+<p>Presentation [<a href=''>PDF</a>] 
+  [<a href=''>PPTX</a>]
+  </p>
+    
+  
+<h3 id='p7'>Understanding Open Source Serverless Platforms: Design Considerations and Performance 
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+    Authors: J. Li, S. Kulkarni, K. Ramakrishnan, D. Li
+</p>
+
+<p>
+    Abstract:
+    Serverless computing is increasingly popular because of the promise of lower cost and the convenience it provides to users who do not need to focus on server management. This has resulted in the availability of a number of proprietary and open-source serverless solutions. We seek to understand how the performance of serverless computing depends on a number of design issues using several popular open-source serverless platforms. We identify the idiosyncrasies affecting performance (throughput and latency) for different open-source serverless platforms. Further, we observe that just having either resource-based (CPU and memory) or workload-based (request per second (RPS) or concurrent requests) auto-scaling is inadequate to address the needs of the serverless platforms.
+</p>
+
+<p>Presentation [<a href=''>PDF</a>] 
+  [<a href=''>PPTX</a>]
+  </p>
+    
+  
+<h3 id='p8'>	Serverless Workflows for Indexing Large Scientific Data 
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+    Authors: T. Skluzacek, R. Chard, R. Wong, Z. Li, Y. Babuji, L. Ward, B. Blaiszik, K. Chard, I. Foster
+</p>
+
+<p>
+    Abstract:
+    The use and reuse of scientific data is ultimately dependent on the ability to understand what those data represent, how they were captured, and how they can be used. In many ways, data are only as useful as the metadata available to describe them. Unfortunately, due to growing data volumes, large and distributed collaborations, and a desire to store data for long periods of time, scientific “data lakes” quickly become disorganized and lack the metadata necessary to be useful to researchers. New automated approaches are needed to derive metadata from scientific files and to use these metadata for organization and discovery. Here we describe one such system, Xtract, a service capable of processing vast collections of scientific files and automatically extracting metadata from diverse file types. Xtract relies on function as a service models to enable scalable metadata extraction by orchestrating the execution of many, short-running extractor functions. To reduce data transfer costs, Xtract can be configured to deploy extractors centrally or near to the data (i.e., at the edge). We present a prototype implementation of Xtract and demonstrate that it can derive metadata from a 7 TB scientific data repository.
+</p>
+
+<p>Presentation [<a href=''>PDF</a>] 
+  [<a href=''>PPTX</a>]
+  </p>
+    
+  
+<h3 id='p9'>Function-as-a-Service Application Service Composition: Implications for a Natural Language Processing Application
+</h3>
+
+<p>Presenter: </p>
+
+<p>
+    Authors: M. Fotouhi, D. Chen, W. Lloyd
+</p>
+
+<p>
+    Abstract:
+    Serverless computing platforms provide Function-as-a-Service (FaaS) to end users for hosting individual functions known as microservices. In this paper, we describe the deployment of a Natural Language Processing (NLP) application using AWS Lambda. We investigate and study the performance and memory implications of two alternate service compositions. First, we evaluate a switchboard architecture, where a single Lambda deployment package aggregates all of the NLP application functions together into a single package. Second, we consider a service isolation architecture where each NLP function is deployed as a separate FaaS function decomposing the application to run across separate runtime containers. We compared the average runtime and processing throughput of these compositions using different pre-trained network weights to initialize our neural networks to perform inference. Additionally, we varied the workload dataset sizes to evaluate implications of inferencing throughput for our NLP application deployed to a FaaS platform. We found our switchboard composition, that shares FaaS runtime containers for all application tasks, produced a 14.75% runtime performance improvement, and also a 17.3% improvement in NLP processing throughput (samples/second). These results demonstrate the potential for careful application service compositions to provide notable performance improvements and ultimately cost savings for application deployments to serverless FaaS platforms.
+</p>
+
+
+<p>Presentation [<a href=''>PDF</a>] 
+  [<a href=''>PPTX</a>]
+  </p>
+    
+  
+<h2 id='org'>Organization</h2>
+
+<h3>Workshop co-chairs</h3>
 
   <p>
 Paul Castro, IBM Research
