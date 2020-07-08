@@ -1,12 +1,26 @@
 
-to generate wosc5-proposal.pdf
+To generate wosc6-proposal.pdf
 
 ```
-grip wosc5-proposal.md
+grip wosc6-proposal.md
 ```
 
-to generate cfp.txt:
+To generate cfp.txt:
 
 ```
 lynx --dump cfp/index.html >| cfp/cfp.txt
 ```
+
+To generate cfp.pdf
+
+```
+weasyprint  cfp/index.html cfp/cfp.pdf
+```
+
+To install tools
+
+```
+pip3 install weasyprint
+```
+
+TODO TBW how to isntall grip and lynx  
