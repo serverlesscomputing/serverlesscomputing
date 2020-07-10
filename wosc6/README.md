@@ -8,7 +8,7 @@ grip wosc6-proposal.md
 To generate cfp.txt:
 
 ```
-lynx --dump cfp/index.html >| cfp/cfp.txt
+lynx --display_charset=utf-8 --dump cfp/index.html >| cfp/cfp.txt
 ```
 
 To generate cfp.pdf

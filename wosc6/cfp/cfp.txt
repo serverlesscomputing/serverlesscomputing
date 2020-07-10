@@ -86,7 +86,7 @@ Papers and Submissions
    SIGPLAN style, which can found on the [3]ACM template page. The font
    size has to be set to 10pt.
 
-   Note that submissions must be double-blind: authors' names must not
+   Note that submissions must be double-blind: authors’ names must not
    appear, and authors must make a good faith attempt to anonymize their
    submissions.
 
@@ -112,7 +112,7 @@ Papers and Submissions
 Workshop co-chairs
 
    Paul Castro, IBM Research
-   Pedro Garcia Lopez, University Rovira i Virgili
+   Pedro García López, University Rovira i Virgili
    Vatche Ishakian, Bentley University
    Vinod Muthusamy, IBM Research
    Aleksander Slominski, IBM Research
@@ -123,7 +123,7 @@ Steering Committee
    Dennis Gannon, Indiana University & Formerly Microsoft Research
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
 
-Program Committee
+Program Committee (tentative)
 
    Gul Agha, University of Illinois at Urbana-Champaign
    Azer Bestavros, Boston University
@@ -136,7 +136,7 @@ Program Committee
    Tyler Harter, GSL, Microsoft
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
    Wes Lloyd, University of Washington Tacoma
-   Visnja Krizanovic, Josip Juraj Strossmayer University of Osijek
+   Višnja Križanović, Josip Juraj Strossmayer University of Osijek
    Maciej Malawski, AGH University of Science and Technology, Poland
    Pietro Michiardi, Eurecom
    Lucas Nussbaum, LORIA, France
