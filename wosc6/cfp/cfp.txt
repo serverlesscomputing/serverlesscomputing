@@ -113,7 +113,7 @@ Workshop co-chairs
 
    Paul Castro, IBM Research
    Pedro García López, University Rovira i Virgili
-   Vatche Ishakian, Bentley University
+   Vatche Ishakian, IBM Research
    Vinod Muthusamy, IBM Research
    Aleksander Slominski, IBM Research
 
@@ -133,7 +133,6 @@ Program Committee (tentative)
    Geoffrey Fox, Indiana University
    Dennis Gannon, Indiana University & Formerly Microsoft Research
    Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)
-   Tyler Harter, GSL, Microsoft
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
    Wes Lloyd, University of Washington Tacoma
    Višnja Križanović, Josip Juraj Strossmayer University of Osijek
