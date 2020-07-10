@@ -112,6 +112,7 @@ Papers and Submissions
 Workshop co-chairs
 
    Paul Castro, IBM Research
+   Pedro Garcia Lopez, University Rovira i Virgili
    Vatche Ishakian, Bentley University
    Vinod Muthusamy, IBM Research
    Aleksander Slominski, IBM Research
