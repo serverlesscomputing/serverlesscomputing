@@ -135,7 +135,6 @@ Program Committee (tentative)
    Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
    Wes Lloyd, University of Washington Tacoma
-   Višnja Križanović, Josip Juraj Strossmayer University of Osijek
    Maciej Malawski, AGH University of Science and Technology, Poland
    Pietro Michiardi, Eurecom
    Lucas Nussbaum, LORIA, France
