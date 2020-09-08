@@ -65,7 +65,7 @@ Topics
 
 Important Dates
 
-   Paper Submission: September 28, 2020
+   Paper Submission: September 28, 2020 (extended)
    Notification of Acceptance: October 5, 2020
    Final Camera-Ready Manuscript (Hard Deadline): October 10, 2020
    Author registration deadline: TBD
@@ -79,11 +79,11 @@ Papers and Submissions
 
    Submitted manuscripts should be structured as technical papers and may
    not exceed six (6) single-spaced double-column pages using ACM SIGPLAN
-   style, which can found on the ACM template page. The page limit
+   style, which can be found on the ACM template page. The page limit
    contains all the content, including bibliography, appendix, etc.
 
    Submitted papers must adhere to the formatting instructions of the ACM
-   SIGPLAN style, which can found on the [3]ACM template page. The font
+   SIGPLAN style, which can be found on the [3]ACM template page. The font
    size has to be set to 10pt.
 
    Note that submissions must be double-blind: authors’ names must not
