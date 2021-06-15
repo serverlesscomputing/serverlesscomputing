@@ -26,4 +26,3 @@ pip3 install grip
 pip3 install weasyprint
 ```
 
-TODO TBW how to istsall grip and lynx  
