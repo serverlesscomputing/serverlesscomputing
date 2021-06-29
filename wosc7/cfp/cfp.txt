@@ -2,8 +2,7 @@ Seventh International Workshop on Serverless Computing (WoSC7)
 
    Part of [1]ACM/IFIP Middleware 2021.
 
-   The workshop will be virttual as the conference will be held virtually
-   this year.
+   The workshop will be held virtually this year.
 
    Over the last seven years, Serverless Computing (Serverless) has gained
    an enthusiastic following in industry as a compelling paradigm for the
@@ -66,7 +65,7 @@ Topics
 
 Important Dates
 
-   Paper Submission: August 31, 2021 (extended)
+   Paper Submission: September 12, 2021
    Notification of Acceptance: September 30, 2021
    Final Camera-Ready Manuscript (Hard Deadline): October 10, 2021
    Author registration deadline: TBD
@@ -94,14 +93,15 @@ Papers and Submissions
    The Middleware conference organizers will provide companion proceedings
    including all workshop papers, which will be available in the ACM
    Digital Library. This is subject to the availability of their
-   camera-ready papers by October 16, 2020.
+   camera-ready papers by October 10, 2021.
 
    Authors should submit the manuscript in PDF format. All manuscripts
    will be reviewed and will be judged on correctness, originality,
    technical strength, rigour in analysis, quality of results, quality of
    presentation, and interest and relevance to the conference attendees.
    Papers conforming to the above guidelines can be submitted through the
-   paper submission system powered by HotCRP ([4]TODO LINK).
+   paper submission system powered by HotCRP
+   ([4]https://wosc7.hotcrp.com/).
 
    All submitted manuscripts (following MIDDLEWARE conference requirements
    on formatting and page limits) will be peer-reviewed by at least 3
@@ -153,4 +153,4 @@ References
    1. http://2021.middleware-conference.org/
    2. http://serverlesscomputing.org/wosc7/
    3. https://www.acm.org/publications/proceedings-template
-   4. file:///Users/aslom/Documents/awsm/tutorial/serverlesscomputing/wosc7/cfp/index-cfp.html
+   4. https://wosc7.hotcrp.com/
