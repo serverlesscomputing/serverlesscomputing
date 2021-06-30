@@ -133,11 +133,11 @@ Program Committee (tentative)
    Geoffrey Fox, Indiana University
    Dennis Gannon, Indiana University & Formerly Microsoft Research
    Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)
+   Alexandru Iosup, Vrije Universiteit Amsterdam
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
    Ali Kanso, Microsoft
    Wes Lloyd, University of Washington Tacoma
    Maciej Malawski, AGH University of Science and Technology, Poland
-   Pietro Michiardi, Eurecom
    Lucas Nussbaum, LORIA, France
    Maciej Pawlik, Academic Computer Centre CYFRONET of the University of
    Science and Technology in Cracow
