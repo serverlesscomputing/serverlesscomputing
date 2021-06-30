@@ -10,7 +10,7 @@ weasyprint  http://localhost:6419/ wosc7-proposal.pdf
 To generate cfp.txt:
 
 ```
-lynx --display_charset=utf-8 --dump cfp/index.html >| cfp/cfp.pdf
+lynx --display_charset=utf-8 --dump cfp/index.html >| cfp/cfp.txt
 ```
 
 To generate cfp.pdf
