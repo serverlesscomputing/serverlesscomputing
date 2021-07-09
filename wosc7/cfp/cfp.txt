@@ -42,8 +42,11 @@ Seventh International Workshop on Serverless Computing (WoSC7)
    research challenge, and it is not clear how existing results and best
    practices, such as workflow composition research, can be applied to
    composition in a serverless environment.
-   Authors are invited to submit research papers, experience papers,
-   demonstrations, or position papers.
+
+   As this year the workshop is virtual and we are looking not only for
+   research papers, experience papers, demonstrations, or position papers
+   but also for live presentations of ongoing work, demonstrations, and
+   anything else that may be interesting to workshop audience.
 
    The latest version of this CFP is available at
    [2]http://serverlesscomputing.org/wosc7/
@@ -72,6 +75,8 @@ Important Dates
    Conference: December 6-10, 2021
 
 Papers and Submissions
+
+Papers submissions
 
    Authors are invited to submit original, unpublished
    research/application papers that are not being considered in another
@@ -108,6 +113,18 @@ Papers and Submissions
    program committee members. Accepted papers with confirmed presentation
    will appear in the conference proceedings as well as in the ACM Digital
    Library.
+
+Other submissions
+
+   Authors are invited to submit proposals for demos and other
+   presentations that are not papers.
+
+   Presentations must include a short abstract as PDF (not longer than one
+   page).
+
+   Accepted presentations will not be part of the conference proceedings
+   but will be part of the workshop agenda with dedicated time for live
+   presentation (with video backup), questions etc.
 
 Workshop co-chairs
 
