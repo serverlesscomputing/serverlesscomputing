@@ -144,12 +144,14 @@ Program Committee (tentative)
 
    Gul Agha, University of Illinois at Urbana-Champaign
    Azer Bestavros, Boston University
+   Tyler R. Caraza-Harter, University of Wisconsin-Madison
    Flavio Esposito, Saint Louis University
    Rodrigo Fonseca, Brown University
    Ian Foster, University of Chicago and Argonne National Laboratory
    Geoffrey Fox, Indiana University
    Dennis Gannon, Indiana University & Formerly Microsoft Research
    Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)
+   Volker Hilt, Bell Labs (Nokia)
    Alexandru Iosup, Vrije Universiteit Amsterdam
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
    Ali Kanso, Microsoft
