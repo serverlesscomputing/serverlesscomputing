@@ -119,8 +119,9 @@ Other submissions
    Authors are invited to submit proposals for demos and other
    presentations that are not papers.
 
-   Presentations must include a short abstract as PDF (not longer than one
-   page).
+   Proposals must be submitted as short abstracts (not longer than one
+   page) in PDF format using the paper submission system HotCRP
+   ([5]https://wosc7.hotcrp.com/).
 
    Accepted presentations will not be part of the conference proceedings
    but will be part of the workshop agenda with dedicated time for live
@@ -173,3 +174,4 @@ References
    2. http://serverlesscomputing.org/wosc7/
    3. https://www.acm.org/publications/proceedings-template
    4. https://wosc7.hotcrp.com/
+   5. https://wosc7.hotcrp.com/
