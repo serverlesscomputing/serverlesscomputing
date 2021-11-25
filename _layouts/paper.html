@@ -35,32 +35,27 @@
                     </div>
                 {%- endif -%}
                 
-                {% if paper.presentation %}
-                <div>
+                {% if paper.presentation_filename %}
+                <div class="mb-1">
                     Presentation:
-                    {% if paper.presentation.pdf %}
-                    <a href="{{ paper.presentation.pdf }}" class="btn btn-light">PDF</a>
-                    {%- endif -%}
-                    {% if paper.presentation.pptx %}
-                    <a href="{{ paper.presentation.pptx }}" class="btn btn-light">PPTX</a>
-                    {%- endif -%}
+                    <a href="{{ site.url }}{{ site.baseurl }}/{{ site.wosc.current_edition }}/presentations/{{ paper.presentation_filename }}" class="btn btn-light">PDF</a>
                 </div>
                   {% endif %}
                 
                   {% if paper.video %}
                   <div class="mb-1">
                     Video: 
-                    {% if paper.video.lightning %}
-                    <a href="{{ paper.video.lightning }}" class="btn btn-light">Lightning</a>
+                    {% if paper.video.lightning_youtube_id %}
+                    <a href="https://www.youtube.com/watch?v={{ paper.video.lightning_youtube_id }}" class="btn btn-light">Lightning</a>
                     {%- endif -%}
-                    {% if paper.video.talk %}
-                    <a href="{{ paper.video.talk }}" class="btn btn-light">Talk</a>
+                    {% if paper.video.talk_youtube_id %}
+                    <a href="https://www.youtube.com/watch?v={{ paper.video.talk_youtube_id }}" class="btn btn-light">Talk</a>
                     {%- endif -%}
                   </div>
                   {% endif %}
-                {% if paper.video.talk %}
+                {% if paper.video.talk_youtube_id %}
                 <div class="d-flex justify-content-center mt-3 mb-5"> 
-                  <iframe width="900" height="506" src="{{ paper.video.talk }}"></iframe>
+                  <iframe width="900" height="506" src="https://www.youtube.com/embed/{{ paper.video.talk_youtube_id }}"></iframe>
                 </div>
                 {% endif %}
                 {{ content | markdownify | replace: '<p>', '</p><p class="fs-5 text-justify">' }}

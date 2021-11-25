@@ -19,7 +19,7 @@
           </ul>
       </li>
         {%- else -%}
-        <li class="nav-item"><a class="nav-link {% if link.relative_url == page.url %} active" aria-current="page{%- endif -%}" href="{{ link.relative_url | prepend: site.baseurl }}">{{ link.name | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link {% if link.relative_url == page.url %} active" aria-current="page{%- endif -%}" href="{{ site.url }}{{ site.baseurl }}/{{ site.wosc.current_edition }}{{ link.relative_url }}">{{ link.name | escape }}</a></li>
         {%- endif -%}
         {%- endfor -%}
       </ul>

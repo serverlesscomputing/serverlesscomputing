@@ -13,13 +13,16 @@
           <h1 class="fw-bolder text-center">{{ page.title }}</h1>
           <hr />
           <div class="mt-5">
-            {% for keynote in site.keynotes %}
+            {%- unless page.keynotes -%}
+            <p class="lead">TBD</p>
+            {%- endunless -%}
+            {%- for keynote in page.keynotes -%}
             <div class="card mb-3">
               <div class="card-body">
                 <h3 class="card-title">{{ keynote.title }}</h3>
                   <div class="row">
                     <div class="col">
-                      {{ keynote.content }}
+                      {{ keynote.description }}
                     </div>
                     <div class="col">
                       <div> <span class="fw-bold">{{ keynote.speaker.name }}</span> {{ keynote.speaker.twitter }}</div>
@@ -27,12 +30,6 @@
                       <div class="text-muted">{{ keynote.speaker.bio }}</div>
                     </div>
                   </div>
-                  <p class="card-text">
-                  {%- for author in paper.authors -%}
-                  {{ author.name }}
-                  {%- if forloop.last != true %}, {% endif -%}
-                  {%- endfor -%}
-                  </p>
               </div>
             </div>
             {%- endfor -%}

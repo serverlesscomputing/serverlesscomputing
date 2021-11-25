@@ -18,9 +18,6 @@ collections:
   papers:
     output: true
     permalink: /:collection/:title/
-  keynotes:
-    output: true
-    permalink: /:collection/:title/
 
 defaults:
   - scope:
@@ -36,14 +33,7 @@ defaults:
 
 wosc:
   current_edition: wosc7
-  hero:
-    title: WoSC 6
-    subtitle: 6th International Workshop on Serverless Computing
-    description: Part of [ACM/IFIP International Middleware Conference, Dec 7-11, 2020 in TU Delft, The Netherlands](http://2020.middleware-conference.org/)
-    gradient:
-      top: rgba(255, 193, 7, 0.5)
-      bottom: rgba(253, 126, 20, 0.85)
-    background: images/amsterdam.jpeg
+  current_edition_number: 7
   links:
     - name: Call for Papers
       relative_url: /cfp/
