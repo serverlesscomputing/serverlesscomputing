@@ -1,0 +1,82 @@
+{%- assign paper = page -%}
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+
+      {%- include nav.html -%}
+
+      <section class="py-5">
+        <div class="container px-5 my-5">
+          <div class="row gx-5">
+            <div class="col-lg-3">
+              {% for author in paper.authors %}
+              <div class="d-flex align-items-center mt-4 mb-4">
+                <div class="ms-3">
+                  <div class="fw-bold">{{ author.name }}</div>
+                  <div>{{ author.email }}</div>
+                  <div class="text-muted">{{ author.affiliation }}</div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="col-lg-9">
+              <article>
+                <header class="mb-4">
+                  <h1 class="fw-bolder mb-1">{{ paper.title }}</h1>
+                </header>
+                {% if paper.pdf %}
+                    <div class="mb-1">
+                        Article: <a href="{{ paper.pdf }}" class="btn btn-light">PDF</a>
+                    </div>
+                {%- endif -%}
+                
+                {% if paper.presentation %}
+                <div>
+                    Presentation:
+                    {% if paper.presentation.pdf %}
+                    <a href="{{ paper.presentation.pdf }}" class="btn btn-light">PDF</a>
+                    {%- endif -%}
+                    {% if paper.presentation.pptx %}
+                    <a href="{{ paper.presentation.pptx }}" class="btn btn-light">PPTX</a>
+                    {%- endif -%}
+                </div>
+                  {% endif %}
+                
+                  {% if paper.video %}
+                  <div class="mb-1">
+                    Video: 
+                    {% if paper.video.lightning %}
+                    <a href="{{ paper.video.lightning }}" class="btn btn-light">Lightning</a>
+                    {%- endif -%}
+                    {% if paper.video.talk %}
+                    <a href="{{ paper.video.talk }}" class="btn btn-light">Talk</a>
+                    {%- endif -%}
+                  </div>
+                  {% endif %}
+                {% if paper.video.talk %}
+                <div class="d-flex justify-content-center mt-3 mb-5"> 
+                  <iframe width="900" height="506" src="{{ paper.video.talk }}"></iframe>
+                </div>
+                {% endif %}
+                {{ content | markdownify | replace: '<p>', '</p><p class="fs-5 text-justify">' }}
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+    {%- include footer.html -%}
+
+    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+  </body>
+
+</html>

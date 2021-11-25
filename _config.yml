@@ -1,0 +1,81 @@
+title: Workshop on Serverless Computing
+description: Part of ACM/IFIP International Middleware Conference, Dec 7-11, 2020 in TU Delft, The Netherlands
+
+excerpts:
+  # Displays or hides post excerpts from home layout post listing.
+  show: true
+  # Cuts off excerpts with an ellipsis (...) after 32 words (approx. 2 lines).
+  # You can also leave this false, and manually control excerpt length:
+  # https://jekyllrb.com/docs/posts/#post-excerpts
+  auto_truncate: true
+
+permalink: /:title/
+
+url: "https://aitorarjona.github.io"
+baseurl: "/wosc-site-demo"
+
+collections:
+  papers:
+    output: true
+    permalink: /:collection/:title/
+  keynotes:
+    output: true
+    permalink: /:collection/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: papers
+    values:
+      layout: paper
+  - scope:
+      path: ""
+      type: keynotes
+    values:
+      layout: keynote
+
+wosc:
+  current_edition: wosc7
+  hero:
+    title: WoSC 6
+    subtitle: 6th International Workshop on Serverless Computing
+    description: Part of [ACM/IFIP International Middleware Conference, Dec 7-11, 2020 in TU Delft, The Netherlands](http://2020.middleware-conference.org/)
+    gradient:
+      top: rgba(255, 193, 7, 0.5)
+      bottom: rgba(253, 126, 20, 0.85)
+    background: images/amsterdam.jpeg
+  links:
+    - name: Call for Papers
+      relative_url: /cfp/
+    - name: Accepted papers
+      relative_url: /papers/
+    - name: Invited speakers
+      relative_url: /keynotes/
+    - name: Program
+      relative_url: /program/
+    - name: Previous Editions
+      menu:
+        - name: WoSC 7
+          disabled: true
+        - name: WoSC 6
+          relative_url: /wosc6
+        - name: WoSC 5
+          relative_url: /wosc5
+        - name: WoSC 4
+          relative_url: /wosc4
+        - name: WoSC 3
+          relative_url: /wosc3
+        - name: WoSC 2
+          relative_url: /wosc2
+        - name: WoSC 1
+          relative_url: /wosc1
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    twitter: ""
+    github: ""
+# Build settings
+# theme: jekyll-bootstrap-theme
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag

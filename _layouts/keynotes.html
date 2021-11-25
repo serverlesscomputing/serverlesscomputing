@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="d-flex flex-column min-vh-100">
+    <main class="flex-shrink-0">
+
+      {%- include nav.html -%}
+
+      <section class="py-5">
+        <div class="container px-5 my-5">
+          <h1 class="fw-bolder text-center">{{ page.title }}</h1>
+          <hr />
+          <div class="mt-5">
+            {% for keynote in site.keynotes %}
+            <div class="card mb-3">
+              <div class="card-body">
+                <h3 class="card-title">{{ keynote.title }}</h3>
+                  <div class="row">
+                    <div class="col">
+                      {{ keynote.content }}
+                    </div>
+                    <div class="col">
+                      <div> <span class="fw-bold">{{ keynote.speaker.name }}</span> {{ keynote.speaker.twitter }}</div>
+                      <div class="fw-thin">{{ keynote.speaker.affiliation }}</div>
+                      <div class="text-muted">{{ keynote.speaker.bio }}</div>
+                    </div>
+                  </div>
+                  <p class="card-text">
+                  {%- for author in paper.authors -%}
+                  {{ author.name }}
+                  {%- if forloop.last != true %}, {% endif -%}
+                  {%- endfor -%}
+                  </p>
+              </div>
+            </div>
+            {%- endfor -%}
+          </div>
+        </div>
+      </section>
+    </main>
+
+    {%- include footer.html -%}
+
+    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+  </body>
+
+</html>

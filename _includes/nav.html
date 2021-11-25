@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container px-5">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        {%- for link in site.wosc.links -%}
+        {%- if link.menu -%}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ link.name }}</a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+              {%- for menu_link in link.menu -%}
+              {%- if menu_link.disabled -%}
+              <li><a class="dropdown-item disabled">{{ menu_link.name }}</a></li>
+              {%- else -%}
+              <li><a class="dropdown-item" href="{{ menu_link.relative_url | prepend: site.baseurl }}">{{ menu_link.name }}</a></li>
+              {%- endif -%}
+              {%- endfor -%}
+          </ul>
+      </li>
+        {%- else -%}
+        <li class="nav-item"><a class="nav-link {% if link.relative_url == page.url %} active" aria-current="page{%- endif -%}" href="{{ link.relative_url | prepend: site.baseurl }}">{{ link.name | escape }}</a></li>
+        {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</nav>

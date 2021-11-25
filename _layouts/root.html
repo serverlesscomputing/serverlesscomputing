@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% assign redirect_url = site.wosc.current_edition %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Serverless Computing</title>
+    <meta name="description" content="Serverless Computing" />
+    <meta http-equiv="refresh" content="0; url={{ redirect_url | relative_url }}" />
+  </head>
+
+  <body>
+    <p><a href="{{ redirect_url | relative_url }}">Redirect</a></p>
+  </body>
+</html>
