@@ -12,7 +12,7 @@ excerpts:
 permalink: /:title/
 
 url: "https://aitorarjona.github.io"
-baseurl: "/wosc-site-demo"
+baseurl: "/serverlesscomputing"
 
 collections:
   papers:
