@@ -9,7 +9,7 @@ authors:
   - name: Author 2
     email: author2@gmail.com
     affiliation: Author 2 Affiliation
-pdf: <PAPER_PDF_LINK>
+article_link: <PAPER_PDF_LINK>
 presentation_filename: sample_presentation.pdf
 video:
   lightning_youtube_id: be9cGEzCUFA
