@@ -40,15 +40,15 @@ wosc:
   current_edition_number: 7
   links:
     - name: Call for Papers
-      relative_url: /cfp/
+      relative_url: /cfp
     - name: Accepted papers
-      relative_url: /papers/
+      relative_url: /papers
     - name: Demos
-      relative_url: /demos/
+      relative_url: /demos
     - name: Invited speakers
-      relative_url: /keynotes/
+      relative_url: /keynotes
     - name: Program
-      relative_url: /program/
+      relative_url: /program
     - name: Previous Editions
       menu:
         - name: WoSC 7
