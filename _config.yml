@@ -11,7 +11,7 @@ excerpts:
 
 # permalink: /:title/
 
-url: "https://www.serverlesscomputing.org/"
+url: "https://www.serverlesscomputing.org"
 # baseurl: "/serverlesscomputing"
 
 collections:
@@ -33,7 +33,7 @@ defaults:
       type: demos
     values:
       layout: demo
-      permalink: "wosc//:collection/:title"
+      permalink: "wosc7/:collection/:title"
 
 wosc:
   current_edition: wosc7
