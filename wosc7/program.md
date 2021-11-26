@@ -9,26 +9,19 @@ layout: program
 
 **Workshop location:** virtual (Zoom)
 
-### Workshop schedule (perliminary, subject to change)
-```
-11:00am-11:30am ET invited speaker (5pm in Europe, 8am PT)
-Keynote #1 - 20min + 10 min Q&A
-
-11:30am-12 papers session #1
-4 papers 5min each + 10min for questions
-
-12-12:30pm ET break
-Video hangout in zoom, lunch time, open mic?
-
-12:30pm-1pm  invited speaker
-Keynote #2 - 20min + 10 min Q&A
-
-1pm-1:25pm papers session #1
-3 papers 5min each + 10min for questions
-
-1:30pm-2pm demos
-5x5min + 5min discussion
-
-2pm-2:30pm panel 
-Topics from google doc and future woscx and wosc8 plans
-```
+| Workshop schedule | |
+| --- | --- |
+| **11:00am-11:05m** | Welcome, organization schedule, breaks, how to ask questions etc. |
+| **11:05am-11:30am** | **Invited speaker:** Keynote #1 - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
+| **11:30am-12pm** | **Papers session #1:** 4 papers 5min each + 10min for questions  (Slack or Zoom submitted during talk) |
+| **12-12:30pm** | **Break:** Video hangout in zoom, open mic |
+| **12:30pm-12:55pm** | **Invited speaker:** Keynote #2 - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
+| **12:55-1pm** | 5min Break |
+| **1pm-1:25pm** | **Papers session #2:** 3 papers 5min each + 10min for questions  (Slack or Zoom submitted during talk) |
+| **1:30-2pm** | **Break:** Video hangout in zoom, open mic |
+| **2-2:25pm** | **Invited speaker:** Keynote #3 - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
+| **2:25-2:30pm** | 5min Break |
+| **2:30pm-3:10pm** | **Demos:** 6x5min + 10min buffer Q&A (Slack or Zoom submitted during talk) |
+| **3:10-3:15pm** | 5min Break |
+| **3:15pm-3:55pm** | **Panel** |
+| **3:55pm-4pm** | **Final words:** Future WoSC 8 plans |

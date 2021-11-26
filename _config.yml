@@ -9,7 +9,7 @@ excerpts:
   # https://jekyllrb.com/docs/posts/#post-excerpts
   auto_truncate: true
 
-permalink: /:title/
+# permalink: /:title/
 
 url: "https://aitorarjona.github.io"
 baseurl: "/serverlesscomputing"
@@ -17,19 +17,23 @@ baseurl: "/serverlesscomputing"
 collections:
   papers:
     output: true
-    permalink: /:collection/:title/
+  demos:
+    output: true
 
+# Add a new scope and a new directory under _papers and _demos for each wosc edition
 defaults:
   - scope:
-      path: ""
+      path: "_papers/wosc7"
       type: papers
     values:
       layout: paper
+      permalink: "wosc7/:collection/:title"
   - scope:
-      path: ""
-      type: keynotes
+      path: "_demos/wosc7"
+      type: demos
     values:
-      layout: keynote
+      layout: demo
+      permalink: "wosc//:collection/:title"
 
 wosc:
   current_edition: wosc7
@@ -39,6 +43,8 @@ wosc:
       relative_url: /cfp/
     - name: Accepted papers
       relative_url: /papers/
+    - name: Demos
+      relative_url: /demos/
     - name: Invited speakers
       relative_url: /keynotes/
     - name: Program
@@ -60,10 +66,11 @@ wosc:
         - name: WoSC 1
           relative_url: /wosc1
   date_format: "%b %-d, %Y"
-
   social_links:
     twitter: ""
     github: ""
+
+
 # Build settings
 # theme: jekyll-bootstrap-theme
 # plugins:
