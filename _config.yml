@@ -11,8 +11,8 @@ excerpts:
 
 # permalink: /:title/
 
-url: "https://aitorarjona.github.io"
-baseurl: "/serverlesscomputing"
+url: "https://www.serverlesscomputing.org/"
+# baseurl: "/serverlesscomputing"
 
 collections:
   papers:
