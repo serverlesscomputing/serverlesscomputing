@@ -1,0 +1,76 @@
+{%- assign paper = page -%}
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+
+      {%- include nav.html -%}
+
+      <section class="py-5">
+        <div class="container px-5 my-5">
+          <div class="row gx-5">
+            <div class="col-lg-3">
+              {% for author in paper.authors %}
+              <div class="d-flex align-items-center mt-4 mb-4">
+                <div class="ms-3">
+                  <div class="fw-bold">{{ author.name }}</div>
+                  <div>{{ author.email }}</div>
+                  <div class="text-muted">{{ author.affiliation }}</div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="col-lg-9">
+              <article>
+                <header class="mb-4">
+                  <h1 class="fw-bolder mb-1">{{ paper.title }}</h1>
+                </header>
+                {% if paper.pdf %}
+                    <div class="mb-1">
+                        Article: <a href="{{ paper.pdf }}" class="btn btn-light">PDF</a>
+                    </div>
+                {%- endif -%}
+                
+                {% if paper.presentation_filename %}
+                <div class="mb-1">
+                    Presentation:
+                    <a href="{{ site.url }}{{ site.baseurl }}/{{ site.wosc.current_edition }}/presentations/{{ paper.presentation_filename }}" class="btn btn-light">PDF</a>
+                </div>
+                  {% endif %}
+                
+                  {% if paper.video %}
+                  <div class="mb-1">
+                    {% if paper.video.lightning_youtube_id %}
+                    <a href="https://www.youtube.com/watch?v={{ paper.video.lightning_youtube_id }}" class="btn btn-light">Lightning</a>
+                    {%- endif -%}
+                    {% if paper.video.talk_youtube_id %}
+                    <a href="https://www.youtube.com/watch?v={{ paper.video.talk_youtube_id }}" class="btn btn-light">Talk</a>
+                    {%- endif -%}
+                  </div>
+                  {% endif %}
+                {% if paper.video.talk_youtube_id %}
+                <div class="d-flex justify-content-center mt-3 mb-5"> 
+                  <iframe width="900" height="506" src="https://www.youtube.com/embed/{{ paper.video.talk_youtube_id }}"></iframe>
+                </div>
+                {% endif %}
+                {{ content | markdownify | replace: '<p>', '</p><p class="fs-5 text-justify">' }}
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+    {%- include footer.html -%}
+
+    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+  </body>
+
+</html>

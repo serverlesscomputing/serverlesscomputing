@@ -1,0 +1,78 @@
+title: Workshop on Serverless Computing
+description: Part of ACM/IFIP International Middleware Conference, Dec 7-11, 2020 in TU Delft, The Netherlands
+
+excerpts:
+  # Displays or hides post excerpts from home layout post listing.
+  show: true
+  # Cuts off excerpts with an ellipsis (...) after 32 words (approx. 2 lines).
+  # You can also leave this false, and manually control excerpt length:
+  # https://jekyllrb.com/docs/posts/#post-excerpts
+  auto_truncate: true
+
+# permalink: /:title/
+
+url: "https://www.serverlesscomputing.org"
+# baseurl: "/serverlesscomputing"
+
+collections:
+  papers:
+    output: true
+  demos:
+    output: true
+
+# Add a new scope and a new directory under _papers and _demos for each wosc edition
+defaults:
+  - scope:
+      path: "_papers/wosc7"
+      type: papers
+    values:
+      layout: paper
+      permalink: "wosc7/:collection/:title"
+  - scope:
+      path: "_demos/wosc7"
+      type: demos
+    values:
+      layout: demo
+      permalink: "wosc7/:collection/:title"
+
+wosc:
+  current_edition: wosc7
+  current_edition_number: 7
+  links:
+    - name: Call for Papers
+      relative_url: /cfp
+    - name: Accepted papers
+      relative_url: /papers
+    - name: Demos
+      relative_url: /demos
+    - name: Invited speakers
+      relative_url: /keynotes
+    - name: Program
+      relative_url: /program
+    - name: Previous Editions
+      menu:
+        - name: WoSC 7
+          disabled: true
+        - name: WoSC 6
+          relative_url: /wosc6
+        - name: WoSC 5
+          relative_url: /wosc5
+        - name: WoSC 4
+          relative_url: /wosc4
+        - name: WoSC 3
+          relative_url: /wosc3
+        - name: WoSC 2
+          relative_url: /wosc2
+        - name: WoSC 1
+          relative_url: /wosc1
+  date_format: "%b %-d, %Y"
+  social_links:
+    twitter: ""
+    github: ""
+
+
+# Build settings
+# theme: jekyll-bootstrap-theme
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
