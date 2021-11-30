@@ -4834,6 +4834,7 @@ fieldset:disabled .btn {
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
@@ -6748,10 +6749,11 @@ fieldset:disabled .btn {
 
 .link-secondary {
   color: #6c757d;
+  text-decoration: none;
 }
 .link-secondary:hover,
 .link-secondary:focus {
-  color: #565e64;
+  color: var(--bs-gray-900);
 }
 
 .link-success {

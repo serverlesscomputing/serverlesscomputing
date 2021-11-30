@@ -19,6 +19,8 @@ collections:
     output: true
   demos:
     output: true
+  keynotes:
+    output: false
 
 # Add a new scope and a new directory under _papers and _demos for each wosc edition
 defaults:
@@ -33,6 +35,12 @@ defaults:
       type: demos
     values:
       layout: demo
+      permalink: "wosc7/:collection/:title"
+  - scope:
+      path: "_keynotes/wosc7"
+      type: keynotes
+    values:
+      layout: keynote
       permalink: "wosc7/:collection/:title"
 
 wosc:
