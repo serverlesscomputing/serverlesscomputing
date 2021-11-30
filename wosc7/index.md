@@ -12,16 +12,16 @@ hero:
 news:
   - date: "2021-11-19"
     title: "Preliminary schedule"
-    body: ""
+    body: "Check out the workshop program and schedule [here](https://www.serverlesscomputing.org/wosc7/program)."
   - date: "2021-10-08"
     title: "Notification deadline extended to October 20"
-    body: ""
+    body: "Notification deadline has been extended to October 20."
   - date: "2021-09-10"
     title: "Deadline extended by 2 weeks"
-    body: ""
+    body: "Deadline has been extended by 2 weeks."
   - date: "2021-07-13"
     title: "CFP available"
-    body: ""
+    body: "Call for papers is now available [here](https://www.serverlesscomputing.org/wosc7/cfp)"
 past_conferences:
     - title: Sixth International Workshop on Serverless Computing (WoSC) 2019
       description: Part of ACM/IFIP International Middleware Conference, Dec 7-11, 2020 in TU Delft, The Netherlands.
