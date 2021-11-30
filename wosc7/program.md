@@ -19,7 +19,7 @@ layout: program
 | | - [Implications of Alternative Serverless Application Control Flow Methods](./papers/p3) |
 | | - [Beyond @CloudFunction: Powerful Code Annotations to Capture Serverless Runtime Patterns](./papers/p4) |
 | **12-12:30pm** | **Break:** Video hangout in zoom, open mic |
-| **12:30pm-12:55pm** | **Invited speaker:** [Keynote #2: Serverless Platforms: Tradeoffs and Consequences](./keynote) - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
+| **12:30pm-12:55pm** | **Invited speaker:** [Keynote #2: Serverless Platforms: Tradeoffs and Consequences](./keynotes) - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
 | **12:55-1pm** | 5min Break |
 | **1pm-1:25pm** | **Papers session #2:** 3 papers 5min each + 10min for questions  (Slack or Zoom submitted during talk) |
 | | - [SFL: A Compiler for Generating Stateful AWS Lambda Serverless Applications](./papers/p5) |
@@ -29,11 +29,11 @@ layout: program
 | **2-2:25pm** | **Invited speaker:** [Keynote #3: Productivity gains across each area of the application lifecycle with using serverless technologies](./keynotes) - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
 | **2:25-2:30pm** | 5min Break |
 | **2:30pm-3:10pm** | **Demos:** 6x5min + 10min buffer Q&A (Slack or Zoom submitted during talk) |
+| | - [Serverless Big Data Analytics with Lithops](./demos/d4) |
+| | - [Scaling up spatial metabolomics with serverless computing and Lithops](./demos/d5) |
 | | - [A serverless variant caller: using lithops to port genomics pipelines to the cloud](./demos/d1) |
 | | - [The Serverless Shell](./demos/d2) |
 | | - [Faabric: Shared Memory and Message Passing for Serverless](./demos/d3) |
-| | - [Serverless Big Data Analytics with Lithops](./demos/d4) |
-| | - [Scaling up spatial metabolomics with serverless computing and Lithops](./demos/d5) |
 | | - [Forget the Cold Start! Experience the "Spawn" Start in Serverless Computing](./demos/d6) |
 | **3:10-3:15pm** | 5min Break |
 | **3:15pm-3:55pm** | **Panel** |
