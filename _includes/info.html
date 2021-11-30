@@ -102,7 +102,7 @@
               <ul>
             {%- for keynote in site.keynotes -%}
             {%- if keynote.workshop == site.wosc.current_edition -%}
-            <li class="lead mb-2"><a class="link-secondary" href="{{ keynote.url | prepend: site.baseurl }}">{{ keynote.title }}</a></li>
+            <li class="lead mb-2"><a class="link-secondary" href="{{ site.url }}{{ site.baseurl }}/{{ site.wosc.current_edition }}/keynotes">{{ keynote.title }}</a></li>
             {%- endif -%}
             {%- endfor -%}
           </ul>
