@@ -1,53 +1,39 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="en">
   {%- include head.html -%}
-
   <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
-
       {%- include nav.html -%}
-
       <section class="py-5">
         <div class="container px-5 my-5">
           <h1 class="fw-bolder text-center">{{ page.title }}</h1>
           <hr />
           <div class="mt-5">
+            {% assign show_paper = false %}
             {%- for paper in site.papers -%}
             {%- if paper.workshop == site.wosc.current_edition -%}
             {% assign show_paper = true %}
             <div class="card mb-3">
-                <div class="card-body">
-                    <h4 class="card-title"><a class="text-reset" href="{{ paper.url | prepend: site.baseurl }}">{{ paper.title }}</a></h4>
-                    <p class="card-text">
-                    {%- for author in paper.authors -%}
-                    {{ author.name }}
-                    {%- if forloop.last != true %}, {% endif -%}
-                    {%- endfor -%}
-                    </p>
-
-                    {%- if paper.article_link -%}
-                    <a href="{{ paper.article_link }}" class="btn btn-outline-primary btn-sm">Article</a>
-                    {%- endif -%}
-
-                    {%- if paper.video.talk_youtube_id -%}
-                    <a href="https://www.youtube.com/watch?v={{ paper.video.talk_youtube_id }}" class="btn btn-outline-primary btn-sm mr-5">Presentation</a>
-                    {%- endif -%}
-                </div>
+              <div class="card-body">
+                <h4 class="card-title"><a class="text-reset" href="{{ paper.url | prepend: site.baseurl }}">{{ paper.title }}</a></h4>
+                <p class="card-text">{%- for author in paper.authors -%} {{ author.name }} {%- if forloop.last != true %}, {% endif -%} {%- endfor -%}</p>
+                {%- if paper.article_link -%}
+                <a href="{{ paper.article_link }}" class="btn btn-outline-primary btn-sm">Article</a>
+                {%- endif -%} {%- if paper.video.talk_youtube_id -%}
+                <a href="https://www.youtube.com/watch?v={{ paper.video.talk_youtube_id }}" class="btn btn-outline-primary btn-sm mr-5">Presentation</a>
+                {%- endif -%}
               </div>
+            </div>
             {%- endif -%}
             {%- endfor -%}
-            {%- unless show_paper -%}
+            {%- if show_paper == false -%}
             <p class="lead">TBD</p>
-            {%- endunless -}
+            {%- endif -%}            
           </div>
         </div>
       </section>
     </main>
-
     {%- include footer.html -%}
-
     <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
   </body>
-
 </html>
