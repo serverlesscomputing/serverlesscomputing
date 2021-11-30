@@ -5,12 +5,25 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Serverless Computing</title>
-    <meta name="description" content="Serverless Computing" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap-theme.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap-icons.css' | relative_url }}" />
+    <title>Workshop on Serverless Computing</title>
+    <meta name="description" content="Workshop on Serverless Computing" />
     <meta http-equiv="refresh" content="0; url={{ redirect_url | relative_url }}" />
   </head>
 
   <body>
-    <p><a href="{{ redirect_url | relative_url }}">Redirect</a></p>
+    <div class="d-flex align-items-center min-vh-100">
+      <div class="container text-center">
+        <div class="spinner-grow mb-5" role="status">
+          <span class="visually-hidden">Redirecting...</span>
+        </div>
+        <p>
+          <small class="text-muted">Click <a href="{{ redirect_url | relative_url }}">here</a> if your browser doesn't redirect automatically.</small>
+        </p>
+      </div>
+    </div>
+    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
   </body>
 </html>
