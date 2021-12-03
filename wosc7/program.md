@@ -12,7 +12,7 @@ layout: program
 | Workshop schedule | |
 | --- | --- |
 | **11:00am-11:05m** | Welcome, organization schedule, breaks, how to ask questions etc. |
-| **11:05am-11:30am** | **Invited speaker:** [Keynote #1: TBA](./keynotes) - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
+| **11:05am-11:30am** | **Invited speaker:** [Keynote #1: Productivity gains across each area of the application lifecycle with using serverless technologies](./keynotes) - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
 | **11:30am-12pm** | **Papers session #1:** 4 papers 5min each + 10min for questions  (Slack or Zoom submitted during talk) |
 | | - [Is Function-as-a-Service a Good Fit for Latency-Critical Services?](./papers/p1) |
 | | - [BIAS Autoscaler: Leveraging Burstable Instances for Cost-Effective Autoscaling on Cloud Systems](./papers/p2) |
@@ -26,7 +26,7 @@ layout: program
 | | - [SLA for Sequential Serverless Chains: A Machine Learning Approach](./papers/p6) |
 | | - [Towards Demystifying Intra-Function Parallelism in Serverless Computing](./papers/p7) |
 | **1:30-2pm** | **Break:** Video hangout in zoom, open mic |
-| **2-2:25pm** | **Invited speaker:** [Keynote #3: Productivity gains across each area of the application lifecycle with using serverless technologies](./keynotes) - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
+| **2-2:25pm** | **Invited speaker:** [Keynote #3: TBA](./keynotes) - 20min + 5 min Q&A  (Slack or Zoom submitted during talk) |
 | **2:25-2:30pm** | 5min Break |
 | **2:30pm-3:10pm** | **Demos:** 6x5min + 10min buffer Q&A (Slack or Zoom submitted during talk) |
 | | - [Serverless Big Data Analytics with Lithops](./demos/d4) |
