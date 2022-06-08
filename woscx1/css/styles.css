@@ -6449,10 +6449,10 @@ textarea.form-control-lg {
 }
 
 .link-secondary {
-  color: #ecb807;
+  color: darkgrey;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #f0c639;
+  color: darkgray;
 }
 
 .link-success {
