@@ -3,42 +3,232 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fifth International Workshop on Serverless Computing (WoSC) 2019</title>
-    <meta name="description" content="Serverless Computing">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eighth International Workshop on Serverless Computing (WoSC) 2022</title>
+  <meta name="description" content="Serverless Computing">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 
-    <link href="../style.css" rel="stylesheet">
-
+   <link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
+      <div class="container" style="max-width:940px  !important;">
+       <div class="blog-masthead">
+        <p>
+            <a href="http://2022.middleware-conference.org/"><img src="banner.jpg" width="900" height="350" align='center' ></img></a>
+          </p>
+        </div>
+     </div>
+
+
     <div class="container" style="max-width:940px  !important;">
 
-        <div class="blog-header">
-            <h1 class="blog-title">Not Available</h1>
-        </div>
+      <div class="blog-header">
+        <h1 class="blog-title">Eighth International Workshop on Serverless Computing (WoSC8) 2022</h1>
+        <p class="lead blog-description">Part of <a href="http://2022.middleware-conference.org/">ACM/IFIP International Middleware Conference, Dec 6-10, 2022 in Québec, Canada.</a></p>
+        <p class="blog-description">
+          The workshop will be held hybrid this year with virtual and on-location format. Please note that we are being informed by the Middleware '22 conference organizers that although they will support a hybrid format for the workshops, the steering committee wants the main conference to be held in an in-person format only. So, prospective attendees of the workshop should keep this in mind if they plan to attend the main conference also
+      </p>
+        <p class="blog-description">
+          Please visit the <a href="http://www.serverlesscomputing.org/workshops/">previous workshops website</a> to see what you can expect. 
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 blog-main">
+     <div class="blog-post">
+
+      <h3 id='news'>News</h3>
+
+      <p>
+        2022-06-13: <a href="./cfp/index.html">CFP available</a>
+      </p>
+
+
+  <h2 id='intro'>Welcome</h2>
+
+  <p>
+    Over the last seven years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and microservices. Many of the major cloud vendors have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions.
+    Open source projects are gaining popularity in providing serverless computing as a service. 
+</p>
+<p>
+    Recently, Kubernetes gained in popularity in enterprise and in academia. Several open source projects such as OpenFaaS and Knative aim to provide developers with serverless experience on top of Kubernetes by hiding low-level details. Auto-scalable Multi-tenant Kubernetes deployments like Google Cloud Run or IBM Code Engine also overcome previous limitations of Serverless Functions like duration, networking, and higher granularity (more vCPUs).
+</p>
+
+<p>
+  Serverless architectures offer different tradeoffs in terms of control, cost, and flexibility compared to distributed applications built on an Infrastructure as a Service (IaaS) substrate. For example, a serverless architecture requires developers to more carefully consider the resources used by their code (time to execute, memory used, etc.) when modularizing their applications. This is in contrast to concerns around latency, scalability, and elasticity, which is where significant development effort has traditionally been spent when building cloud services. In addition, tools and techniques to monitor and debug applications aren't applicable in serverless architectures, and new approaches are needed. As well, test and development pipelines may need to be adapted. Another decision that developers face is the appropriateness of the serverless ecosystem to their application requirements. A rich ecosystem of services built into the platform is typically easier to compose and would offer better performance. However, composing external services may be unavoidable, and in such cases, many of the benefits of serverless disappear, including performance and availability guarantees. This presents an important research challenge, and it is not clear how existing results and best practices, such as workflow composition research, can be applied to composition in a serverless environment.
+</p>
+
+
+
+
+<h2 id='program'>Workshop program</h2>
+
+<p>Preliminary Date: November 7 (Monday)</p>
+
+<p>Time: 11am ET (8am PT, 5pm CET)</p>
+
+<p>Workshop location: hybrid: on-location and virtual (Zoom)
+
+<p><b>Workshop schedule (perliminary, subject to change)</b> 
+</p>
+
+<pre>
+TBA
+</pre>
+
+<h2>Workshop call for papers</h2>
+  <p>
+    <a href="./cfp/index.html">Call For Papers (CFP)</a>
+  </p>
+
+  
+<h2 id='org'>Organization</h2>
+
+<h3>Workshop co-chairs</h3>
+
+  <p>
+Paul Castro, IBM Research
+<br/>
+Pedro García López, University Rovira i Virgili 
+<br/>
+Vatche Ishakian, IBM Research
+<br/>
+Vinod Muthusamy, IBM Research
+<br/>
+Aleksander Slominski, IBM Research
+  </p>
+
+
+  <h3>Steering Committee</h3>
+  
+  <p>
+  Geoffrey Fox, Indiana University 
+  <br/>
+  Dennis Gannon, Indiana University &amp; Formerly Microsoft Research
+  <br/>
+  Arno Jacobsen, MSRG (Middleware Systems Research Group)
+  <br/>
+    </p>
+
+  <h3>Program Committee (tentative)</h3>
+
+<p>
+  Gul Agha, University of Illinois at Urbana-Champaign<br/>
+  Azer Bestavros, Boston University<br/>
+  Tyler R. Caraza-Harter, University of Wisconsin-Madison<br/>
+  Flavio Esposito, Saint Louis University<br/>
+  Rodrigo Fonseca, Brown University<br/>
+  Ian Foster, University of Chicago and Argonne National Laboratory<br/>
+  Geoffrey Fox, Indiana University<br/>
+  Dennis Gannon, Indiana University &amp; Formerly Microsoft Research<br/>
+  Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)<br/>
+  Volker Hilt, Bell Labs (Nokia)<br/>
+  Alexandru Iosup, Vrije Universiteit Amsterdam<br/>
+  Arno Jacobsen, MSRG (Middleware Systems Research Group)<br/>
+  Ali Kanso, Microsoft<br/>
+  Višnja	Križanović, Josip Juraj Strossmayer University of Osijek<br/>
+  Wes Lloyd, University of Washington Tacoma<br/>
+  Maciej Malawski, AGH University of Science and Technology, Poland <br/>
+  Lucas Nussbaum, LORIA, France<br/>
+  Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow<br/>
+  Per Persson, Ericsson Research<br/>
+  Peter Pietzuch, Imperial College<br/>
+  Rodric Rabbah, Nimbella and Apache OpenWhisk<br/>
+  Eric Rozner, University of Colorado Boulder<br/>
+  Josef Spillner, Zurich University of Applied Sciences<br/>
+  Rich Wolski, University of California, Santa Barbara<br/>
+</p>
+
+    <h2 id="previous">Previous workshop</h2>
+
+    <p>
+      <a href="../wosc7/">Seventh International Workshop on Serverless Computing (WoSC)</a> Decemeber 7, 2020. In conjunction with <a href="http://2021.middleware-conference.org/">ACM/IFIP International Middleware Conference</a>.
+    </p>
+
+
+    <p>
+        <a href="../wosc6/">Sixth International Workshop on Serverless Computing (WoSC)</a> in TU Delft, The Netherlands (virtual) on Decemeber 8, 2020. In conjunction with <a href="http://2020.middleware-conference.org/">ACM/IFIP International Middleware Conference</a>.
+      </p>
+
+    <p>
+      <a href="../wosc5/">Fifth International Workshop on Serverless Computing (WoSC)</a> in UC Davis, CA, USA on Decemeber 9, 2019. In conjunction with <a href="http://2019.middleware-conference.org/">20th ACM/IFIP International Middleware Conference</a>.
+    </p>
+
+  <p>
+    <a href="../wosc4/">Fourth International Workshop on Serverless Computing (WoSC)</a> in  Zurich, Zurich, Switzerland on Decemeber 20, 2018. In conjunction with <a href="http://ucc-conference.org/category/basics.html">11th IEEE/ACM UCC</a> and <a href="http://bdcat-conference.org/category/basics.html">5th IEEE/ACM BDCAT</a>.
+  </p>
+
+  <p>
+    <a href="../wosc3/">Third  International Workshop on Serverless Computing (WoSC)</a> in  San Francisco, CA, USA on July 2nd 2018 In conjunction with <a href="http://conferences.computer.org/cloud/2018/">IEEE CLOUD 2018</a> affiliated with 2018 IEEE World Congress on Services (IEEE SERVICES 2018).
+  </p>
+
+  <p>
+        <a href="../wosc2/">Second  International Workshop on Serverless Computing (WoSC) 2017</a> in  Las Vegas, NV, USA on December 12th, 2017 part of <a href="http://2017.middleware-conference.org">Middleware 2017</a>.
+      </p>
+
+  <p>
+    <a href="../wosc1/">First International Workshop on Serverless Computing (WoSC) 2017</a> in Atlanta, GA, USA on June 5th, 2017 part of <a href="http://icdcs2017.gatech.edu/">ICDCS 2017</a>.
+  </p>
+
+
+<!--
+<h2 id="forum">Forum</h2>
+<p>
+  <iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/future-compute'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
+</p>
+-->
+
+
+<h2 id="tweets">Tweets about workshop</h2>
+<p>
+Please use hashtags <a href="https://twitter.com/search?q=wosc%20serverless">#wosc8 #wosc #serverless</a>
+</p>
+
+<p>
+  <!--
+  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=wosc%20serverless" data-widget-id="958776427733757955">Tweets about WoSC serverless</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  -->
+
+  <a class="twitter-timeline" href="https://twitter.com/wosc17?ref_src=twsrc%5Etfw">Tweets by wosc17</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+          </div><!-- /.blog-post -->
+      </div><!-- /.row -->
 
     </div><!-- /.container -->
 
 </body>
-
 </html>
+
