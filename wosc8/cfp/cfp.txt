@@ -113,7 +113,7 @@ Papers submissions
    presentation, and interest and relevance to the conference attendees.
    Papers conforming to the above guidelines can be submitted through the
    paper submission system powered by HotCRP
-   ([4]https://wosc7.hotcrp.com/).
+   ([4]https://wosc8.hotcrp.com/).
 
    All submitted manuscripts (following MIDDLEWARE conference requirements
    on formatting and page limits) will be peer-reviewed by at least 3
@@ -128,7 +128,7 @@ Other submissions
 
    Proposals must be submitted as short abstracts (not longer than one
    page) in PDF format using the paper submission system HotCRP
-   ([5]https://wosc7.hotcrp.com/).
+   ([5]https://wosc8.hotcrp.com/).
 
    Accepted presentations will not be part of the conference proceedings
    but will be part of the workshop agenda with dedicated time for live
@@ -181,5 +181,5 @@ References
    1. http://2022.middleware-conference.org/
    2. http://serverlesscomputing.org/wosc8/
    3. https://www.acm.org/publications/proceedings-template
-   4. https://wosc7.hotcrp.com/
-   5. https://wosc7.hotcrp.com/
+   4. https://wosc8.hotcrp.com/
+   5. https://wosc8.hotcrp.com/
