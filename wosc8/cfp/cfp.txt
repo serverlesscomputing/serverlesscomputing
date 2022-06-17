@@ -1,12 +1,13 @@
 Eighth International Workshop on Serverless Computing (WoSC8)
 
    Part of [1]ACM/IFIP Middleware 2022.
-   
-   WoSC8 will be hybrid this year with both virtual and on-location formats. 
-   Please note that while hybrid formats will be supported for workshops, 
-   the Middleware ’22 steering committee wants the main conference to be 
-   held in in-person only. Prospective attendees of the workshop should 
-   keep this in mind if they plan to attend both WoSC8 and Middleware ‘22.
+
+   WoSC8 will be hybrid this year with both virtual and on-location
+   formats. Please note that while hybrid formats will be supported for
+   workshops, the Middleware ’22 steering committee wants the main
+   conference to be held in in-person only. Prospective attendees of the
+   workshop should keep this in mind if they plan to attend both WoSC8 and
+   Middleware ‘22.
 
    Over the last seven years, Serverless Computing (Serverless) has gained
    an enthusiastic following in industry as a compelling paradigm for the
@@ -17,10 +18,10 @@ Eighth International Workshop on Serverless Computing (WoSC8)
    Functions, IBM Cloud Functions. Open source projects are gaining
    popularity in providing serverless computing as a service.
 
-   Recently, Kubernetes gained popularity in enterprise and in
-   academia. Several open source projects such as OpenFaaS and Knative aim
-   to provide developers with serverless experience on top of Kubernetes
-   by hiding low-level details. Auto-scalable multi-tenant Kubernetes
+   Recently, Kubernetes gained popularity in enterprise and in academia.
+   Several open source projects such as OpenFaaS and Knative aim to
+   provide developers with serverless experience on top of Kubernetes by
+   hiding low-level details. Auto-scalable multi-tenant Kubernetes
    deployments like Google Cloud Run or IBM Code Engine also overcome
    previous limitations of Serverless Functions like duration, networking,
    and higher granularity (more vCPUs).
