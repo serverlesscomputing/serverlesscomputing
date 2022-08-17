@@ -1,5 +1,5 @@
 title: Workshop on Serverless Computing
-description: Part of ACM/IFIP International Middleware Conference, Dec 7-11, 2020 in TU Delft, The Netherlands
+description: CM/IFIP International Middleware Conference, Novemeber 7-11, 2022 in Québec, Canada
 
 excerpts:
   # Displays or hides post excerpts from home layout post listing.
@@ -25,27 +25,27 @@ collections:
 # Add a new scope and a new directory under _papers and _demos for each wosc edition
 defaults:
   - scope:
-      path: "_papers/wosc7"
+      path: "_papers/wosc8"
       type: papers
     values:
       layout: paper
-      permalink: "wosc7/:collection/:title"
+      permalink: "wosc8/:collection/:title"
   - scope:
-      path: "_demos/wosc7"
+      path: "_demos/wosc8"
       type: demos
     values:
       layout: demo
-      permalink: "wosc7/:collection/:title"
+      permalink: "wosc8/:collection/:title"
   - scope:
-      path: "_keynotes/wosc7"
+      path: "_keynotes/wosc8"
       type: keynotes
     values:
       layout: keynote
-      permalink: "wosc7/:collection/:title"
+      permalink: "wosc8/:collection/:title"
 
 wosc:
-  current_edition: wosc7
-  current_edition_number: 7
+  current_edition: wosc8
+  current_edition_number: 8
   links:
     - name: Call for Papers
       relative_url: /cfp
@@ -59,8 +59,10 @@ wosc:
       relative_url: /program
     - name: Previous Editions
       menu:
-        - name: WoSC 7
+        - name: WoSC 8
           disabled: true
+        - name: WoSC 7
+          relative_url: /wosc7
         - name: WoSC 6
           relative_url: /wosc6
         - name: WoSC 5
