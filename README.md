@@ -1,4 +1,29 @@
-# serverlesscomputing
+# WoSC website
+
+## Instructions
+
+### Add a new WOSC edition
+
+1. Copy previous edition directory and paste replacing new edition number (e.g. `cp -r wosc7 wosc8`)
+
+2. Change edition number (only number!) at the top of all all *.md files of the new edition folder
+
+3. Make any nacessary change to call for papers (dates, chairs...)
+
+4. Update `_config.yml`:
+    1. Add defaults for new edition (papers, demos and keynotes). Remember to update the edition number in `path` and `permalink` sections
+    2. Update current edition name and number in `wosc` section
+    3. Add new edition in the `Previous Editions` link menu list
+
+### Add a paper/demo/keynote
+
+1. Copy template from the template folder and paste to corresponding directory (example: _papers/wosc7 for a wosc7 paper)
+
+2. Rename to pX.md for papers, dX.md for demos and kX.md for keynotes, where X is the paper/demo/keynote number (p1.md, d2.md ...)
+
+3. Edit the file and fill in info required
+
+4. For presentation slides, upload the PDF file to woscX/presentations/, where X is the wosc edition. Indicate the PDF file name in the .md file.
 
 
 ## Gallery

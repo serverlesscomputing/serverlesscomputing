@@ -10,8 +10,8 @@
       <div class="col text-xl-end text-dark">
         {{ page.hero.description | markdownify | replace: '<p>', '</p><p class="fw-normal fs-4 mb-4">' | replace: '<a', '<a class="link-dark" ' }}
           <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-end">
-            <a class="btn btn-light btn-lg px-4 me-sm-3" href="{{ site.url }}{{ site.baseurl }}/{{ site.wosc.current_edition }}/cfp">Call for Papers</a>
-            <a class="btn btn-light btn-lg px-4" href="{{ site.url }}{{ site.baseurl }}/{{ site.wosc.current_edition }}/papers">Accepted papers</a>
+            <a class="btn btn-light btn-lg px-4 me-sm-3" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}/cfp">Call for Papers</a>
+            <a class="btn btn-light btn-lg px-4" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}/papers">Accepted papers</a>
           </div>
       </div>
     </div>
