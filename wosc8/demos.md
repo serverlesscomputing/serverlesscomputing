@@ -1,5 +1,5 @@
 ---
 title: Demos
 layout: demos
-wosc: 7
+wosc: 8
 ---

@@ -1,5 +1,5 @@
 ---
 title: Accepted Papers
 layout: papers
-wosc: 7
+wosc: 8
 ---

@@ -25,6 +25,24 @@ collections:
 # Add a new scope and a new directory under _papers and _demos for each wosc edition
 defaults:
   - scope:
+      path: "_papers/wosc7"
+      type: papers
+    values:
+      layout: paper
+      permalink: "wosc7/:collection/:title"
+  - scope:
+      path: "_demos/wosc7"
+      type: demos
+    values:
+      layout: demo
+      permalink: "wosc7/:collection/:title"
+  - scope:
+      path: "_keynotes/wosc7"
+      type: keynotes
+    values:
+      layout: keynote
+      permalink: "wosc7/:collection/:title"
+  - scope:
       path: "_papers/wosc8"
       type: papers
     values:
@@ -59,21 +77,21 @@ wosc:
       relative_url: /program
     - name: Previous Editions
       menu:
-        - name: WoSC 8
-          disabled: true
-        - name: WoSC 7
+        - name: 2022 WoSC 8
+          relative_url: /wosc8
+        - name: 2021 WoSC 7
           relative_url: /wosc7
-        - name: WoSC 6
+        - name: 2020 WoSC 6
           relative_url: /wosc6
-        - name: WoSC 5
+        - name: 2019 WoSC 5
           relative_url: /wosc5
-        - name: WoSC 4
+        - name: 2018 WoSC 4
           relative_url: /wosc4
-        - name: WoSC 3
+        - name: 2018 WoSC 3
           relative_url: /wosc3
-        - name: WoSC 2
+        - name: 2017 WoSC 2
           relative_url: /wosc2
-        - name: WoSC 1
+        - name: 2017 WoSC 1
           relative_url: /wosc1
   date_format: "%b %-d, %Y"
   social_links:

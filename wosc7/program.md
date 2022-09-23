@@ -1,6 +1,7 @@
 ---
 title: Program
 layout: program
+wosc: 7
 ---
 
 **Preliminary Date:** December 7 (Tuesday)

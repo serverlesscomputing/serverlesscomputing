@@ -11,7 +11,7 @@
           <div class="mt-5">
             {% assign show_demo = false %}
             {%- for demo in site.demos -%}
-            {%- if demo.workshop == site.wosc.current_edition -%}
+            {%- if demo.wosc == page.wosc -%}
             {% assign show_demo = true %}
             <div class="card mb-3">
               <div class="card-body">

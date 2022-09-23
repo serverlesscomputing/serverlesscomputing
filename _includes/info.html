@@ -66,11 +66,16 @@
               <div class="card-body">
                  <p class="card-text">
                  <ul>
+                    {% assign show_paper = false %}
                     {%- for paper in site.papers -%}
-                    {%- if paper.workshop == site.wosc.current_edition -%}
+                    {%- if paper.wosc == page.wosc -%}
+                    {% assign show_paper = true %}
                     <li class="lead mb-2"><a class="link-secondary" href="{{ paper.url | prepend: site.baseurl }}">{{ paper.title }}</a></li>
                     {%- endif -%}
                     {%- endfor -%}
+                    {%- if show_paper == false -%}
+                    <p class="lead">TBA</p>
+                    {%- endif -%}
                  </ul>
                  </p>
               </div>
@@ -82,11 +87,16 @@
               <div class="card-body">
                  <p class="card-text">
                  <ul>
+                    {% assign show_demo = false %}
                     {%- for demo in site.demos -%}
-                    {%- if demo.workshop == site.wosc.current_edition -%}
+                    {%- if demo.wosc == page.wosc -%}
+                    {% assign show_demo = true %}
                     <li class="lead mb-2"><a class="link-secondary" href="{{ demo.url | prepend: site.baseurl }}">{{ demo.title }}</a></li>
                     {%- endif -%}
                     {%- endfor -%}
+                    {%- if show_demo == false -%}
+                    <p class="lead">TBA</p>
+                    {%- endif -%}
                  </ul>
                  </p>
               </div>
@@ -98,11 +108,16 @@
               <div class="card-body">
                  <p class="card-text">
                  <ul>
+                    {% assign show_keynote = false %}
                     {%- for keynote in site.keynotes -%}
-                    {%- if keynote.workshop == site.wosc.current_edition -%}
-                    <li class="lead mb-2"><a class="link-secondary" href="{{ site.url }}{{ site.baseurl }}/{{ site.wosc.current_edition }}/keynotes">{{ keynote.title }}</a></li>
+                    {%- if keynote.workshop == page.wosc -%}
+                    {% assign show_keynote = true %}
+                    <li class="lead mb-2"><a class="link-secondary" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}/keynotes">{{ keynote.title }}</a></li>
                     {%- endif -%}
                     {%- endfor -%}
+                    {%- if show_keynote == false -%}
+                    <p class="lead">TBA</p>
+                    {%- endif -%}
                  </ul>
                  </p>
               </div>

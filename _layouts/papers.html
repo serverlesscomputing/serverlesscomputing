@@ -11,7 +11,7 @@
           <div class="mt-5">
             {% assign show_paper = false %}
             {%- for paper in site.papers -%}
-            {%- if paper.workshop == site.wosc.current_edition -%}
+            {%- if paper.wosc == page.wosc -%}
             {% assign show_paper = true %}
             <div class="card mb-3">
               <div class="card-body">

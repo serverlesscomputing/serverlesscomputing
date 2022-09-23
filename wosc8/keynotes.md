@@ -1,5 +1,5 @@
 ---
 title: Keynotes
 layout: keynotes
-wosc: 7
+wosc: 8
 ---

@@ -1,30 +1,28 @@
 ---
 layout: home
 title: Home
-wosc: 7
+wosc: 8
 hero:
-  title: WoSC 7
-  subtitle: 7th International Workshop on Serverless Computing
-  description: Part of [22nd ACM/IFIP International Middleware Conference, Dec 6-10, 2021 (Online-only)](https://middleware-conf.github.io/2021/)
+  title: WoSC 8
+  subtitle: 8th International Workshop on Serverless Computing
+  description: Part of [ACM/IFIP International Middleware Conference, Novemeber 7-11, 2022 in Québec, Canada](https://middleware-conf.github.io/2022/)
   gradient:
-    top: rgba(119, 170, 255, 0.5)
-    bottom: rgba(187, 238, 255, 0.85)
+    top: rgba(128, 179, 255, 0.5)
+    bottom: rgba(92, 214, 92, 0.85)
   background: images/quebec.jpeg
 news:
-  - date: "2021-11-19"
-    title: "Preliminary schedule"
-    body: "Check out the workshop program and schedule [here](https://www.serverlesscomputing.org/wosc7/program)."
-  - date: "2021-10-08"
-    title: "Notification deadline extended to October 20"
-    body: "Notification deadline has been extended to October 20."
-  - date: "2021-09-10"
-    title: "Deadline extended by 2 weeks"
-    body: "Deadline has been extended by 2 weeks."
-  - date: "2021-07-13"
+  - date: "2022-08-25"
+    title: "Submission deadline extended"
+    body: "Check out important dates and deadlines [here](https://www.serverlesscomputing.org/wosc8/cfp)"
+  - date: "2022-06-13"
     title: "CFP available"
-    body: "Call for papers is now available [here](https://www.serverlesscomputing.org/wosc7/cfp)"
+    body: "CFP is available [here](https://www.serverlesscomputing.org/wosc8/cfp)"
 past_conferences:
+    - title: Seventh International Workshop on Serverless Computing (WoSC) 2021
+      wosc: 7
+      description: 22nd ACM/IFIP International Middleware Conference, Dec 6-10, 2021 (Online-only)
     - title: Sixth International Workshop on Serverless Computing (WoSC) 2019
+      wosc: 6
       description: Part of ACM/IFIP International Middleware Conference, Dec 7-11, 2020 in TU Delft, The Netherlands.
       carousel:
         - /wosc6/gallery/screenshot1.png
@@ -35,6 +33,7 @@ past_conferences:
         - /wosc6/gallery/screenshot6.png
         - /wosc6/gallery/screenshot7.png
     - title: Fifth International Workshop on Serverless Computing (WoSC) 2019
+      wosc: 5
       description: Thursday, December 9, 2019 in UC Davis, CA, USA. Part of Part of 20th ACM/IFIP International Middleware Conference.
       carousel:
         - /wosc5/gallery/media/large/20191209_090058.jpg
