@@ -8,7 +8,7 @@
 
 2. Change edition number (only number!) at the top of all all *.md files of the new edition folder
 
-3. Make any nacessary change to call for papers (dates, chairs...)
+3. Make any necessary change to call for papers (dates, chairs...)
 
 4. Update `_config.yml`:
     1. Add defaults for new edition (papers, demos and keynotes). Remember to update the edition number in `path` and `permalink` sections
