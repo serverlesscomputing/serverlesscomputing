@@ -34,7 +34,7 @@ This workshop solicits papers from both academia and industry on the state of pr
 
 **Non-paper submissions (demos and other proposals):** October 31, 2022
 
-**Author registration deadline:** TBD
+**Author registration deadline:** October 31, 2022
 
 **Workshop:** November 7, 2022
 
