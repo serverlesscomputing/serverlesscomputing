@@ -32,11 +32,11 @@ This workshop solicits papers from both academia and industry on the state of pr
 
 **Final Camera-Ready Manuscript (Hard Deadline):** October 3, 2022
 
-**Non-paper submissions (demos and other proposals):** November 10, 2022
+**Non-paper submissions (demos and other proposals):** October 31, 2022
 
 **Author registration deadline:** TBD
 
-**Conference:** November 7-11, 2022
+**Workshop:** November 7, 2022
 
 ### Papers and Submissions
 
