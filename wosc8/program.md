@@ -12,7 +12,7 @@ wosc: 8
 
 | Workshop schedule (perliminary, subject to change) | |
 | --- | --- |
-| **2pm-3:30pm** | [WoC](https://sites.google.com/view/woc22/home#h.mgfzyay4s17u) keynote and paperss  |
+| **2pm-3:30pm** | [WoC](https://sites.google.com/view/woc22/home#h.mgfzyay4s17u) keynote and papers  |
 | **3:30pm-4pm** | Coffee Break |
 | **4pm-4:30pm** | **WoSC8 keynote:** [Quantum Serverless](./keynotes) - 25min + 5 min Q&A |
 | **4:30pm-5:30pm** | **WoSC8 accepted papers and demos** 5 papers (8min + 2min Q&A) and demos (2min): |
