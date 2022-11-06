@@ -23,5 +23,7 @@ wosc: 8
 | | - [Transferring Transactional Business Processes to FaaS](./papers/p5) |
 | | - [DEMO: Cppless: A single-source programming model for high-performance serverless](./demos/d1) |
 | | - [DEMO: FaaS-Profiler: Serverless Tracing and Profiling](./demos/d2) |
+| | - [DEMO: Evaluating FaaS Systems with the Serverless Benchmark Suite SeBS](./demos/d3) |
+| | - [DEMO: rFaaS: High-Performance Serverless with RDMA](./demos/d4) |
 | **5:30pm** | **End of Workshops** |
 
