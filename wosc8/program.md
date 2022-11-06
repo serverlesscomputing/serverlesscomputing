@@ -22,5 +22,6 @@ wosc: 8
 | | - [Migrating from Microservices to Serverless: An IoT Platform Case Study](./papers/p4) |
 | | - [Transferring Transactional Business Processes to FaaS](./papers/p5) |
 | | - [DEMO: Cppless: A single-source programming model for high-performance serverless](./demos/d1) |
+| | - [DEMO: FaaS-Profiler: Serverless Tracing and Profiling](./demos/d2) |
 | **5:30pm** | **End of Workshops** |
 
