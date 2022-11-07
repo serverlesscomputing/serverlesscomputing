@@ -14,7 +14,7 @@ wosc: 8
 | --- | --- |
 | **2pm-3:30pm** | [WoC](https://sites.google.com/view/woc22/home#h.mgfzyay4s17u) keynote and papers  |
 | **3:30pm-4pm** | Coffee Break |
-| **4pm-4:30pm** | **WoSC8 keynote:** [Future of Serverless Computing and Quantum Serverless](./keynotes) - 25min + 5 min Q&A |
+| **4pm-4:30pm** | **WoSC8 keynote:** [Making serverless the default: Future of Serverless Computing and Quantum Serverless](./keynotes) - 25min + 5 min Q&A |
 | **4:30pm-5:30pm** | **WoSC8 accepted papers and demos** 5 papers (8min + 2min Q&A) and demos (2min each): |
 | | - [All-You-Can-Inference: Serverless DNN Model Inference Suite](./papers/p1) |
 | | - [Impact of Microarchitectural State Reuse on Serverless Functions](./papers/p2) |
