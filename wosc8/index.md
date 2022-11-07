@@ -11,6 +11,9 @@ hero:
     bottom: rgba(92, 214, 92, 0.85)
   background: images/quebec.jpeg
 news:
+  - date: "2022-11-06"
+    title: "Workshop schedule available"
+    body: "Check out the workshop program and schedule [here](https://www.serverlesscomputing.org/wosc8/program)."
   - date: "2022-08-25"
     title: "Submission deadline extended"
     body: "Check out important dates and deadlines [here](https://www.serverlesscomputing.org/wosc8/cfp)"
