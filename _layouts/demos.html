@@ -19,7 +19,8 @@
                 <p class="card-text">{%- for author in demo.authors -%} {{ author.name }} {%- if forloop.last != true %}, {% endif -%} {%- endfor -%}</p>
                 {%- if demo.article_link -%}
                 <a href="{{ demo.article_link }}" class="btn btn-outline-primary btn-sm">Article</a>
-                {%- endif -%} {%- if demo.video.talk_youtube_id -%}
+                {%- endif -%}
+                {%- if demo.video.talk_youtube_id -%}
                 <a href="https://www.youtube.com/watch?v={{ demo.video.talk_youtube_id }}" class="btn btn-outline-primary btn-sm mr-5">Presentation</a>
                 {%- endif -%}
               </div>
