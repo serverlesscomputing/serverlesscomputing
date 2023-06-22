@@ -78,92 +78,285 @@
     In the spirit of having this workshop serve as a venue for future and exploratory research directions, we want to evolve the workshop to include hybrid cloud environments, as well as edge and IoT devices. These next-gen computing architectures are becoming more common but have little support from serverless platforms and bring new challenges to old concerns such as resource optimization, scaling, cost, monitoring, and ease of use.
   </p>
 
-  <p>
-    We encourage you to consider sharing your perspective on the future of serverless computing. The workshop format is online and consists of short live video presentations and online discussion. See below <a href="#dates">important dates</a> about sending your talk proposal. If your talk proposal is accepted we ask you to do a video recording as a backup in case of network issues. The video should be not longer than 10 min (please let us know if you want a shorter lightning talk or need a longer time for your talk). Optionally send slides and we will link them from the workshop website.
-  </p>
 
-  <p>
-    Topics:
-  </p>
+  <h2 id="schedule">Workshop schedule</h2>
 
-  <ul>
-    <li>
-Infrastructure and network optimizations for serverless applications
-</li>
-<li>
-Multi-cloud and hybrid cloud for serverless and next-gen computing like Edge, Fog, IoT, etc.
-</li>
-<li>
-Serverless and next-gen computing in Industry such as Platform Engineering and Internal Developer Platforms and other areas
-</li>
-<li>
-Next-gen data platform and how to use it with serverless-like approaches
-</li>
-<li>
-AI assist and generative LLMs such as ChatGPT applied to serverless experience
-</li>
-<li>
-Low-code and no-code - new programming abstractions
-</li>
-<li>
-Developer productivity: from local code to observability and maintenance
-</li>
-<li>
-Debugging serverless applications
-</li>
-<li>
-Programming models
-</li>
-<li>
-Use cases, experiences
-</li>
-<li>
-Benchmarks
-</li>
-<li>
-Cost models, pricing models, and economics of serverless
-</li>
-<li>
-DevOps
-</li>
-<li>
-Confidential computing
-</li>
-<li>
-Sustainable computing
-</li>
-<li>
-Granular computing,
-</li>
-<li>
-Super-lightweight containers Web Assembly
-</li>
-<li>
-Swarm intelligence
-</li>
-<li>
-Other topics related to serverless computing
-</li>
-  </ul>
+    <h3> Thursday Workshop Part 1</h3>
+    
+    <p><b>10am-10:50am ET (4pm in Europe, 7am PST) Session 1 - 5x10min</b>
+      <br/>
+    Session chair: Pedro</p>
+    
+    <p> Opening Remarks - organization, using discussion channels, online polls</p>
+    
+    <p><a href="#t1">Scalable and Secure Serverless Runtimes</a></p>
+    
+    <p><a href="#t2">Serverless computing: A security perspective</a></p>
+    
+    <p><a href="#t3">Envisioning the Future Multi-Cloud Serverless: Introducing a System for Efficient Serverless Function Offloading </a></p>
+    
+    <p><a href="#t4">Can WebAssembly create an ideal serverless experience?</a></p>
+    
+    <p> 10:50-11am Break 10min - opportunity for demos, tea/cofffe/water chat</p>
+    
+    <p><b>11am-11:50am Session 2 - 5x10min</b>
+      <br/>
+    Session chair: Vinod</p>
+    
+    <p><a href="#t5">WebAssembly as an Isolation Mechanism for the Cloud</a></p>
+    
+    <p><a href="#t6">A Serverless Infrastructure for the Metaverse </a></p>
+    
+    <p><a href="#t7">Adaptive serverless edge computing</a></p>
+    
+    <p><a href="#t8">Towards cloud-native scientific computing</a></p>
+    
+    <p><a href="#t9">Examples of scientific applications of serverless computing</a></p>
+    
+    <p><b>11:40-12pm Break 10min - opportunity for demos, tea/coffee/water chat</b></p>
+    
+    <p><b>12-12:50am Session 3 - 5x10min</b>
+      <br/>
+    Session chair: Alek</p>
+    
+    <p><a href="#t10">How Can We Train DL Models Across Clouds and Continents? An Experimental Study</a></p>
+    
+    <p><a href="#t11">AI-based Containerized Edge-Cloud Orchestration </a></p>
+    
+    <p><a href="#t12">Distributed Systems for Graph Neural Networks </a></p>
+    
+    <p><a href="#t13">Advanced AI-enabled Algorithms for Automating the Orchestration of Edge-to-Cloud Compute Resources</a></p>
+    
+    <p><a href="#t14">Serverless & Cloud Computing Research Activities </a></p>
+    
+    <p><b>12:50-1pm ET Finish workshop Part 1</b></p>
+    
+    <h3> Friday (Workshop Part 2)</h3>
+    
+    <p><b>x10am-10:50am ET (4pm in Europe, 7am PST) Session 4 - 5x10min</b>
+    Session chair: Paul</p>
+    
+    <p> Welcome to second day of WOSCx2</p>
+    
+    <p><a href="#t15">Streams Under Test</a></p>
+    
+    <p><a href="#t16">FLEdge: Benchmarking Federated Machine Learning Applications in Edge Computing Systems</a></p>
+    
+    <p><a href="#t17">Caching large temporary data in serverless workloads with a co-located ephemeral store</a></p>
+    
+    <p><a href="#t18">λFS: Scaling Distributed File System Metadata Services using Serverless Functions</a></p>
+    
+    <p> 10:50-11am Break 10min</p>
+    
+    <p> 11am-12pm Session 5  6x10min
+    Session chair: Alek</p>
+    
+    <p><a href="#t19">Enabling Publish/Subscribe Services on GEDS</a></p>
+    
+    <p><a href="#t20">Blackbox operators for dynamic data management frameworks</a></p>
+    
+    <p><a href="#t21">Artificial Intelligence for Smart Environments </a></p>
+    
+    <p><a href="#t22">Kubernetes Error Localization </a></p>
+    
+    <p><a href="#t23">Serverless activities in IBM Research Israel </a></p>
+    
+    <p><b>12pm-12:10pm Closing remarks</b></p>
+    
+    <h2 id="talks">Talks</h2>
+    
+<h3 id="t1">Scalable and Secure Serverless Runtimes</h3>
+<p>Presenter: Rodrigo Bruno<p>
+<p>Abstract: The future of cloud computing is currently at an impasse. On the one hand, cloud computing is evolving in the direction of resource disaggregation, high elasticity, high density, and hands-off infrastructure management. Serverless is a clear example of this trend. On the other hand, existing virtualization stacks (Virtual Machines, Containers, and Language Runtimes) are slow to start and impose a high memory footprint tax. The combination of high elasticity and density with bloated virtualization stacks is fundamentally at odds, exposing a great tension between the serverless vision and existing virtualization infrastructure. In other words, existing virtualization technology was fundamental to building cloud computing as we know it today, but is also now becoming its limiting factor. In this talk, I propose revisiting sandboxing technology to enable extreme virtualization stack density by allowing concurrent functions to co-execute in a single stack.<p>
+<p>Bio: Rodrigo Bruno is an Assistant Professor at Instituto Superior Técnico (University of Lisbon) and a Senior Researcher INESC-ID Lisbon. Before joining Técnico, Rodrigo was a Senior Researcher at Oracle Labs Zurich working on GraalVM. Rodrigo joined Oracle Labs after spending two years as a Post-doc researcher at ETH Zurich, which he started after receiving his Ph.D. from Técnico. Most of his research lies down on the intersection between Systems and Programming Languages, with a particular focus on language runtimes, cloud computing, virtualization, operating systems, and compilers.<p>
 
 
-<h2 id='dates'>Important Dates</h2>
+<h3 id="t2">Serverless computing: A security perspective</h3>
+<p>Presenter: Eduard Marin<p>
+<p>Abstract: Serverless computing is gaining popularity as a new computing paradigm for the deployment of applications in the cloud​. With the increase and diversity of attacks against clouds, security and privacy will be key factors for its widespread adoption. However, as serverless computing has only recently emerged, neither its attack surface nor its security mechanisms have been properly analyzed by the scientific community. The main objective of this talk is to shed light on the security and privacy threats within the serverless ecosystem to understand the actual level of security serverless platforms provide.<p>
+<p>Bio: Eduard Marin is a Research Scientist at Telefonica Research (Spain). He holds a Master's degree in Telecommunication Engineering from the Polytechnic University of Catalonia (2013) and a Ph.D. in Engineering from the KU Leuven (2018). Before joining Telefonica, he was a visiting research fellow at the University of Padova (Italy) and a postdoctoral researcher iat the University of Birmingham (UK). // Eduard's research falls in the intersection of security, networks and systems. Currently his work focuses on analysing and improving the security of networking and computing paradigms recently proposed, such as Software Defined Networking (SDN), Network Function Virtualisation (NFV), programmable data planes, containers or serverless computing, among others.<p>
+
+
+<h3 id="t3">Envisioning the Future Multi-Cloud Serverless: Introducing a System for Efficient Serverless Function Offloading</h3>
+<p>Presenter: Mohammad Shahrad<p>
+<p>Abstract: Serverless computing has gained significant traction in the past few years. Removing most of the provisioning burden from the shoulders of developers, offering a pay-per-use pricing model, and accelerating deployment of scalable applications are some of serverless's unique attractions. In addition to all of these, the serverless model can play a catalyst role in building multi-cloud solutions; both as a lightweight glue to connect various clouds, and to build native multi-cloud serverless applications. It appears that building multi-cloud systems is a lot more realistic with serverless applications than with traditional cloud workloads. In this talk, I will present our vision on serverless's potential in building multi-cloud solutions. Additionally, I will showcase my team's latest work on UnFaaSener, a framework that facilitates the seamless offloading of functions from serverless platforms. While our primary objective is to assist serverless developers in reducing their bills, UnFaaSener also establishes the groundwork for broader serverless offloading capabilities, which are essential for multi-cloud serverless systems.<p>
+<p>Bio: Mohammad Shahrad is an Assistant Professor of Electrical and Computer Engineering at The University of British Columbia (UBC). He is broadly interested in improving the efficiency of cloud systems and has worked across the stack toward this goal. This includes building novel scheduling solutions for cloud systems, modeling user-provider interactions to propose new pricing models, and building a new processor for efficient off-chip scalability of cloud workloads. Mohammad's research has been deployed in production, won the USENIX Community Award, and been featured in the CACM Research Highlights. Before joining UBC, Mohammad was a Computer Science Lecturer at Princeton University. He holds a Ph.D. in Electrical Engineering from Princeton University and spent a year at Microsoft Research working on cloud efficiency projects.<p>
+
+
+<h3 id="t4">Can WebAssembly create an ideal serverless experience?</h3>
+<p>Presenter: Aleksander Slominski<p>
+<p>Abstract: WebAssembly (Wasm) is a portable binary code similar to JVM bytecode, but it has different features that make it ideal for serverless applications. Wasm is designed to be simple and start small, which aligns well with the goals of serverless computing, especially Function-as-a-Service (FaaS). Each Wasm module can be compiled or pre-compiled to binary code, which solves the problem of cold starts. Additionally, Wasm modules can be dynamically linked with other modules, which promises a great serverless experience where developers can make small code changes and instantly see the results. Wasm also has a very strong security model with sandboxing and limited access to resources until explicitly granted. I will talk about my experience with running Wasm with Knative Functions and show a quick demo of how to go from source code to a serverless container in Kubernetes with a single command.<p>
+<p>Bio: Aleksander Slominski is a Research Staff Member in the Serverless Group in Cloud Platform, Cognitive Systems And Services department at the IBM T.J. Watson Research Center. He works on open source serverless computing Knative project and presented about building Knative eventing applications during KnativeCon in Kubecon NA 2022. He organizes International Workshops on Serverless Computing (WoSC) to bring together researchers and industry practitioners to discuss their experiences and thoughts on future directions.<p>
+
+
+<h3 id="t5">WebAssembly as an Isolation Mechanism for the Cloud</h3>
+<p>Presenter: Carlos Segarra<p>
+<p>Abstract: WebAssembly (WASM) is a platform-independent binary instruction format that can be used as an isolation mechanism in the cloud. WASM is memory-safe by design, allowing WASM-isolated programs to run safely in the same address space. WASM's execution state is self-contained in a contiguous mutable arary of bytes, and interactions with the host environment are mediated by a standarised system interface (WASI). This makes WASM-isolated programs easy to checkpoint for low startup times, migration, or fault-tolerance.
+
+In this talk we present our experiences using WASM as an isolation mechanism for serverless with Faasm and Faaslets, and for MPI and OpenMP with Faabric and Granules. We also outline some of the challenges WASM needs to overcome to gain widespread adoption, namely accelerator support (e.g. GPUs or FPGAs), and hardware-based isolation for hyperscale-grade multi-tenancy.<p>
+<p>Bio: Carlos is a third-year PhD student at the Large-Scale Data & Systems group of the Imperial College London. His research interests include the design and implementation of secure and efficient cloud runtimes. Particularly, he is interested in lightweight isolation mechanisms and confidential computing. All of his work is open source and available on GitHub.<p>
+
+
+<h3 id="t6">A Serverless Infrastructure for the Metaverse</h3>
+<p>Presenter: Jesse Donkervliet<p>
+<p>Abstract: The metaverse is an important emerging research topic with large societal interest and industry investment, led by Meta and Apple. A metaverse leverages state-of-the-art virtual-reality (VR) devices to provide new levels of immersive experiences to users. However, providing these experiences and supporting this technology efficiently and responsibly is an open research problem. VR devices are more latency sensitive than common existing interactive devices such as smartphones, require more computational resources to track user movement, and are constrained by limited battery capacity. To address these challenges, we envision a serverless infrastructure for metaverse applications that provide applications with low latency and good power and cost efficiency by using dynamic differentiated deployment, novel consistency models, and serverless operation.<p>
+<p>Bio: Jesse Donkervliet is a PhD student and teacher at the VU Amsterdam. His research focus on large-scale online gaming and the metaverse.<p>
+<p>Presentation Link: <a href="https://www.dropbox.com/s/qcaarlqm9ncznd6/CLOUDSTARS-WOSCx2-jdonkervliet-20230622.pdf?dl=1">https://www.dropbox.com/s/qcaarlqm9ncznd6/CLOUDSTARS-WOSCx2-jdonkervliet-20230622.pdf?dl=1</a><p>
+
+
+<h3 id="t7">Adaptive serverless edge computing</h3>
+<p>Presenter: Tomasz Szydlo<p>
+<p>Abstract: Serverless edge computing combines the advantages of well-known serverless computing paradigm with the geographic distribution of the computational infrastructure. Distributed locations of heterogeneous edge servers constitute multi-cloud continuum enabling the workload distribution across different cloud environments to leverage the unique capabilities and offerings.  It also reduces delays in real-time data processing, the amount of data sent to computational clouds, contextual operation and efficient on-demand resource utilization.
+
+Despite the overall benefits, serverless edge computing is particularly vulnerable to the dynamics of the operating environment due to the usage of renewable energy sources, lack of adequate cooling, limited servicing and low-power wireless communication technologies. Therefore, the research challenge is to make these solutions adaptive to ever-changing working conditions and provide the desired quality of service. A promising solution involves the usage of ML and TinyML for providing adaptive intelligence to the computational infrastructure. In the talk, we will discuss the aforementioned problems and possible solutions.<p>
+<p>Bio: Tomasz Szydlo is currently appointed as Associate Professor at the AGH University of Science and Technology, Krakow, Poland and as Senior Lecturer in the School of Computing, Newcastle University, UK.  His interests focus on emerging technologies in the areas of the edge-cloud continuum as well as IoT solutions. He has participated in several EU research projects, including CrossGrid, Ambient Networks, UniversAAL and national projects, including IT-SOA, ISMOP and FogDevices. He actively cooperates with the industry regarding real-life IoT problems and communication aspects. Tomasz is actively developing the FogML toolkit enabling machine learning for embedded devices. Contact him at tomasz.szydlo@{agh.edu.pl|newcastle.ac.uk}. <p>
+
+
+<h3 id="t8">Towards cloud-native scientific computing</h3>
+<p>Presenter: Bartosz Balis<p>
+<p>Abstract: Cloud-native approaches have emerged as a promising solution for
+scientific computing. By adopting cloud-native technologies, scientific
+researchers can accelerate their computational capabilities, optimize
+resource utilization, and enable collaborative research across
+institutions and geographical boundaries. Scientific workflows serve as
+a framework managing complex computational workloads in scientific
+research. Kubernetes, an open-source container orchestration platform,
+provides a robust infrastructure for managing and scaling scientific
+workflows in cloud environments.
+This talk will present selected research results in cloud-native
+scientific workflow management using the HyperFlow workflow management
+system. Challenges and alternative execution models for large-scale
+workflows on Kubernetes will be presented. <p>
+<p>Bio: Bartosz Balis is an associate professor at the Institute of Computer Science of the AGH University of Krakow, and a Senior Researcher at the Sano Centre for Computational Medicine. He is also a member of the ALICE experiment in CERN. He is a co-author of  100+ international peer-reviewed scientific publications. His research interests include cloud-native computing, scientific workflow management, data science, and distributed computing. Dr Balis has been a member of conference program and organizing committees, including Euro-Par 2020 workshops (General Co-chair), HPCS 2018-19 (Tutorials Co-Chair), IEEE/ACM SC18 Birds of a Feather Planning Committee, IEEE/ACM SC16 Workshops Planning Committee. He has participated in national and EU-funded research projects CrossGrid, CoreGRID, PL-Grid, K-Wf Grid, ViroLab, Gredia, UrbanFlood, ISMOP, PaaSage and WATERLINE.<p>
+
+
+<h3 id="t9">Examples of scientific applications of serverless computing</h3>
+<p>Presenter: Maciej Malawski<p>
+<p>Abstract: Serverless computing has been designed to support dynamic event-driven applications, but there are many examples of interesting use cases where serverless computing can be used in the scientific computing domain. This talk will present some recent examples of solutions we developed to support scientific applications from biomedicine and physics with the use of serverless computing model.
+
+The CloudVVUQ library supports development of digital twins in computational medicine, in which an important step is to run verification, validation and uncertainty quantification campaigns, requiring many-task computing. HPC-Whisk is an extension of OpenWhisk which allows spawning serverless clusters via SLURM allowing efficient use of idle resources, which in turn can be used e.g. by Monte Carlo simulations in physics. Root Lambda is an extension of ROOT framework for data analysis in high energy physics, which enables to run distributed analysis using AWS Lambda. All these tools demonstrate that serverless computing can be an interesting alternative to traditional computing models used by scientists. 
 <p>
-  Talks proposals deadline: <b>June 7</b>
-  <br/>
-  Notification of Acceptance: <b>June 8</b>
-  <br/>
-  Send video recording of the accepted talks to be included in the workshop program: <b>June 14</b>
-  <br/>
-  Workshop date:  <b>June 22, 10am ET (4pm Europe)</b>
-  <br/>
-  Workshop location:  <b>virtual using Zoom and Discord (links provided after we open registrations)</b>
-</p>
+<p>Bio: MACIEJ MALAWSKI is a Director of Sano Centre for Computational Medicine and an Associate Professor at the Institute of Computer Science AGH. He holds a PhD in computer science and an MSc in computer science and physics. In 2011- 2012 he was a postdoc at the University of Notre Dame, USA. His scientific interests include parallel and distributed computing, large-scale data analysis, cloud technologies, resource management and scientific applications with a special focus on computational medicine<p>
 
-<h2 id="submit">Submissions</h2>
-  <p>
-    Use this <a href="https://forms.gle/RfAcJfo1oC2TVkgV8">Google Form</a> or send proposals by emails to organizers.
-  </p>
+
+<h3 id="t10">How Can We Train DL Models Across Clouds and Continents? An Experimental Study</h3>
+<p>Presenter: Alexander Isenko<p>
+<p>Abstract: Training deep learning models in the cloud or on dedicated hardware is expensive.
+A more cost-efficient option are hyperscale clouds offering spot instances, a cheap but ephemeral alternative to on-demand resources.As spot instance availability can change depending on the time of day, continent, and cloud provider, it could be more cost-efficient to distribute resources over the world. Still, it has not been investigated whether geo-distributed, data-parallel spot deep learning training could be a more cost-efficient alternative to centralized training.
+
+This paper aims to answer the question: Can deep learning models be cost-efficiently trained on a global market of spot VMs spanning different data centers and cloud providers?
+To provide guidance, we extensively evaluate the cost and throughput implications of training in different zones, continents, and clouds for representative CV and NLP models.
+To expand the current training options further, we compare the scalability potential for hybrid-cloud scenarios by adding cloud resources to on-premise hardware to improve training throughput. Finally, we show how leveraging spot instance pricing enables a new cost-efficient way to train models with multiple cheap VMs, trumping both more centralized and powerful hardware and even on-demand cloud offerings at competitive prices.<p>
+<p>Bio: I'm a 5th year PhD student from the TUM. Interested in ML and Systems research.<p>
+<p>Presentation Link: <a href="https://docs.google.com/presentation/d/18jcJmHXzhjRW-CJqxytAtMZFd3X22AVC51y6RhxZJxg/edit?usp=sharing">https://docs.google.com/presentation/d/18jcJmHXzhjRW-CJqxytAtMZFd3X22AVC51y6RhxZJxg/edit?usp=sharing</a><p>
+<p>Related link: https://github.com/cirquit/hivemind-multi-cloud<p>
+
+
+<h3 id="t11">AI-based Containerized Edge-Cloud Orchestration</h3>
+<p>Presenter: Josep Lluís Berral García<p>
+<p>Abstract: Characterizing workloads on Cloud-Edge environments is a requirement for Smart Orchestration. By leveraging machine learning and AI methods, we can discover patterns, extract their statistical and recurrent properties, and forecast them to know our workload better. And with this a-priori knowledge, we can provision and place containers, virtual machines and serverless systems more efficiently. Here we present our recent advances and future challenges on containerized workload characterization, in the frame of the CloudStars research network for Cloud-Edge Computing.<p>
+<p>Bio: Josep Lluís Berral received his Engineering degree in Informatics (2007), M.Sc. in Computer Architecture (2008), and Ph.D. in Computer Science (2013) at BarcelonaTech-UPC. He works in high-performance data-analytics and machine learning on cloud environments at the Department of Computer Architecture @ Barcelona-Tech (DAC-UPC) and the Barcelona Supercomputing Center (BSC). He is the manager of the “Computing Resources Orchestration and Management for AI” group (UPC + BSC). He is currently collaborating in European projects and private projects with IBM and Petrobras, and previously with Intel, Databricks, Microsoft and Cisco. He did research at the “High-Performance Computing” group and at the “Relational Algorithms, Complexity and Learning” group at UPC. He has also been at the DarkLab group at Rutgers University (Piscataway, NJ) in 2012, also in IBM Watson Labs (Yorktown, NY) in 2019. He was awarded with a Juan de la Cierva research fellowship from the Spanish Ministry of Economy in 2016. He is an IEEE and ACM member.<p>
+<p>Presentation Link: <a href="https://www.dropbox.com/s/ukmkmyjph601q4b/CLOUDSTARS-SummerSchool-2023-BSC.pdf?dl=0">https://www.dropbox.com/s/ukmkmyjph601q4b/CLOUDSTARS-SummerSchool-2023-BSC.pdf?dl=0</a><p>
+
+
+<h3 id="t12">Distributed Systems for Graph Neural Networks</h3>
+<p>Presenter: Jana Vatter<p>
+<p>Abstract: A Graph Neural Network (GNN) is a specialized neural network architecture capable of processing graph structured data. As real-world graphs are rapidly growing, the need for efficient and scalable GNN training solutions has emerged. In this talk, we present important methods for large-scale GNN training (based on our publication “The Evolution of Distributed Systems for Graph Neural Networks and Their Origin in Graph Processing and Deep Learning: A Survey”, Vatter et al., 2023, https://doi.org/10.1145/3597428)<p>
+<p>Bio: I’m a PhD student at the Technical University of Munich (TUM) and received my M.Sc. in Computer Science from the Technical University of Darmstadt in 2021. During my graduate studies, I worked as a student assistant at the Ubiquitous Knowledge Processing (UKP) lab and as a teaching assistant at the Interactive Graphics Systems Group (TU Darmstadt). Currently, I’m working on Distributed Systems for Graph Neural Networks. My research interests include Large-Scale Deep Learning, Graph Neural Networks and Distributed Systems.<p>
+<p>Presentation Link: <a href="https://drive.google.com/file/d/140g1ZQ2zFlAJ-n93SDVlmgvkyuOCYe8H/view?usp=sharing">https://drive.google.com/file/d/140g1ZQ2zFlAJ-n93SDVlmgvkyuOCYe8H/view?usp=sharing</a><p>
+
+
+<h3 id="t13">Advanced AI-enabled Algorithms for Automating the Orchestration of Edge-to-Cloud Compute Resources</h3>
+<p>Presenter: Berend Gort<p>
+<p>Abstract: Discover how NearbyOne utilizes machine learning (ML) to optimize resource allocation and enhance performance in Cloud Edge environments. Explore cloud orchestration, ML container orchestration, ongoing research, and NearbyOne's ML-powered orchestrator. Learn about unique ML features and witness a practical demonstration of ML orchestration. Gain insights into the significance of ML-based resource optimization in Cloud Edge environments. Join us for a concise, enlightening session on the future of cloud computing.<p>
+<p>Bio: Tech enthusiast with expertise in AI, engineering, and coding. Currently working on a groundbreaking project that predicts resource demands of cloud workloads using AI and big data analytics. Passionate about optimizing energy use and reducing operational costs. Also involved with NearbyOne, leveraging machine learning to enhance resource allocation and performance in Cloud Edge environments. Join me to learn about the future of cloud computing and the significance of ML-based resource optimization.<p>
+<p>Presentation Link: <a href="https://drive.google.com/file/d/11R0oowRAW9ARzFiodX-dAwjKfwqk7jej/view?usp=sharing">https://drive.google.com/file/d/11R0oowRAW9ARzFiodX-dAwjKfwqk7jej/view?usp=sharing</a><p>
+
+
+<h3 id="t14">Serverless & Cloud Computing Research Activities</h3>
+<p>Presenter: Bernard Metzler<p>
+<p>Abstract: We are presenting potential fields of research collaboration with academia in the field of serverless and cloud computing.<p>
+<p>Bio: I am a Principal Research Staff Member and Technical Leader 'High Performance I/O' at the IBM Research Europe - Zurich Laboratory. My main research interests are in the design and implementation of distributed computing systems, focusing on flexible and highly efficient IO subsystems for network and distributed storage access. My current research focus is on "whole stack optimization" - widening the scope of efficient communication including middleware such as the SpectrumScale and HDFS distributed file systems, enabling elastic storage for resource efficient serverless frameworks and cloud native HPC enablement. Within the last years, I substantially contributed to several ExaScale computing research projects, including the IBM BlueGene Active Storage project, the European Human Brain project, and the SKA/Dome project on future large-scale radio telescopes. I am an Open Source evangelist, contributor to the Apache Crail (incubating) project and contributor to the Linux RDMA subsystem. I am maintainer of the SoftiWarp Linux kernel driver. I am active in industry standardization efforts on efficient networking and IO. I represent IBM at the Board of Directors of the OpenFabrics Alliance. I am author and co-author of several research publications, an IETF RFC. I am holding 20+ patents in the field.<p>
+<p>Presentation Link: <a href="https://ibm.box.com/s/a9bm8zw6o3aa4wcyy5dwl4wknq6ipoog">https://ibm.box.com/s/a9bm8zw6o3aa4wcyy5dwl4wknq6ipoog</a><p>
+
+
+<h3 id="t15">Streams Under Test</h3>
+<p>Presenter: Jawad Tahir<p>
+<p>Abstract: Distributed stream processing systems (DSPSs) are widely used to process large volumes of data and provide real-time insights. However, due to their distributed nature, failures are inevitable and can cause performance degradation and data loss. In order to overcome these challenges, DSPSs employ various failure-recovery mechanisms to ensure fault tolerance. Additionally, they offer processing guarantees (PGs) to ensure the accuracy of the processed results under failures. In this paper, we introduce an open-source benchmarking tool that measures the impact of various failures on the performance of a DSPS. The tool is capable of measuring key performance metrics such as latency, throughput, recovery time, and correctness of a DSPS under different failure scenarios. Our benchmarking experiments were conducted on three popular DSPSs, namely Kafka Streams, Apache Storm, and Apache Flink. Our results show that there is no one-size-fits-all solution for failures in DSPSs, and each system has its own unique strengths and weaknesses. For instance, our experiments revealed that a failure may reduce the throughput by half in Apache Storm, while in Apache Flink, it can cause a complete halt of data processing, resulting in a throughput drop to zero. On the other hand, Kafka Streams demonstrated negligible decrease in throughput under the same failure. Moreover, we evaluated the accuracy of each DSPS under various failure scenarios against their respective PGs. Surprisingly, our findings indicate that PGs do not ensure correct results in every failure scenario. Interestingly, some DSPSs even produced incorrect results in the absence of any failure. Overall, our benchmarking tool and experimental results provide valuable insights into the performance and fault tolerance capabilities of popular DSPSs. This information can help researchers and practitioners in selecting the most suitable DSPS for their specific use case.<p>
+<p>Bio: Jawad is a PhD student at the Technical Unviversity of Munich. His research interests include big data, streaming systems, fault-tolerance and reinforcement learning. He also has been part of ACM DEBS 21 and 22 organizing committe.<p>
+
+
+<h3 id="t16">FLEdge: Benchmarking Federated Machine Learning Applications in Edge Computing Systems</h3>
+<p>Presenter: Herbert Woisetschläger<p>
+<p>Abstract: Federated Machine Learning (FL) has received considerable attention in recent years. FL benchmarks are predominantly explored in either simulated systems or data center environments, neglecting the setups of real-world systems, which are often closely linked to edge computing. We close this research gap by introducing FLEdge, a benchmark targeting FL workloads in edge computing systems. We systematically study hardware heterogeneity, energy efficiency during training, and the effect of various differential privacy levels on training in FL systems. To make this benchmark applicable to real-world scenarios, we evaluate the impact of client dropouts on state-of-the-art FL strategies with failure rates as high as 50%. FLEdge provides new insights, such as that training state-of-the-art FL workloads on older GPU-accelerated embedded devices is up to 3x more energy efficient than on modern server-grade GPUs.<p>
+<p>Bio: See video<p>
+
+
+<h3 id="t17">Caching large temporary data in serverless workloads with a co-located ephemeral store</h3>
+<p>Presenter: Aitor Arjona<p>
+<p>Abstract: The serverless computing paradigm has undergone significant evolution and is now widely recognized as a practical solution for flexible workloads in the cloud. However, the challenge of managing temporary data in serverless workloads remains unresolved. The stateless nature of serverless functions requires reliance on remote storage, which introduces latency and increases data movement, leading to performance degradation for complex workflows. Existing approaches have limitations in accommodating large datasets, while others involve utilizing fast remote storage, which incurs additional infrastructure costs and management complexities. Furthermore, none of these solutions effectively handle both persistent and ephemeral data. To address these challenges, we propose a collaborative tiered ephemeral storage system for FaaS. We leverage the ephemeral file system allocated for each serverless function, allowing functions to store and share temporary data across concurrent and successive invocations. Our approach unifies temporary and persistent data by interfacing with cloud object storage, enabling optimized input data ingestion through caching and in-place modification of output data. To validate our approach, we will employ a genomics variant calling pipeline, which can benefit from caching input data as well as handling complex temporary data movements. Overall, the proposed storage system aims to enhance FaaS systems by exploiting locality for temporary data in order to improve performance in data-intensive workloads.<p>
+<p>Bio: Aitor Arjona is a PhD student from the Universitat Rovira i Virgili in Spain. His research interests are Cloud Computing, more specifically Serverless and Cloud Object Storage. His research focuses on providing novel approaches for scaling scientific workloads on serverless architectures.<p>
+
+
+<h3 id="t18">λFS: Scaling Distributed File System Metadata Services using Serverless Functions</h3>
+<p>Presenter: Ben Carver<p>
+<p>Abstract: The metadata service (MDS) sits on the critical path for distributed file system (DFS) operations, and therefore it is key to the overall performance of a large-scale DFS. Common “serverful” MDS architectures, such as a single server or cluster of servers, have a significant shortcoming: either they are not scalable, or they make it difficult to achieve an optimal balance of performance, resource utilization, and cost. A modern MDS requires a novel architecture that addresses this shortcoming. 
+
+To this end, we design and implement λFS, an elastic, high-performance metadata service for large-scale DFSes. λFS scales a DFS metadata cache elastically on a FaaS (Function-as-a-Service) platform and synthesizes a series of techniques to overcome the obstacles that are encountered when building large, stateful, performance-sensitive applications on FaaS platforms. λFS takes full advantage of the unique benefits offered by FaaS—elastic scaling and massive parallelism—to realize a highly-optimized metadata service capable of sustaining up to 4.13× higher throughput, 90.40% lower latency, 85.99% lower cost, 3.33× better performanceper-cost, and better resource utilization and efficiency than a state-of-the-art DFS for an industrial workload.<p>
+<p>Bio: I am a second-year PhD student in computer science at George Mason Univeristy working with Prof. Yue Cheng (UVA) and Prof. Songqing Chen (GMU). My research interests are centered around cloud computing, generally with a focus in serverless computing. Specifically, I am interested in applications of serverless computing to data analytics, machine learning, and file systems.<p>
+<p>Presentation Link: <a href="https://drive.google.com/file/d/1Fo5MSNcSfQfb8EDA8_XPeRsihjf5kcGq/view?usp=sharing">https://drive.google.com/file/d/1Fo5MSNcSfQfb8EDA8_XPeRsihjf5kcGq/view?usp=sharing</a><p>
+<p>Related link: Source Code: https://github.com/ds2-lab/LambdaFS
+Personal Webpage: https://scusemua.github.io/
+Research Lab Webpage: https://ds2-lab.github.io/<p>
+
+
+<h3 id="t19">Enabling Publish/Subscribe Services on GEDS</h3>
+<p>Presenter: Pezhman Nasirifard<p>
+<p>Abstract: GEDS is a data management system for efficiently storing and transferring ephemeral data developed by IBM Research Europe. It provides seamless integration with various frameworks, such as Apache Spark, enabling efficient data processing. GEDS offers the flexibility to store data on the local memory, ensuring fast access, or on cloud providers like AWS S3. However, the current design relies on a central metadata service (MDS) to handle metadata operations, which becomes a bottleneck for scalability. To address these issues and improve the scalability and performance of GEDS, we propose enhancing the MDS with Publish/Subscribe (Pub/Sub) features. This modification enables efficient metadata propagation to nodes that read data and enhance overall scalability. Our evaluation, conducted using the TPC-DS benchmark, demonstrates that a Pub/Sub-enabled MDS significantly improves the performance of GEDS.<p>
+<p>Bio: Pezhman Nasirifard received his M.Sc. in computer science from the Technical University of Munich (TUM), Germany, focusing on mining energy-related geodata for inferring electrical grids and facilitating the integration of renewable energy resources. He joined the Chair of Application and Middleware Systems at TUM in 2017 as a Ph.D. candidate. During his Ph.D., he worked on various topics, including serverless publish/subscribe systems and simulation frameworks for analyzing the usability and vulnerabilities of various blockchain systems, such as Bitcoin, Ethereum, and IOTA. He also has been working on scalability solutions of permissioned blockchains such as Hyperledger Fabric. His research interests include distributed systems, cloud and serverless computing, and blockchain technologies.<p>
+<p>Presentation Link: <a href="https://drive.google.com/file/d/18O6RY7kAx59egstTt9ulf2PQVU1SfX0k/view?usp=sharing">https://drive.google.com/file/d/18O6RY7kAx59egstTt9ulf2PQVU1SfX0k/view?usp=sharing</a><p>
+<p>Related link: https://drive.google.com/file/d/18pggy9kWtyPdipUC-RFPzs3m1RKyY4VM/view?usp=sharing<p>
+
+
+<h3 id="t20">Blackbox operators for dynamic data management frameworks</h3>
+<p>Presenter: Josef Spillner<p>
+<p>Abstract: Apache Calcite is a dynamic data management framework with SQL parser and validator (including variants), query optimisation and schema source adapters. However, not all queries, workflows and pipelines can be mapped to Calcite, and in some cases there may be initial support but the specific remain unclear. In this secondment project, a couple of research questions in this space should be answered: Is it possbible to introduce a concept of blackbox operators to Calcite, and turn the black into grey by leveraging rich metadata to still consider them during the query optimisation phase? How can UDFs, windowing functions and other non-relational constructs be represented by such blackbox operators? And is there a path towards extending Calcite with a community-accepted implementation of those concepts so that more database management systems, big data frameworks, stream processors and other middleware could leverage the framework? The WOSCx talk will present a case of serverless UDFs to demonstrate the desired outcome of the project.<p>
+<p>Bio: Dr.-Ing. habil. Josef Spillner is a senior lecturer / associate professor at Zurich University of Applied Sciences in Switzerland. His research activity focuses on Distributed Application Computing Paradigms. This involves distributed, federated and decentralised application designs, as well as novel cloud, continuum and cyber-physical application architectures, in a spectrum ranging from basic research to applied innovation and industry transfer. Particular emphasis is on technological support for emerging digitalisation needs of industry and society, such as smart cities and mobility. His teaching schedule is focused on Big Data Computing, Cloud Native Computing and Serverless Computing, and Infrastructures for Data Science. He is a senior member of IEEE, member of ACM and national professional societies.<p>
+
+
+<h3 id="t21">Artificial Intelligence for Smart Environments</h3>
+<p>Presenter: Aurora González-Vidal<p>
+<p>Abstract: My research can be divided into two related areas: basic research for developing algorithms that solve data-related problems and data-based knowledge extraction algorithms from sensorised environments with applications in Internet of Things verticals.
+Time series segmentation and representation: consists of the division or compression of time series into smaller, more manageable segments loosing as little information as possible. We have worked on methods based on Discrete Cosine Transformation and eigenvalue decomposition for representation of both univariate and multivariate data.
+Federated Learning is a distributed machine learning approach that allows training models on decentralized data sources without the need to transfer the data to a central server. We have studied supervised (non-iid classes) and are working on unsupervised (GMM with Autoencoders) scenarios as well as identifying the challenges of dynamic client selection and aggregation function selection and creation.
+Transfer Learning consists of leveraging the learned representations or knowledge from a pre-trained model instead of training a model from scratch. Our approach consists of clustering the elements of study, selecting a centroid and using such a centroid as the representative from which to train the main model and transfer it to the rest. 
+Missing Values imputation. Considering the spatiotemporal nature of IoT data and the uncertainty of the data collected by sensors, we have studied bayesian methods as a convenient way to estimate missing values in multivariate time series.
+The verticals in which these algorithms and other data analytics methodologies have been applied in my research include smart buildings, marine sciences and agriculture, transportation, and security.
+<p>
+<p>Bio: Aurora González-Vidal graduated in Mathematics from the University of Murcia in 2014. In 2015 she obtained a scholarship to work in the Statistics Division of the Research Support Service, specialising in Statistics and Data Analysis. After that, she took a Master's degree in Big Data. In 2019, she obtained her PhD in Computer Science. Currently, she is a postdoctoral researcher in the framework of the ThinkInAzul project. She has collaborated in several national and European projects such as IoTCrawler and DEMETER, she is co-IP of the NGI Search project and she has carried out numerous stays in prestigious international centres. Her interests include machine learning in IoT-based environments, time series segmentation and federated learning among others. She is president of the R UMUR Users Association.<p>
+<p>Presentation Link: <a href="https://mega.nz/file/WWwj0AjJ#GvaCvc8QOLx232cPbTW5IueO8-iSOwH65Wc5QBX2Pe0">https://mega.nz/file/WWwj0AjJ#GvaCvc8QOLx232cPbTW5IueO8-iSOwH65Wc5QBX2Pe0</a><p>
+
+
+<h3 id="t22">Kubernetes Error Localization</h3>
+<p>Presenter: Sacheendra Talluri<p>
+<p>Abstract: Kubernetes is the most popular container orchestration software, used by 70% of enterprises. Kubernetes has 256 features with 1000s of configurations, making it difficult to debug configuration errors. We propose an error localization tool that identifies the configuration lines that are most likely to have caused an error. We make use of dynamic dataflow tracking, publicly available Kubernetes configurations, and coverage guided fuzzing for error localization.<p>
+<p>Bio: I am a PhD student as VU Amsterdam working on Fault Tolerance and Scheduling for the cloud.<p>
+<p>Presentation Link: <a href="https://drive.google.com/file/d/1Lauh_MFq9nBB3KtjL257UZa7I8YxFFAF/view?usp=sharing">https://drive.google.com/file/d/1Lauh_MFq9nBB3KtjL257UZa7I8YxFFAF/view?usp=sharing</a><p>
+
+
+<h3 id="t23">Serverless activities in IBM Research Israel</h3>
+<p>Presenter: Ofer Biran<p>
+<p>Abstract: In this talk I’ll briefly present the IBM Research – Israel lab, and the lab research activities that are related to the CloudStars EU project.  The activities will be presented in their broader scope, within them the particular potential projects proposed for CloudStars secondment collaborations, and the actual secondment projects that are planned or already active.  The activities area:
+1.	Cloud Observability
+2.	Multi-Cloud Data Pipeline Optimization
+3.	Multi-Cloud Networking
+4.	Efficient Serverless Model Serving
+
+For the first two activities there are already active and a planned secondments.<p>
+
+
+
+
 
 <h2 id='org'>Organization</h2>
 
