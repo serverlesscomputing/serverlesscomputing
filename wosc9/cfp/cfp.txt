@@ -165,7 +165,6 @@ Program Committee (tentative)
    Gul Agha, University of Illinois at Urbana-Champaign
    Azer Bestavros, Boston University
    Tyler R. Caraza-Harter, University of Wisconsin-Madison
-   Flavio Esposito, Saint Louis University
    Rodrigo Fonseca, Brown University
    Ian Foster, University of Chicago and Argonne National Laboratory
    Geoffrey Fox, Indiana University
