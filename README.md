@@ -2,6 +2,17 @@
 
 ## Instructions
 
+To run locally
+
+Install ruby and Jekyll: https://jekyllrb.com/docs/
+
+Run
+
+```
+bundle exec jekyll serve
+```
+
+
 ### Add a new WOSC edition
 
 1. Copy previous edition directory and paste replacing new edition number (e.g. `cp -r wosc7 wosc8`)
