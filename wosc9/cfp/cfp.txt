@@ -163,9 +163,10 @@ Steering Committee
 Program Committee (tentative)
 
    Gul Agha, University of Illinois at Urbana-Champaign
+   Marc Sánchez Artigas, Universitat Rovira i Virgili
    Azer Bestavros, Boston University
    Tyler R. Caraza-Harter, University of Wisconsin-Madison
-   Rodrigo Fonseca, Brown University
+   Rodrigo Fonseca, Microsoft
    Ian Foster, University of Chicago and Argonne National Laboratory
    Geoffrey Fox, Indiana University
    Dennis Gannon, Indiana University & Formerly Microsoft Research
@@ -175,6 +176,7 @@ Program Committee (tentative)
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
    Ali Kanso, Microsoft
    Višnja Križanović, Josip Juraj Strossmayer University of Osijek
+   Kyungyong Lee, Kookmin University
    Wes Lloyd, University of Washington Tacoma
    Maciej Malawski, AGH University of Science and Technology, Poland
    Lucas Nussbaum, LORIA, France
@@ -183,6 +185,7 @@ Program Committee (tentative)
    Per Persson, Ericsson Research
    Peter Pietzuch, Imperial College
    Rodric Rabbah, Nimbella and Apache OpenWhisk
+   Cristina Abad Robalino, ESPOL University in Guayaquil, Ecuador
    Eric Rozner, University of Colorado Boulder
    Josef Spillner, Zurich University of Applied Sciences
    Rich Wolski, University of California, Santa Barbara
