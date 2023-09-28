@@ -185,7 +185,8 @@ Program Committee (tentative)
    Per Persson, Ericsson Research
    Peter Pietzuch, Imperial College
    Rodric Rabbah, Nimbella and Apache OpenWhisk
-   Cristina Abad Robalino, ESPOL University in Guayaquil, Ecuador
+   Cristina Abad Robalino, Escuela Superior Politécnica del Litoral
+   (Ecuador)
    Eric Rozner, University of Colorado Boulder
    Josef Spillner, Zurich University of Applied Sciences
    Rich Wolski, University of California, Santa Barbara
