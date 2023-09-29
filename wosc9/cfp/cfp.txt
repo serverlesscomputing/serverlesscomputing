@@ -162,6 +162,7 @@ Steering Committee
 
 Program Committee (tentative)
 
+   Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
    Gul Agha, University of Illinois at Urbana-Champaign
    Marc Sánchez Artigas, Universitat Rovira i Virgili
    Azer Bestavros, Boston University
@@ -185,7 +186,6 @@ Program Committee (tentative)
    Per Persson, Ericsson Research
    Peter Pietzuch, Imperial College
    Rodric Rabbah, Nimbella and Apache OpenWhisk
-   Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
    Eric Rozner, University of Colorado Boulder
    Josef Spillner, Zurich University of Applied Sciences
    Rich Wolski, University of California, Santa Barbara
