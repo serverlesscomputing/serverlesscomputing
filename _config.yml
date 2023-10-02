@@ -62,8 +62,8 @@ defaults:
       permalink: "wosc8/:collection/:title"
 
 wosc:
-  current_edition: wosc8
-  current_edition_number: 8
+  current_edition: wosc9
+  current_edition_number: 9
   links:
     - name: Call for Papers
       relative_url: /cfp
@@ -77,6 +77,8 @@ wosc:
       relative_url: /program
     - name: Previous Editions
       menu:
+        - name: 2022 WoSC 9
+          relative_url: /wosc9
         - name: 2022 WoSC 8
           relative_url: /wosc8
         - name: 2021 WoSC 7
