@@ -1,9 +1,9 @@
 title: Workshop on Serverless Computing
-description: CM/IFIP International Middleware Conference, Novemeber 7-11, 2022 in Québec, Canada
+description: ACM/IFIP International Middleware Conference, December 11-15, 2023 in DAMSLab, Department of Arts, University of Bologna, Italy
 
 excerpts:
   # Displays or hides post excerpts from home layout post listing.
-  show: true
+  show: false
   # Cuts off excerpts with an ellipsis (...) after 32 words (approx. 2 lines).
   # You can also leave this false, and manually control excerpt length:
   # https://jekyllrb.com/docs/posts/#post-excerpts
@@ -61,6 +61,26 @@ defaults:
       layout: keynote
       permalink: "wosc8/:collection/:title"
 
+
+  - scope:
+      path: "_papers/wosc9"
+      type: papers
+    values:
+      layout: paper
+      permalink: "wosc9/:collection/:title"
+  - scope:
+      path: "_demos/wosc9"
+      type: demos
+    values:
+      layout: demo
+      permalink: "wosc9/:collection/:title"
+  - scope:
+      path: "_keynotes/wosc9"
+      type: keynotes
+    values:
+      layout: keynote
+      permalink: "wosc9/:collection/:title"
+
 wosc:
   current_edition: wosc9
   current_edition_number: 9
@@ -77,8 +97,6 @@ wosc:
       relative_url: /program
     - name: Previous Editions
       menu:
-        - name: 2022 WoSC 9
-          relative_url: /wosc9
         - name: 2022 WoSC 8
           relative_url: /wosc8
         - name: 2021 WoSC 7
