@@ -2,13 +2,19 @@
 
 ## Instructions
 
-To run locally
+### To run locally
 
 Install ruby and Jekyll: https://jekyllrb.com/docs/
 
-Run
+Install required gems with:
 
+```bash
+bundle install
 ```
+
+Run server with command:
+
+```bash
 bundle exec jekyll serve
 ```
 
