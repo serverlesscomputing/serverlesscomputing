@@ -1,6 +1,8 @@
 # WoSC website
 
-## Instructions using ocker compose
+## Instructions to start website
+
+### Instructions using docker compose
 
 
 ```
@@ -10,21 +12,25 @@ docker-compose up
 Open http://0.0.0.0:4000/wosc9/
 
 
-## Instructions local
-
-To run locally
+### Instructions to run locally
 
 Install ruby and Jekyll: https://jekyllrb.com/docs/
 
-Run
+Install required gems with:
 
+```bash
+bundle install
 ```
+
+Run server with command:
+
+```bash
 bundle exec jekyll serve
 ```
 
 Open http://0.0.0.0:4000/wosc9/
 
-### Add a new WOSC edition
+## Add a new WOSC edition
 
 1. Copy previous edition directory and paste replacing new edition number (e.g. `cp -r wosc7 wosc8`)
 
