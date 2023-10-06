@@ -1,6 +1,16 @@
 # WoSC website
 
-## Instructions
+## Instructions using ocker compose
+
+
+```
+docker-compose up
+```
+
+Open http://0.0.0.0:4000/wosc9/
+
+
+## Instructions local
 
 ### To run locally
 
@@ -18,6 +28,7 @@ Run server with command:
 bundle exec jekyll serve
 ```
 
+Open http://0.0.0.0:4000/wosc9/
 
 ### Add a new WOSC edition
 
