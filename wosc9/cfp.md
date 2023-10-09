@@ -52,7 +52,7 @@ This workshop solicits papers from both academia and industry on the state of pr
 
 **Paper Submission:** October 2, 2023 (AOE)
 
-**Notification of Acceptance:** October 10, 2023
+**Notification of Acceptance:** October 17, 2023 (previously October 10, 2023)
 
 **Final Camera-Ready Manuscript (Hard Deadline):** October 20, 2023
 
