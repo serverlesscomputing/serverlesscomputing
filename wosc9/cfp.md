@@ -118,6 +118,7 @@ Accepted presentations will not be part of the conference proceedings but will b
 * Arno Jacobsen, MSRG (Middleware Systems Research Group)
 * Ali Kanso, Microsoft
 * Višnja Križanović, Josip Juraj Strossmayer University of Osijek
+* Samuel Kounev, University of Wuerzburg
 * Kyungyong Lee, Kookmin University
 * Wes Lloyd, University of Washington Tacoma
 * Maciej Malawski, AGH University of Science and Technology, Poland
