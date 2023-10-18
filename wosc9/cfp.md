@@ -6,9 +6,8 @@ wosc: 9
 
 **Part of ACM/IFIP Middleware 2023**
 
-> **_NOTE:_** WoSC9 will be hybrid this year with both virtual and on-location formats. Please note that while hybrid formats will be supported for workshops, the Middleware 2023 steering committee wants the main conference to be held in in-person only. Prospective attendees of the workshop should keep this in mind if they plan to attend both WoSC9 and Middleware 2023.
+> **_NOTE:_** *WoSC9 will be hybrid this year with both virtual and on-location formats. Please note that while hybrid formats will be supported for workshops, the Middleware 2023 steering committee wants the main conference to be held in in-person only. Prospective attendees of the workshop should keep this in mind if they plan to attend both WoSC9 and Middleware 2023.*
 
-## Workshop proposal
 Over the last nine years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and microservices. Many of the major cloud vendors have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions. Open source projects are gaining popularity in providing serverless computing as a service.
 
 Recently, Kubernetes gained in popularity in enterprise and in academia. Several open source projects such as OpenFaaS and Knative aim to provide developers with serverless experience on top of Kubernetes by hiding low-level details. Auto-scalable Multi-tenant Kubernetes deployments like Google Cloud Run or IBM Code Engine also overcome previous limitations of Serverless Functions like duration, networking, and higher granularity (more vCPUs).
@@ -52,9 +51,9 @@ This workshop solicits papers from both academia and industry on the state of pr
 
 **Paper Submission:** October 2, 2023 (AOE)
 
-**Notification of Acceptance:** October 17, 2023 (previously October 10, 2023)
+**Notification of Acceptance:** October 17, 2023 (previously October 10)
 
-**Final Camera-Ready Manuscript (Hard Deadline):** October 20, 2023
+**Final Camera-Ready Manuscript (Hard Deadline):** October 23, 2023 (previously October 20)
 
 **Non-paper submissions (demos and other proposals):** November 10, 2023
 
