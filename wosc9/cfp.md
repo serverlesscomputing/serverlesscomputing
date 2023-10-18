@@ -53,7 +53,7 @@ This workshop solicits papers from both academia and industry on the state of pr
 
 **Notification of Acceptance:** October 17, 2023 (previously October 10)
 
-**Final Camera-Ready Manuscript (Hard Deadline):** October 23, 2023 (previously October 20)
+**Final Camera-Ready Manuscript (Hard Deadline):** October 27, 2023 (previously October 20)
 
 **Non-paper submissions (demos and other proposals):** November 10, 2023
 
