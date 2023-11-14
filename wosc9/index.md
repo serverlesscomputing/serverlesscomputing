@@ -12,6 +12,14 @@ hero:
   background: images/bologne.png
 
 news:
+  - date: "2023-11-13"
+    title: "WOSC9 call for participation"
+    body: "To send <b>proposals for talks</b> (not longer than 10 min) use google form [https://forms.gle/YxpcARvJkGHDyXYV6](cfp) <br>
+    To send <b>proposals for demos, short presentations and lightning talks</b> (not longer than 5 minutes) use google form [https://forms.gle/wyEdFPTNnWTHFKCRA](cfp) <br>
+    The <b>deadline for sending proposals is November 27</b> (two weeks before the workshop)."
+  - date: "2023-11-10"
+    title: "Hybrid event"
+    body: "WOSC9 will be held <b>December 11 as a hybrid event</b> and we are inviting you to participate."
   - date: "2023-09-25"
     title: "Workshop schedule available"
     body: "<b>Paper Submission:</b> October 2, 2023 (AOE)<br>
