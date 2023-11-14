@@ -8,7 +8,7 @@ wosc: 9
 
 **Time:** 1:30-6pm (could be extended to 7pm) 
 
-| Workshop schedule (perliminary, subject to change) | |
+| Workshop schedule (preliminary, subject to change) | |
 | --- | --- |
 | **1:30pm** | Welcome and invited talk |
 | **2pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break|
