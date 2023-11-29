@@ -25,5 +25,6 @@ wosc: 9
 | | **9 -** Nubes: Object-Oriented Programming for Stateful Serverless Functions |
 | | **10 -** GreenCourier: Carbon-Aware Scheduling for Serverless Functions |
 | | **11 -** GIRAFF: Reverse Auction-based Placement for Fog Functions |
-| **5pm** | **Demos and other presentations** (5 min each)  |
+| **5pm-5:30pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) - 25min + 5 min Q&A  |
+| **5:30pm** | **Demos and other presentations** (5 min each)  |
 | **6pm** | **End of Workshop** |
