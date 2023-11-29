@@ -95,7 +95,7 @@ wosc:
       relative_url: /keynotes
     - name: Program
       relative_url: /program
-    - name: Best Serverless Paper on 2023
+    - name: Best Paper
       relative_url: /best_paper  
     - name: Previous Editions
       menu:

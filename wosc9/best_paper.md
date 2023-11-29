@@ -7,21 +7,18 @@ wosc: 9
 
 | During the workshop, we will vote the best serverless research paper published in 2023 from the following list: | |
 | --- | --- |
-| **1:30pm** | Welcome and invited talk |
-| **2pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break|
-| | **1 -** Characterizing AFCL Serverless Scientific Workflows in Federated FaaS |
-| | **2 -** Scaling a Variant Calling Genomics Pipeline with FaaS  |
-| | **3 -** ProFaaStinate: Delaying Serverless Function Calls to Optimize Platform Performance |
-| | **4 -** X86 vs. ARM: An Investigation of Factors Influencing Serverless Performance |
-| **3pm** | **Session 2** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break |
-| | **5 -** Efficiently Detecting Performance Changes in FaaS Application Releases |
-| | **6 -** Leveraging Intra-Function Parallelism in Serverless Machine Learning |
-| | **7 -** When Serverless Computing Meets Different Degrees of Customization for DNN Inference |
-| | **8 -** On Serving Image Classification Models |
-| **4pm** | **Session 3** - 2 papers (2x10min + 5min Q&A) and 1 papers (10min + 5min Q&A) and 10min break|
-| | **9 -** Nubes: Object-Oriented Programming for Stateful Serverless Functions |
-| | **10 -** GreenCourier: Carbon-Aware Scheduling for Serverless Functions |
-| | **11 -** GIRAFF: Reverse Auction-based Placement for Fog Functions |
-| **5pm-5:30pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) - 25min + 5 min Q&A  |
-| **5:30pm** | **Demos and other presentations** (5 min each)  |
-| **6pm** | **End of Workshop** |
+|  - [DataFlower: Exploiting the Data-flow Paradigm for Serverless Workflow Orchestration](http://arxiv.org/abs/2304.14629) |
+|  - [Dirigo: Self-scaling Stateful Actors For Serverless Real-time Data Processing](http://arxiv.org/abs/2308.03615) |
+|  - [Ditto: Efficient Serverless Analytics with Elastic Parallelism](https://chaojin0310.github.io/files/SIGCOMM23-Ditto.pdf) |
+|  - [Doing More with Less: Orchestrating Serverless Applications without an Orchestrator](https://www.usenix.org/conference/nsdi23/presentation/liu-david) |
+|  - [Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing](https://www.usenix.org/conference/nsdi23/presentation/yu) |
+|  - [Function as a Function](https://dl.acm.org/doi/10.1145/3620678.3624648) |
+|  - [MXFaaS: Resource Sharing in Serverless Environments for Parallelism and Efficiency](https://jovans2.github.io/files/MXFaaS_ISCA2023_Final.pdf) |
+|  - [ProPack: Executing Concurrent Serverless Functions Faster and Cheaper](https://dl.acm.org/doi/10.1145/3588195.3592988) |
+|  - [Serverless Computing: What It Is, and What It Is Not?](https://dl.acm.org/doi/10.1145/3587249) |
+|  - [Smartpick: Workload Prediction for Serverless-enabled Scalable Data Analytics Systems](http://arxiv.org/abs/2307.13677) |
+|  - [XFaaS: Hyperscale and Low Cost Serverless Functions at Meta](https://doi.org/10.1145/3600006.3613155) |
+|  - [Glider: Serverless Ephemeral Stateful Near-Data Computation](https://dl.acm.org/doi/10.1145/3590140.3629119) |
+|  - [On Data Processing through the Lenses of S3 Object Lambda](https://zenodo.org/records/8314342) |
+
+
