@@ -13,21 +13,21 @@ wosc: 9
 | **1:30pm** | Welcome and invited talk |
 | **1:35pm-2:05pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) - 25min + 5 min Q&A  |
 | **2:10pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break|
-| | **1 -** Characterizing AFCL Serverless Scientific Workflows in Federated FaaS (./papers/p1) |
-| | **2 -** Scaling a Variant Calling Genomics Pipeline with FaaS (./papers/p2)  |
-| | **3 -** ProFaaStinate: Delaying Serverless Function Calls to Optimize Platform Performance (./papers/p3) |
-| | **4 -** X86 vs. ARM: An Investigation of Factors Influencing Serverless Performance (./papers/p4) |
+| | **1 -** [Characterizing AFCL Serverless Scientific Workflows in Federated FaaS](./papers/p1) |
+| | **2 -** [Scaling a Variant Calling Genomics Pipeline with FaaS](./papers/p2)  |
+| | **3 -** [ProFaaStinate: Delaying Serverless Function Calls to Optimize Platform Performance](./papers/p3) |
+| | **4 -** [X86 vs. ARM: An Investigation of Factors Influencing Serverless Performance](./papers/p4) |
 | **3pm - 3:10pm** | break |
 | **3:10pm** | **Session 2** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break |
-| | **5 -** Efficiently Detecting Performance Changes in FaaS Application Releases |
-| | **6 -** Leveraging Intra-Function Parallelism in Serverless Machine Learning |
-| | **7 -** When Serverless Computing Meets Different Degrees of Customization for DNN Inference |
-| | **8 -** On Serving Image Classification Models |
+| | **5 -** [Efficiently Detecting Performance Changes in FaaS Application Releases](./papers/p5) |
+| | **6 -** [Leveraging Intra-Function Parallelism in Serverless Machine Learning](./papers/p6)  |
+| | **7 -** [When Serverless Computing Meets Different Degrees of Customization for DNN Inference](./papers/p7)  |
+| | **8 -** [On Serving Image Classification Models](./papers/p8)  |
 | **4pm - 4:10pm** | break |
 | **4:10pm** | **Session 3** - 2 papers (2x10min + 5min Q&A) and 1 paper (10min +  5min Q&A) and 10min break|
-| | **9 -** Nubes: Object-Oriented Programming for Stateful Serverless Functions |
-| | **10 -** GreenCourier: Carbon-Aware Scheduling for Serverless Functions |
-| | **11 -** GIRAFF: Reverse Auction-based Placement for Fog Functions heterogenous hardware |
+| | **9 -** [Nubes: Object-Oriented Programming for Stateful Serverless Functions](./papers/p9) |
+| | **10 -** [GreenCourier: Carbon-Aware Scheduling for Serverless Functions](./papers/p10) |
+| | **11 -** [GIRAFF: Reverse Auction-based Placement for Fog Functions heterogenous hardware](./papers/p11) |
 | **4:50pm - 5pm** | break |
 | **5pm-5:50pmpm** | **Session 4** - Demos and short talks (2x5min + 5min Q&A + 3x5min + 5min Q&A) |
 | | **12 -** (demo) Simulate Data-Aware Serverless Workflows in Federated FaaS with SimLess |
