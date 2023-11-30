@@ -13,10 +13,10 @@ wosc: 9
 | **1:30pm** | Welcome and invited talk |
 | **1:35pm-2:05pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) - 25min + 5 min Q&A  |
 | **2:10pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break|
-| | **1 -** Characterizing AFCL Serverless Scientific Workflows in Federated FaaS |
-| | **2 -** Scaling a Variant Calling Genomics Pipeline with FaaS  |
-| | **3 -** ProFaaStinate: Delaying Serverless Function Calls to Optimize Platform Performance |
-| | **4 -** X86 vs. ARM: An Investigation of Factors Influencing Serverless Performance |
+| | **1 -** Characterizing AFCL Serverless Scientific Workflows in Federated FaaS (./papers/p1) |
+| | **2 -** Scaling a Variant Calling Genomics Pipeline with FaaS (./papers/p2)  |
+| | **3 -** ProFaaStinate: Delaying Serverless Function Calls to Optimize Platform Performance (./papers/p3) |
+| | **4 -** X86 vs. ARM: An Investigation of Factors Influencing Serverless Performance (./papers/p4) |
 | **3pm - 3:10pm** | break |
 | **3:10pm** | **Session 2** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break |
 | | **5 -** Efficiently Detecting Performance Changes in FaaS Application Releases |
