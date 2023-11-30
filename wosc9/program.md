@@ -30,9 +30,9 @@ wosc: 9
 | | **11 -** [GIRAFF: Reverse Auction-based Placement for Fog Functions heterogenous hardware](./papers/p11) |
 | **4:50pm - 5pm** | break |
 | **5pm-5:50pmpm** | **Session 4** - Demos and short talks (2x5min + 5min Q&A + 3x5min + 5min Q&A) |
-| | **12 -** (demo) Simulate Data-Aware Serverless Workflows in Federated FaaS with SimLess |
-| | **13 -** (demo) Serverless Edge Computing: challenges and opportunities stemming from | 
-| | **14 -** (short talk) Databaseless Queries: Using Calcite as Research Testbed for Hybrid Cloud Data Integration |
-| | **15 -** (short talk) Engineering Serverless Workflows With Interoperable BaaS Services	|
-| | **16 -** (short talk) Generating Synthetic Ansible Programs with Probabilistic Methods	|
+| | **12 -** (demo) [Simulate Data-Aware Serverless Workflows in Federated FaaS with SimLess](./papers/p12) |
+| | **13 -** (demo) [Serverless Edge Computing: challenges and opportunities stemming from heterogenous hardware](./papers/p13) | 
+| | **14 -** (short talk) [Databaseless Queries: Using Calcite as Research Testbed for Hybrid Cloud Data Integration](./papers/p14) |
+| | **15 -** (short talk) [Engineering Serverless Workflows With Interoperable BaaS Services](./papers/p15)	|
+| | **16 -** (short talk) [Generating Synthetic Ansible Programs with Probabilistic Methods](./papers/p16)	|
 | **6pm** | **End of Workshop** |
