@@ -1,5 +1,5 @@
 ---
-title: Program
+title: Program (preliminary)
 layout: program
 wosc: 9
 ---
@@ -11,20 +11,28 @@ wosc: 9
 | Workshop schedule (preliminary, subject to change) | |
 | --- | --- |
 | **1:30pm** | Welcome and invited talk |
-| **2pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break|
+| **1:35pm-2:05pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) - 25min + 5 min Q&A  |
+| **2:10pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break|
 | | **1 -** Characterizing AFCL Serverless Scientific Workflows in Federated FaaS |
 | | **2 -** Scaling a Variant Calling Genomics Pipeline with FaaS  |
 | | **3 -** ProFaaStinate: Delaying Serverless Function Calls to Optimize Platform Performance |
 | | **4 -** X86 vs. ARM: An Investigation of Factors Influencing Serverless Performance |
-| **3pm** | **Session 2** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break |
+| **3pm - 3:10pm** | break |
+| **3:10pm** | **Session 2** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break |
 | | **5 -** Efficiently Detecting Performance Changes in FaaS Application Releases |
 | | **6 -** Leveraging Intra-Function Parallelism in Serverless Machine Learning |
 | | **7 -** When Serverless Computing Meets Different Degrees of Customization for DNN Inference |
 | | **8 -** On Serving Image Classification Models |
-| **4pm** | **Session 3** - 2 papers (2x10min + 5min Q&A) and 1 papers (10min + 5min Q&A) and 10min break|
+| **4pm - 4:10pm** | break |
+| **4:10pm** | **Session 3** - 2 papers (2x10min + 5min Q&A) and 1 paper (10min +  5min Q&A) and 10min break|
 | | **9 -** Nubes: Object-Oriented Programming for Stateful Serverless Functions |
 | | **10 -** GreenCourier: Carbon-Aware Scheduling for Serverless Functions |
-| | **11 -** GIRAFF: Reverse Auction-based Placement for Fog Functions |
-| **5pm-5:30pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) - 25min + 5 min Q&A  |
-| **5:30pm** | **Demos and other presentations** (5 min each)  |
+| | **11 -** GIRAFF: Reverse Auction-based Placement for Fog Functions heterogenous hardware |
+| **4:50pm - 5pm** | break |
+| **5pm-5:50pmpm** | **Session 4** - Demos and short talks (2x5min + 5min Q&A + 3x5min + 5min Q&A) |
+| | **12 -** (demo) Simulate Data-Aware Serverless Workflows in Federated FaaS with SimLess |
+| | **13 -** (demo) Serverless Edge Computing: challenges and opportunities stemming from | 
+| | **14 -** (short talk) Databaseless Queries: Using Calcite as Research Testbed for Hybrid Cloud Data Integration |
+| | **15 -** (short talk) Engineering Serverless Workflows With Interoperable BaaS Services	|
+| | **16 -** (short talk) Generating Synthetic Ansible Programs with Probabilistic Methods	|
 | **6pm** | **End of Workshop** |
