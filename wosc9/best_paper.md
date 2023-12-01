@@ -20,5 +20,7 @@ wosc: 9
 |  - [XFaaS: Hyperscale and Low Cost Serverless Functions at Meta](https://doi.org/10.1145/3600006.3613155) |
 |  - [Glider: Serverless Ephemeral Stateful Near-Data Computation](https://dl.acm.org/doi/10.1145/3590140.3629119) |
 |  - [On Data Processing through the Lenses of S3 Object Lambda](https://zenodo.org/records/8314342) |
+|  - [SnapStore: A Snapshot Storage System for Serverless Systems](https://www.researchgate.net/publication/375953837_SnapStore_A_Snapshot_Storage_System_for_Serverless_Systems) |
+|  - [Kernel-as-a-Service: A Serverless Programming Model for Heterogeneous Hardware Accelerators](https://dl.acm.org/doi/pdf/10.1145/3590140.3629115) |
 
 
