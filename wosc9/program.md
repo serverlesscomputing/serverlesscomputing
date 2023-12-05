@@ -41,3 +41,4 @@ wosc: 9
 | | **16 -** [Generating Synthetic Ansible Programs with Probabilistic Methods](./demos/d16) (short talk) |
 | **6:10pm** | Workshop summary |
 | **6:30pm** | **End of Workshop** |
+
