@@ -10,7 +10,7 @@ wosc: 9
 
 | Workshop schedule (preliminary, subject to change) | |
 | --- | --- |
-| **1:30pm** | Welcome (Aleksander Slominski and Pedro García López) |
+| **1:30pm** | Welcome (Aleksander Slominski and Pedro García Lopez) |
 | **1:35pm-2:05pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) - 25min + 5 min Q&A  |
 | **2:10pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break|
 | | Session chair: Aleksander Slominski|
@@ -27,7 +27,7 @@ wosc: 9
 | | **8 -** [On Serving Image Classification Models](./papers/p8)  |
 | **4:20pm - 4:30pm** | break |
 | **4:30pm** | **Session 3** - 2 papers (2x10min + 5min Q&A) and 1 paper (10min +  5min Q&A) and 10min break|
-| | Session chair: Pedro García López|
+| | Session chair: Pedro García Lopez|
 | | **9 -** [Nubes: Object-Oriented Programming for Stateful Serverless Functions](./papers/p9) |
 | | **10 -** [GreenCourier: Carbon-Aware Scheduling for Serverless Functions](./papers/p10) |
 | | **11 -** [GIRAFF: Reverse Auction-based Placement for Fog Functions heterogenous hardware](./papers/p11) |
