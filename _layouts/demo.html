@@ -53,6 +53,9 @@
                 <a href="https://www.youtube.com/watch?v={{ paper.video.talk_youtube_id }}"
                   class="btn btn-light">Talk</a>
                 {%- endif -%}
+                {% if paper.video.direct_link %}
+                <a href="{{ paper.video.direct_link }}" class="btn btn-light">Link to presentation</a>
+                {%- endif -%}
               </div>
               {% endif %}
               {% if paper.video.talk_youtube_id %}

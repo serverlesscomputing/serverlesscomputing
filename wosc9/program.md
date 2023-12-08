@@ -39,9 +39,9 @@ wosc: 9
 | | **14 -** [Databaseless Queries: Using Calcite as Research Testbed for Hybrid Cloud Data Integration](./demos/d14)    (short talk) |
 | | **15 -** [Engineering Serverless Workflows With Interoperable BaaS Services](./demos/d15) (short talk) |
 | | **16 -** [Generating Synthetic Ansible Programs with Probabilistic Methods](./demos/d16) (short talk) |
-| | **17 -** [AI for Smart Environments and Dimensionalty Reduction](./) (short talk) |
-| | **18 -** [Optimizing Inference for Small Models in Memory-Limited GPU Environments](./) (short talk) |
-| | **19 -** [FL-based automated & real-time cyber-attack detection](./) (short talk) |
-| | **20 -** [Severless Confidential Containers: Challenges and Opportunities](./) (short talk) |
+| | **17 -** [AI for Smart Environments and Dimensionalty Reduction](./demos/d17) (short talk) |
+| | **18 -** [Optimizing Inference for Small Models in Memory-Limited GPU Environments](./demos/d18) (short talk) |
+| | **19 -** [FL-based automated & real-time cyber-attack detection](./demos/d19) (short talk) |
+| | **20 -** [Severless Confidential Containers: Challenges and Opportunities](./demos/d20) (short talk) |
 | **6:30pm** | Workshop summary |
 | **6:50pm** | **End of Workshop** |

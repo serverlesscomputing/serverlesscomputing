@@ -23,6 +23,9 @@
                 {%- if demo.video.talk_youtube_id -%}
                 <a href="https://www.youtube.com/watch?v={{ demo.video.talk_youtube_id }}" class="btn btn-outline-primary btn-sm mr-5">Presentation</a>
                 {%- endif -%}
+                {%- if demo.video.direct_link -%}
+                <a href="{{ demo.video.direct_link }}" class="btn btn-outline-primary btn-sm">Presentation</a>
+                {%- endif -%}
               </div>
             </div>
             {%- endif -%}
