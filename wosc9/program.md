@@ -10,7 +10,7 @@ wosc: 9
 
 | Workshop schedule  | | | |
 | --- | --- | --- | --- |
-| **1:30pm** | Welcome (**Aleksander Slominski** and **Pedro García Lopez**) | | |
+| **1:30pm** | [Welcome](https://docs.google.com/presentation/d/1EK5MTlJJcjWCKNWwkaYs8drKcAmpsUmQQAFbktnmwVo/edit?usp=sharing) (**Aleksander Slominski** and **Pedro García Lopez**) | | |
 | **1:35pm-2:05pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) (**Javier Picorel**) - 25min + 5 min Q&A  | | |
 | **2:10pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break| | |
 | | Session chair: **Aleksander Slominski**| | |
