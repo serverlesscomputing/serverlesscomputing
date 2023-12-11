@@ -12,6 +12,9 @@ hero:
   background: images/bologne.png
 
 news:
+  - date: "2023-12-11"
+    title: "Link to the final program"
+    body: "The final program is available [here](./program)."
   - date: "2023-11-13"
     title: "WOSC9 call for participation"
     body: "To send <b>proposals for talks</b> (not longer than 10 min) use google form [https://forms.gle/YxpcARvJkGHDyXYV6](cfp) <br>
