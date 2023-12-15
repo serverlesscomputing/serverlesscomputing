@@ -46,3 +46,5 @@ wosc: 9
 | **6:30pm** | Workshop summary | |
 | **6:50pm** | **End of Workshop** | |
 
+[Serverless Challenges and Future] (./images/Serverless_Challenges_and_Future.pdf)
+

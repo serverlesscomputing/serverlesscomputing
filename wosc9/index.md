@@ -12,6 +12,9 @@ hero:
   background: images/bologne.png
 
 news:
+  - date: "2023-12-15"
+    title: "Serverless Challenges and Future"
+    body: "Comparison of the word clouds of several editions [here](./images/Serverless_Challenges_and_Future.pdf)."
   - date: "2023-12-11"
     title: "Link to the final program"
     body: "The final program is available [here](./program)."
