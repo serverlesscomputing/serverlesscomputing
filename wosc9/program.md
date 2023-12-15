@@ -8,6 +8,8 @@ wosc: 9
 
 **Time:** 1:30-6:50pm (could be extended to 7pm)
 
+[Serverless Challenges and Future] (./images/Serverless_Challenges_and_Future.pdf)
+
 | Workshop schedule  | | | |
 | --- | --- | --- | --- |
 | **1:30pm** | [Welcome](https://docs.google.com/presentation/d/1EK5MTlJJcjWCKNWwkaYs8drKcAmpsUmQQAFbktnmwVo/edit?usp=sharing) (**Aleksander Slominski** and **Pedro García Lopez**) | | |
@@ -45,6 +47,3 @@ wosc: 9
 | | **20 -** [Severless Confidential Containers: Challenges and Opportunities](./demos/d20) (**Carlos Segarra**, short talk)| [👨🏻‍🏫](./presentations/d20.pdf) | |
 | **6:30pm** | Workshop summary | |
 | **6:50pm** | **End of Workshop** | |
-
-[Serverless Challenges and Future] (./images/Serverless_Challenges_and_Future.pdf)
-
