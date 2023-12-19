@@ -14,7 +14,7 @@ hero:
 news:
   - date: "2023-12-18"
     title: "The best Serverless Paper on 2023 for WoSC9 attendees is:"
-    body: "[XFaaS: Hyperscale and Low Cost Serverless Functions at Meta] (https://dl.acm.org/doi/10.1145/3600006.3613155)"
+    body: "XFaaS: Hyperscale and Low Cost Serverless Functions at Meta [paper](https://dl.acm.org/doi/10.1145/3600006.3613155)"
   - date: "2023-12-15"
     title: "Serverless Challenges and Future"
     body: "Comparison of the word clouds from several editions [here](./images/Serverless_Challenges_and_Future.pdf)."

@@ -17,7 +17,7 @@ wosc: 9
 |  - [ProPack: Executing Concurrent Serverless Functions Faster and Cheaper](https://dl.acm.org/doi/10.1145/3588195.3592988) |
 |  - [Serverless Computing: What It Is, and What It Is Not?](https://dl.acm.org/doi/10.1145/3587249) |
 |  - [Smartpick: Workload Prediction for Serverless-enabled Scalable Data Analytics Systems](http://arxiv.org/abs/2307.13677) |
-|  - [XFaaS: Hyperscale and Low Cost Serverless Functions at Meta](https://doi.org/10.1145/3600006.3613155) |
+|  - BEST PAPER IN 2023 [XFaaS: Hyperscale and Low Cost Serverless Functions at Meta](https://doi.org/10.1145/3600006.3613155) |
 |  - [Glider: Serverless Ephemeral Stateful Near-Data Computation](https://dl.acm.org/doi/10.1145/3590140.3629119) |
 |  - [On Data Processing through the Lenses of S3 Object Lambda](https://zenodo.org/records/8314342) |
 |  - [SnapStore: A Snapshot Storage System for Serverless Systems](https://www.researchgate.net/publication/375953837_SnapStore_A_Snapshot_Storage_System_for_Serverless_Systems) |
