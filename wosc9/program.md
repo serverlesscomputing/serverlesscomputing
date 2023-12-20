@@ -11,7 +11,7 @@ wosc: 9
 | Workshop schedule  | | | |
 | --- | --- | --- | --- |
 | **1:30pm** | [Welcome](https://docs.google.com/presentation/d/1EK5MTlJJcjWCKNWwkaYs8drKcAmpsUmQQAFbktnmwVo/edit?usp=sharing) (**Aleksander Slominski** and **Pedro García Lopez**) | | |
-| **1:35pm-2:05pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) (**Javier Picorel**) - 25min + 5 min Q&A  | | |
+| **1:35pm-2:05pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) (**Javier Picorel**) - 25min + 5 min Q&A  | [👨🏻‍🏫](./presentations/keynote.pdf) | |
 | **2:10pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break| | |
 | | Session chair: **Aleksander Slominski**| | |
 | | **1 -** [Characterizing AFCL Serverless Scientific Workflows in Federated FaaS](./papers/p1) (**Sashko Ristov**) | [👨🏻‍🏫](./presentations/p1.pdf) | |
@@ -20,7 +20,7 @@ wosc: 9
 | | **4 -** [X86 vs. ARM: An Investigation of Factors Influencing Serverless Performance](./papers/p4) (**Xinghan Chen**) |[👨🏻‍🏫](./presentations/p4.pdf) | |
 | **3pm - 3:30pm** | Coffee Break | | |
 | **3:30pm** | **Session 2** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break | | |
-| | Session chair: TBD| | |
+| | Session chair: **Luis Antunes Veiga**| | |
 | | **5 -** [Efficiently Detecting Performance Changes in FaaS Application Releases](./papers/p5) (**Martin Grambow**)|[👨🏻‍🏫](./presentations/p5.pdf) | |
 | | **6 -** [Leveraging Intra-Function Parallelism in Serverless Machine Learning](./papers/p6)  (**Ionut Predoaia**) | [👨🏻‍🏫](./presentations/p6.pdf)| |
 | | **7 -** [When Serverless Computing Meets Different Degrees of Customization for DNN Inference](./papers/p7) (**Yoonseo Hur**) |[👨🏻‍🏫](./presentations/p7.pdf) | |
