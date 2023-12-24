@@ -12,6 +12,9 @@ hero:
   background: images/bologne.png
 
 news:
+  - date: "2023-12-24"
+    title: "Video recording for WoSC9 are available"
+    body: "Workshop video recording are available from [playlist](https://www.youtube.com/watch?v=1HKhH64NDJ8&list=PLixB0Gpj4RgilKaapOUt32_5blYq25w7Z)"
   - date: "2023-12-18"
     title: "The best Serverless Paper on 2023 for WoSC9 attendees is:"
     body: "XFaaS: Hyperscale and Low Cost Serverless Functions at Meta [paper](https://dl.acm.org/doi/10.1145/3600006.3613155)"
