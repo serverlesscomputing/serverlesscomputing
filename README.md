@@ -72,7 +72,7 @@ mkdir photos
 
 ```
 cd wosc4/
-thumbsup --input ./photos --output ./gallery --title 'Fourth International Workshop on Serverless Computing (WoSC) 2018 Gallery' --theme cards --thumb-size 200 --albums-from date  
+thumbsup --input ./photos --output ./gallery --title 'Fourth International Workshop on Serverless Computing (WoSC) 2018 Gallery' --theme cards --thumb-size 200 --albums-from date
 ```
 
 ```
@@ -83,7 +83,7 @@ And link form woscN index.htmnl page
 
 ```
 cd wosc3/
-thumbsup --input ./photos --output ./gallery --title 'Third International Workshop on Serverless Computing (WoSC) 2018 Gallery' --theme cards --thumb-size 200 --albums-from date  
+thumbsup --input ./photos --output ./gallery --title 'Third International Workshop on Serverless Computing (WoSC) 2018 Gallery' --theme cards --thumb-size 200 --albums-from date
 ```
 
 
