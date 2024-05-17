@@ -1,5 +1,5 @@
 title: Workshop on Serverless Computing
-description: ACM/IFIP International Middleware Conference, December 11-15, 2023 in DAMSLab, Department of Arts, University of Bologna, Italy
+description: Series of virtual and hybrid erverless workshops.
 
 excerpts:
   # Displays or hides post excerpts from home layout post listing.
@@ -82,8 +82,8 @@ defaults:
       permalink: "wosc9/:collection/:title"
 
 wosc:
-  current_edition: wosc9
-  current_edition_number: 9
+  current_edition: woscx3
+  current_edition_number: 103
   links:
     - name: Call for Papers
       relative_url: /cfp
@@ -99,8 +99,14 @@ wosc:
       relative_url: /best_paper
     - name: Previous Editions
       menu:
+        - name: 2023 WoSC 9
+          relative_url: /wosc9
+        - name: 2023 WoSCx2
+          relative_url: /woscx2
         - name: 2022 WoSC 8
           relative_url: /wosc8
+        - name: 2022 WoSCx1
+          relative_url: /woscx1
         - name: 2021 WoSC 7
           relative_url: /wosc7
         - name: 2020 WoSC 6
