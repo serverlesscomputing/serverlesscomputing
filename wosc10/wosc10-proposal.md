@@ -42,8 +42,8 @@ Finally, an intriguing area of research lies in the emergence of innovative FaaS
 This would be the fifth time of the workshop at Middleware and we want to build on our previous experience and continue to draw the attention of distributed systems researchers to this young research field and further drive the adoption and development of available technology.
 
 There have been nine previous editions of this workshop:
-* [WoSC9](https://www.serverlesscomputing.org/wosc9/): 24th ACM/IFIP International Conference Middleware, Nov 7, 2021 in hybrid location; virtual and in Québec, Canada
-* [WoSC8](https://www.serverlesscomputing.org/wosc8/): 23rd ACM/IFIP International Conference Middleware, Nov 7, 2021 in hybrid location; virtual and in Québec, Canada
+* [WoSC9](https://www.serverlesscomputing.org/wosc9/): 24th ACM/IFIP International Conference Middleware, Dec 11, 2023 in hybrid location; virtual and in Québec, Canada
+* [WoSC8](https://www.serverlesscomputing.org/wosc8/): 23rd ACM/IFIP International Conference Middleware, Nov 7, 2022 in hybrid location; virtual and in Québec, Canada
 * [WoSC7](https://www.serverlesscomputing.org/wosc7/): 22nd ACM/IFIP International Conference Middleware, Dec 7, 2021 in virtual location
 * [WoSC6](https://www.serverlesscomputing.org/wosc6/): 21st ACM/IFIP International Conference Middleware, Dec 8, 2020 in virtual location
 * [WosC5](https://www.serverlesscomputing.org/wosc5/): 20th ACM/IFIP International Conference Middleware, Dec 9, 2019 in UC Davis, CA, USA
