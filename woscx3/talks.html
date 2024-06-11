@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>WOSCx3</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand navbar-light bg-light rounded fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">WOSCx3 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="talks.html">Talks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="program.html">Program</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Previous Editions
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="../woscx2/">2023 WoSCx2</a>
+              <a class="dropdown-item" href="../wosc9/">2023 WoSC 9</a>
+              <a class="dropdown-item" href="../woscx1/">2022 WoSCx1</a>
+              <a class="dropdown-item" href="../wosc8/">2022 WoSC 8</a>
+              <a class="dropdown-item" href="../wosc7/">2021 WoSC 7</a>
+              <a class="dropdown-item" href="../wosc6/">2020 WoSC 6</a>
+              <a class="dropdown-item" href="../wosc5/">2019 WoSC 5</a>
+              <a class="dropdown-item" href="../wosc4/">2018 WoSC 4</a>
+              <a class="dropdown-item" href="../wosc3/">2018 WoSC 3</a>
+              <a class="dropdown-item" href="../wosc2/">2017 WoSC 2</a>
+              <a class="dropdown-item" href="../wosc1/">2017 WoSC 1</a>
+            </ul>
+        </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- About 2 -->
+    <section class="content-section bg-light" id="about">
+      <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
+        <h1 class="mb-4">Talks</h1>
+
+        <h3 id="t1">#1 - Are Unikernels Ready for Serverless on the Edge?</h3>
+
+        <p class="lead">
+          <strong>Unikernels pack applications, OS primitives, and drivers into a single binary that can be executed directly on top of a hypervisor, resulting in lean images, fast boot times, and a small attack surface. In theory, this sounds like an excellent isolation mechanism for serverless computing at the edge. Through empirical investigation, we evaluate whether current implementations hold up to this promise, comparing OSv, Nanos, gVisor, Docker, and Linux on Firecracker as FaaS isolation mechanisms at the edge.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/1-TobiasPfandzelter-AreUnikernelsReadyForServerlessOnTheEdge.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Tobias Pfandzelter.</strong> 
+          <br/>Contact: tp@3s.tu-berlin.de.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t2">#2 - GeoFF: Federated Serverless Workflows with Data Pre-Fetching</h3>
+
+        <p class="lead">
+          <strong>Function-as-a-Service (FaaS) is a popular cloud computing model in which applications are implemented as work flows of multiple independent functions. While cloud providers usually offer composition services for such workflows, they do not support cross-platform workflows forcing developers to hardcode the composition logic. Furthermore, FaaS workflows tend to be slow due to cascading cold starts, inter-function latency, and data download latency on the critical path. In this paper, we propose GeoFF, a serverless choreography middleware that executes FaaS workflows across different public and private FaaS platforms, including ad-hoc workflow recomposition. Furthermore, GeoFF supports function pre-warming and data pre-fetching. This minimizes end-to-end workflow latency by taking cold starts and data download latency off the critical path. In experiments with our proof-of-concept prototype and a realistic application, we were able to reduce end-to-end latency by more than 50%.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/2-ValentinCarl-GeoFF.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Valentin Carl.</strong> 
+          <br/>Contact: carl@tu-berlin.de.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t3">#3 - Increasing Efficiency and Result Reliability of Continuous Benchmarking for FaaS Applications</h3>
+
+        <p class="lead">
+          <strong>In a continuous deployment setting, Function-as-a-Service (FaaS) applications frequently receive updated releases, each of which can cause a performance regression. While continuous benchmarking, i.e., comparing benchmark results of the updated and the previous version, can detect such regressions, performance variability of FaaS platforms necessitates thousands of function calls, thus, making continuous benchmarking time-intensive and expensive. In this paper, we propose DuetFaaS, an approach which adapts duet benchmarking to FaaS applications. With DuetFaaS, we deploy two versions of FaaS function in a single cloud function instance and execute them in parallel to reduce the impact of platform variability. We evaluate our approach against state-of-the-art approaches, running on AWS Lambda. Overall, DuetFaaS requires fewer invocations to accurately detect performance regressions than other state-of-the-art approaches. In 99.65% of evaluated cases, our approach provides smaller confidence interval sizes than the compared approaches, and can reduce the size by up to 98.23%.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/3-TimDockenfuB-IncreasingEfficiency.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Tim Dockenfuß.</strong> 
+          <br/>Contact: dockenfuss@tu-berlin.de.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t4">#4 - GeoFaaS: An Edge-to-Cloud FaaS Platform</h3>
+
+        <p class="lead">
+          <strong>The massive growth of mobile and IoT devices demands geographically distributed computing systems for optimal performance, privacy, and scalability. However, existing edge-to-cloud serverless platforms lack location awareness, resulting in inefficient network usage and increased latency.      In this paper, we propose GeoFaaS, a novel edge-to-cloud Function-as-a-Service (FaaS) platform that leverages real-time client location information for transparent request execution on the nearest available FaaS node. If needed, GeoFaaS transparently offloads requests to the cloud when edge resources are overloaded, thus, ensuring consistent execution without user intervention. GeoFaaS has a modular and decentralized architecture: building on the single-node FaaS system tinyFaaS, GeoFaaS works as a stand-alone edge-to-cloud FaaS platform but can also integrate and act as a routing layer for existing FaaS services, e.g., in the cloud. To evaluate our approach, we implemented an open-source proof-of-concept prototype and studied performance and fault-tolerance behavior in experiments.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/4-Malekabbasi-GeoFaaS.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Mohammadreza Malekabbasi.</strong> 
+          <br/>Contact: mm@3s.tu-berlin.de.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t5">#5 - ElastiBench: Scalable Continuous Benchmarking on Cloud FaaS Platforms</h3>
+
+        <p class="lead">
+          <strong>Running microbenchmark suites often and early in the development process enables developers to identify performance issues in their application. Microbenchmark suites of complex applications can comprise hundreds of individual benchmarks and take multiple hours to evaluate meaning fully, making running those benchmarks as part of CI/CD pipelines infeasible. In this paper, we reduce the total execution time of microbenchmark suites by leveraging the massive scalability and elasticity of FaaS (Function-as-a-Service) platforms. While using FaaS enables users to quickly scale up to thousands of parallel function instances to speed up microbenchmarking, the performance variation and low control over the underlying computing resources complicate reliable benchmarking. We present ElastiBench, an architecture for executing microbenchmark suites on cloud FaaS platforms, and evaluate it on code changes from an open-source time series database. Our evaluation shows that our prototype can produce reliable results (~95% of performance changes accurately detected) in a quarter of the time (≤15min vs. ~4h) and at lower cost ($0.49 vs. $1.18) compared to cloud-based virtual machines.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/5-TreverSchirmer-ElastiBench.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Trever Schirmer.</strong> 
+          <br/>Contact: mm@3s.tu-berlin.de.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+        
+
+
+        <h3 id="t6">#6 - Parrotfish: Parametric Regression for Optimizing Serverless Functions</h3>
+
+        <p class="lead">
+          <strong>Serverless computing eases the process of application deployment for the developers. Yet rightsizing serverless functions remains a challenge. Rightsizing a serverless function is necessary to ensure optimal cost and/or performance. In this work, we identify that using parametric regression can significantly simplify function rightsizing compared to current state of the art techniques that use black-box optimization. With this insight, we build a tool, called Parrotfish. Parrotfish achieves substantially lower exploration costs (1.81-9.96×) compared with the state-of-the-art tools, while reducing the cost of running the functions by %25.74, on average.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/6-ArshiaMoghimi-Parrotfish.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Arshia Moghimi.</strong> 
+          <br/>Contact: amoghimi@student.ubc.ca.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t7">#7 - Benchmarking Serverless with SeBS: Past, Present, and Future</h3>
+
+        <p class="lead">
+          <strong>Over three years ago, we built SeBS, a serverless benchmarking suite, to address the need for an automatic, representative, and easy-to-use benchmarking framework for FaaS applications. SeBS has found applications in many research projects, and we integrated new features to address the ongoing changes in FaaS platforms, such as workflows and data movement. We continue the work to support new workloads and frameworks, and we are trying to identify upcoming trends and paradigm shifts to support researchers with reliable and reproducible benchmarks. Serverless needs an open, portable, standardized benchmarking framework to drive future progress, and we hope SeBS will help our community achieve that goal.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/7-MarcinCopik-SeBS.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Marcin Copik.</strong> 
+          <br/>Contact: marcin.copik@inf.ethz.ch.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t8">#8 - Serverless Scalable Data Engineering with Cylon and Amazon Web Services</h3>
+
+        <p class="lead">
+          <strong>Data can be found everywhere, from health to human infrastructure to the surge of sensors to the proliferation of internet-linked devices. To meet this challenge, the data engineering domain has expanded monumentally in recent years in both research and industry.  Additionally, In recent years, the data engineering discipline has been dramatically impacted by Artificial Intelligence (AI) and Machine Learning (ML), which has resulted in research on the speed, performance, and optimization of such processes. Traditionally, data engineering, Machine Learning, and Artificial Intelligence workloads have been executed on large clusters in a data center environment.  This requires considerable investment in terms of both hardware and maintenance.  With the advent of the public cloud, it is now possible to run large applications across nodes without maintaining or owning hardware.  Serverless computing has emerged in cloud and open-source varieties to meet such needs.  This allows users of such systems to focus on the application code and take advantage of bundled CPUs and memory configuration without focusing primarily on the semantics of horizontal scalability and resource allocation.  This talk discusses Serverless Cylon, a high-performance, distributed memory parallel data frame library developed to run on AWS Serverless compute.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/8-MillsStaylor-CylonAWS.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Mills Staylor.</strong> 
+          <br/>Contact: qad5gv@virginia.edu.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t9">#9 - Towards Explainable, Coordinated and Proactive Autoscaling for Microservices and Function Chains</h3>
+
+        <p class="lead">
+          <strong>In this talk, we outline our work for a new autoscaling approach suited for microservices and function chains. Key characteristics of our approach include the focus on high-level service level objectives given as tail latencies, coordinated scaling for multiple services/functions at the same time, and increased explainability and self-monitoring.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/9-MartinStraesser-TowardsExplainable.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Martin Straesser.</strong> 
+          <br/>Contact: martin.straesser@uni-wuerzburg.de.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t10">#10 - Dizi: Workload Tracing, Sharing, and Reproducing for XR Devices and Metaverse Systems</h3>
+
+        <p class="lead">
+          <strong>There is high societal and business interest in building metaverses a fundamentally new way for humans to interact seamlessly with a (largely) digital world. Novel use-cases with large societal impact, such as working remotely, travelling digitally, and interacting and gaming online, rely on recent technological leaps in extended reality (XR) hardware devices, and complex hardware and software ecosystems around these devices. However, because many metaverse ecosystem are currently emerging, understanding how these systems perform in practice is an open research challenge. This challenge is compounded by a lack of publicly available data describing the behavior of these systems. In this work, we address this challenge by designing Dizi, the first workload trace archive for metaverse applications. Dizi's archive includes user-input and resource utilization traces, and tools that partially automate the trace-collection process, enabling developers to efficiently explore performance trade-offs for metaverse applications. We show that Dizi has low overhead, offers high replay fidelity, and supports heterogeneous applications and devices. We perform an extensive set of real-world experiments using Dizi. Our main findings include that, surprisingly, using XR devices in a streamed setup is possible with network bandwidths as low as 20 Mbps, and that Meta's flagship Quest Pro's performance is similar to that of the older Quest 2 in common applications. Dizi, including all traces and tools, follows the FAIR principles and Open Science best practices and will become publicly available upon project completion.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/10-JesseDonkervliet-Dizi.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Jesse Donkervliet.</strong> 
+          <br/>Contact: j.donkervliet@gmail.com.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+        <h3 id="t11">#11 - A Dynamic Kubernetes Load Generation Solution Mimicking Human Traffic Patterns</h3>
+
+        <p class="lead">
+          <strong>This report proposes a novel tool to evaluate autoscaling algorithms within Ku- bernetes environments. Kubernetes offers a variety of autoscaling options, cate- gorized as pre-emptive (predictive) or reactive (responsive). Additionally, these algorithms can be classified as cluster autoscalers (adding/removing nodes) or workload autoscalers (adjusting pod replicas). This diversity creates challenges for deployment personnel, especially in Infrastructure as a Service (IaaS) con- texts. IaaS providers lack visibility into deployed applications yet must adhere to service level agreements (SLAs), often leading to over-provisioning. Further- more, the growing range of Kubernetes cluster types, including geographically distributed edge clusters, adds complexity. Considering these factors and the potential for multi-cluster algorithms, a vast number of permutations require testing. Our proposed tool addresses this gap by facilitating highly reproducible experimentation that maintains realistic application behavior. This enables the evaluation of various hypotheses to identify optimal autoscaling configurations.</strong
+          >
+        </p>
+        <p class="lead">
+          Slides [<a href="presentations/11-RanjanOjha-DynamicKubernetes.pdf">PDF</a>]
+        </p>
+
+        <p class="lead">
+          <strong>Ranjan Ojha.</strong> 
+          <br/>Contact: ojha@zhaw.ch.
+        </p>
+
+        <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+        
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer text-center bg-light">
+      <div class="container px-4 px-lg-5">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/wosc17"><i class="icon-social-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://github.com/serverlesscomputing/serverlesscomputing"><i class="icon-social-github"></i></a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; WoSC 2024</p>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
