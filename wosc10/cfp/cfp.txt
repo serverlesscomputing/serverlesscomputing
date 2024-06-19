@@ -1,15 +1,15 @@
-9th International Workshop on Serverless Computing (WoSC9)
+10th International Workshop on Serverless Computing (WoSC10) 2024
 
-   Part of [1]ACM/IFIP Middleware 2023.
+   Part of [1]ACM/IFIP Middleware 2024.
 
-   WoSC9 will be hybrid this year with both virtual and on-location
+   WoSC10 will be hybrid this year with both virtual and on-location
    formats. Please note that while hybrid formats will be supported for
-   workshops, the Middleware 2023 steering committee wants the main
+   workshops, the Middleware 2024 steering committee wants the main
    conference to be held in in-person only. Prospective attendees of the
-   workshop should keep this in mind if they plan to attend both WoSC9 and
-   Middleware 2023.
+   workshop should keep this in mind if they plan to attend both WoSC10
+   and Middleware 2024.
 
-   Over the last nine years, Serverless Computing (Serverless) has gained
+   Over the last ten years, Serverless Computing (Serverless) has gained
    an enthusiastic following in industry as a compelling paradigm for the
    deployment of cloud applications, and is enabled by the recent shift of
    enterprise application architectures to containers and microservices.
@@ -55,7 +55,7 @@
    anything else that may be interesting to workshop audience.
 
    The latest version of this CFP is available at
-   [3]http://serverlesscomputing.org/wosc9/
+   [3]http://serverlesscomputing.org/wosc10/
 
 Topics
 
@@ -90,12 +90,12 @@ Topics
 
 Important Dates
 
-   Paper Submission: October 2, 2023 (AOE)
-   Notification of Acceptance: October 10, 2023
-   Final Camera-Ready Manuscript (Hard Deadline): October 20, 2023
-   Non-paper submissions (demos and other proposals): November 10, 2023
+   Paper Submission: September 25, 2024 (AOE)
+   Notification of Acceptance: October 5, 2024
+   Final Camera-Ready Manuscript (Hard Deadline): October 27, 2024
+   Non-paper submissions (demos and other proposals): November 10, 2024
    Author registration deadline: TBD
-   Conference: December 11-15, 2023
+   Conference: Decemeber 2-5, 2024
 
 Papers and Submissions
 
@@ -117,7 +117,7 @@ Papers submissions
    The Middleware conference organizers will provide companion proceedings
    including all workshop papers, which will be available in the ACM
    Digital Library. This is subject to the availability of their
-   camera-ready papers by October 20, 2023.
+   camera-ready papers by October 27, 2024.
 
    Authors should submit the manuscript in PDF format. All manuscripts
    will be reviewed and will be judged on correctness, originality,
@@ -125,7 +125,7 @@ Papers submissions
    presentation, and interest and relevance to the conference attendees.
    Papers conforming to the above guidelines can be submitted through the
    paper submission system powered by HotCRP
-   ([5]https://wosc2023.hotcrp.com/).
+   ([5]https://wosc2024.hotcrp.com/).
 
    All submitted manuscripts (following MIDDLEWARE conference requirements
    on formatting and page limits) will be peer-reviewed by at least 3
@@ -140,7 +140,7 @@ Other submissions
 
    Proposals must be submitted as short abstracts (not longer than one
    page) in PDF format using the paper submission system HotCRP
-   ([6]https://wosc2023.hotcrp.com/).
+   ([6]https://wosc2024.hotcrp.com/).
 
    Accepted presentations will not be part of the conference proceedings
    but will be part of the workshop agenda with dedicated time for live
@@ -193,9 +193,9 @@ Program Committee (tentative)
 
 References
 
-   1. http://2023.middleware-conference.org/
+   1. http://2024.middleware-conference.org/
    2. https://platformengineering.org/
-   3. http://serverlesscomputing.org/wosc9/
+   3. http://serverlesscomputing.org/wosc10/
    4. https://www.acm.org/publications/proceedings-template
-   5. https://wosc2023.hotcrp.com/
-   6. https://wosc2023.hotcrp.com/
+   5. https://wosc2024.hotcrp.com/
+   6. https://wosc2024.hotcrp.com/
