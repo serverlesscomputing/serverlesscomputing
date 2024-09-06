@@ -9,7 +9,7 @@
 docker-compose up
 ```
 
-Open http://0.0.0.0:4000/wosc9/
+Open http://0.0.0.0:4000/wosc10/
 
 
 ### Instructions to run locally
@@ -114,7 +114,7 @@ to point to workshop index.html with ../index.html:
 sed -i '' -e 's/index.html/..\/index.html/g' gallery/2017-12.html
 ```
 
-### TODO Using Docker 
+### TODO Using Docker
 
 Currently fails missing .config somehow ...
 
