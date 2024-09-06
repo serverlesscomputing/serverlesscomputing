@@ -141,7 +141,7 @@ Papers submissions
    a full pre-conference registration.
 
    Please ensure that you and your co-authors obtain an ORCID ID, so you
-   can complete the publishing process> for your accepted paper. ACM has
+   can complete the publishing process for your accepted paper. ACM has
    been involved in ORCID from the start and we have recently made a
    commitment to collect ORCID IDs from all of our published authors
    ([6]https://authors.acm.org/author-resources/orcid-faqs). The
