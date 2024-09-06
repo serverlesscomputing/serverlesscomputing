@@ -3,6 +3,10 @@ services:
   jekyll:
     volumes:
         - './:/srv/jekyll'
+    # neede dto add UID or failing with permissionsproblem
+    environment:
+      JEKYLL_UID: 501
+      JEKYLL_GID: 20
     ports:
         - '4000:4000'
         - '35729:35729'
