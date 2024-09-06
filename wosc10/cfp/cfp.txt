@@ -137,6 +137,9 @@ Papers submissions
    will appear in the conference proceedings as well as in the ACM Digital
    Library.
 
+   Note that at least one author of each accepted workshop paper must hold
+   a full pre-conference registration.
+
    Please ensure that you and your co-authors obtain an ORCID ID, so you
    can complete the publishing process> for your accepted paper. ACM has
    been involved in ORCID from the start and we have recently made a
