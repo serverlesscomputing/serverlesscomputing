@@ -110,6 +110,10 @@ Papers submissions
    style, which can be found on the ACM template page. The page limit
    contains all the content, including bibliography, appendix, etc.
 
+   Note that submissions must be doubly anonymous - authors’ names must
+   not appear on the manuscript, and authors must make a good-faith
+   attempt to anonymize their submissions.
+
    Submitted papers must adhere to the formatting instructions of the ACM
    SIGPLAN style, which can be found on the [4]ACM template page. The font
    size has to be set to 10pt.
@@ -133,6 +137,51 @@ Papers submissions
    will appear in the conference proceedings as well as in the ACM Digital
    Library.
 
+   Please ensure that you and your co-authors obtain an ORCID ID, so you
+   can complete the publishing process> for your accepted paper. ACM has
+   been involved in ORCID from the start and we have recently made a
+   commitment to collect ORCID IDs from all of our published authors
+   ([6]https://authors.acm.org/author-resources/orcid-faqs). The
+   collection process has started and will roll out as a requirement
+   throughout 2022. We are committed to improve author discoverability,
+   ensure proper attribution and contribute to ongoing community efforts
+   around name normalization; your ORCID ID will help in these efforts.
+
+Anonymity Requirements for Doubly-Anonymous Reviewing
+
+   Every research paper submitted to ACM Middleware 2024 will undergo a
+   ''doubly-anonymous'' reviewing process: in addition to maintaining the
+   anonymity of the reviewers of the papers, the PC members and reviewers
+   will not know the identity of the authors. To ensure the anonymity of
+   authorship, authors must at least do the following:
+    1. Authors' names and affiliations must not appear on the title page
+       or elsewhere in the paper.
+    2. Funding sources must not be acknowledged anywhere in the paper
+       under review; these can be added to accepted papers upon submission
+       of the camera-ready manuscript.
+    3. Non-anonymized links to the authors’ online content must be
+       removed.
+    4. Research group members, or other colleagues or collaborators, must
+       not be acknowledged anywhere in the paper.
+    5. The paper’s file name must not identify the authors of the paper.
+
+   Authors should also use care in referring to related past work. The
+   solution is to reference past work in the third person (in the same way
+   that one would reference work by anyone else). This allows you to set
+   the context for your submission while at the same time preserving
+   anonymity.
+
+   Despite the anonymity requirements, authors should still include all
+   relevant work, including their own; omitting them could reveal the
+   author's identity by negation. However, self-references should be
+   limited to the essential ones, and extended versions of the submitted
+   paper (e.g., technical reports or URLs for downloadable versions) must
+   not be referenced. The goal is to preserve anonymity while allowing the
+   reader to grasp the context of the submitted paper fully. It is the
+   responsibility of authors to do their very best to preserve anonymity.
+   Papers that do not follow the guidelines or potentially reveal the
+   author's identity are subject to immediate rejection.
+
 Other submissions
 
    Authors are invited to submit proposals for demos and other
@@ -140,7 +189,7 @@ Other submissions
 
    Proposals must be submitted as short abstracts (not longer than one
    page) in PDF format using the paper submission system HotCRP
-   ([6]https://wosc2024.hotcrp.com/).
+   ([7]https://wosc2024.hotcrp.com/).
 
    Accepted presentations will not be part of the conference proceedings
    but will be part of the workshop agenda with dedicated time for live
@@ -198,4 +247,5 @@ References
    3. http://serverlesscomputing.org/wosc10/
    4. https://www.acm.org/publications/proceedings-template
    5. https://wosc2024.hotcrp.com/
-   6. https://wosc2024.hotcrp.com/
+   6. https://authors.acm.org/author-resources/orcid-faqs
+   7. https://wosc2024.hotcrp.com/
