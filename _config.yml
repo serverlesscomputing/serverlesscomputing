@@ -81,9 +81,28 @@ defaults:
       layout: keynote
       permalink: "wosc9/:collection/:title"
 
+  - scope:
+      path: "_papers/wosc10"
+      type: papers
+    values:
+      layout: paper
+      permalink: "wosc10/:collection/:title"
+  - scope:
+      path: "_demos/wosc10"
+      type: demos
+    values:
+      layout: demo
+      permalink: "wosc10/:collection/:title"
+  - scope:
+      path: "_keynotes/wosc10"
+      type: keynotes
+    values:
+      layout: keynote
+      permalink: "wosc10/:collection/:title"
+
 wosc:
-  current_edition: woscx3
-  current_edition_number: 103
+  current_edition: wosc10
+  current_edition_number: 10
   links:
     - name: Call for Papers
       relative_url: /cfp
@@ -99,6 +118,8 @@ wosc:
       relative_url: /best_paper
     - name: Previous Editions
       menu:
+        - name: 2024 WoSCx3
+          relative_url: /woscx3
         - name: 2023 WoSC 9
           relative_url: /wosc9
         - name: 2023 WoSCx2
