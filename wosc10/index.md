@@ -13,6 +13,9 @@ hero:
   background: images/banner.png
 
 news:
+  - date: "2024-09-11"
+    title: "Submissions are open"
+    body: "Submissions are open. Please note the requirements that submissions must be doubly anonymous. Detail in [Call For Papers](cfp)"
   - date: "2024-06-18"
     title: "Call For Papers available"
     body: "Please click [here](cfp) and access Call For Papers info"

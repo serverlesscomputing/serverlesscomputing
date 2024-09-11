@@ -68,13 +68,32 @@ Authors are invited to submit original, unpublished research/application papers 
 
 Submitted manuscripts should be structured as technical papers and may not exceed six (6) single-spaced double-column pages using ACM SIGPLAN style, which can be found on the [ACM template page](https://www.acm.org/publications/proceedings-template). The page limit contains all the content, including bibliography, appendix, etc.
 
+**Note that submissions must be doubly anonymous - authors’ names must not appear on the manuscript, and authors must make a good-faith attempt to anonymize their submissions.**
+
+
 Submitted papers must adhere to the formatting instructions of the ACM SIGPLAN style, which can be found on the ACM template page. **The font size has to be set to 10pt.**
 
 The Middleware conference organizers will provide companion proceedings including all workshop papers, which will be available in the ACM Digital Library. This is subject to the availability of their camera-ready papers by October 27, 2024.
 
-Authors should submit the manuscript in PDF format. All manuscripts will be reviewed and will be judged on correctness, originality, technical strength, rigour in analysis, quality of results, quality of presentation, and interest and relevance to the conference attendees. Papers conforming to the above guidelines can be submitted through the paper submission system powered by [HotCRP](https://wosc2024.hotcrp.com/).
+Authors should submit the manuscript in PDF format. All manuscripts will be reviewed and will be judged on correctness, originality, technical strength, rigour in analysis, quality of results, quality of presentation, and interest and relevance to the conference attendees. Papers conforming to the above guidelines can be submitted through the paper submission system powered by HotCRP [https://wosc2024.hotcrp.com/](https://wosc2024.hotcrp.com/).
 
 All submitted manuscripts (following MIDDLEWARE conference requirements on formatting and page limits) will be peer-reviewed by at least 3 program committee members. Accepted papers with confirmed presentation will appear in the conference proceedings as well as in the ACM Digital Library.
+
+**Note that at least one author of each accepted workshop paper must hold a full pre-conference registration.**
+
+Please ensure that you and your co-authors obtain an ORCID ID, so you can complete the publishing process for your accepted paper. ACM has been involved in ORCID from the start and we have recently made a commitment to collect ORCID IDs from all of our published authors (<a href="https://authors.acm.org/author-resources/orcid-faqs">https://authors.acm.org/author-resources/orcid-faqs</a>). The collection process has started and will roll out as a requirement throughout 2022. We are committed to improve author discoverability, ensure proper attribution and contribute to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
+
+### Anonymity Requirements for Doubly-Anonymous Reviewing
+
+Every research paper submitted to ACM Middleware 2024 will undergo a ''doubly-anonymous'' reviewing process: in addition to maintaining the anonymity of the reviewers of the papers, the PC members and reviewers will not know the identity of the authors. To ensure the anonymity of authorship, authors must at least do the following:
+
+* Authors' names and affiliations must not appear on the title page or elsewhere in the paper.
+* Funding sources must not be acknowledged anywhere in the paper under review; these can be added to accepted papers upon submission of the camera-ready manuscript.
+* Non-anonymized links to the authors’ online content must be removed.
+* Research group members, or other colleagues or collaborators, must not be acknowledged anywhere in the paper.</li>
+* The paper’s file name must not identify the authors of the paper.
+
+
 
 ### Other submissions
 
