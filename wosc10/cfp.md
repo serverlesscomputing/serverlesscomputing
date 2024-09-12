@@ -23,7 +23,7 @@ As this year the workshop is hybrid and we are looking not only for research pap
 The latest version of this CFP is available at [https://serverlesscomputing.org/wosc10/](https://serverlesscomputing.org/wosc10/)
 
 
-## Topics 
+## Topics
 This workshop solicits papers from both academia and industry on the state of practice and state of the art in serverless computing. Topics of interest include but are not limited to:
 
 * Infrastructure and network optimizations for serverless applications
@@ -99,9 +99,9 @@ Every research paper submitted to ACM Middleware 2024 will undergo a ''doubly-an
 
 Authors are invited to submit proposals for demos and other presentations that are not papers.
 
-Proposals must be submitted as short abstracts (not longer than one page) in PDF format using the paper submission system [HotCRP](https://wosc2024.hotcrp.com/).
+Proposals must be submitted as short abstracts (not longer than one page) in PDF format using the online form [https://forms.gle/t9CatNnfFGnaAJAw9](https://forms.gle/t9CatNnfFGnaAJAw9).
 
-Accepted presentations will not be part of the conference proceedings but will be part of the workshop agenda with dedicated time for live presentation (with video backup), questions etc. 
+Accepted presentations will not be part of the conference proceedings but will be part of the workshop agenda with dedicated time for live presentation (with video backup), questions etc.
 
 ## Organization
 
