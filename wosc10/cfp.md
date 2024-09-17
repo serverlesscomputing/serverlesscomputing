@@ -93,8 +93,6 @@ Every research paper submitted to ACM Middleware 2024 will undergo a ''doubly-an
 * Research group members, or other colleagues or collaborators, must not be acknowledged anywhere in the paper.</li>
 * The paper’s file name must not identify the authors of the paper.
 
-
-
 ### Other submissions
 
 Authors are invited to submit proposals for demos and other presentations that are not papers.
@@ -102,6 +100,10 @@ Authors are invited to submit proposals for demos and other presentations that a
 Proposals must be submitted as short abstracts (not longer than one page) in PDF format using the online form [https://forms.gle/t9CatNnfFGnaAJAw9](https://forms.gle/t9CatNnfFGnaAJAw9).
 
 Accepted presentations will not be part of the conference proceedings but will be part of the workshop agenda with dedicated time for live presentation (with video backup), questions etc.
+
+### Questions
+
+To ask questions related to WoSC10 please use wosc10 channel in [https://discord.gg/RQzyVESk9F](our Discord server). In case of issues that should be reported privately to WoSC10 chairs and organizers use wosc10 at serverless computing org domain.
 
 ## Organization
 
