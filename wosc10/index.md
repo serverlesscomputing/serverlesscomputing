@@ -13,6 +13,9 @@ hero:
   background: images/banner.png
 
 news:
+  - date: "2024-09-24"
+    title: "Submissions deadline extended"
+    body: "Submissions deadline is extended. Detail in [Call For Papers](cfp)"
   - date: "2024-09-11"
     title: "Submissions are open"
     body: "Submissions are open. Please note the requirements that submissions must be doubly anonymous. Detail in [Call For Papers](cfp)"

@@ -49,9 +49,9 @@ This workshop solicits papers from both academia and industry on the state of pr
 ## Important Dates
 
 
-**Paper Submission:** September 25, 2024 (AOE)
+**Paper Submission:** **October 12, 2024 (AOE)** (extended)
 
-**Notification of Acceptance:** October 5, 2024
+**Notification of Acceptance:** October 21, 2024
 
 **Final Camera-Ready Manuscript (Hard Deadline):** October 27, 2024
 
@@ -109,10 +109,10 @@ To ask questions related to WoSC10 please use wosc10 channel in [https://discord
 
 ### Workshop co-chairs
 
-Paul Castro, IBM Research  
-Pedro García López, University Rovira i Virgili  
-Vatche Ishakian, IBM Research  
-Vinod Muthusamy, IBM Research  
+Paul Castro, IBM Research
+Pedro García López, University Rovira i Virgili
+Vatche Ishakian, IBM Research
+Vinod Muthusamy, IBM Research
 Aleksander Slominski, IBM Research
 
 ### Steering Committee
