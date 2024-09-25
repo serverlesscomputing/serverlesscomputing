@@ -10,8 +10,19 @@
       <div class="col text-xl-end text-dark">
         {{ page.hero.description | markdownify | replace: '<p>', '</p><p class="fw-normal fs-4 mb-4">' | replace: '<a', '<a class="link-dark" ' }}
           <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-end">
-            <a class="btn btn-light btn-lg px-4 me-sm-3" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}/cfp">Call for Papers</a>
-            <a class="btn btn-light btn-lg px-4" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}/papers">Accepted papers</a>
+            <a class="btn btn-light btn-lg px-4" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}/#news">News</a>
+            <!-- if any paper match wosc version, show CFP, else show accepted papers -->
+            {% assign any_papers = 0 %}
+            {% for paper in site.papers %}
+              {% if paper.wosc == page.wosc %}
+                {% assign any_papers = 1 %}
+              {% endif %}
+            {% endfor %}
+            {% if any_papers == 0 %}
+            <a class="btn btn-light btn-lg px-4 me-sm-3" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}/cfp#important-dates">Call for Papers (extended)</a>
+            {% else %}
+            <a class="btn btn-light btn-lg px-4 me-sm-3" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}/papers">Accepted papers</a>
+            {% endif %}
           </div>
       </div>
     </div>

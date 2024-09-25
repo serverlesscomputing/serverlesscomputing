@@ -1,5 +1,5 @@
 ---
-layout: home-cfp
+layout: home
 title: Home
 wosc: 10
 hero:
