@@ -123,30 +123,30 @@ Arno Jacobsen, MSRG (Middleware Systems Research Group)
 
 ### Program Committee (tentative)
 
-Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)  
-Gul Agha, University of Illinois at Urbana-Champaign  
-Marc Sánchez Artigas, Universitat Rovira i Virgili  
-Azer Bestavros, Boston University  
-Tyler R. Caraza-Harter, University of Wisconsin-Madison  
-Rodrigo Fonseca, Microsoft  
-Ian Foster, University of Chicago and Argonne National Laboratory  
-Geoffrey Fox, Indiana University  
-Dennis Gannon, Indiana University & Formerly Microsoft Research  
-Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)  
-Volker Hilt, Bell Labs (Nokia)  
 Alexandru Iosup, Vrije Universiteit Amsterdam  
-Arno Jacobsen, MSRG (Middleware Systems Research Group)  
 Ali Kanso, Microsoft  
-Višnja Križanović, Josip Juraj Strossmayer University of Osijek  
+Azer Bestavros, Boston University  
+Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)  
+Dennis Gannon, Indiana University & Formerly Microsoft Research  
+Eric Rozner, University of Colorado Boulder  
+Geoffrey Fox, Indiana University  
+Gul Agha, University of Illinois at Urbana-Champaign  
+Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)  
+Ian Foster, University of Chicago and Argonne National Laboratory  
+Josef Spillner, Zurich University of Applied Sciences  
 Kyungyong Lee, Kookmin University  
-Samuel Kounev, University of Wuerzburg  
-Wes Lloyd, University of Washington Tacoma  
-Maciej Malawski, AGH University of Science and Technology, Poland  
 Lucas Nussbaum, LORIA, France  
+Maciej Malawski, AGH University of Science and Technology, Poland  
 Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow  
+Marc Sánchez Artigas, Universitat Rovira i Virgili  
 Per Persson, Ericsson Research  
 Peter Pietzuch, Imperial College  
-Rodric Rabbah, Nimbella and Apache OpenWhisk  
-Eric Rozner, University of Colorado Boulder  
-Josef Spillner, Zurich University of Applied Sciences  
 Rich Wolski, University of California, Santa Barbara
+Rodric Rabbah, Nimbella and Apache OpenWhisk  
+Rodrigo Fonseca, Microsoft Research
+Samuel Kounev, University of Wuerzburg  
+Tyler R. Caraza-Harter, University of Wisconsin-Madison  
+Višnja Križanović, Josip Juraj Strossmayer University of Osijek  
+Volker Hilt, Bell Labs (Nokia)  
+Wes Lloyd, University of Washington Tacoma  
+
