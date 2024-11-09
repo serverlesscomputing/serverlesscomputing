@@ -14,7 +14,7 @@ wosc: 9
 | Workshop schedule  | | | |
 | --- | --- | --- | --- |
 | **1:30pm** | [Welcome](https://docs.google.com/presentation/d/1EK5MTlJJcjWCKNWwkaYs8drKcAmpsUmQQAFbktnmwVo/edit?usp=sharing) (**Aleksander Slominski** and **Pedro García Lopez**) | | [🎥](https://www.youtube.com/watch?v=1HKhH64NDJ8) |
-| | Online poll questins: What are the main challenges in serverless computing? What is the future of serverless computing? | [👨🏻‍🏫](./images/Serverless_Challenges_and_Future.pdf) | |
+| | Online poll questions: What are the main challenges in serverless computing? What is the future of serverless computing? | [👨🏻‍🏫](./images/Serverless_Challenges_and_Future.pdf) | |
 | **1:35pm-2:05pm** | **WoSC9 keynote:** [Short-lived Clouds](./keynotes) (**Javier Picorel**) - 25min + 5 min Q&A  | [👨🏻‍🏫](./presentations/keynote.pdf) | [🎥](https://www.youtube.com/watch?v=Zy0P025ndMA) |
 | **2:10pm** | **Session 1** - 2 papers (2x10min + 5min Q&A) and 2 papers (2x10min + 5min Q&A) and 10min break| | [🎥](https://www.youtube.com/watch?v=te_thgRmRbM) |
 | | Session chair: **Aleksander Slominski**| | |
