@@ -19,7 +19,7 @@ wosc: 10
 | **12:30pm** | **Lunch time** | | |
 | **1:30pm** | [Forklift: Fitting Zygote Trees for Faster Package Initialization](./papers/p3) (**Yuanzhuo Yang**)| | |
 | **2:00pm** | [NimbleNet: Serverless Computing for the Extreme Edge in Factory Environments](./papers/p4) (**Kilian Müller**) | | |
-| **2:30pm** | [Energy-Aware Scheduling of a Serverless Workload in an ISA-Heterogeneous Cluster](./papers/p5) (**Simon Arys**)| | |
+| **2:30pm** | [Energy-Aware Scheduling of a Serverless Workload in an ISA-Heterogeneous Cluster](./papers/p5) (**Etienne Rivière**)| | |
 | **3:00pm** | **Coffee Break** | | |
 | **3:30pm** | **WoSC Keynote** [(TBA)](./keynotes) (**Radu Matei**)| | |
 | **4:15pm** | [Bauplan: Zero-copy, Scale-up FaaS for Data Pipelines](./papers/p6)  (**Jacopo Tagliabue**) | | |
