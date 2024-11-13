@@ -8,7 +8,7 @@ wosc: 10
 
 **Workshop location:** hybrid: on-location and virtual (Zoom) co-located with [The Tenth International Workshop on Container Technologies and Container Clouds](https://sites.google.com/view/woc24/home)
 
-**Workshop organizers on site in Hong Kong:** Praveen Venkateswaran and German Eizaguirre*
+**Workshop organizers on site in Hong Kong:** Praveen Venkateswaran and German Eizaguirre
 
 | Workshop schedule  | **Monday 2 December** (10:30am-5:15pm) | | |
 | --- | --- | --- | --- |
