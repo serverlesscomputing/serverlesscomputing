@@ -13,9 +13,10 @@ wosc: 10
 | Workshop schedule  | **Monday 2 December** (10:30am-5:15pm) | | |
 | --- | --- | --- | --- |
 | **10:30am** | **Starting coffee** | | |
-| **11:00am** | **Welcome session** | | |
+| **11:00am** | **Welcome** | | |
 | **11:15am** | [Advancing Serverless Computing for Scalable AI Model Inference: Challenges and Opportunities](./papers/p1) (**Li Wang**) | | |
 | **11:45am** | [Intelligent Optimization of Distributed Pipeline Execution in Serverless Platforms: A Predictive Model Approach](./papers/p2) (**Usama Benabdelkrim Zakan**) | | |
+| **12:15pm** | **Break** | | |
 | **12:30pm** | **Lunch time** | | |
 | **1:30pm** | [Forklift: Fitting Zygote Trees for Faster Package Initialization](./papers/p3) (**Yuanzhuo Yang**)| | |
 | **2:00pm** | [NimbleNet: Serverless Computing for the Extreme Edge in Factory Environments](./papers/p4) (**Kilian Müller**) | | |
@@ -28,6 +29,7 @@ wosc: 10
 
 | Workshop schedule  | **Tuesday 3 December** (9:15am-10:30am) | | |
 | --- | --- | --- | --- |
-| **9:15am** | **Starting coffee** | | |
+| **9:15am** | **Welcome** | | |
 | **9:30am** | **(WoC'24)** [A Perfect Fit? – Towards Containers on Microkernels (WoC’24) ](./papers/p8) (**Michael Roitzsch**) | | |
 | **10:00am** | **(WoC'24)** [Multi-Stakeholder Policy Enforcement for Distributed Systems (WoC’24)](./papers/p9) (**Robert Walther**) | | |
+| **10:30am** | **Coffee Break** | | |
