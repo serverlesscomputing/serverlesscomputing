@@ -29,5 +29,5 @@ wosc: 10
 | Workshop schedule  | **Tuesday 3 December** (9:15am-10:30am) | | |
 | --- | --- | --- | --- |
 | **9:15am** | **Starting coffee** | | |
-| **9:30am** | **(WoC'24)** [A Perfect Fit? – Towards Containers on Microkernels (WoC’24) ](./papers/p8) (**Till Miemietz**) | | |
+| **9:30am** | **(WoC'24)** [A Perfect Fit? – Towards Containers on Microkernels (WoC’24) ](./papers/p8) (**Michael Roitzsch**) | | |
 | **10:00am** | **(WoC'24)** [Multi-Stakeholder Policy Enforcement for Distributed Systems (WoC’24)](./papers/p9) (**Robert Walther**) | | |
