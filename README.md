@@ -28,7 +28,7 @@ Run server with command:
 bundle exec jekyll serve
 ```
 
-Open http://0.0.0.0:4000/wosc9/
+Open http://0.0.0.0:4000/wosc10/
 
 ## Add a new WOSC edition
 

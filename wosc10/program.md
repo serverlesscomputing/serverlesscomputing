@@ -22,7 +22,7 @@ wosc: 10
 | **2:00pm** | [NimbleNet: Serverless Computing for the Extreme Edge in Factory Environments](./papers/p4) (**Kilian Müller**) | | |
 | **2:30pm** | [Energy-Aware Scheduling of a Serverless Workload in an ISA-Heterogeneous Cluster](./papers/p5) (**Etienne Rivière**)| | |
 | **3:00pm** | **Coffee Break** | | |
-| **3:30pm** | **WoSC Keynote** [(TBA)](./keynotes) (**Radu Matei**)| | |
+| **3:30pm** | **WoSC Keynote** [Building new serverless computing primitives with WebAssembly in a multi-region world](./keynotes) (**Radu Matei**)| | |
 | **4:15pm** | [Bauplan: Zero-copy, Scale-up FaaS for Data Pipelines](./papers/p6)  (**Jacopo Tagliabue**) | | |
 | **4:45pm** | [GraphQL vs. REST: A Performance and Cost Investigation for Serverless Applications](./papers/p7) (**Runjie Jin**) | | |
 | **5:15pm** | **Wrap-up** | | |
