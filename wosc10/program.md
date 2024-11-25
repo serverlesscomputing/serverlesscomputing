@@ -26,7 +26,8 @@ wosc: 10
 | **3:30pm** | **WoSC Keynote** [Building new serverless computing primitives with WebAssembly in a multi-region world](./keynotes) (**Radu Matei**)| | |
 | **4:15pm** | [Bauplan: Zero-copy, Scale-up FaaS for Data Pipelines](./papers/p6)  (**Jacopo Tagliabue**) | | |
 | **4:45pm** | [GraphQL vs. REST: A Performance and Cost Investigation for Serverless Applications](./papers/p7) (**Runjie Jin**) | | |
-| **5:15pm** | **Wrap-up** | | |
+| **5:15pm** | [PlugFlow: Create and execute dynamic serverless workflows](./demos/d1) (**Philipp Gritsch**, demo) | | |
+| **5:20pm** | **Wrap-up** | | |
 
 | Workshop schedule  | **Tuesday 3 December** (9:15am-10:30am) | | |
 | --- | --- | --- | --- |
