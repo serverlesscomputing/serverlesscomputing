@@ -13,7 +13,7 @@ wosc: 10
 | Workshop schedule  | **Monday 2 December** (10:30am-5:15pm) | | |
 | --- | --- | --- | --- |
 | **10:30am** | **Starting coffee** | | |
-| **11:00am** | **Welcome** | | |
+| **11:00am** | **Welcome** [slides](https://docs.google.com/presentation/d/1l8Csgr_7WfP2LopvQzJut8ILvJY6uRSsQU4owJgZS8M/edit?usp=sharing) | | |
 | **11:15am** | [Advancing Serverless Computing for Scalable AI Model Inference: Challenges and Opportunities](./papers/p1) (**Li Wang**) | | |
 | **11:45am** | [Intelligent Optimization of Distributed Pipeline Execution in Serverless Platforms: A Predictive Model Approach](./papers/p2) (**Usama Benabdelkrim Zakan**) | | |
 | **12:15pm** | **Break** | | |
