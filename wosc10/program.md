@@ -13,7 +13,7 @@ wosc: 10
 | Workshop schedule  | **Monday 2 December** (10:30am-5:15pm) | | |
 | --- | --- | --- | --- |
 | **10:30am** | **Starting coffee** | | |
-| **11:00am** | **Welcome** [slides](https://docs.google.com/presentation/d/1l8Csgr_7WfP2LopvQzJut8ILvJY6uRSsQU4owJgZS8M/edit?usp=sharing) | | |
+| **11:00am** | [Welcome slides](./presentations/welcome-to-wosc10.pdf) | | |
 | **11:15am** | [Advancing Serverless Computing for Scalable AI Model Inference: Challenges and Opportunities](./papers/p1) (**Li Wang**) | | |
 | **11:45am** | [Intelligent Optimization of Distributed Pipeline Execution in Serverless Platforms: A Predictive Model Approach](./papers/p2) (**Usama Benabdelkrim Zakan**) | | |
 | **12:15pm** | **Break** | | |
@@ -22,7 +22,7 @@ wosc: 10
 | **2:00pm** | [NimbleNet: Serverless Computing for the Extreme Edge in Factory Environments](./papers/p4) (**Kilian Müller**) | | |
 | **2:30pm** | [Energy-Aware Scheduling of a Serverless Workload in an ISA-Heterogeneous Cluster](./papers/p5) (**Etienne Rivière**)| | |
 | **3:00pm** | **Coffee Break** | | |
-| **3:20pm** | **Online polls** (**Pedro García Lopez** and **German Eizaguirre**) | | |
+| **3:20pm** | [Online polls](./presentations/wosc10-online-polls-results.pdf) (**Pedro García Lopez** and **German Eizaguirre**) | | |
 | **3:30pm** | **WoSC Keynote** [Building new serverless computing primitives with WebAssembly in a multi-region world](./keynotes) (**Radu Matei**)| | |
 | **4:15pm** | [Bauplan: Zero-copy, Scale-up FaaS for Data Pipelines](./papers/p6)  (**Jacopo Tagliabue**) | | |
 | **4:45pm** | [GraphQL vs. REST: A Performance and Cost Investigation for Serverless Applications](./papers/p7) (**Runjie Jin**) | | |
