@@ -109,44 +109,44 @@ To ask questions related to WoSC10 please use wosc10 channel in [our Discord ser
 
 ### Workshop co-chairs
 
-Paul Castro, IBM Research
-Pedro García López, University Rovira i Virgili
-Vatche Ishakian, IBM Research
-Vinod Muthusamy, IBM Research
-Aleksander Slominski, IBM Research
+* Paul Castro, IBM Research
+* Pedro García López, University Rovira i Virgili
+* Vatche Ishakian, IBM Research
+* Vinod Muthusamy, IBM Research
+* Aleksander Slominski, IBM Research
 
 ### Steering Committee
 
-Geoffrey Fox, Indiana University
-Dennis Gannon, Indiana University & Formerly Microsoft Research
-Arno Jacobsen, MSRG (Middleware Systems Research Group)
+* Geoffrey Fox, Indiana University
+* Dennis Gannon, Indiana University & Formerly Microsoft Research
+* Arno Jacobsen, MSRG (Middleware Systems Research Group)
 
 ### Program Committee (tentative)
 
-Alexandru Iosup, Vrije Universiteit Amsterdam
-Ali Kanso, Microsoft
-Azer Bestavros, Boston University
-Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
-Dennis Gannon, Indiana University & Formerly Microsoft Research
-Eric Rozner, University of Colorado Boulder
-Geoffrey Fox, Indiana University
-Gul Agha, University of Illinois at Urbana-Champaign
-Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)
-Ian Foster, University of Chicago and Argonne National Laboratory
-Josef Spillner, Zurich University of Applied Sciences
-Kyungyong Lee, Kookmin University
-Lucas Nussbaum, LORIA, France
-Maciej Malawski, AGH University of Science and Technology, Poland
-Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow
-Marc Sánchez Artigas, Universitat Rovira i Virgili
-Per Persson, Ericsson Research
-Peter Pietzuch, Imperial College
-Rich Wolski, University of California, Santa Barbara
-Rodric Rabbah, Nimbella and Apache OpenWhisk
-Rodrigo Fonseca, Microsoft Research
-Samuel Kounev, University of Wuerzburg
-Tyler R. Caraza-Harter, University of Wisconsin-Madison
-Višnja Križanović, Josip Juraj Strossmayer University of Osijek
-Volker Hilt, Bell Labs (Nokia)
-Wes Lloyd, University of Washington Tacoma
+* Alexandru Iosup, Vrije Universiteit Amsterdam
+* Ali Kanso, Microsoft
+* Azer Bestavros, Boston University
+* Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
+* Dennis Gannon, Indiana University & Formerly Microsoft Research
+* Eric Rozner, University of Colorado Boulder
+* Geoffrey Fox, Indiana University
+* Gul Agha, University of Illinois at Urbana-Champaign
+* Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)
+* Ian Foster, University of Chicago and Argonne National Laboratory
+* Josef Spillner, Zurich University of Applied Sciences
+* Kyungyong Lee, Kookmin University
+* Lucas Nussbaum, LORIA, France
+* Maciej Malawski, AGH University of Science and Technology, Poland
+* Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow
+* Marc Sánchez Artigas, Universitat Rovira i Virgili
+* Per Persson, Ericsson Research
+* Peter Pietzuch, Imperial College
+* Rich Wolski, University of California, Santa Barbara
+* Rodric Rabbah, Nimbella and Apache OpenWhisk
+* Rodrigo Fonseca, Microsoft Research
+* Samuel Kounev, University of Wuerzburg
+* Tyler R. Caraza-Harter, University of Wisconsin-Madison
+* Višnja Križanović, Josip Juraj Strossmayer University of Osijek
+* Volker Hilt, Bell Labs (Nokia)
+* Wes Lloyd, University of Washington Tacoma
 
