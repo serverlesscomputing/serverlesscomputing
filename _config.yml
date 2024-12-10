@@ -103,6 +103,8 @@ defaults:
 wosc:
   current_edition: wosc10
   current_edition_number: 10
+  best_paper_edition_numbers:
+    - 9
   links:
     - name: Call for Papers
       relative_url: /cfp
@@ -116,6 +118,7 @@ wosc:
       relative_url: /program
     - name: Best Paper
       relative_url: /best_paper
+      # make best paper only visible if wosc version is 9
     - name: Previous Editions
       menu:
         - name: 2024 WoSCx3

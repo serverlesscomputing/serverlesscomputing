@@ -15,7 +15,13 @@
           </ul>
       </li>
         {%- else -%}
-        <li class="nav-item"><a class="nav-link {% if link.relative_url == page.url %} active" aria-current="page{%- endif -%}" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}{{ link.relative_url }}">{{ link.name | escape }}</a></li>
+          {%- if link.relative_url == '/best_paper' -%}
+            {%- if site.wosc.best_paper_edition_numbers contains page.wosc -%}
+            <li class="nav-item"><a class="nav-link {% if link.relative_url == page.url %} active" aria-current="page{%- endif -%}" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}{{ link.relative_url }}">{{ link.name | escape }}</a></li>
+            {%- endif -%}
+          {%- else -%}
+          <li class="nav-item"><a class="nav-link {% if link.relative_url == page.url %} active" aria-current="page{%- endif -%}" href="{{ site.url }}{{ site.baseurl }}/wosc{{ page.wosc }}{{ link.relative_url }}">{{ link.name | escape }}</a></li>
+          {%- endif -%}
         {%- endif -%}
         {%- endfor -%}
       </ul>
