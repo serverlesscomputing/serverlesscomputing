@@ -118,7 +118,6 @@ wosc:
       relative_url: /program
     - name: Best Paper
       relative_url: /best_paper
-      # make best paper only visible if wosc version is 9
     - name: Previous Editions
       menu:
         - name: 2024 WoSCx3
