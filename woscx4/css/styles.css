@@ -8838,7 +8838,7 @@ fieldset:disabled .btn {
 }
 
 .bg-gradient {
-  background: linear-gradient(45deg, #6411ad, #d7263d, #ef476f, #ffc6ff);
+  background: linear-gradient(45deg, var(--bs-primary), #ef476f);
 }
 
 
@@ -12453,7 +12453,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(-45deg, #212DF3, #21F3E7, #2196F3, #fafafa);
+  background: linear-gradient(45deg, var(--bs-primary), #ef476f);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
