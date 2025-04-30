@@ -1,4 +1,4 @@
-Subject: CFP WOSCx4: Call for Talk Proposals for the Fourth Workshop on Serverless Computing Online Experience/Exchange in Now Open
+Subject: CFP WOSCx4: Call for Talk Proposals for the Fourth Workshop on Serverless Computing Online Experience/Exchange
 
 
 ---
@@ -6,7 +6,7 @@ Subject: CFP WOSCx4: Call for Talk Proposals for the Fourth Workshop on Serverle
 We would like to invite you to submit short presentations related to serverless computing to the Fourth Workshop on Serverless Computing Online Experience/Exchange (WOSCx4)
 
 Important dates:
-* Paper Submission: May 26, 2025
+* Talk Proposal Submission: May 26, 2025
 * Notification of Acceptance: June 02, 2025
 * Workshop date: June 17 (Tuesday: 3pm in Europe, 9am East Coast)
 
