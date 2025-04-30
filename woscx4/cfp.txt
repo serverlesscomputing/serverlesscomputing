@@ -8,20 +8,21 @@ We would like to invite you to submit short presentations related to serverless 
 Important dates:
 * Talk Proposal Submission: May 26, 2025
 * Notification of Acceptance: June 02, 2025
-* Workshop date: June 17 (Tuesday: 3pm in Europe, 9am East Coast)
+* Workshop date: June 17 (Tuesday: 3 pm in Europe, 9 am East Coast)
 
-These submissions will not appear in any proceedings, so you are welcome to submit work that has already been published, or early work that you would like feedback on.
+These submissions will not appear in any proceedings, so you are welcome to submit work that has already been published or early work on which you would like feedback.
 
 The submission should include presentation slides and a video.
 
-The slides should be in PDF format and be at most 5 slides. The video should be at most 5 minutes and be hosted on YouTube.
+The slides should be in PDF format and consist of at most 5 slides. The video should be at most 5 minutes long and hosted on YouTube.
 
-Submissions should indicate if they plan to have a demo after their talk (to not take longer than 5 min).
+Submissions should indicate if they plan to have a demo after their talk (not to take longer than 5 min).
 
-If your submission is accepted, you can submit a newer video, up to 5 minutes. The accepted presentations will be made available from the workshop website and the recording of the workshop will be published on YouTube.
+If your submission is accepted, you can submit a newer video, up to 5 minutes long. The accepted presentations will be available from the workshop website, and the recording of the workshop will be published on YouTube.
 
-For lightning talks tracks send one slide in PDF format - and max 2min lightning link to YouTube video recording.
+For lightning talks tracks, send one slide in PDF format and a maximum 2-minute lightning link to a YouTube video recording.
 
-We may have an open mic afterwards for discussion and panel.
+We may have an open mic afterward for discussion and a panel.
 
 To submit a proposal visit https://www.serverlesscomputing.org/woscx4/#cfp
+
