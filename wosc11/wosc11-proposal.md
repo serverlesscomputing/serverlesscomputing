@@ -106,18 +106,18 @@ Workshop co-chairs
 Technical Program Committee (tentative)
 * Alexandru Iosup, Vrije Universiteit Amsterdam
 * Ali Kanso, Microsoft
-* Cristina Abad, Escuela Superior Politécnica del * Litoral (Ecuador)
-* Dennis Gannon, Indiana University & Formerly * Microsoft Research
+* Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
+* Dennis Gannon, Indiana University & Formerly Microsoft Research
 * Eric Rozner, University of Colorado Boulder
 * Geoffrey Fox, Indiana University
 * Gul Agha, University of Illinois at Urbana-Champaign
-* Hans-Arno Jacobsen, MSRG (Middleware Systems * Research Group)
-* Ian Foster, University of Chicago and Argonne * National Laboratory
+* Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)
+* Ian Foster, University of Chicago and Argonne National Laboratory
 * Josef Spillner, Zurich University of Applied Sciences
 * Kyungyong Lee, Kookmin University
 * Lucas Nussbaum, LORIA, France
-* Maciej Malawski, AGH University of Science and * Technology, Poland
-* Maciej Pawlik, Academic Computer Centre CYFRONET of * the University of Science and Technology in Cracow
+* Maciej Malawski, AGH University of Science and Technology, Poland
+* Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow
 * Marc Sánchez Artigas, Universitat Rovira i Virgili
 * Per Persson, Ericsson Research
 * Peter Pietzuch, Imperial College
