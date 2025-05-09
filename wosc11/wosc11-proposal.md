@@ -1,7 +1,8 @@
 # Workshop Proposal
 
 ## Title
-10th International Workshop on Serverless Computing (WoSC10) part of ACM/IFIP Middleware 2024 in The Hong Kong Polytechnic University Hong Kong, China, Dec 2-6, 2024
+11th International Workshop on Serverless Computing (WoSC11) part of ACM/IFIP Middleware 2025 in Vanderbilt University, Nashville, TN, USA (December 15-19)
+
 
 ## The names, affiliations and e-mail addresses of the organizing committee
 
@@ -15,20 +16,22 @@ Pedro Garcia Lopez is full professor in Computer Science and Artificial Intellig
 Vatche Ishakian is a Research Staff Member in the AI Engineering group at the IBM Thomas J. Watson Research Center. He earned his PhD in Computer Science from Boston University under the supervision of Professor Azer Bestavros. His research interests include developing platforms and tools in support of AI cloud applications.
 
 ### Vinod Muthusamy, IBM Research
-Vinod Muthusamy is a Research Staff Member in the AI Lifecycle Acceleration group at the IBM Thomas J. Watson Research Center. His current research interests include cloud platforms that support a variety of workloads, programming models and technologies to compose services, and tools to support the development and maintenance of AI applications.
+Vinod Muthusamy is a Research Staff Member in the Agentic AI Middleware group at the IBM Thomas J. Watson Research Center. His current research interests include LLM-based agents, AI middleware, agent orchestration, and all elements of the application lifecycle to build, monitor, and maintain robust AI applications.
 
 ### Aleksander Slominski, IBM Research
 Aleksander Slominski is Research Staff Member in the Serverless Group at the IBM T.J. Watson Research Center. He is interested in development of applications for next generation Internet, Web Services, Orchestration, Components, AI, Workflows, and Clouds.
 
 ## Brief Technical Description
 
-Over the last ten years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and microservices. Many of the major cloud vendors have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions. Open source projects are gaining popularity in providing serverless computing as a service.
+Over the last eleven years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and micro-services. Many of the major cloud vendors have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions. Open source projects are gaining popularity in providing serverless computing as a service.
 
-Recently, Kubernetes gained in popularity in enterprise and in academia. Several open source projects such as OpenFaaS and Knative aim to provide developers with serverless experience on top of Kubernetes by hiding low-level details. Auto-scalable Multi-tenant Kubernetes deployments like Google Cloud Run or IBM Code Engine also overcome previous limitations of Serverless Functions like duration, networking, and higher granularity (more vCPUs).
+Recently, Kubernetes gained popularity in enterprise and academia. Several open source projects, such as OpenFaaS and Knative, aim to provide developers with a serverless experience on top of Kubernetes by hiding low-level details. Auto-scalable multi-tenant Kubernetes deployments like Google Cloud Run or IBM Code Engine also overcome previous limitations of Serverless Functions like duration, networking, and higher granularity (more vCPUs).
 
-Serverless on the cloud is a somewhat mature research area with many conferences accepting papers on this topic. In the spirit of having this workshop serve as a venue for future and exploratory research directions, we will be evolving the workshop to include hybrid cloud environments, as well as edge and IoT devices. These next-gen computing architectures are becoming more common but have little support from serverless platforms and bring new challenges to old concerns such as resource optimization, scaling, cost, monitoring, and ease of use. The serverless experience becomes an important topic for emerging topics such as DevOps and [Platform Engineering](https://platformengineering.org/) in industry and will be critical to the success of next-gen computing.
+Serverless on the cloud is a mature research area with many conferences accepting papers on this topic. In the spirit of having this workshop serve as a venue for future and exploratory research directions, we will be evolving the workshop to include hybrid cloud environments, as well as edge and IoT devices. These next-gen computing architectures are becoming more common but have little support from serverless platforms and bring new challenges to old concerns such as resource optimization, scaling, cost, monitoring, and ease of use. The serverless experience becomes an essential topic for emerging topics such as DevOps and [Platform Engineering](https://platformengineering.org/) in industry and will be critical to the success of next-gen computing.
 
 Building on the recent advances in generative AI, including Large Language Models (LLMs) and other types of Foundations Models (FMs), the workshop also plans to explore the use of hybrid serverless platforms to fine-tune, serve, and manage the lifecycle of LLMs with a focus on aspects such as use cases, resource allocations, optimizations, and using AI to improve serverless experience.
+
+Emerging applications such as AI agents present interesting serverless workloads patterns. These agentic solutions are characterized by multiple LLM calls to process user requests and construct dynamic plans, unpredictable orchestrations of API calls, and invocations of deterministic code and AI models to reflect on API responses and make progress towards a goal. They may be triggered by events, run quickly for a few seconds or autonomously for days, and communicate with other agents. These applications resurface known serverless challenges in a new setting, including cold start, state management, and resource allocation. They also raise new challenges such as mixed GPU and CPU workloads, applications with stochastic plans, bursty long running processes, inter-process communication, and integrations with agentic programming models such as LangGraph and Crew AI.
 
 This workshop brings together researchers and practitioners to discuss their experiences and thoughts on future directions of serverless research.
 
@@ -42,6 +45,7 @@ Finally, an intriguing area of research lies in the emergence of innovative FaaS
 This would be the fifth time of the workshop at Middleware and we want to build on our previous experience and continue to draw the attention of distributed systems researchers to this young research field and further drive the adoption and development of available technology.
 
 There have been nine previous editions of this workshop:
+* [WoSC10](https://www.serverlesscomputing.org/wosc10/): 25th ACM/IFIP International Conference Middleware, Dec 2, 2024 in hybrid location; virtual and in The Hong Kong Polytechnic University, Hong Kong
 * [WoSC9](https://www.serverlesscomputing.org/wosc9/): 24th ACM/IFIP International Conference Middleware, Dec 11, 2023 in hybrid location; virtual and in Québec, Canada
 * [WoSC8](https://www.serverlesscomputing.org/wosc8/): 23rd ACM/IFIP International Conference Middleware, Nov 7, 2022 in hybrid location; virtual and in Québec, Canada
 * [WoSC7](https://www.serverlesscomputing.org/wosc7/): 22nd ACM/IFIP International Conference Middleware, Dec 7, 2021 in virtual location
@@ -57,9 +61,10 @@ These are linked on the series' permanent web presence at: https://www.serverles
 The organizers of this proposed workshop are the founding members of this workshop and have co-chaired previous iterations.
 
 ### Similar Workshops
-Since WoSC has been the first academic workshop dedicated to Serverless Computing that has more than one edition. As far as we know in 2024 there are two other serverless workshop: [SESAME 2024](https://sesame2024.github.io/) Workshop on SErverless Systems, Applications and MEthodologies (co-located with EuroSys 2024) 
+
+WoSC is the first academic workshop dedicated to Serverless Computing. As far as we know, in 2025, there is only one similar workshop [GraphSys 2025](https://graphsys.org/): The Third Workshop on Serverless, Extreme-Scale, and Sustainable Graph Processing Systems that is co-located with Europar 2025 (August 25, 2025, Dresden, Germany). In 2024, there were two other serverless workshops: [SESAME 2024](https://sesame2024.github.io/) Workshop on SErverless Systems, Applications and MEthodologies (co-located with EuroSys 2024) 
 and [WORDS 2023](https://www.wordsworkshop.org/) The Fourth Workshop On Resource Disaggregation and Serverless Computing (in conjunction with SOSP 2023).
-In previous years there were few serverless workshops co-located with the conferences such as [HiPS 2022](https://highperformanceserverless.github.io/) Workshops on High Performance Serverless Computing (in conjunction with ACM HPDC) in 2021 and 2022, then in 2019 The First IEEE SERVICES Workshop on Serverless Computing [SWoSC](https://conferences.computer.org/services/2019/workshops/sc_workshop.html) and a regional workshop - European Symposium on Serverless Computing and Applications [ESSCA 2018](http://essca2018.servicelaboratory.ch/)  that was co-organized with WoSC4 in 2018. Checking with [WikiCFP](http://www.wikicfp.com/cfp/servlet/tool.search?q=serverless&year=a) those are the only similar workshops.
+In previous years there were few serverless workshops co-located with the conferences such as [HiPS 2022](https://highperformanceserverless.github.io/) Workshops on High Performance Serverless Computing (in conjunction with ACM HPDC) in 2021 and 2022, then in 2019 The First IEEE SERVICES Workshop on Serverless Computing [SWoSC](https://conferences.computer.org/services/2019/workshops/sc_workshop.html) and a regional workshop - European Symposium on Serverless Computing and Applications [ESSCA 2018](http://essca2018.servicelaboratory.ch/)  that was co-organized with WoSC4 in 2018. Checking with [WikiCFP](http://www.wikicfp.com/cfp/servlet/tool.search?q=serverless&year=a) are the only similar workshops.
 
 ##  A short description of the intended format of the workshop
 
@@ -73,11 +78,11 @@ We will use the HotCRP system in a way consistent with how Middleware workshops 
 
 ## Tentative workshop paper submission and notification deadlines
 
-* Submission:  September 25, 2024
-* Notification: October 5, 2024
-* Camera Ready: October 27, 2024
+* Submission:  September 24, 2025
+* Notification: October 19, 2025
+* Camera Ready: October 27, 2025
 * Author registration deadline: TBD
-* Conference: Decemeber 2-5, 2024
+* Conference: December 15, 2024
 
 ### Primary contacts of the organizing committee
 
@@ -99,26 +104,32 @@ Workshop co-chairs
 * Vinod Muthusamy, IBM Research
 
 Technical Program Committee (tentative)
-* Gul Agha, University of Illinois at Urbana-Champaign
-* Azer Bestavros, Boston University
-* Flavio Esposito, Saint Louis University
-* Rodrigo Fonseca, Brown University
-* Ian Foster, University of Chicago and Argonne National Laboratory
+* Alexandru Iosup, Vrije Universiteit Amsterdam
+* Ali Kanso, Microsoft
+* Cristina Abad, Escuela Superior Politécnica del * Litoral (Ecuador)
+* Dennis Gannon, Indiana University & Formerly * Microsoft Research
+* Eric Rozner, University of Colorado Boulder
 * Geoffrey Fox, Indiana University
-* Dennis Gannon, Indiana University & Formerly Microsoft Research
-* Arno Jacobsen, MSRG (Middleware Systems Research Group)
-* Wes Lloyd, University of Washington Tacoma
-* Višnja Križanović, Josip Juraj Strossmayer University of Osijek
-* Tyler Harter, GSL, Microsoft
-* Maciej Malawski, AGH University of Science and Technology
-* Pietro Michiardi, Eurecom
+* Gul Agha, University of Illinois at Urbana-Champaign
+* Hans-Arno Jacobsen, MSRG (Middleware Systems * Research Group)
+* Ian Foster, University of Chicago and Argonne * National Laboratory
+* Josef Spillner, Zurich University of Applied Sciences
+* Kyungyong Lee, Kookmin University
 * Lucas Nussbaum, LORIA, France
-* Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow
+* Maciej Malawski, AGH University of Science and * Technology, Poland
+* Maciej Pawlik, Academic Computer Centre CYFRONET of * the University of Science and Technology in Cracow
+* Marc Sánchez Artigas, Universitat Rovira i Virgili
 * Per Persson, Ericsson Research
 * Peter Pietzuch, Imperial College
-* Rodric Rabbah, Apache OpenWhisk
-* Josef Spillner, Zurich University of Applied Sciences
 * Rich Wolski, University of California, Santa Barbara
+* Rodric Rabbah, Nimbella and Apache OpenWhisk
+* Rodrigo Fonseca, Microsoft Research
+* Samuel Kounev, University of Wuerzburg
+* Tyler R. Caraza-Harter, University of * Wisconsin-Madison
+* Višnja Križanović, Josip Juraj Strossmayer * University of Osijek
+* Volker Hilt, Bell Labs (Nokia)
+* Wes Lloyd, University of Washington Tacoma
+
 
 Steering Committee (tentative)
 * Geoffrey Fox, Indiana University
