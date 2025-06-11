@@ -65,11 +65,243 @@
     <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
       <h1 class="mb-4">Talks</h1>
 
-      <div class="pt-5 pb-5">
-        To be announced
-      </div>
-    </div>
+      <h3 id="keynote">Keynote - To be announced</h3>
 
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="t1">#1 - PyRun: Effortless Scalable Scientific Computing</h3>
+
+      <p class="lead">
+        <strong>Focus on Code, Not Cloud Complexity.</strong>
+      </p>
+      <p class="lead">
+        Slides [<a href="presentations/t1-WOSCx.pdf">PDF</a>]
+      </p>
+
+      <p class="lead">
+        <strong>Daniel Alejandro Coll Tejeda. </strong>
+        <br />Contact: danielalejandro.coll@urv.cat.
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+      <h3 id="t2">#2 - Efficient Cluster Scheduling for Fine-tuning LLMs Using Historical Configuration Data</h3>
+
+      <p class="lead">
+        <strong>Job scheduling for machine learning (ML) has received significant attention, targeting objectives such
+          as job completion time, utilization, and fairness through techniques such as heterogeneity, elasticity, and
+          task merging. However, the quality of the configuration space in which these scheduling policies make
+          decisions and choose between GPU placements and hyperparameters for jobs is under-explored. We find that
+          performance between configurations for the same ML fine-tuning job can differ over 40x, and, as a result,
+          schedulers with under-explored views of the configuration space cannot find those configurations that optimize
+          their objective, regardless of the quality of the scheduling policy. Hence, we make a case that configuration
+          knowledge should be treated as a first-class citizen in ML schedulers.<br />propose CoTune, a scheduling
+          framework for ML fine-tuning that exposes various configuration knowledge classes, qualities, and quantities
+          for scheduling policies to integrate and evaluate. As a foundation, we propose a methodology for defining,
+          gathering, and predicting configuration knowledge, which we apply to build a comprehensive configuration
+          knowledge database. Using production traces on a simulated GPU cluster, we demonstrate how full configuration
+          knowledge from our database reduces average and tail job completion time for fine-tuning jobs by 73.9% and
+          79.0% across policies while decreasing average GPU utilization by 27.9%.</strong>
+      </p>
+      <p class="lead">
+        Slides [<a href="presentations/t2-2025-06 WOSCx4 Matthijs Jansen.pdf">PDF</a>]
+      </p>
+
+      <p class="lead">
+        <strong>Matthijs Jansen. </strong>
+        <br />Contact: m.s.jansen@vu.nl.
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+      <h3 id="t3">#3 - AutoDAG - An end-to-end automated platform for the creation and optimization of serverless DAGs
+        in federated clouds
+      </h3>
+
+      <p class="lead">
+        <strong>Serverless computing offers promising scalability and cost-efficiency, yet constructing performant DAGs
+          from monolithic applications remains challenging. We present AutoDAG, an end-to-end automated platform for
+          transforming monolithic code into optimized serverless DAGs across federated clouds. AutoDAG integrates three
+          key components—FaaSifier, Profiler, and Scheduler—to automate function decomposition, data flow analysis, and
+          resource-aware task allocation. Our approach supports profiling for parallelism and dependency inference,
+          reducing function count and data transfers. Evaluated on the Montage workflow in AWS, AutoDAG achieves up to
+          12.3× speedup and significant cost reduction compared to state-of-the-art tools. </strong>
+      </p>
+      <p class="lead">
+        Slides [<a href="presentations/t3-woscx_DAGLess.pdf">PDF</a>]
+      </p>
+
+      <p class="lead">
+        <strong>Philipp Gritsch.</strong>
+        <br />Contact: philipp.gritsch@uibk.ac.at.
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+      <h3 id="t4">#4 - Optimizing serverless analytics for molecule identification</h3>
+
+      <p class="lead">
+        <strong>Resource provisioning in serverless data analytics is critical for performance, with the number of
+          functions per stage directly affecting execution latency. We aim to unveil new mechanisms for resource
+          provisioning in serverless applications. Specifically, we try to develop an analytical model that reduces the
+          profiling time and cost required to model a job while optimizing its execution. We test our approach in a
+          production-ready metabolomics pipeline and demonstrate execution time improvements compared to the state of
+          the art in serverless resource provisioning methods. </strong>
+      </p>
+      <p class="lead">
+        Slides [<a href="presentations/t4-WOSCx4_EizaguirreGerman.pdf">PDF</a>]
+      </p>
+
+      <p class="lead">
+        <strong>Germán T. Eizaguirre.</strong>
+        <br />Contact: germantelmo.eizaguirre@urv.cat.
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+      <h3 id="t5">#5 - Growlithe: A Developer-Centric Compliance Tool for Serverless Applications</h3>
+
+      <p class="lead">
+        <strong>Serverless applications consist of functions written in heterogeneous programming languages, use diverse
+          data stores and communication services, and evolve rapidly. Consequently, it is challenging for serverless
+          tenants to protect their application data from inadvertent leaks due to bugs, misconfigurations, and human
+          errors. Cloud security tools, such as Identity and Access Management (IAM), lack observability into a tenant’s
+          application, whereas the state-of-the-art dataflow tracking tools require support from the cloud platform and
+          incur significant runtime overheads.<br />We present Growlithe, a tool that integrates with the serverless
+          application development toolchain and enables continuous compliance with data policies by design. Growlithe
+          allows declarative specification of access and data flow control policies over a language- and
+          platform-independent dataflow graph abstraction of a serverless application, and enforces these policies
+          through a combination of static analysis and runtime enforcement.<br />We used Growlithe with applications
+          using Python and JavaScript functions that can be hosted on AWS Lambda and Google Cloud Functions platforms.
+          We empirically demonstrate that Growlithe is cross-cutting, portable and efficient, and enables developers to
+          easily adapt their applications and policies to evolving requirements.</strong>
+      </p>
+      <p class="lead">
+        Slides [<a
+          href="presentations/t5-WoSC-Praveen Gupta-Growlithe_A Developer-Centric Compliance Tool for Serverless Applications.pdf">PDF</a>]
+      </p>
+
+      <p class="lead">
+        <strong>Praveen Gupta.</strong>
+        <br />Contact: pvgupta@student.ubc.ca.
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+      <h3 id="t6">#6 - MicroFaaS: Adaptive serverless computing for Internet of Things</h3>
+
+      <p class="lead">
+        <strong>Cloud and edge computing, particularly serverless Function-as-a-Service (FaaS), offer scalable resources
+          for IoT devices. This research presents an adaptive offloading framework that intelligently selects the best
+          execution environment using pretrained cost estimation models for each function and FaaS platform. These
+          models guide offloading decisions, enabling IoT devices to optimize function execution times. Results show
+          that pretraining significantly reduces calibration time and improves adaptability to changing network
+          conditions. The proposed approach demonstrates improved performance by dynamically selecting the most
+          efficient environment per invocation, ensuring faster, more reliable execution even under network
+          degradation.</strong>
+      </p>
+      <p class="lead">
+        Slides [<a href=presentations/t6-SerwerlessEdgeComputing_woscx4_v01.pdf">PDF</a>]
+      </p>
+
+      <p class="lead">
+        <strong>Tomasz Szydlo.</strong>
+        <br />Contact: tomasz.szydlo@agh.edu.pl.
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+      <h3 id="t7">#7 -Process-as-a-Service: Unifying Elastic and Stateful Clouds with Serverless Processes</h3>
+
+      <p class="lead">
+        <strong>Fine-grained serverless functions power many new applications that benefit from elastic scaling and
+          pay-as-you-use billing model with minimal infrastructure management overhead. To achieve these properties,
+          Function-as-a-Service (FaaS) platforms disaggregate compute and state and, consequently, introduce non-trivial
+          costs due to the loss of data locality when accessing state, complex control plane interactions, and expensive
+          inter-function communication. We revisit the foundations of FaaS and propose a new cloud abstraction, the
+          cloud process, that retains all the benefits of FaaS while significantly reducing the overheads that result
+          from disaggregation. We show how established operating system abstractions can be adapted to provide powerful
+          granular computing on dynamically provisioned cloud resources while building our Process as a Service (PraaS)
+          platform. PraaS improves current FaaS by offering data locality, fast invocations, and efficient
+          communication. PraaS delivers remote invocations up to 17× faster and reduces communication overhead by up to
+          99%.</strong>
+      </p>
+      <p class="lead">
+        Slides [<a href="presentations/t7-2025_praas_talk_short.pdf">PDF</a>]
+      </p>
+
+      <p class="lead">
+        <strong>Marcin Copik.</strong>
+        <br />Contact: mcopik@gmail.com.
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+      <h3 id="t8">#8 - Umbilical Choir: Automated Live Testing for Edge-To-Cloud FaaS Applications</h3>
+
+      <p class="lead">
+        <strong>Application users react negatively to performance regressions or availability issues across software
+          releases. To address this, modern cloud-based applications with their multiple daily releases rely on live
+          testing techniques such as A/B testing or canary releases. In edge-to-cloud applications, however, which have
+          similar problems, developers currently still have to hard-code custom live testing tooling as there is no
+          general framework for edge-to-cloud live testing. With Umbilical Choir, we partially close this gap for
+          serverless edge-to-cloud applications. Umbilical Choir is compatible with all Function-as-a-Service platforms
+          and (extensively) supports various live testing techniques, including canary releases with various geo-aware
+          strategies, A/B testing, and gradual roll-outs. We evaluate Umbilical Choir through a complex release scenario
+          showcasing various live testing techniques in a mixed edge-cloud deployments and discuss different geo-aware
+          strategies.</strong>
+      </p>
+      <p class="lead">
+        Slides [<a href="presentations/t8-WoSCx4-Umbilical Choir-Malekabbasi.pdf">PDF</a>]
+      </p>
+
+      <p class="lead">
+        <strong>Mohammadreza Malekabbasi.</strong>
+        <br />Contact: mm@3s.tu-berlin.de.
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+
+
+      <h3 id="t9">#9 - Cloud-native management of scientific workflows
+      </h3>
+
+      <p class="lead">
+        <strong>This talk explores cloud-native semi-serverless management of scientific workflows using Kubernetes. It
+          highlights leveraging Kubernetes for resource management, scalability, workload scheduling, and cloud-agnostic
+          deployment to handle large-scale scientific workflows comprising. The proposed solution employs scalable
+          worker pools with horizontal scaling based on queue size and vertical scaling via dynamic CPU/memory
+          adjustments using Vertical Pod Autoscaler (VPA). The talk includes a case study on the Montage workflow,
+          comparing execution with and without worker pools, and vertical scaling on the GKE cloud, demonstrating
+          improved performance and resource efficiency. </strong>
+      </p>
+      <p class="lead">
+        Slides: TBA
+      </p>
+
+      <p class="lead">
+        <strong>Bartosz Balis.</strong>
+        <br />Contact: balis@agh.edu.pl.
+      </p>
+
+
+
+    </div>
   </section>
 
   <!-- Footer-->
