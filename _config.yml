@@ -101,7 +101,7 @@ defaults:
       permalink: "wosc10/:collection/:title"
 
 wosc:
-  current_edition: wosc10
+  current_edition: woscx4
   current_edition_number: 10
   best_paper_edition_numbers:
     - 9
