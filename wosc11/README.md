@@ -1,5 +1,5 @@
 
-## To generate wosc10-proposal.pdf
+## To generate proposal.pdf
 
 ```
 mdpdf wosc11-proposal.md -o wosc11-proposal.pdf
@@ -18,9 +18,6 @@ weasyprint  cfp/index.html cfp/cfp.pdf
 ```
 
 Then open open cfp/cfp.pdf and cfp/cfp.pdf and verify all looks good before committing (minor edits in .txt may be necessaey)
-
-
-
 
 ## To install tools
 
