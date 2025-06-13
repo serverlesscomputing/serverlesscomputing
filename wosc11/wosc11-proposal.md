@@ -23,7 +23,7 @@ Aleksander Slominski is Research Staff Member in the Serverless Group at the IBM
 
 ## Brief Technical Description
 
-Over the last eleven years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and micro-services. Many of the major cloud vendors have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions. Open source projects are gaining popularity in providing serverless computing as a service.
+Over the last eleven years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and microservices. Many of the major cloud vendors have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions. Open source projects are gaining popularity in providing serverless computing as a service.
 
 Recently, Kubernetes gained popularity in enterprise and academia. Several open source projects, such as OpenFaaS and Knative, aim to provide developers with a serverless experience on top of Kubernetes by hiding low-level details. Auto-scalable multi-tenant Kubernetes deployments like Google Cloud Run or IBM Code Engine also overcome previous limitations of Serverless Functions like duration, networking, and higher granularity (more vCPUs).
 
@@ -106,18 +106,18 @@ Workshop co-chairs
 Technical Program Committee (tentative)
 * Alexandru Iosup, Vrije Universiteit Amsterdam
 * Ali Kanso, Microsoft
-* Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
-* Dennis Gannon, Indiana University & Formerly Microsoft Research
+* Cristina Abad, Escuela Superior Politécnica del * Litoral (Ecuador)
+* Dennis Gannon, Indiana University & Formerly * Microsoft Research
 * Eric Rozner, University of Colorado Boulder
 * Geoffrey Fox, Indiana University
 * Gul Agha, University of Illinois at Urbana-Champaign
-* Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)
-* Ian Foster, University of Chicago and Argonne National Laboratory
+* Hans-Arno Jacobsen, MSRG (Middleware Systems * Research Group)
+* Ian Foster, University of Chicago and Argonne * National Laboratory
 * Josef Spillner, Zurich University of Applied Sciences
 * Kyungyong Lee, Kookmin University
 * Lucas Nussbaum, LORIA, France
-* Maciej Malawski, AGH University of Science and Technology, Poland
-* Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow
+* Maciej Malawski, AGH University of Science and * Technology, Poland
+* Maciej Pawlik, Academic Computer Centre CYFRONET of * the University of Science and Technology in Cracow
 * Marc Sánchez Artigas, Universitat Rovira i Virgili
 * Per Persson, Ericsson Research
 * Peter Pietzuch, Imperial College
@@ -135,4 +135,3 @@ Steering Committee (tentative)
 * Geoffrey Fox, Indiana University
 * Dennis Gannon, Indiana University & Formerly Microsoft Research
 * Arno Jacobsen, MSRG (Middleware Systems Research Group)
-
