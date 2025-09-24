@@ -116,8 +116,8 @@ Topics
 
 Important Dates
 
-   Paper Submission: September 24, 2025 (AOE)
-   Notification of Acceptance: October 19, 2025
+   Paper Submission: October 12, 2025 (extended from September 24) (AOE)
+   Notification of Acceptance: October 23, 2025
    Final Camera-Ready Manuscript (Hard Deadline): October 27, 2025
    Non-paper submissions (demos and other proposals): November 10, 2024
    Author registration deadline: TBD
@@ -240,34 +240,34 @@ Steering Committee
 
 Program Committee (tentative)
 
-   Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
-   Gul Agha, University of Illinois at Urbana-Champaign
-   Marc Sánchez Artigas, Universitat Rovira i Virgili
-   Azer Bestavros, Boston University
-   Tyler R. Caraza-Harter, University of Wisconsin-Madison
-   Rodrigo Fonseca, Microsoft
-   Ian Foster, University of Chicago and Argonne National Laboratory
-   Geoffrey Fox, Indiana University
-   Dennis Gannon, Indiana University & Formerly Microsoft Research
-   Pedro Garcia Lopez, Universitat Rovira i Virgili (Spain)
-   Volker Hilt, Bell Labs (Nokia)
-   Alexandru Iosup, Vrije Universiteit Amsterdam
-   Arno Jacobsen, MSRG (Middleware Systems Research Group)
-   Ali Kanso, Microsoft
-   Višnja Križanović, Josip Juraj Strossmayer University of Osijek
-   Samuel Kounev, University of Wuerzburg
-   Kyungyong Lee, Kookmin University
-   Wes Lloyd, University of Washington Tacoma
-   Maciej Malawski, AGH University of Science and Technology, Poland
-   Lucas Nussbaum, LORIA, France
-   Maciej Pawlik, Academic Computer Centre CYFRONET of the University of
-   Science and Technology in Cracow
-   Per Persson, Ericsson Research
-   Peter Pietzuch, Imperial College
-   Rodric Rabbah, Nimbella and Apache OpenWhisk
-   Eric Rozner, University of Colorado Boulder
-   Josef Spillner, Zurich University of Applied Sciences
-   Rich Wolski, University of California, Santa Barbara
+     * Alexandru Iosup, Vrije Universiteit Amsterdam
+     * Ali Kanso, Microsoft
+     * Amine Barrak Assistant Professor, Oakland University
+     * Azer Bestavros, Boston University
+     * Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
+     * Dennis Gannon, Indiana University & Formerly Microsoft Research
+     * Eric Rozner, University of Colorado Boulder
+     * Etienne Rivière, UCLouvain
+     * Geoffrey Fox, Indiana University
+     * Gul Agha, University of Illinois at Urbana-Champaign
+     * Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)
+     * Ian Foster, University of Chicago and Argonne National Laboratory
+     * Josef Spillner, Zurich University of Applied Sciences
+     * Kyungyong Lee, Kookmin University
+     * Lucas Nussbaum, LORIA, France
+     * Maciej Malawski, AGH University of Science and Technology, Poland
+     * Maciej Pawlik, Academic Computer Centre CYFRONET of the University
+       of Science and Technology in Cracow
+     * Marc Sánchez Artigas, Universitat Rovira i Virgili
+     * Per Persson, Ericsson Research
+     * Peter Pietzuch, Imperial College
+     * Rich Wolski, University of California, Santa Barbara
+     * Rodric Rabbah, Nimbella and Apache OpenWhisk
+     * Rodrigo Fonseca, Microsoft Research
+     * Samuel Kounev, University of Wuerzburg
+     * Tyler R. Caraza-Harter, University of Wisconsin-Madison
+     * Volker Hilt, Bell Labs (Nokia)
+     * Wes Lloyd, University of Washington Tacoma
 
 References
 
