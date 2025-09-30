@@ -101,8 +101,8 @@ defaults:
       permalink: "wosc10/:collection/:title"
 
 wosc:
-  current_edition: woscx4
-  current_edition_number: 10
+  current_edition: wosc11
+  current_edition_number: 11
   best_paper_edition_numbers:
     - 9
   links:
@@ -120,6 +120,8 @@ wosc:
       relative_url: /best_paper
     - name: Previous Editions
       menu:
+        - name: 2024 WoSC10
+          relative_url: /wosc10
         - name: 2024 WoSCx3
           relative_url: /woscx3
         - name: 2023 WoSC 9
