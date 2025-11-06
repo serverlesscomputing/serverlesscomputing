@@ -100,6 +100,25 @@ defaults:
       layout: keynote
       permalink: "wosc10/:collection/:title"
 
+  - scope:
+      path: "_papers/wosc11"
+      type: papers
+    values:
+      layout: paper
+      permalink: "wosc11/:collection/:title"
+  - scope:
+      path: "_demos/wosc11"
+      type: demos
+    values:
+      layout: demo
+      permalink: "wosc11/:collection/:title"
+  - scope:
+      path: "_keynotes/wosc11"
+      type: keynotes
+    values:
+      layout: keynote
+      permalink: "wosc11/:collection/:title"
+
 wosc:
   current_edition: wosc11
   current_edition_number: 11
