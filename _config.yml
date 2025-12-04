@@ -139,6 +139,8 @@ wosc:
       relative_url: /best_paper
     - name: Previous Editions
       menu:
+        - name: 2025 WoSCx4
+          relative_url: /woscx4
         - name: 2024 WoSC10
           relative_url: /wosc10
         - name: 2024 WoSCx3
