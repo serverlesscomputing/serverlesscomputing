@@ -12,7 +12,7 @@ wosc: 11
 
 **Workshop recording:** TBA
 
-| Workshop schedule  | **Monday 2 December** (8:30am(CST)-5pm) | | |
+| Workshop schedule  | **Monday 15 December** (8:30am(CST)-5pm) | | |
 | --- | --- | --- | --- |
 | **8:30am** | **Starting coffee** | | |
 | **8:30am** | Welcome [slides](./presentations/welcome-to-wosc11.pdf)   | | |
