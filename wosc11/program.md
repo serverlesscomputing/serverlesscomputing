@@ -14,7 +14,7 @@ wosc: 11
 
 | Workshop schedule  | **8:30am(CST)-5pm** | | |
 | --- | --- | --- | --- |
-| **8:30am** | **Starting coffee** | | |
+| **7:30am** | **Registration and breakfast** | | |
 | **8:30am** | Welcome [slides](./presentations/welcome-to-wosc11.pdf)   | | |
 | **8:35pm** | **WoSC Keynote** [The Future of Serverless in 2025 and Beyond](./keynotes) (**Julian Wood**) | | |
 | **9:40am** | Online polls (**Pedro García Lopez** and **Enrique Molina**) | | |
