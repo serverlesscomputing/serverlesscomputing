@@ -6,18 +6,18 @@ wosc: 11
 
 **Date:** December 15 (Monday) 2025
 
-**Workshop location:** hybrid: on-location and virtual (Zoom)
+**Workshop location:** [Vanderbilt University](https://middleware-conf.github.io/2025/venue-information/) and virtual (Zoom)
 
-**Workshop organizers on site in Nashville:** Enrique Molina
+**Workshop organizers on site:** Enrique Molina
 
 **Workshop recording:** TBA
 
-| Workshop schedule  | **Monday 15 December** (8:30am(CST)-5pm) | | |
+| Workshop schedule  | **8:30am(CST)-5pm** | | |
 | --- | --- | --- | --- |
 | **8:30am** | **Starting coffee** | | |
 | **8:30am** | Welcome [slides](./presentations/welcome-to-wosc11.pdf)   | | |
 | **8:35pm** | **WoSC Keynote** [The Future of Serverless in 2025 and Beyond](./keynotes) (**Julian Wood**) | | |
-| **9:40am** | [Online polls]() (**Pedro García Lopez** and **Enrique Molina**) | | |
+| **9:40am** | Online polls (**Pedro García Lopez** and **Enrique Molina**) | | |
 | **10:00am** | **Break** | | |
 | **10:30am** | **session 2 (3 papers each about 25 min)** | | |
 |  | [HybridServe: Adaptive WebAssembly-Container Runtime Selection for Edge Serverless Computing](./papers/p1) (**Taeyoon Kim**)   | | |
