@@ -8,7 +8,7 @@ wosc: 11
 
 **Workshop location:** [Vanderbilt University](https://middleware-conf.github.io/2025/venue-information/) and virtual (Zoom)
 
-**Workshop organizers on site:** Enrique Molina
+**Workshop chairs on site:** Aniruddha S. Gokhale and Kaiwen Zhang
 
 **Workshop recording:** TBA
 
