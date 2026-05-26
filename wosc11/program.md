@@ -15,7 +15,7 @@ wosc: 11
 | Workshop schedule  | **8:30am(CST)-5pm** | | |
 | --- | --- | --- | --- |
 | **7:30am** | **Registration and breakfast** | | |
-| **8:30am** | Welcome [slides](https://docs.google.com/presentation/d/1aHDHt2I_Oocg7rT8QAvpR-ZLHV9leuFYvIqMO8FLsIQ/edit?usp=sharing) (**Aleksander Slominski**) [[Video](https://youtu.be/cQy0Zl8UuS0)]   | | |
+| **8:30am** | Welcome [slides](./presentations/welcome-to-wosc11.pdf) (**Aleksander Slominski**) [[Video](https://youtu.be/cQy0Zl8UuS0)]   | | |
 | **8:35pm** | **WoSC Keynote** [The Future of Serverless in 2025 and Beyond](./keynotes) (**Julian Wood**) [[Video](https://www.youtube.com/watch?v=cQy0Zl8UuS0&t=166s)]  | | |
 | **9:40am** | Online polls (**Pedro García Lopez** and **Enrique Molina**) [[Video](https://www.youtube.com/watch?v=cQy0Zl8UuS0&t=4008s)] | | |
 | **10:00am** | **Break** | | |
