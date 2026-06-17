@@ -1,378 +1,355 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="First International Workshop on AI and Serverless (WoAIS) 2026" />
+  <meta name="author" content="" />
   <title>First International Workshop on AI and Serverless (WoAIS) 2026</title>
-  <meta name="description" content="AI and Serverless Computing">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-    crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
-
-   <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
 </head>
 
-<body>
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand navbar-light bg-light rounded fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10"
+      aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="container" style="max-width:940px  !important;">
-       <div class="blog-masthead">
-        <p>
-            <a href="https://middleware-conf.github.io/2025/"><img src="banner.jpg" width="900" height="375" align='center'></img></a>
-          </p>
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">First International Workshop on AI and Serverless (WoAIS1) <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cfp/index.html">CFP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="keynotes.html">Keynotes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="talks.html">Talks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="demos.html">Demos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="program.html">Program</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Previous Editions
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+            <a class="dropdown-item" href="../wosc11/">2025 WoSC 11</a>
+            <a class="dropdown-item" href="../woscx4/">2025 WoSCx4</a>
+            <a class="dropdown-item" href="../wosc10/">2024 WoSC 10</a>
+            <a class="dropdown-item" href="../woscx3/">2024 WoSCx3</a>
+            <a class="dropdown-item" href="../woscx2/">2023 WoSCx2</a>
+            <a class="dropdown-item" href="../wosc9/">2023 WoSC 9</a>
+            <a class="dropdown-item" href="../woscx1/">2022 WoSCx1</a>
+            <a class="dropdown-item" href="../wosc8/">2022 WoSC 8</a>
+            <a class="dropdown-item" href="../wosc7/">2021 WoSC 7</a>
+            <a class="dropdown-item" href="../wosc6/">2020 WoSC 6</a>
+            <a class="dropdown-item" href="../wosc5/">2019 WoSC 5</a>
+            <a class="dropdown-item" href="../wosc4/">2018 WoSC 4</a>
+            <a class="dropdown-item" href="../wosc3/">2018 WoSC 3</a>
+            <a class="dropdown-item" href="../wosc2/">2017 WoSC 2</a>
+            <a class="dropdown-item" href="../wosc1/">2017 WoSC 1</a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero / Masthead (wosc11-style banner with gradient overlay over banner.jpg) -->
+  <header class="masthead"
+    style="background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.95)), url('banner.jpg'); background-size: cover; background-position: center;">
+    <div class="container h-100 px-4 px-lg-5">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-7 text-dark">
+          <h1 class="display-2 fw-bolder mb-2">WoAIS 2026</h1>
+          <h2 class="display-6 fw-normal mb-3">First International Workshop on AI and Serverless</h2>
         </div>
-     </div>
-
-
-    <div class="container" style="max-width:940px  !important;">
-
-      <div class="blog-header">
-        <h1 class="blog-title">First International Workshop on AI and Serverless (WoAIS) 2026</h1>
-        <p class="lead blog-description">Part of <a href="https://2026.debs.org/">
-          20th ACM International Conference on Distributed and Event-based Systems (DEBS 2026), Lisbon, Portugal (June 23rd–26th 2026)</a></p>
-
-
-          <p class="blog-description">
-            The workshop will be hybrid this year with both virtual and on-location formats. Please note that while hybrid formats will be supported for workshops, the DEBS 2026 steering committee wants the main conference to be held in in-person only. Prospective attendees of the workshop should keep this in mind if they plan to attend both this workshop and DEBS 2026.
-        </p>
+        <div class="col-lg-5 text-lg-end text-dark">
+          <p class="fw-normal fs-4 mb-4">
+            Part of <a class="link-dark" href="https://2026.debs.org/">20th ACM International Conference on
+              Distributed and Event-based Systems (DEBS 2026)</a>, Lisbon, Portugal (June 23rd&ndash;26th 2026).
+          </p>
+          <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-end">
+            <a class="btn btn-light btn-lg px-4 me-sm-3" href="#news">News</a>
+            <a class="btn btn-light btn-lg px-4 me-sm-3" href="program.html">Program</a>
+            <a class="btn btn-light btn-lg px-4" href="cfp/index.html">Call for Papers</a>
+          </div>
+        </div>
       </div>
+    </div>
+  </header>
 
+  <!-- News -->
+  <section class="content-section bg-light" id="news">
+    <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
+      <h2 class="mb-4">News</h2>
+      <p class="lead">
+        2026-06-15: <a href="program.html">Preliminary schedule available.</a>
+        <br/>
+        2026-05-11: <a href="cfp/index.html#dates">Notification delayed by one day (May 12).</a>
+        <br/>
+        2026-04-28: <a href="cfp/index.html#dates">Final deadline extension (May 6).</a>
+        <br/>
+        2026-04-15: <a href="cfp/index.html#dates">Deadline extended.</a>
+        <br/>
+        2026-04-14: <a href="program.html">Workshop day and time scheduled.</a>
+        <br/>
+        2026-02-17: <a href="cfp/index.html#dates">CFP available.</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Intro: AI and Serverless Computing Workshop -->
+  <section class="content-section bg-gradient text-white" id="intro">
+    <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
+      <h2 class="mb-4">AI and Serverless Computing Workshop: A Call for Research</h2>
+      <p class="lead text-white">
+        The upcoming workshop at DEBS will center on <b>AI and Serverless Computing (WoAIS)</b>. This focus is driven by
+        the rise of new AI agents&mdash;which involve multiple LLM calls, dynamic plans, and a mix of code and AI
+        models&mdash;that are creating uniquely complex workloads for serverless platforms.
+      </p>
+      <p class="lead text-white">
+        This new reality has already resurfaced classic serverless headaches, such as cold starts, managing state, and
+        figuring out resource allocation, but within the demanding context of modern AI applications. Furthermore, new
+        complications are emerging, including mixed GPU/CPU needs, unpredictable execution plans, long-running yet
+        highly bursty processes, and the critical need for robust agent-to-agent communication.
+      </p>
+      <p class="lead text-white">
+        Looking <b>beyond the cloud</b>, the scope of serverless is expanding. We aim to look ahead at future
+        architectures involving AI, hybrid clouds, and especially edge/IoT devices, which current serverless platforms
+        are not well-equipped to support. This naturally leads to a discussion on <b>the role of LLMs in Serverless</b>,
+        where we will explore how hybrid serverless platforms can be leveraged for the entire lifecycle of Large
+        Language Models (LLMs) and Foundation Models (FMs), from fine-tuning to serving.
+      </p>
+      <p class="lead text-white">
+        Ultimately, <b>the goal</b> is to bring together researchers and practitioners to share their experiences,
+        discuss the challenges, and collaboratively brainstorm the next critical research directions for the serverless
+        domain.
+      </p>
+    </div>
+  </section>
+
+  <!-- Organization -->
+  <section class="content-section bg-gradient text-white" id="org">
+    <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
+      <h2 class="mb-4">Organization</h2>
+
+      <p class="lead text-white">
+        The workshop will be hybrid this year with both virtual and on-location formats. Please note that while
+        hybrid formats will be supported for workshops, the DEBS 2026 steering committee wants the main conference
+        to be held in in-person only. Prospective attendees of the workshop should keep this in mind if they plan to
+        attend both this workshop and DEBS 2026.
+      </p>
 
       <div class="row">
-        <div class="col-sm-12 blog-main">
-     <div class="blog-post">
+        <div class="col-md-6">
+          <h5>Local co-chairs</h5>
+          <ul>
+            <li>Luís Veiga, University of Lisbon</li>
+            <li>Paul Castro, IBM Research</li>
+          </ul>
 
-      <h3 id='news'>News</h3>
+          <h5 class="mt-4">Workshop co-chairs</h5>
+          <ul>
+            <li>Paul Castro, IBM Research</li>
+            <li>Pedro García López, University Rovira i Virgili</li>
+            <li>Vatche Ishakian, IBM Research</li>
+            <li>Vinod Muthusamy, IBM Research</li>
+            <li>Aleksander Slominski, IBM Research</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h5>Steering Committee</h5>
+          <ul>
+            <li>Geoffrey Fox, Indiana University</li>
+            <li>Dennis Gannon, Indiana University &amp; Formerly Microsoft Research</li>
+            <li>Arno Jacobsen, MSRG (Middleware Systems Research Group)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col" style="column-count: 2">
+          <h5 id="pc">Program Committee (tentative)</h5>
+          <ul>
+            <li>Alexandru Iosup, Vrije Universiteit Amsterdam</li>
+            <li>Ali Kanso, Microsoft</li>
+            <li>Amine Barrak, Assistant Professor, Oakland University</li>
+            <li>Azer Bestavros, Boston University</li>
+            <li>Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)</li>
+            <li>Dennis Gannon, Indiana University &amp; Formerly Microsoft Research</li>
+            <li>Eric Rozner, University of Colorado Boulder</li>
+            <li>Etienne Rivière, UCLouvain</li>
+            <li>Geoffrey Fox, Indiana University</li>
+            <li>Gul Agha, University of Illinois at Urbana-Champaign</li>
+            <li>Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)</li>
+            <li>Ian Foster, University of Chicago and Argonne National Laboratory</li>
+            <li>Josef Spillner, Zurich University of Applied Sciences</li>
+            <li>Kyungyong Lee, Kookmin University</li>
+            <li>Lucas Nussbaum, LORIA, France</li>
+            <li>Maciej Malawski, AGH University of Science and Technology, Poland</li>
+            <li>Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow</li>
+            <li>Marc Sánchez Artigas, Universitat Rovira i Virgili</li>
+            <li>Per Persson, Ericsson Research</li>
+            <li>Peter Pietzuch, Imperial College</li>
+            <li>Rich Wolski, University of California, Santa Barbara</li>
+            <li>Rodric Rabbah, Nimbella and Apache OpenWhisk</li>
+            <li>Rodrigo Fonseca, Microsoft Research</li>
+            <li>Samuel Kounev, University of Wuerzburg</li>
+            <li>Tyler R. Caraza-Harter, University of Wisconsin-Madison</li>
+            <li>Volker Hilt, Bell Labs (Nokia)</li>
+            <li>Wes Lloyd, University of Washington Tacoma</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Previous workshops -->
+  <section class="content-section bg-light" id="previous">
+    <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
+      <h2 class="mb-4">Previous workshops</h2>
+
+      <p class="lead">
+        <a href="../wosc11/">11th International Workshop on Serverless Computing (WoSC11)</a> December 15, 2025. In
+        conjunction with <a href="https://middleware-conf.github.io/2025/">ACM/IFIP International Middleware
+          Conference</a>.
+      </p>
+      <p class="lead">
+        <a href="../woscx4/">Fourth International Workshop on Serverless Computing Experience (WOSCx4) 2025</a> Virtual
+        on June 17, 2025. List of talks with links to videos:
+        <a href="../woscx4/program.html">https://www.serverlesscomputing.org/woscx4/program.html</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc10/">10th International Workshop on Serverless Computing (WoSC10)</a> December 2, 2024. In
+        conjunction with <a href="https://middleware-conf.github.io/2024/">ACM/IFIP International Middleware
+          Conference</a>.
+      </p>
+      <p class="lead">
+        <a href="../woscx3/">Third International Workshop on Serverless Computing Experience (WOSCx3) 2024</a> Virtual
+        on June 19, 2024. List of talks with links to videos:
+        <a href="../woscx3/program.html">https://www.serverlesscomputing.org/woscx3/program.html</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc9/">9th International Workshop on Serverless Computing (WoSC9)</a> December 11, 2023. In
+        conjunction with <a href="http://2023.middleware-conference.org/">ACM/IFIP International Middleware
+          Conference</a>.
+      </p>
+      <p class="lead">
+        <a href="../woscx2/">Second International Workshop on Serverless Computing Experience (WOSCx2) 2023</a> Virtual
+        on June 22, 2023. List of talks with links to videos:
+        <a href="../woscx2/#schedule">https://www.serverlesscomputing.org/woscx2/#schedule</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc8/">Eighth International Workshop on Serverless Computing (WoSC8)</a> November 7, 2022. In
+        conjunction with <a href="http://2022.middleware-conference.org/">ACM/IFIP International Middleware
+          Conference</a>.
+      </p>
+      <p class="lead">
+        <a href="../woscx1/">First International Workshop on Serverless Computing Experience (WOSCx1) 2022</a> Virtual
+        on June 16, 2022. List of talks with links to videos:
+        <a href="../woscx1/program.html">https://www.serverlesscomputing.org/woscx1/program.html</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc7/">Seventh International Workshop on Serverless Computing (WoSC7)</a> Decemeber 7, 2021. In
+        conjunction with <a href="http://2021.middleware-conference.org/">ACM/IFIP International Middleware
+          Conference</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc6/">Sixth International Workshop on Serverless Computing (WoSC6)</a> in TU Delft, The
+        Netherlands (virtual) on Decemeber 8, 2020. In conjunction with
+        <a href="http://2020.middleware-conference.org/">ACM/IFIP International Middleware Conference</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc5/">Fifth International Workshop on Serverless Computing (WoSC5)</a> in UC Davis, CA, USA on
+        Decemeber 9, 2019. In conjunction with <a href="http://2019.middleware-conference.org/">20th ACM/IFIP
+          International Middleware Conference</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc4/">Fourth International Workshop on Serverless Computing (WoSC4)</a> in Zurich, Zurich,
+        Switzerland on Decemeber 20, 2018. In conjunction with
+        <a href="http://ucc-conference.org/category/basics.html">11th IEEE/ACM UCC</a> and
+        <a href="http://bdcat-conference.org/category/basics.html">5th IEEE/ACM BDCAT</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc3/">Third International Workshop on Serverless Computing (WoSC3)</a> in San Francisco, CA, USA
+        on July 2nd 2018 In conjunction with <a href="http://conferences.computer.org/cloud/2018/">IEEE CLOUD 2018</a>
+        affiliated with 2018 IEEE World Congress on Services (IEEE SERVICES 2018).
+      </p>
+      <p class="lead">
+        <a href="../wosc2/">Second International Workshop on Serverless Computing (WoSC2) 2017</a> in Las Vegas, NV,
+        USA on December 12th, 2017 part of <a href="http://2017.middleware-conference.org">Middleware 2017</a>.
+      </p>
+      <p class="lead">
+        <a href="../wosc1/">First International Workshop on Serverless Computing (WoSC) 2017</a> in Atlanta, GA, USA on
+        June 5th, 2017 part of <a href="http://icdcs2017.gatech.edu/">ICDCS 2017</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Tweets -->
+  <section class="content-section bg-gradient text-white" id="tweets">
+    <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
+      <h2 class="mb-4">Tweets about workshop</h2>
+      <p class="lead text-white">
+        Please use hashtags <a class="link-light" href="https://twitter.com/search?q=wosc%20serverless">#wosc11 #wosc
+          #serverless</a>
+      </p>
       <p>
-        2026-06-15: <a href="./index.html#program">Preliminary schedule available..</a>
-        <br/>
-        2026-05-11: <a href="./cfp/#dates">Notification delayed by one day (May 12).</a>
-        <br/>
-        2026-04-28: <a href="./cfp/#dates">Final deadline extension (May 6).</a>
-        <br/>
-        2026-04-15: <a href="./cfp/#dates">Deadline extended.</a>
-        <br/>
-        2026-04-14: <a href="#program">Workshop day and time scheduled.</a>
-        <br/>
-        2026-02-17: <a href="./cfp/#dates">CFP available.</a>
+        <a class="twitter-timeline" href="https://twitter.com/wosc17?ref_src=twsrc%5Etfw">Tweets by wosc17</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </p>
-
-
-  <h2 id='intro'>AI and Serverless Computing Workshop: A Call for Research</h2>
-
-<p>
-The upcoming workshop at DEBS will center on <b>AI and Serverless Computing (WoAIS)</b>. This focus is driven by the rise of new AI agents—which involve multiple LLM calls, dynamic plans, and a mix of code and AI models—that are creating uniquely complex workloads for serverless platforms.
-
-</p><p>
-
-This new reality has already resurfaced classic serverless headaches, such as cold starts, managing state, and figuring out resource allocation, but within the demanding context of modern AI applications. Furthermore, new complications are emerging, including mixed GPU/CPU needs, unpredictable execution plans, long-running yet highly bursty processes, and the critical need for robust agent-to-agent communication.
-
-</p><p>
-
-
-Looking <b>beyond the cloud</b>, the scope of serverless is expanding. We aim to look ahead at future architectures involving AI, hybrid clouds, and especially edge/IoT devices, which current serverless platforms are not well-equipped to support. This naturally leads to a discussion on <b>the role of LLMs in Serverless</b>, where we will explore how hybrid serverless platforms can be leveraged for the entire lifecycle of Large Language Models (LLMs) and Foundation Models (FMs), from fine-tuning to serving.
-
-</p><p>
-
-Ultimately, <b>the goal</b> is to bring together researchers and practitioners to share their experiences, discuss the challenges, and collaboratively brainstorm the next critical research directions for the serverless domain.</p>
-</p>
-
-
-
-
-
-<h2 id='program'>Workshop program</h2>
-
-<p>Preliminary Date: June 23 (Tuesday)</p>
-
-<p>Start Time: 3-5:45PM Lisbon time (10AM in New York, 7AM San Francisco, 4PM in Central Europe)</p>
-
-<p>Workshop location: hybrid: on-location and virtual (Zoom)
-
-<p><b>Workshop schedule (perliminary, subject to change)</b>
-</p>
-
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Time</th>
-      <th scope="col"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row" colspan="2">3pm-3:45pm &mdash; <strong>welcome, online polls, and keynote with Q&amp;A</strong></th>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td>Welcome to the workshop and online polls (Aleksander Slominski and Pedro García Lopez)</td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td><strong>Keynote: Serverless AI (placeholder title)</strong> (Luo Mai)</td>
-    </tr>
-    <tr>
-      <th scope="row" colspan="2">3:45pm-4pm &mdash; <strong>demos (3x5min)</strong></th>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td>Blocks-DB (Octavio Iacoponelli (Universitat Rovira i Virgili))</td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td>PyRun Cloud: AI-Powered Educational CloudLab Democratizing Distributed Cloud Computing (Daniel Alejandro Coll Tejeda (Universitat Rovira i Virgili))</td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td>Architecture-Aware Load Distribution in Heterogeneous Edge FaaS Systems (Gabriele Russo Russo (University of Rome Tor Vergata))</td>
-    </tr>
-    <tr>
-      <th scope="row" colspan="2">4pm-4:15pm &mdash; <strong>coffee break (use that time for networking, extended dmeos, additional Q&amp;A etc)</strong></th>
-    </tr>
-    <tr>
-      <th scope="row" colspan="2">4:15pm- 4:35pm &mdash; <strong>papers session 1 (2x10 min)</strong></th>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td>LLM-Assisted Interpretation of Graphene Image Analysis in Serverless Workflows (Josef Spillner (Zurich University of Applied Sciences) + Sepideh Shamsizadeh will be available remotely)</td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td>InferenceProfiler (Austin Bomhold (University of Washington Tacoma), Xinghan Chen ( University of Washington Tacoma ), Morteza Nabavinejad ( University of Washington Tacoma ), Wes Lloyd (University of Washington Tacoma))</td>
-    </tr>
-    <tr>
-      <th scope="row" colspan="2">4:40pm- 5:15pm &mdash; <strong>keynote 2 (30min 5 min Q&amp;A)</strong></th>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td><strong>Keynote: AI Agents (placeholder title)</strong> (Gosia Steinder)</td>
-    </tr>
-    <tr>
-      <th scope="row" colspan="2">5:15pm- 5:35pm &mdash; <strong>papers session 2 (2x10 min)</strong></th>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td>Benchmarking Serverless AI Architectures: Modular RAG, Serverless RAG, and Long Context Inference (FLORIAN ALEXANDRU SERB PETRUSEL (Universitat Rovira i Virgili), Pedro Antonio García López (Universitat Rovira i Virgili))</td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td>Evaluating Large Language Models for Automated Serverless Workflow Generation (Sashko Ristov (University of Innsbruck ), Philipp Gritsch (University of Innsbruck), Florian Unterhofer ( University of Innsbruck ), Ruth Breu ( University of Innsbruck ))</td>
-    </tr>
-    <tr>
-      <th scope="row" colspan="2">5:40pm &mdash; <strong>wokrshop end, feedback link, thank you!</strong></th>
-    </tr>
-  </tbody>
-</table>
-
-<!--
-
-<pre>
-TBA
-</pre>
-
-<h2>Workshop call for papers</h2>
-  <p>
-    <a href="./cfp">Call For Papers (CFP)</a>
-  </p>
-
--->
-
-
-          <p class="blog-description">
-          Please visit the <a href="http://www.serverlesscomputing.org/workshops/">previous workshops website</a> to see what you can expect.
-        </p>
-
-<h2 id='org'>Organization</h2>
-
-
-<h3>Local co-chairs</h3>
-
-
-  <p>
-Luís Veiga, University of Lisbon
-<br/>
-Paul Castro, IBM Research
-</p>
-
-<h3>Workshop co-chairs</h3>
-
-  <p>
-Paul Castro, IBM Research
-<br/>
-Pedro García López, University Rovira i Virgili 
-<br/>
-Vatche Ishakian, IBM Research
-<br/>
-Vinod Muthusamy, IBM Research
-<br/>
-Aleksander Slominski, IBM Research
-  </p>
-
-
-  <h3>Steering Committee</h3>
-
-  <p>
-  Geoffrey Fox, Indiana University 
-  <br/>
-  Dennis Gannon, Indiana University &amp; Formerly Microsoft Research
-  <br/>
-  Arno Jacobsen, MSRG (Middleware Systems Research Group)
-  <br/>
-    </p>
-
-  <h3 id="pc">Program Committee (tentative)</h3>
-
-<ul>
-  <li>Alexandru Iosup, Vrije Universiteit Amsterdam</li>
-  <li>Ali Kanso, Microsoft</li>
-  <li>Amine Barrak	Assistant Professor, Oakland University</li>
-  <li>Azer Bestavros, Boston University</li>
-  <li>Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)</li>
-  <li>Dennis Gannon, Indiana University &amp; Formerly Microsoft Research</li>
-  <li>Eric Rozner, University of Colorado Boulder</li>
-  <li>Etienne Rivière, UCLouvain</li>
-  <li>Geoffrey Fox, Indiana University</li>
-  <li>Gul Agha, University of Illinois at Urbana-Champaign</li>
-  <li>Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)</li>
-  <li>Ian Foster, University of Chicago and Argonne National Laboratory</li>
-  <li>Josef Spillner, Zurich University of Applied Sciences</li>
-  <li>Kyungyong Lee, Kookmin University</li>
-  <li>Lucas Nussbaum, LORIA, France</li>
-  <li>Maciej Malawski, AGH University of Science and Technology, Poland</li>
-  <li>Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow</li>
-  <li>Marc Sánchez Artigas, Universitat Rovira i Virgili</li>
-  <li>Per Persson, Ericsson Research</li>
-  <li>Peter Pietzuch, Imperial College</li>
-  <li>Rich Wolski, University of California, Santa Barbara</li>
-  <li>Rodric Rabbah, Nimbella and Apache OpenWhisk</li>
-  <li>Rodrigo Fonseca, Microsoft Research</li>
-  <li>Samuel Kounev, University of Wuerzburg</li>
-  <li>Tyler R. Caraza-Harter, University of Wisconsin-Madison</li>
-  <li>Volker Hilt, Bell Labs (Nokia)</li>
-  <li>Wes Lloyd, University of Washington Tacoma</li>
-</ul>
-
-    <h2 id="previous">Previous workshop</h2>
-
-
-    <p>
-        <a href="../wosc11/">11th International Workshop on Serverless Computing (WoSC11)</a> December 15, 2025. In conjunction with <a href="https://middleware-conf.github.io/2025/">ACM/IFIP International Middleware Conference</a>.
-      </p>
-
-    <p>
-      <a href="../woscx4/">Fourth International Workshop on Serverless Computing Experience (WOSCx4) 2025</a> Virtual on June 17, 2025. List of talks with links to videos: <a href="../woscx4/program.html">https://www.serverlesscomputing.org/woscx4/program.html</a>.
-    </p>
-
-    <p>
-        <a href="../wosc10/">10th International Workshop on Serverless Computing (WoSC10)</a> December 2, 2024. In conjunction with <a href="https://middleware-conf.github.io/2024/">ACM/IFIP International Middleware Conference</a>.
-      </p>
-
-    <p>
-      <a href="../woscx3/">Third International Workshop on Serverless Computing Experience (WOSCx3) 2024</a> Virtual on June 19, 2024. List of talks with links to videos: <a href="../woscx3/program.html">https://www.serverlesscomputing.org/woscx3/program.html</a>.
-    </p>
-
-    <p>
-        <a href="../wosc9/">9th International Workshop on Serverless Computing (WoSC9)</a> December 11, 2023. In conjunction with <a href="http://2023.middleware-conference.org/">ACM/IFIP International Middleware Conference</a>.
-      </p>
-
-
-      <p>
-        <a href="../woscx2/">Second International Workshop on Serverless Computing Experience (WOSCx2) 2023</a> Virtual on June 22, 2023. List of talks with links to videos: <a href="../woscx2/#schedule">https://www.serverlesscomputing.org/woscx2/#schedule</a>.
-      </p>
-
-
-    <p>
-        <a href="../wosc8/">Eighth International Workshop on Serverless Computing (WoSC8)</a> November 7, 2022. In conjunction with <a href="http://2022.middleware-conference.org/">ACM/IFIP International Middleware Conference</a>.
-      </p>
-
-      <p>
-        <a href="../woscx1/">First International Workshop on Serverless Computing Experience (WOSCx1) 2022</a> Virtual on June 16, 2022. List of talks with links to videos: <a href="../woscx1/program.html">https://www.serverlesscomputing.org/woscx1/program.html</a>.
-      </p>
-  
-
-    <p>
-      <a href="../wosc7/">Seventh International Workshop on Serverless Computing (WoSC7)</a> Decemeber 7, 2021. In conjunction with <a href="http://2021.middleware-conference.org/">ACM/IFIP International Middleware Conference</a>.
-    </p>
-
-
-    <p>
-        <a href="../wosc6/">Sixth International Workshop on Serverless Computing (WoSC6)</a> in TU Delft, The Netherlands (virtual) on Decemeber 8, 2020. In conjunction with <a href="http://2020.middleware-conference.org/">ACM/IFIP International Middleware Conference</a>.
-      </p>
-
-    <p>
-      <a href="../wosc5/">Fifth International Workshop on Serverless Computing (WoSC5)</a> in UC Davis, CA, USA on Decemeber 9, 2019. In conjunction with <a href="http://2019.middleware-conference.org/">20th ACM/IFIP International Middleware Conference</a>.
-    </p>
-
-  <p>
-    <a href="../wosc4/">Fourth International Workshop on Serverless Computing (WoSC4)</a> in  Zurich, Zurich, Switzerland on Decemeber 20, 2018. In conjunction with <a href="http://ucc-conference.org/category/basics.html">11th IEEE/ACM UCC</a> and <a href="http://bdcat-conference.org/category/basics.html">5th IEEE/ACM BDCAT</a>.
-  </p>
-
-  <p>
-    <a href="../wosc3/">Third  International Workshop on Serverless Computing (WoSC3)</a> in  San Francisco, CA, USA on July 2nd 2018 In conjunction with <a href="http://conferences.computer.org/cloud/2018/">IEEE CLOUD 2018</a> affiliated with 2018 IEEE World Congress on Services (IEEE SERVICES 2018).
-  </p>
-
-  <p>
-        <a href="../wosc2/">Second  International Workshop on Serverless Computing (WoSC2) 2017</a> in  Las Vegas, NV, USA on December 12th, 2017 part of <a href="http://2017.middleware-conference.org">Middleware 2017</a>.
-      </p>
-
-  <p>
-    <a href="../wosc1/">First International Workshop on Serverless Computing (WoSC) 2017</a> in Atlanta, GA, USA on June 5th, 2017 part of <a href="http://icdcs2017.gatech.edu/">ICDCS 2017</a>.
-  </p>
-
-
-<!--
-<h2 id="forum">Forum</h2>
-<p>
-  <iframe id="forum_embed"
-  src="javascript:void(0)"
-  scrolling="no"
-  frameborder="0"
-  width="900"
-  height="700">
-</iframe>
-<script type="text/javascript">
-  document.getElementById('forum_embed').src =
-     'https://groups.google.com/forum/embed/?place=forum/future-compute'
-     + '&showsearch=true&showpopout=true&showtabs=false'
-     + '&parenturl=' + encodeURIComponent(window.location.href);
-</script>
-</p>
--->
-
-
-<h2 id="tweets">Tweets about workshop</h2>
-<p>
-Please use hashtags <a href="https://twitter.com/search?q=wosc%20serverless">#wosc11 #wosc #serverless</a>
-</p>
-
-<p>
-  <!--
-  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=wosc%20serverless" data-widget-id="958776427733757955">Tweets about WoSC serverless</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-  -->
-
-  <a class="twitter-timeline" href="https://twitter.com/wosc17?ref_src=twsrc%5Etfw">Tweets by wosc17</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
-
-          </div><!-- /.blog-post -->
-      </div><!-- /.row -->
-
-    </div><!-- /.container -->
-
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="footer text-center">
+    <div class="container px-4 px-lg-5">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a href="https://bsky.app/profile/wosc17.bsky.social" target="_blank"
+            class="social-link rounded-circle text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="24" height="24" fill="white"
+              style="vertical-align:middle;">
+              <path
+                d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805ZM50.127 3.805C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745Z">
+              </path>
+            </svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white"
+            href="https://github.com/serverlesscomputing/serverlesscomputing"><i class="icon-social-github"></i></a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; WoAIS 2026</p>
+    </div>
+  </footer>
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
-</html>
 
+</html>
