@@ -120,8 +120,8 @@ defaults:
       permalink: "wosc11/:collection/:title"
 
 wosc:
-  current_edition: wosc11
-  current_edition_number: 11
+  current_edition: woais1
+  current_edition_number: 1
   best_paper_edition_numbers:
     - 9
   links:
