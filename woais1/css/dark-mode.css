@@ -1,0 +1,124 @@
+/* WoAIS1 dark-mode overrides
+ * Driven by Bootstrap 5.3's data-bs-theme="dark" attribute on <html>.
+ * Loaded AFTER css/styles.css so these rules win on specificity ties.
+ */
+
+[data-bs-theme="dark"] body {
+  background-color: #121212;
+  color: #e6e6e6;
+}
+
+/* Navbar (.navbar.bg-light is the woscx4 pattern used across pages) */
+[data-bs-theme="dark"] .navbar.bg-light {
+  background-color: #1f1f1f !important;
+}
+[data-bs-theme="dark"] .navbar-light .navbar-nav .nav-link,
+[data-bs-theme="dark"] .navbar-light .navbar-toggler {
+  color: #e6e6e6;
+}
+[data-bs-theme="dark"] .navbar-light .navbar-nav .nav-link:hover,
+[data-bs-theme="dark"] .navbar-light .navbar-nav .nav-link.active {
+  color: #ffffff;
+}
+[data-bs-theme="dark"] .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Light content sections */
+[data-bs-theme="dark"] .content-section.bg-light {
+  background-color: #1c1c1c !important;
+  color: #e6e6e6;
+}
+
+/* bg-gradient sections (Organization, Tweets) already use dark gradient + white text — leave them. */
+
+/* Masthead (hero banner on index.html). The inline style sets a light-overlay gradient,
+ * so override it here with a dark overlay using !important.
+ * Banner image lives one level up from css/, so path is ../banner.jpg. */
+[data-bs-theme="dark"] .masthead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.9)), url("../banner.jpg") !important;
+}
+[data-bs-theme="dark"] .masthead .text-dark {
+  color: #e6e6e6 !important;
+}
+[data-bs-theme="dark"] .masthead .link-dark {
+  color: #ffd966 !important;
+}
+[data-bs-theme="dark"] .masthead .btn-light {
+  background-color: #2a2a2a;
+  border-color: #444;
+  color: #e6e6e6;
+}
+[data-bs-theme="dark"] .masthead .btn-light:hover {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+/* Tables (program schedule, etc.) */
+[data-bs-theme="dark"] .table {
+  --bs-table-color: #e6e6e6;
+  --bs-table-bg: transparent;
+  --bs-table-border-color: #444;
+  --bs-table-striped-bg: #242424;
+  --bs-table-hover-bg: #2a2a2a;
+  color: #e6e6e6;
+}
+[data-bs-theme="dark"] .table > :not(caption) > * > * {
+  border-color: #444;
+}
+
+/* Dropdown (Previous Editions) */
+[data-bs-theme="dark"] .dropdown-menu {
+  background-color: #1c1c1c;
+  border-color: #333;
+}
+[data-bs-theme="dark"] .dropdown-item {
+  color: #e6e6e6;
+}
+[data-bs-theme="dark"] .dropdown-item:hover,
+[data-bs-theme="dark"] .dropdown-item:focus {
+  background-color: #333;
+  color: #ffffff;
+}
+
+/* Body links inside content sections (use a selector specific enough to not nuke nav/btn) */
+[data-bs-theme="dark"] .content-section a:not(.btn):not(.nav-link):not(.dropdown-item):not(.link-dark) {
+  color: #66b3ff;
+}
+[data-bs-theme="dark"] .content-section a:not(.btn):not(.nav-link):not(.dropdown-item):not(.link-dark):hover {
+  color: #99ccff;
+}
+
+/* Horizontal rule separators in talks/demos/keynotes */
+[data-bs-theme="dark"] .content-section hr.bg-dark {
+  background-color: #444 !important;
+  border-color: #444 !important;
+}
+
+/* Alert banner (TBA notice on keynotes.html) */
+[data-bs-theme="dark"] .alert-warning {
+  background-color: #3d3000;
+  color: #ffd966;
+  border-color: #806600;
+}
+
+/* Footer (already dark in light mode, but make sure the slab matches) */
+[data-bs-theme="dark"] .footer {
+  background-color: #0a0a0a;
+}
+
+/* Theme toggle button itself */
+.theme-toggle-btn {
+  background: transparent;
+  border: 0;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  color: inherit;
+}
+.theme-toggle-btn:focus {
+  outline: 2px solid #66b3ff;
+  outline-offset: 2px;
+}
+[data-bs-theme="dark"] .theme-toggle-btn {
+  color: #e6e6e6;
+}
