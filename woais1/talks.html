@@ -99,7 +99,7 @@
       </p>
 
       <p class="lead">
-        <strong>Josef Spillner (Zurich University of Applied Sciences); Sepideh Shamsizadeh (remote); Valerio Schiavoni (in person)</strong>
+        <strong>Josef Spillner (Zurich University of Applied Sciences); Sepideh Shamsizadeh (remote)</strong>
       </p>
 
       <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
@@ -108,9 +108,7 @@
 
       <p class="lead">
         <strong>
-          The widespread deployment of Large Language Models (LLMs) requires substantial computational resources, often resulting in high operational costs and energy consumption. Optimizing these complex workloads necessitates precise visibility into how hardware accelerators and host system resources are utilized. This paper presents InferenceProfiler, a software tool that measures and records the resource usage of LLM inferencing tasks. InferenceProfiler is designed to profile the CPU/GPU, memory, disk, network, and power utilization of various tasks, collecting system metrics from the virtual machine (host), cgroup, process, GPU, and inference engine. InferenceProfiler leverages the NVIDIA Management Library (NVML) to capture real-time metrics across varying NVIDIA GPU architectures. InferenceProfiler integrates with vLLM, an open-source high-throughput inference engine for serving LLMs, to correlate application-level telemetry directly with underlying metrics. InferenceProfiler supports time-series profiling to enable continuous monitoring of the resources consumed by LLM inference.
-          <br/>
-          Using InferenceProfiler, we demonstrate resource requirements for LLM inferencing on alternate GPUs by benchmarking Llama-3.2-3B-Instruct on six AWS EC2 accelerated computing instance types. With a load of 1,000 concurrent inference requests, we find that the g5.xlarge instance (A10G) achieves the lowest cost per generated token ($0.0936 per run, $0.1829 per million tokens) despite being neither the least expensive ec2 GPU instance per hour nor the fastest. Additionally, the g7e.2xlarge instance (RTX 6000 Blackwell) is the fastest but 3% more expensive per token than the g6e.xlarge and 8% more costly than the g5.xlarge.
+          The widespread deployment of Large Language Models (LLMs) requires substantial computational resources, often resulting in high operational costs and energy consumption. Optimizing these complex workloads necessitates precise visibility into how hardware accelerators and host system resources are utilized. This paper presents InferenceProfiler, a software tool that measures and records the resource usage of LLM inferencing tasks. Inference-Profiler is designed to profile the CPU/GPU, memory, disk, network, and power utilization of various tasks, collecting system metrics from the virtual machine (host), cgroup, process, GPU, and inference engine. InferenceProfiler leverages the NVIDIA Management Library (NVML) to capture real-time metrics across varying NVIDIA GPU architectures. InferenceProfiler integrates with vLLM, an open-source high-throughput inference engine for serving LLMs, to correlate application-level telemetry directly with underlying metrics. InferenceProfiler supports time-series profiling to enable continuous monitoring of the resources consumed by LLM inference. Using InferenceProfiler, we demonstrate resource requirements for LLM inferencing on alternate GPUs by benchmarking Llama-3.2-3B-Instruct on six AWS EC2 accelerated computing instance types. With a load of 1,000 concurrent inference requests, we find that the g5.xlarge instance (A10G) achieves the lowest cost per generated token ($0.0936 per run, $0.1829 per million tokens) despite being neither the least expensive ec2 GPU instance per hour nor the fastest. Additionally, the g7e.2xlarge instance (RTX 6000 Blackwell) is the fastest but 3% more expensive per token than the g6e.xlarge and 8% more costly than the g5.xlarge.
         </strong>
       </p>
 
@@ -126,7 +124,7 @@
 
       <p class="lead">
         <strong>
-          The expansion of context windows in large language models (LLMs) raises a critical question: Can long-context inference fully replace Retrieval-Augmented Generation (RAG) in production? To address this, we benchmarked three serverless architectures—Modular RAG, Serverless RAG, and Long-Context Inference—against technical documents up to 300 pages. Our results reveal clear operational trade-offs. Long-Context successfully mitigates the &ldquo;Lost in the Middle&rdquo; phenomenon, scoring 9.6/10 in accuracy on 142-page documents. However, scaling to 300 pages introduces severe limitations: latencies spike to 21.7s and costs increase by nearly 100x compared to RAG systems. Conversely, Modular RAG maintains low latency (4.2s) and cost ($0.0012), though accuracy drops to 4.1/10 on massive datasets due to retrieval limits. Serverless RAG offers a stable middle ground. Ultimately, while Long-Context is adequate for medium-sized documents despite its higher cost, our findings suggest that beyond a certain size threshold, RAG architectures remain essential to reduce context size, ensuring scalable and cost-effective operations.
+          The expansion of context windows in large language models (LLMs) raises a critical question: Can long-context inference fully replace Retrieval-Augmented Generation (RAG) in production? To address this, we benchmarked three serverless architectures&mdash;Modular RAG, Serverless RAG, and Long-Context Inference&mdash;against technical documents up to 300 pages. Our results reveal clear operational trade-offs. Long-Context successfully mitigates the &ldquo;Lost in the Middle&rdquo; phenomenon, scoring 9.6/10 in accuracy on 142-page documents. However, scaling to 300 pages introduces severe limitations: latencies spike to 21.7s and costs increase by nearly 100x compared to RAG systems. Conversely, Modular RAG maintains low latency (4.2s) and cost ($0.0012), though accuracy drops to 4.1/10 on massive datasets due to retrieval limits. Serverless RAG offers a stable middle ground. Ultimately, while Long-Context is adequate for medium-sized documents despite its higher cost, our findings suggest that beyond a certain size threshold, RAG architectures remain essential to reduce context size, ensuring scalable and cost-effective operations.
         </strong>
       </p>
 
@@ -147,7 +145,6 @@
       <p class="lead">
         <strong>Sashko Ristov, Philipp Gritsch, Florian Unterhofer, Ruth Breu (University of Innsbruck)</strong>
       </p>
-
     </div>
   </section>
 

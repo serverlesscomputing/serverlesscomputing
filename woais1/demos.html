@@ -90,17 +90,11 @@
 
       <h2 class="mt-5 mb-4">Demos session (3x5 min)</h2>
 
-      <h3 id="d1">#1 - Blocks-DB</h3>
+      <h3 id="d1">#1 - Blocks-DB: Lightweight Stateless Vector Database</h3>
 
       <p class="lead">
         <strong>
-          In this demo, we present Blocks-DB, a lightweight stateless serverless vector database designed entirely on top of cloud object storage and Function-as-a-Service (FaaS) primitives. Blocks-DB introduces a block-based partitioning strategy that continuously aggregates incoming vectors into balanced immutable blocks, enabling efficient indexing and scalable parallel query execution without relying on persistent servers or complex clustering mechanisms.
-          <br/>
-          Blocks-DB uses a fully event-driven architecture where ingestion, partitioning, indexing, and querying are executed through stateless cloud functions. By decoupling ingestion from indexing and leveraging asynchronous block creation, the system supports continuous ingestion while maintaining stable query latency and recall with low infrastructure overhead.
-          <br/>
-          We have evaluated Blocks-DB against Amazon S3 Vectors, the current state-of-the-art serverless vector storage solution, showing that block-based partitioning improves elasticity and cost efficiency while achieving competitive query latency and recall.
-          <br/>
-          During the demo, we will showcase the Blocks-DB workflow, from system deployment and database creation to vector ingestion, indexing, querying, and GET and PUT operations, demonstrating how lightweight stateless serverless architectures can efficiently support modern vector search workloads.
+          In this demo, we present Blocks-DB, a lightweight stateless serverless vector database designed entirely on top of cloud object storage and Function-as-a-Service (FaaS) primitives. Blocks-DB introduces a block-based partitioning strategy that continuously aggregates incoming vectors into balanced immutable blocks, enabling efficient indexing and scalable parallel query execution without relying on persistent servers or complex clustering mechanisms. Blocks-DB uses a fully event-driven architecture where ingestion, partitioning, indexing, and querying are executed through stateless cloud functions. By decoupling ingestion from indexing and leveraging asynchronous block creation, the system supports continuous ingestion while maintaining stable query latency and recall with low infrastructure overhead. We have evaluated Blocks-DB against LanceDB and Amazon S3 Vectors, the current state-of-the-art serverless vector storage solution, showing that block-based partitioning improves elasticity and cost efficiency while achieving competitive query latency and recall. During the demo, we will showcase the Blocks-DB workflow, from system deployment and database creation to vector ingestion, indexing, querying, and GET and PUT operations, demonstrating how lightweight stateless serverless architectures can efficiently support modern vector search workloads.
         </strong>
       </p>
 
@@ -119,8 +113,7 @@
       </p>
 
       <p class="lead">
-        Video [<a
-          href="https://rovira-my.sharepoint.com/:v:/g/personal/48277657-j_epp_urv_cat/IQBQBz8hqN0kS6ELLNuB7K0xAStr58fYiToHsyPL2RUWrpM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=WCrkvv&amp;referrer=Outlook.Web&amp;referrerScenario=email-linkwithembed">link</a>]
+        Video [<a href="https://rovira-my.sharepoint.com/:v:/g/personal/48277657-j_epp_urv_cat/IQBQBz8hqN0kS6ELLNuB7K0xAStr58fYiToHsyPL2RUWrpM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=WCrkvv&amp;referrer=Outlook.Web&amp;referrerScenario=email-linkwithembed">link</a>]
       </p>
 
       <p class="lead">
@@ -133,20 +126,13 @@
 
       <p class="lead">
         <strong>
-          The Function-as-a-Service (FaaS) paradigm is increasingly adopted across the Edge&ndash;Cloud Continuum. Modern Edge infrastructures are inherently heterogeneous, often combining ARM and x86 processors with different performance, energy, and cost characteristics. While prior work has shown that architecture-aware scheduling can improve efficiency, most FaaS platforms still lack adaptive mechanisms to exploit heterogeneous resources, particularly when handling previously unseen functions whose architecture affinity is unknown.
-          <br/>
-          This work extends Serverledge, an open-source FaaS framework for the Edge&ndash;Cloud Continuum, to support heterogeneous execution environments and architecture-aware scheduling. The framework is enhanced to manage architecture-specific node information and execute functions transparently across ARM and x86 nodes.
-          <br/>
-          To exploit architecture affinity, we formulate architecture selection as a Multi-Armed Bandit (MAB) problem, where the scheduler learns online which architecture best suits each function. We investigate both context-free and contextual MAB algorithms, leveraging runtime information such as memory utilization to guide decisions. The learning component is integrated with a consistent hashing mechanism that distributes requests across nodes while preserving execution locality.
-          <br/>
-          Experimental results on hybrid ARM/x86 clusters show that the proposed approach effectively learns architecture affinity and outperforms static scheduling policies with negligible overhead.
+          The Function-as-a-Service (FaaS) paradigm is increasingly adopted across the Edge&ndash;Cloud Continuum. Modern Edge infrastructures are inherently heterogeneous, often combining ARM and x86 processors with different performance, energy, and cost characteristics. While prior work has shown that architecture-aware scheduling can improve efficiency, most FaaS platforms still lack adaptive mechanisms to exploit heterogeneous resources, particularly when handling previously unseen functions whose architecture affinity is unknown. This work extends Serverledge, an open-source FaaS framework for the Edge&ndash;Cloud Continuum, to support heterogeneous execution environments and architecture-aware scheduling. The framework is enhanced to manage architecture-specific node information and execute functions transparently across ARM and x86 nodes. To exploit architecture affinity, we formulate architecture selection as a Multi-Armed Bandit (MAB) problem, where the scheduler learns online which architecture best suits each function. We investigate both context-free and contextual MAB algorithms, leveraging runtime information such as memory utilization to guide decisions. The learning component is integrated with a consistent hashing mechanism that distributes requests across nodes while preserving execution locality. Experimental results on hybrid ARM/x86 clusters show that the proposed approach effectively learns architecture affinity and outperforms static scheduling policies with negligible overhead.
         </strong>
       </p>
 
       <p class="lead">
         <strong>Gabriele Russo Russo (University of Rome Tor Vergata)</strong>
       </p>
-
     </div>
   </section>
 
