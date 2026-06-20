@@ -100,15 +100,15 @@
         multiplexed across many models and requests, billed only for useful work. Yet the gap between
         that ideal and how we serve large models today spans orders of magnitude &mdash; and it cannot
         be closed by adding hardware. This talk argues that the path to far more efficient serverless
-        AI inference is a *hunt for the right system primitives*: for each key subproblem of the
+        AI inference is a <em>hunt for the right system primitives</em>: for each key subproblem of the
         inference lifecycle, identify it, co-design a minimal and composable primitive that exploits a
         property of the model or hardware, and compose primitives so their gains multiply. I ground
-        this in two systems. ServerlessLLM (OSDI'24) contributes fast multi-tier *loading* and *token
-        migration* to eliminate cold starts (10× lower startup latency). BatchGen (OSDI'26) contributes
-        event-driven *coroutine scheduling* &mdash; *yield, combine, partition,* and *KV migration*
-        &mdash; to keep GPU fleets busy under MoE sparsity and long-tailed generation (up to 9.6×
-        faster inference). I close with the open frontier: the primitives and co-designs we still need,
-        and an invitation to find them together.
+        this in two systems. ServerlessLLM (OSDI'24) contributes fast multi-tier <em>loading</em> and
+        <em>token migration</em> to eliminate cold starts (10× lower startup latency). BatchGen
+        (OSDI'26) contributes event-driven <em>coroutine scheduling</em> &mdash; <em>yield, combine,
+        partition,</em> and <em>KV migration</em> &mdash; to keep GPU fleets busy under MoE sparsity
+        and long-tailed generation (up to 9.6× faster inference). I close with the open frontier: the
+        primitives and co-designs we still need, and an invitation to find them together.
       </p>
 
       <p class="lead">
