@@ -3,14 +3,11 @@
  * Loaded AFTER css/styles.css so these rules win on specificity ties.
  */
 
-/* Anchor-scroll offset: the .navbar.fixed-top is ~80px tall, so when a #kN
- * (or similar) link scrolls to a heading the heading would end up hidden
- * under the navbar. scroll-padding-top tells the browser to leave that much
- * blank space above the target on anchor scrolls (light AND dark mode).
- * 9rem (~144px) leaves comfortable breathing room above the heading after
- * cross-page anchor jumps (e.g. program.html -> talks.html#p1). */
+/* Disable smooth scrolling. styles.css sets `:root { scroll-behavior: smooth }`
+ * under prefers-reduced-motion: no-preference, which animates every anchor jump.
+ * wosc11 has no such rule, so its anchor jumps are instant — match that. */
 html {
-  scroll-padding-top: 9rem;
+  scroll-behavior: auto !important;
 }
 
 [data-bs-theme="dark"] body {
@@ -18,21 +15,8 @@ html {
   color: #e6e6e6;
 }
 
-/* Navbar (.navbar.bg-light is the woscx4 pattern used across pages) */
-[data-bs-theme="dark"] .navbar.bg-light {
-  background-color: #1f1f1f !important;
-}
-[data-bs-theme="dark"] .navbar-light .navbar-nav .nav-link,
-[data-bs-theme="dark"] .navbar-light .navbar-toggler {
-  color: #e6e6e6;
-}
-[data-bs-theme="dark"] .navbar-light .navbar-nav .nav-link:hover,
-[data-bs-theme="dark"] .navbar-light .navbar-nav .nav-link.active {
-  color: #ffffff;
-}
-[data-bs-theme="dark"] .navbar-toggler-icon {
-  filter: invert(1);
-}
+/* Navbar is always navbar-dark bg-dark (wosc11 style) — same in light and dark mode,
+ * so no overrides needed here. */
 
 /* Light content sections */
 [data-bs-theme="dark"] .content-section.bg-light {
