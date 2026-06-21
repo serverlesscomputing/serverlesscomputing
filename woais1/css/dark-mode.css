@@ -6,9 +6,11 @@
 /* Anchor-scroll offset: the .navbar.fixed-top is ~80px tall, so when a #kN
  * (or similar) link scrolls to a heading the heading would end up hidden
  * under the navbar. scroll-padding-top tells the browser to leave that much
- * blank space above the target on anchor scrolls (light AND dark mode). */
+ * blank space above the target on anchor scrolls (light AND dark mode).
+ * 9rem (~144px) leaves comfortable breathing room above the heading after
+ * cross-page anchor jumps (e.g. program.html -> talks.html#p1). */
 html {
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 9rem;
 }
 
 [data-bs-theme="dark"] body {
