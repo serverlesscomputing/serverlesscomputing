@@ -1,0 +1,61 @@
+/* Print stylesheet for WoAIS2 pages.
+ *
+ * Loaded via media="print", so it applies only when the page is printed or
+ * rendered to PDF (WeasyPrint honors @media print and uses media="print"
+ * stylesheets even outside of a @media block).
+ *
+ * NOTE: lynx ignores CSS entirely. To produce a clean text dump (cfp.txt),
+ * pre-strip the same non-content elements from the HTML before piping to
+ * lynx — see README.md for the updated command.
+ */
+
+@media print {
+  /* Site chrome that has no place in a printed/PDF copy */
+  nav.navbar,
+  footer.footer,
+  a.scroll-to-top,
+  .theme-toggle-btn,
+  .navbar-toggler,
+  .dropdown-menu {
+    display: none !important;
+  }
+
+  /* Reset content padding so it's not pushed down by the no-longer-rendered
+   * fixed-top navbar, and avoid awkward page-break placement. */
+  body {
+    padding-top: 0 !important;
+  }
+  .content-section {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    background: none !important;
+    color: black !important;
+  }
+  .content-section.bg-gradient {
+    background: none !important;
+    color: black !important;
+  }
+  .content-section.bg-gradient * {
+    color: black !important;
+  }
+
+  /* Don't break lists or paragraphs across pages mid-item */
+  li, p {
+    page-break-inside: avoid;
+  }
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Make links printable: show the URL after the link text */
+  a[href]:not(.btn):not(.nav-link):after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555;
+  }
+  /* But not for self-anchors or empty hrefs */
+  a[href^="#"]:after,
+  a[href=""]:after {
+    content: "";
+  }
+}

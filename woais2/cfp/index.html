@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="WoAIS2 — Call for Papers" />
+  <meta name="author" content="" />
+  <title>WoAIS2 — Call for Papers</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css" />
+  <link href="../css/styles.css" rel="stylesheet" />
+  <link href="../css/dark-mode.css" rel="stylesheet" />
+  <link href="../css/print.css" rel="stylesheet" media="print" />
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  <script src="../js/theme.js"></script>
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand navbar-light bg-light rounded fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10"
+      aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Second International Workshop on AI and Serverless (WoAIS2)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">CFP <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../keynotes.html">Keynotes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../talks.html">Talks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../demos.html">Demos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../program.html">Program</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Previous Editions
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+            <a class="dropdown-item" href="../../woais1/">2026 WoAIS 1</a>
+            <a class="dropdown-item" href="../../wosc11/">2025 WoSC 11</a>
+            <a class="dropdown-item" href="../../woscx4/">2025 WoSCx4</a>
+            <a class="dropdown-item" href="../../wosc10/">2024 WoSC 10</a>
+            <a class="dropdown-item" href="../../woscx3/">2024 WoSCx3</a>
+            <a class="dropdown-item" href="../../woscx2/">2023 WoSCx2</a>
+            <a class="dropdown-item" href="../../wosc9/">2023 WoSC 9</a>
+            <a class="dropdown-item" href="../../woscx1/">2022 WoSCx1</a>
+            <a class="dropdown-item" href="../../wosc8/">2022 WoSC 8</a>
+            <a class="dropdown-item" href="../../wosc7/">2021 WoSC 7</a>
+            <a class="dropdown-item" href="../../wosc6/">2020 WoSC 6</a>
+            <a class="dropdown-item" href="../../wosc5/">2019 WoSC 5</a>
+            <a class="dropdown-item" href="../../wosc4/">2018 WoSC 4</a>
+            <a class="dropdown-item" href="../../wosc3/">2018 WoSC 3</a>
+            <a class="dropdown-item" href="../../wosc2/">2017 WoSC 2</a>
+            <a class="dropdown-item" href="../../wosc1/">2017 WoSC 1</a>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button id="theme-toggle" class="theme-toggle-btn nav-link" type="button" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="content-section bg-light" id="about">
+    <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
+      <h1 class="mb-4">Second International Workshop on AI and Serverless (WoAIS) 2026</h1>
+
+      <p class="lead">
+        Part of <a href="https://2026.middleware-conference.org/">27th ACM/IFIP International Middleware Conference
+          (Middleware 2026)</a>, Universitat Rovira i Virgili, Tarragona, Spain (December 14&ndash;18, 2026).
+      </p>
+
+      <p class="lead">
+        WoAIS2 will be a hybrid workshop with both in-person and remote participants. Please consult the Middleware
+        2026 organizers for the latest guidance on hybrid format and registration requirements.
+      </p>
+
+      <p>
+        The rise of new AI agents (which involve multiple LLM calls, dynamic plans, and a mix of deterministic
+        code and AI models) is creating uniquely complex workloads for serverless platforms. These agentic
+        applications may be triggered by events, run quickly for a few seconds or autonomously for days, and
+        communicate with other agents. This new reality has already resurfaced classic serverless challenges, such as
+        cold starts, state management, and resource allocation, but within the demanding context of modern AI
+        applications. Furthermore, new complications are emerging, including mixed GPU/CPU needs, unpredictable
+        (stochastic) execution plans, long-running yet highly bursty processes, the critical need for robust
+        agent-to-agent communication, and integrations with agentic programming models and frameworks such as
+        <a href="https://langchain-ai.github.io/langgraph/">LangGraph</a>,
+        <a href="https://www.crewai.com/">CrewAI</a>,
+        <a href="https://github.com/microsoft/autogen">AutoGen/AG2</a>,
+        <a href="https://adk.dev/">Google ADK</a>, and IBM's open-source
+        <a href="https://www.ibm.com/think/topics/beeai">BeeAI</a>.
+      </p>
+      <p>
+        Looking beyond the cloud, the scope of serverless is expanding. The workshop looks ahead at future
+        architectures involving AI, hybrid clouds, and especially edge/IoT devices, which current serverless platforms
+        are not well-equipped to support. These next-gen computing architectures are becoming more common but bring
+        new challenges to old concerns such as resource optimization, scaling, cost, monitoring, and ease of use. The
+        serverless experience becomes essential to emerging trends such as DevOps and
+        <a href="https://platformengineering.org/">Platform Engineering</a> in industry and will be critical to the
+        success of next-gen computing.
+      </p>
+      <p>
+        This naturally leads to a discussion of the role of LLMs and Foundation Models (FMs) in serverless, where the
+        workshop will explore how hybrid serverless platforms can be leveraged for the entire lifecycle of LLMs and
+        FMs (from fine-tuning and customization to inference serving and ongoing management), with a focus on
+        use cases, resource allocations, optimizations, and using AI to improve the serverless experience itself.
+      </p>
+      <p>
+        A rapidly emerging part of this landscape is the <b>agent platform layer</b>: open-source,
+        Kubernetes-native runtimes that support CRD-based agent lifecycle, are framework-agnostic, with native
+        MCP/A2A/OpenTelemetry integrations, with SPIFFE workload identity and Istio Ambient mesh for zero-trust mTLS
+        between agents, as well as enterprise control planes such as
+        <a href="https://www.ibm.com/products/watsonx-orchestrate">IBM watsonx Orchestrate</a> and
+        <a href="https://aws.amazon.com/bedrock/agents/">Amazon Bedrock Agents</a> that unify agents built on
+        different frameworks under a single governance and observability surface. Closely tied to these platforms is
+        the rise of standardized inter-agent protocols. The
+        <a href="https://modelcontextprotocol.io/">Model Context Protocol (MCP)</a> addresses agent-to-tool
+        interaction, while the <a href="https://a2a-protocol.org/latest/">Agent2Agent (A2A) protocol</a> (donated by
+        Google to the Linux Foundation) addresses agent-to-agent discovery, delegation, and coordination. The
+        workshop welcomes work on the systems implications of these platforms and protocols on serverless: zero-trust
+        identity for ephemeral agents, autoscaling for A2A/MCP traffic, cold-start and connection-pooling for
+        protocol endpoints, sandboxed tool execution, and multi-tenant isolation of agents that may originate from
+        many vendors.
+      </p>
+      <p>
+        A closely related emerging area is the rise of <b>agentic coding harnesses</b> such as
+        <a href="https://github.com/anthropics/claude-code">Claude Code</a> and
+        <a href="https://openclaw.ai/">OpenClaw</a>, which wrap LLMs with tool use, memory, sandboxed execution, and
+        multi-step planning. These harnesses are simultaneously a representative workload for serverless platforms
+        (bursty multi-LLM sessions, tool calls that fan out to deterministic code and external services, long-lived
+        agent state) and a new programming model that shapes how serverless platforms should expose execution,
+        isolation, and inter-agent communication primitives (see protocols discussed above, such as MCP, A2A, and
+        ACP). The workshop welcomes work on running, scaling, securing, and observing such harnesses on serverless
+        infrastructure, including harness-to-harness (multi-agent) orchestration.
+      </p>
+      <p>
+        The workshop is also interested in <b>AI-Driven Research for Systems (ADRS)</b>, the emerging paradigm
+        articulated in recent work such as <a href="https://arxiv.org/abs/2510.06189">Barbarians at the Gate</a> and
+        <a href="https://arxiv.org/abs/2512.14806">Let the Barbarians In</a>, in which LLM-based agents iteratively
+        generate, evaluate, and refine systems-level solutions and have already matched or outperformed human
+        state-of-the-art in domains such as scheduling, load balancing, and query optimization. ADRS is doubly
+        relevant to WoAIS: its evaluation loops are themselves elastic, embarrassingly bursty workloads naturally
+        suited to serverless execution, and serverless systems are a promising target for ADRS-driven design and
+        autotuning. Submissions on using ADRS-style methodologies to advance serverless and AI systems research, as
+        well as on the infrastructure needed to operate ADRS at scale, are encouraged.
+      </p>
+      <p>
+        ADRS belongs to a broader, rapidly growing family of <b>AI-agent-driven research loops</b> that share an
+        iterative generate&ndash;evaluate&ndash;refine pattern, spanning evolutionary code-search agents (e.g.,
+        <a href="https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/">AlphaEvolve</a>),
+        end-to-end "AI scientist" systems, and evaluation-infrastructure benchmarks. From a systems perspective these
+        are structurally serverless-shaped workloads: many parallel, independently evaluable trials in sandboxed
+        containers with variable resource needs and mixed CPU/GPU usage. They surface questions for WoAIS such as
+        evaluation-as-a-service at FaaS granularity, secure sandboxed trial execution, cost-aware search heuristics,
+        reproducibility for AI-generated designs, and multi-agent orchestration; submissions on any of these
+        directions are welcome.
+      </p>
+
+      <p>
+        This workshop brings together researchers and practitioners to discuss their experiences and ideas for future
+        directions in AI and serverless research. We are looking not only for research papers, experience papers,
+        demonstrations, or position papers but also for live presentations of ongoing work, demonstrations, and
+        anything else that may be interesting to the workshop audience.
+      </p>
+      <p>
+        The latest version of this CFP is available at
+        <a href="http://serverlesscomputing.org/woais2/">http://serverlesscomputing.org/woais2/</a>
+      </p>
+
+      <h2>Topics</h2>
+
+      <p>
+        This workshop solicits papers from both academia and industry on the state of practice and state of the art in
+        AI and serverless computing. Topics of interest include but are not limited to:
+      </p>
+
+      <ul>
+        <li>AI Operating System: system-level infrastructure for scalable intelligence, viewing world models as
+          "operating systems" for future AI agents</li>
+        <li>Infrastructure for scaling AI: distributed training and evaluation systems, compilers, and data engines
+          that support continual updates</li>
+        <li>Infrastructure and network optimizations for AI and serverless applications</li>
+        <li>Cloud services for AI: scalable AI cloud services for tasks such as the inspection of large-scale
+          infrastructures</li>
+        <li>Operating AI at scale: extending monitoring and adaptation to large-scale production environments with
+          heterogeneous data streams and real-time costs</li>
+        <li>Cost per token, energy usage, cost to operate AI agents and models, cost models, pricing models, and
+          economics of AI and serverless</li>
+        <li>Using serverless for AI pipelines</li>
+        <li>Using serverless for inference serving of AI models and agents</li>
+        <li>Autonomous lifecycle management for AI: transitioning AI to operations and managing the infrastructure
+          challenges for AI adoption across its entire lifecycle</li>
+        <li>Orchestrating multiple AI agents running as serverless functions, including coordination and
+          synchronization when agents work on sections of the same task</li>
+        <li>Memory layers for AI: memory architectures for LLM-based agents, including episodic vs. semantic memory,
+          retrieval mechanisms, and consolidation of interaction-driven experiences</li>
+        <li>Cloud AI security: AI-driven cybersecurity risk analysis and secure machine learning for vulnerability
+          assessment of AI and related technologies using serverless and other scalable techniques</li>
+        <li>Elastic AI platforms and pay-as-you-go for GPUs with different cost metrics; using AI assist and generative
+          LLMs such as ChatGPT for building, running, and maintaining serverless-like applications</li>
+        <li>Agent platform layer: open-source Kubernetes-native runtimes (CRD-based lifecycle, framework-agnostic,
+          MCP/A2A/OpenTelemetry integrations) and enterprise control planes such as IBM watsonx Orchestrate and Amazon
+          Bedrock Agents</li>
+        <li>Zero-trust identity for ephemeral agents (SPIFFE workload identity, Istio Ambient mesh mTLS) and
+          multi-tenant isolation of agents from many vendors</li>
+        <li>Standardized inter-agent protocols (Model Context Protocol (MCP), Agent2Agent (A2A), and ACP):
+          autoscaling, cold-start, and connection-pooling for protocol endpoints; sandboxed tool execution</li>
+        <li>Agentic programming frameworks (LangGraph, CrewAI, AutoGen/AG2, Google ADK, BeeAI) and their interplay
+          with serverless execution, isolation, and inter-agent communication primitives</li>
+        <li>Agentic coding harnesses (Claude Code, OpenClaw, etc.): running, scaling, securing, and observing
+          LLM-with-tools harnesses on serverless infrastructure, including harness-to-harness orchestration</li>
+        <li>AI-Driven Research for Systems (ADRS) and AI-agent-driven research loops (FunSearch, AlphaEvolve,
+          CodeEvolve, AIDE, AI Scientist, AI co-scientist, AI-Researcher, R&amp;D-Agent): evaluation-as-a-service at
+          FaaS granularity, secure sandboxed trial execution, cost-aware search heuristics, reproducibility for
+          AI-generated designs, and multi-agent orchestration of specialized research roles</li>
+        <li>Evaluation infrastructure for agentic research loops (MLE-Bench, MLR-Bench, MLE-STAR, OpenHands,
+          KernelBench): standardized benchmarks and reproducible results for AI-generated designs</li>
+        <li>AI-Native Systems and Autonomous Evolution at Machine Speed: governed autonomy with full provenance for
+          AI-driven changes, cheap simulator-based evaluation (e.g., llm-d / llm-d-inference-sim), multi-timescale
+          control loops, and the boundary between runtime adaptation and design-time evolution</li>
+        <li>Multi-cloud and hybrid cloud for AI and serverless computing in Edge, Fog, IoT, etc.</li>
+        <li>Supporting customization and running user-provided AI models in any environment: Cloud, Edge, Fog, IoT</li>
+        <li>Evaluation, benchmarking, and reproducibility: standardized benchmarks and reproducible AI research
+          results, especially when candidate designs are themselves generated and refined by AI agents</li>
+        <li>Mixed GPU, accelerators, and CPU workloads for AI agents</li>
+        <li>Running AI and serverless applications with stochastic plans (unpredictable execution paths), bursty
+          long-running processes, and inter-process communications</li>
+        <li>Developer experience as we transition from "traditional" serverless and FaaS to AI agentic programming</li>
+        <li>Developer productivity to build AI serverless code: from local source to observability and maintenance in
+          production</li>
+        <li>Serverless data management for AI, Retrieval-Augmented Generation (RAG), vector and graph databases
+          applied to the serverless experience</li>
+        <li>AI and serverless for next-gen computing in industry such as Platform Engineering and Internal Developer
+          Platforms</li>
+        <li>Low-code and no-code: new programming abstractions for AI and serverless</li>
+        <li>Debugging AI serverless applications</li>
+        <li>Use cases, experiences with AI and serverless</li>
+        <li>DevOps for AI and serverless</li>
+        <li>Confidential computing</li>
+        <li>Sustainable computing</li>
+        <li>Granular computing</li>
+        <li>Super-lightweight containers and WebAssembly</li>
+        <li>Swarm intelligence</li>
+        <li>Other topics related to AI and serverless computing</li>
+      </ul>
+
+      <h2 id="dates">Important Dates</h2>
+      <p>
+        Paper Submission: <b>September 17, 2026</b> (AOE)
+        <br/>
+        Notification of Acceptance: <b>October 12, 2026</b>
+        <br/>
+        Final Camera-Ready Manuscript (Hard Deadline): <b>October 16, 2026</b>
+        <br/>
+        Author registration deadline: <b>TBD</b>
+        <br/>
+        Workshop: <b>December 14, 2026</b>
+        <br/>
+        Conference: <b>December 14&ndash;18, 2026</b>
+      </p>
+
+      <h2>Papers and Submissions</h2>
+
+      <h3 id="papers">Paper submissions</h3>
+
+      <p>
+        Authors are invited to submit original, unpublished research/application papers that are not being considered
+        in another forum.
+      </p>
+      <p>
+        Submitted manuscripts must have at most <b>six (6) pages of technical content</b>, including text, figures, and
+        appendices, but excluding any number of additional pages for bibliographic references. Papers must adhere to
+        the formatting instructions of the ACM SIGPLAN style, which can be found on the
+        <a href="https://www.acm.org/publications/proceedings-template">ACM template page</a>; the font size has to be
+        set to 10pt.
+      </p>
+      <p>
+        Shorter formats such as extended abstracts (5 pages or less), posters, or position papers are also accepted.
+      </p>
+      <p>
+        <b>Note that submissions must be double-blind: authors' names must not appear on the manuscript, and
+          authors must make a good-faith attempt to anonymize their submissions.</b> References to authors' previous
+        work should be done in the third person to not reveal their identities. There should be no acknowledgments of
+        people or projects. Supplementary material (e.g., GitHub or GitLab repository) should not reveal the authors'
+        identities; to this end, anonymized repositories can be used (e.g.,
+        <a href="https://anonymous.4open.science">https://anonymous.4open.science</a>). See below for more details on
+        the anonymity requirements for doubly-anonymous reviewing.
+      </p>
+      <p>
+        The Middleware conference organizers will provide companion proceedings including all workshop papers, which
+        will be available in the ACM Digital Library, subject to the availability of camera-ready papers by the
+        deadline.
+      </p>
+      <p>
+        Authors should submit the manuscript in PDF format. All manuscripts will be reviewed and judged on correctness,
+        originality, technical strength, rigour in analysis, quality of results, quality of presentation, and interest
+        and relevance to the conference attendees. Papers will be submitted through <b>HotCRP</b>, in a manner
+        consistent with how Middleware workshops use the system; the submission link will be announced on this page
+        and at <a href="http://serverlesscomputing.org/woais2/">http://serverlesscomputing.org/woais2/</a>.
+      </p>
+      <p>
+        All submitted manuscripts will be peer-reviewed by at least 3 program committee members. Accepted papers with
+        confirmed presentation will appear in the conference proceedings as well as in the ACM Digital Library.
+      </p>
+      <p>
+        The authors of accepted papers will be given a choice between different copyright agreements, according to the
+        recent changes in the ACM policy. The options will include opportunities for open access as well as the
+        traditional ACM copyright agreement.
+      </p>
+      <p>
+        <b>Note that at least one author of each accepted workshop paper must hold a full pre-conference
+          registration.</b>
+      </p>
+
+      <h3 id="acmpolicies">ACM Policies</h3>
+
+      <p>
+        By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors
+        are subject to all <a href="https://www.acm.org/publications/policies">ACM Publications Policies</a>, including
+        ACM's
+        <a href="https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects">Publications
+          Policy on Research Involving Human Participants and Subjects</a>. Alleged violations of this policy or any
+        ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in
+        addition to other potential penalties, as per ACM Publications Policy.
+      </p>
+      <p>
+        Please ensure that you and your co-authors obtain an <a href="https://orcid.org/register">ORCID ID</a>, so you
+        can complete the publishing process for your accepted paper. ACM has been involved in ORCID from the start and
+        has recently made a
+        <a href="https://authors.acm.org/author-resources/orcid-faqs">commitment to collect ORCID IDs from all
+          published authors</a> to improve author discoverability, ensure proper attribution, and contribute to
+        ongoing community efforts around name normalization.
+      </p>
+
+      <h3 id="acmopenaccess">ACM Open Access publishing model for 2026 ACM Conferences</h3>
+
+      <p>
+        Starting January 1, 2026, ACM is fully transitioning to Open Access. All ACM publications, including those
+        from ACM-sponsored conferences, are 100% Open Access. Authors have two primary options for publishing Open
+        Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs).
+        With over 2,600 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will
+        not require APCs from authors or conferences (currently, around 76%).
+      </p>
+      <p>
+        Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers,
+        unless they qualify for a financial waiver. To find out whether an APC applies to your article, please consult
+        the list of participating institutions in ACM Open and review the
+        <a href="https://www.acm.org/publications/policies/policy-on-discretionary-open-access-apc-waivers">policy on
+          discretionary open-access APC waivers</a>. Waivers are rare and are granted based on specific criteria set
+        by ACM.
+      </p>
+      <p>
+        To ease the transition, ACM has approved a temporary subsidy for 2026, offering:
+      </p>
+      <p>$250 APC for ACM/SIG members</p>
+      <p>$350 for non-members</p>
+      <p>
+        This represents a <a href="https://www.acm.org/publications/openaccess">65% discount</a>, funded directly by
+        ACM. Authors are encouraged to advocate for their institutions to join ACM Open during this transition period.
+      </p>
+
+      <h3 id="anonymity">Anonymity Requirements for Doubly-Anonymous Reviewing</h3>
+
+      <p>
+        Every research paper submitted to WoAIS2 will undergo a "doubly-anonymous" reviewing process: in addition to
+        maintaining the anonymity of the reviewers of the papers, the PC members and reviewers will not know the
+        identity of the authors. To ensure the anonymity of authorship, authors must at least do the following:
+      </p>
+      <ol>
+        <li>Authors' names and affiliations must not appear on the title page or elsewhere in the paper.</li>
+        <li>Funding sources must not be acknowledged anywhere in the paper under review; these can be added to
+          accepted papers upon submission of the camera-ready manuscript.</li>
+        <li>Non-anonymized links to the authors' online content must be removed.</li>
+        <li>Research group members, or other colleagues or collaborators, must not be acknowledged anywhere in the
+          paper.</li>
+        <li>The paper's file name must not identify the authors of the paper.</li>
+      </ol>
+      <p>
+        Authors should also use care in referring to related past work. The solution is to reference past work in the
+        third person (in the same way that one would reference work by anyone else). This allows you to set the
+        context for your submission while at the same time preserving anonymity.
+      </p>
+      <p>
+        Despite the anonymity requirements, authors should still include all relevant work, including their own;
+        omitting them could reveal the author's identity by negation. However, self-references should be limited to
+        the essential ones, and extended versions of the submitted paper (e.g., technical reports or URLs for
+        downloadable versions) must not be referenced. The goal is to preserve anonymity while allowing the reader to
+        grasp the context of the submitted paper fully. It is the responsibility of authors to do their very best to
+        preserve anonymity. Papers that do not follow the guidelines or potentially reveal the author's identity are
+        subject to immediate rejection.
+      </p>
+
+      <h3 id="other">Other submissions</h3>
+
+      <p>
+        Authors are invited to submit proposals for demos and other presentations that are not papers.
+      </p>
+      <p>
+        Proposals must be submitted as short abstracts (not longer than one page) in PDF format using the paper
+        submission system, selecting "Other" as submission type.
+      </p>
+      <p>
+        Accepted presentations will not be part of the conference proceedings but will be part of the workshop agenda
+        with dedicated time for live presentation (with video backup), questions, etc.
+      </p>
+
+      <h3>Workshop co-chairs</h3>
+      <p>
+        Paul Castro, IBM Research
+        <br/>
+        Pedro García López, Universitat Rovira i Virgili
+        <br/>
+        Vatche Isahagian, IBM Research
+        <br/>
+        Vinod Muthusamy, IBM Research
+        <br/>
+        Aleksander Slominski, IBM Research
+      </p>
+
+      <h3>Steering Committee</h3>
+      <p>
+        Geoffrey Fox, Indiana University
+        <br/>
+        Dennis Gannon, Indiana University &amp; Formerly Microsoft Research
+        <br/>
+        Arno Jacobsen, MSRG (Middleware Systems Research Group)
+      </p>
+
+      <h3 id="pc">Program Committee (tentative)</h3>
+      <ul>
+        <li>Alexandru Iosup, Vrije Universiteit Amsterdam</li>
+        <li>Ali Kanso, Microsoft</li>
+        <li>Amine Barrak, Oakland University</li>
+        <li>Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)</li>
+        <li>Dennis Gannon, Indiana University &amp; Formerly Microsoft Research</li>
+        <li>Eric Rozner, University of Colorado Boulder</li>
+        <li>Etienne Rivière, UCLouvain</li>
+        <li>Geoffrey Fox, Indiana University</li>
+        <li>Gul Agha, University of Illinois at Urbana-Champaign</li>
+        <li>Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)</li>
+        <li>Ian Foster, University of Chicago and Argonne National Laboratory</li>
+        <li>Josef Spillner, Zurich University of Applied Sciences</li>
+        <li>Kyungyong Lee, Kookmin University</li>
+        <li>Lucas Nussbaum, LORIA, France</li>
+        <li>Maciej Malawski, AGH University of Science and Technology, Poland</li>
+        <li>Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow</li>
+        <li>Marc Sánchez Artigas, Universitat Rovira i Virgili</li>
+        <li>Per Persson, Ericsson Research</li>
+        <li>Peter Pietzuch, Imperial College</li>
+        <li>Rich Wolski, University of California, Santa Barbara</li>
+        <li>Rodric Rabbah, Nimbella and Apache OpenWhisk</li>
+        <li>Rodrigo Fonseca, Microsoft Research</li>
+        <li>Samuel Kounev, University of Wuerzburg</li>
+        <li>Tyler R. Caraza-Harter, University of Wisconsin-Madison</li>
+        <li>Višnja Križanović, Josip Juraj Strossmayer University of Osijek</li>
+        <li>Volker Hilt, Bell Labs (Nokia)</li>
+        <li>Wes Lloyd, University of Washington Tacoma</li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="footer text-center">
+    <div class="container px-4 px-lg-5">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a href="https://bsky.app/profile/wosc17.bsky.social" target="_blank"
+            class="social-link rounded-circle text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="24" height="24" fill="white"
+              style="vertical-align:middle;">
+              <path
+                d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805ZM50.127 3.805C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745Z">
+              </path>
+            </svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white"
+            href="https://github.com/serverlesscomputing/serverlesscomputing"><i class="icon-social-github"></i></a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; WoAIS 2026</p>
+    </div>
+  </footer>
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/scripts.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
