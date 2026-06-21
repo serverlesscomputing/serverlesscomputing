@@ -15,72 +15,70 @@
     rel="stylesheet" type="text/css" />
   <link href="css/styles.css" rel="stylesheet" />
   <link href="css/dark-mode.css" rel="stylesheet" />
-  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
   <script src="js/theme.js"></script>
 </head>
 
 <body id="page-top">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand navbar-light bg-light rounded fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10"
-      aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">First International Workshop on AI and Serverless (WoAIS1)</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="cfp/index.html">CFP</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="keynotes.html">Keynotes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="talks.html">Talks</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="demos.html">Demos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="program.html">Program <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Previous Editions
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-            <a class="dropdown-item" href="../wosc11/">2025 WoSC 11</a>
-            <a class="dropdown-item" href="../woscx4/">2025 WoSCx4</a>
-            <a class="dropdown-item" href="../wosc10/">2024 WoSC 10</a>
-            <a class="dropdown-item" href="../woscx3/">2024 WoSCx3</a>
-            <a class="dropdown-item" href="../woscx2/">2023 WoSCx2</a>
-            <a class="dropdown-item" href="../wosc9/">2023 WoSC 9</a>
-            <a class="dropdown-item" href="../woscx1/">2022 WoSCx1</a>
-            <a class="dropdown-item" href="../wosc8/">2022 WoSC 8</a>
-            <a class="dropdown-item" href="../wosc7/">2021 WoSC 7</a>
-            <a class="dropdown-item" href="../wosc6/">2020 WoSC 6</a>
-            <a class="dropdown-item" href="../wosc5/">2019 WoSC 5</a>
-            <a class="dropdown-item" href="../wosc4/">2018 WoSC 4</a>
-            <a class="dropdown-item" href="../wosc3/">2018 WoSC 3</a>
-            <a class="dropdown-item" href="../wosc2/">2017 WoSC 2</a>
-            <a class="dropdown-item" href="../wosc1/">2017 WoSC 1</a>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <button id="theme-toggle" class="theme-toggle-btn nav-link" type="button" aria-label="Toggle theme">
-            <i class="fas fa-moon"></i>
-          </button>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-2">
+      <a class="navbar-brand" href="index.html">First International Workshop on AI and Serverless (WoAIS1)</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+        aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="cfp/index.html">CFP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="keynotes.html">Keynotes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="talks.html">Talks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="demos.html">Demos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="program.html">Program</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Previous Editions
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+              <li><a class="dropdown-item" href="../wosc11/">2025 WoSC 11</a></li>
+              <li><a class="dropdown-item" href="../woscx4/">2025 WoSCx4</a></li>
+              <li><a class="dropdown-item" href="../wosc10/">2024 WoSC 10</a></li>
+              <li><a class="dropdown-item" href="../woscx3/">2024 WoSCx3</a></li>
+              <li><a class="dropdown-item" href="../woscx2/">2023 WoSCx2</a></li>
+              <li><a class="dropdown-item" href="../wosc9/">2023 WoSC 9</a></li>
+              <li><a class="dropdown-item" href="../woscx1/">2022 WoSCx1</a></li>
+              <li><a class="dropdown-item" href="../wosc8/">2022 WoSC 8</a></li>
+              <li><a class="dropdown-item" href="../wosc7/">2021 WoSC 7</a></li>
+              <li><a class="dropdown-item" href="../wosc6/">2020 WoSC 6</a></li>
+              <li><a class="dropdown-item" href="../wosc5/">2019 WoSC 5</a></li>
+              <li><a class="dropdown-item" href="../wosc4/">2018 WoSC 4</a></li>
+              <li><a class="dropdown-item" href="../wosc3/">2018 WoSC 3</a></li>
+              <li><a class="dropdown-item" href="../wosc2/">2017 WoSC 2</a></li>
+              <li><a class="dropdown-item" href="../wosc1/">2017 WoSC 1</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <button id="theme-toggle" class="theme-toggle-btn nav-link" type="button" aria-label="Toggle theme">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <section class="content-section bg-light" id="about">
-    <div data-aos="fade-up" data-aos-delay="200" class="container px-4 px-lg-5">
+    <div class="container px-4 px-lg-5">
       <h1 class="mb-4">Program (Preliminary)</h1>
 
       <div class="pt-5 pb-5">
@@ -198,10 +196,6 @@
   <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/scripts.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </body>
 
 </html>
