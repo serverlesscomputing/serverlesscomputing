@@ -254,9 +254,9 @@ Paper submissions
    will be reviewed and judged on correctness, originality, technical
    strength, rigour in analysis, quality of results, quality of
    presentation, and interest and relevance to the conference attendees.
-   Papers will be submitted through HotCRP, in a manner consistent with
-   how Middleware workshops use the system; the submission link will be
-   announced on this page and at http://serverlesscomputing.org/woais2/.
+   Papers conforming to the above guidelines can be submitted through the
+   paper submission system powered by HotCRP
+   (https://woais26.hotcrp.com/).
 
    All submitted manuscripts will be peer-reviewed by at least 3 program
    committee members. Accepted papers with confirmed presentation will
@@ -375,7 +375,7 @@ Workshop co-chairs
 
 Steering Committee
 
-   Geoffrey Fox, Indiana University
+   Geoffrey Fox, University of Virginia
    Dennis Gannon, Indiana University & Formerly Microsoft Research
    Arno Jacobsen, MSRG (Middleware Systems Research Group)
 
@@ -386,9 +386,9 @@ Program Committee (tentative)
      * Amine Barrak, Oakland University
      * Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
      * Dennis Gannon, Indiana University & Formerly Microsoft Research
-     * Eric Rozner, University of Colorado Boulder
+     * Eric Rozner, Google
      * Etienne Rivière, UCLouvain
-     * Geoffrey Fox, Indiana University
+     * Geoffrey Fox, University of Virginia
      * Gul Agha, University of Illinois at Urbana-Champaign
      * Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)
      * Ian Foster, University of Chicago and Argonne National Laboratory
@@ -398,11 +398,11 @@ Program Committee (tentative)
      * Maciej Malawski, AGH University of Science and Technology, Poland
      * Maciej Pawlik, Academic Computer Centre CYFRONET of the University
        of Science and Technology in Cracow
-     * Marc Sánchez Artigas, Universitat Rovira i Virgili
+     * Marc Sánchez-Artigas, Universitat Rovira i Virgili
      * Per Persson, Ericsson Research
      * Peter Pietzuch, Imperial College
      * Rich Wolski, University of California, Santa Barbara
-     * Rodric Rabbah, Nimbella and Apache OpenWhisk
+     * Rodric Rabbah, Apache OpenWhisk
      * Rodrigo Fonseca, Microsoft Research
      * Samuel Kounev, University of Wuerzburg
      * Tyler R. Caraza-Harter, University of Wisconsin-Madison
