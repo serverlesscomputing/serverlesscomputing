@@ -1,44 +1,121 @@
 ---
-title: "11th International Workshop on Serverless Computing (WoSC11) 2025"
+title: "Call For Papers"
 layout: page
 wosc: 11
 ---
 
-**Part of [ACM/IFIP Middleware 2025](https://middleware-conf.github.io/2025/) in Vanderbilt University, Nashville, TN, USA (December 15-19).**
+**Part of [ACM/IFIP Middleware 2025](https://middleware-conf.github.io/2025/)**
 
-> WoSC11 will be hybrid this year with both virtual and on-location formats. Please note that while hybrid formats will be supported for workshops, the Middleware 2025 steering committee wants the main conference to be held in in-person only. Prospective attendees of the workshop should keep this in mind if they plan to attend both WoSC11 and Middleware 2025.
+> **_NOTE:_** *WoSC11 will be hybrid this year with both virtual and on-location formats. Please note that while hybrid formats will be supported for workshops, the Middleware 2025 steering committee wants the main conference to be held in in-person only. Prospective attendees of the workshop should keep this in mind if they plan to attend both WoSC11 and Middleware 2025.*
 
-Please visit the [previous workshops website](http://www.serverlesscomputing.org/workshops/) to see what you can expect.
+Over the last eleven years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and micro-services. Many of the major cloud vendors have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions. Open source projects are gaining popularity in providing serverless computing as a service.
 
-## News
+Recently, Kubernetes gained popularity in enterprise and academia. Several open source projects, such as OpenFaaS and Knative, aim to provide developers with a serverless experience on top of Kubernetes by hiding low-level details. Auto-scalable multi-tenant Kubernetes deployments like Google Cloud Run or IBM Code Engine also overcome previous limitations of Serverless Functions like duration, networking, and higher granularity (more vCPUs).
 
-*2025-10-27:* Updated the camera-ready deadline.  
-*2025-10-27:* Papers notification date moved by one week.  
-*2025-10-12:* Final extension of the deadline.  
-*2025-09-24:* Deadline extended.  
-*2025-06-13:* CFP available.
-
-## Welcome
-
-Welcome
-Over the last ten years, Serverless Computing (Serverless) has gained an enthusiastic following in industry as a compelling paradigm for the deployment of cloud applications, and is enabled by the recent shift of enterprise application architectures to containers and microservices. Many of the major cloud vendors have released serverless platforms, including Amazon Lambda, Google Cloud Functions, Microsoft Azure Functions, IBM Cloud Functions. Open source projects are gaining popularity in providing serverless computing as a service.
-
-Recently, Kubernetes gained in popularity in enterprise and in academia. Several open source projects such as OpenFaaS and Knative aim to provide developers with serverless experience on top of Kubernetes by hiding low-level details. Auto-scalable Multi-tenant Kubernetes deployments like Google Cloud Run or IBM Code Engine also overcome previous limitations of Serverless Functions like duration, networking, and higher granularity (more vCPUs).
-
-Serverless on the cloud is a somewhat mature research area with many conferences accepting papers on this topic. In the spirit of having this workshop serve as a venue for future and exploratory research directions, we will be evolving the workshop to include hybrid cloud environments, as well as edge and IoT devices. These next-gen computing architectures are becoming more common but have little support from serverless platforms and bring new challenges to old concerns such as resource optimization, scaling, cost, monitoring, and ease of use. The serverless experience becomes an important topic for emerging topics such as DevOps and Platform Engineering in industry and will be critical to the success of next-gen computing.
+Serverless on the cloud is a mature research area with many conferences accepting papers on this topic. In the spirit of having this workshop serve as a venue for future and exploratory research directions, we will be evolving the workshop to include hybrid cloud environments, as well as edge and IoT devices. These next-gen computing architectures are becoming more common but have little support from serverless platforms and bring new challenges to old concerns such as resource optimization, scaling, cost, monitoring, and ease of use. The serverless experience becomes an essential topic for emerging topics such as DevOps and [Platform Engineering](https://platformengineering.org/) in industry and will be critical to the success of next-gen computing.
 
 Building on the recent advances in generative AI, including Large Language Models (LLMs) and other types of Foundations Models (FMs), the workshop also plans to explore the use of hybrid serverless platforms to fine-tune, serve, and manage the lifecycle of LLMs with a focus on aspects such as use cases, resource allocations, optimizations, and using AI to improve serverless experience.
 
+Emerging applications such as AI agents present interesting serverless workloads patterns. These agentic solutions are characterized by multiple LLM calls to process user requests and construct dynamic plans, unpredictable orchestrations of API calls, and invocations of deterministic code and AI models to reflect on API responses and make progress towards a goal. They may be triggered by events, run quickly for a few seconds or autonomously for days, and communicate with other agents. These applications resurface known serverless challenges in a new setting, including cold start, state management, and resource allocation. They also raise new challenges such as mixed GPU and CPU workloads, applications with stochastic plans, bursty long running processes, inter-process communication, and integrations with agentic programming models such as LangGraph and Crew AI.
+
 This workshop brings together researchers and practitioners to discuss their experiences and thoughts on future directions of serverless research.
 
-## Workshop Program
+As this year the workshop is hybrid and we are looking not only for research papers, experience papers, demonstrations, or position papers but also for live presentations of ongoing work, demonstrations, and anything else that may be interesting to workshop audience.
 
-*Preliminary Date:* December 15 (Monday)  
-*Preliminary Time:* 11am ET  
-*Location:* Hybrid (on-site + virtual)
+The latest version of this CFP is available at [https://serverlesscomputing.org/wosc11/](https://serverlesscomputing.org/wosc11/)
 
-**Workshop schedule:**  TBA
 
+## Topics
+This workshop solicits papers from both academia and industry on the state of practice and state of the art in serverless computing. Topics of interest include but are not limited to:
+
+* Infrastructure and network optimizations for serverless applications
+* Multi-cloud and hybrid cloud for serverless and next-gen computing like Edge, Fog, IoT, etc.
+* Elastic AI platforms and pay-as-you-go for GPUs with different cost metrics.
+* Using AI assist and generative LLMs such as ChatGPT for building, running, and maintaining serverless-like applications.
+* Supporting AI agents and with serverless approaches in agentic platforms
+* Supporting Model Context Protocol (MCP) and using it in serverless-like applications
+* Supporting customization and running user provided AI models any place: Cloud, Edge, Fog, IoT, etc.
+* Developer experience as we transition from “traditional” serverless and FaaS
+* Serverless data management for AI, vector and graph databases applied to serverless experience
+* Serverless and next-gen computing in Industry such as Platform Engineering and Internal Developer Platforms and other areas
+* Next-gen data platform and how to use it with serverless-like approaches
+* Low-code and no-code - new programming abstractions
+* Developer productivity: from local code to observability and maintenance
+* Debugging serverless applications
+* Programming models
+* Use cases, experiences
+* Benchmarks
+* Cost models, pricing models, and economics of serverless
+* DevOps
+* Confidential computing
+* Sustainable computing
+* Granular computing
+* Super-lightweight containers Web Assembly
+* Swarm intelligence
+* Other topics related to serverless computing
+
+## Important Dates
+
+
+**Paper Submission:** **October 19, 2025 (AOE)** (extended from September 24)
+
+**Notification of Acceptance:** October 23, 2025
+
+**Final Camera-Ready Manuscript (Hard Deadline):** October 27, 2025
+
+**Non-paper submissions (demos and other proposals):** November 10, 2025
+
+**Author registration deadline:** TBD
+
+**Conference:** December 15-19, 2025
+
+## Papers and Submissions
+### Papers submissions
+
+Authors are invited to submit original, unpublished research/application papers that are not being considered in another forum.
+
+Submitted manuscripts should be structured as technical papers and may not exceed six (6) single-spaced double-column pages using ACM SIGPLAN style, which can be found on the [ACM template page](https://www.acm.org/publications/proceedings-template). The page limit contains all the content, including bibliography, appendix, etc.
+
+**Note that submissions must be doubly anonymous - authors’ names must not appear on the manuscript, and authors must make a good-faith attempt to anonymize their submissions.**
+
+
+Submitted papers must adhere to the formatting instructions of the standard ACM format style, which can be found on the ACM template page. **The font size has to be set to 9pt.**
+
+The Middleware conference organizers will provide companion proceedings including all workshop papers, which will be available in the ACM Digital Library. This is subject to the availability of their camera-ready papers by October 27, 2025.
+
+Authors should submit the manuscript in PDF format. All manuscripts will be reviewed and will be judged on correctness, originality, technical strength, rigour in analysis, quality of results, quality of presentation, and interest and relevance to the conference attendees. Papers conforming to the above guidelines can be submitted through the paper submission system powered by HotCRP [https://wosc2025.hotcrp.com/](https://wosc2025.hotcrp.com/).
+
+All submitted manuscripts (following MIDDLEWARE conference requirements on formatting and page limits) will be peer-reviewed by at least 3 program committee members. Accepted papers with confirmed presentation will appear in the conference proceedings as well as in the ACM Digital Library.
+
+**Note that at least one author of each accepted workshop paper must hold a full pre-conference registration.**
+
+Please ensure that you and your co-authors obtain an ORCID ID, so you can complete the publishing process for your accepted paper. ACM has been involved in ORCID from the start and we have recently made a commitment to collect ORCID IDs from all of our published authors (<a href="https://authors.acm.org/author-resources/orcid-faqs">https://authors.acm.org/author-resources/orcid-faqs</a>). The collection process has started and will roll out as a requirement throughout 2022. We are committed to improve author discoverability, ensure proper attribution and contribute to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
+
+### Anonymity Requirements for Doubly-Anonymous Reviewing
+
+Every research paper submitted to ACM Middleware 2025 will undergo a ''doubly-anonymous'' reviewing process: in addition to maintaining the anonymity of the reviewers of the papers, the PC members and reviewers will not know the identity of the authors. To ensure the anonymity of authorship, authors must at least do the following:
+
+* Authors' names and affiliations must not appear on the title page or elsewhere in the paper.
+* Funding sources must not be acknowledged anywhere in the paper under review; these can be added to accepted papers upon submission of the camera-ready manuscript.
+* Non-anonymized links to the authors’ online content must be removed.
+* Research group members, or other colleagues or collaborators, must not be acknowledged anywhere in the paper.
+* The paper’s file name must not identify the authors of the paper.
+
+Authors should also use care in referring to related past work. The solution is to reference past work in the third person (in the same way that one would reference work by anyone else). This allows you to set the context for your submission while at the same time preserving anonymity.
+
+Despite the anonymity requirements, authors should still include all relevant work, including their own; omitting them could reveal the author's identity by negation. However, self-references should be limited to the essential ones, and extended versions of the submitted paper (e.g., technical reports or URLs for downloadable versions) must not be referenced. The goal is to preserve anonymity while allowing the reader to grasp the context of the submitted paper fully. It is the responsibility of authors to do their very best to preserve anonymity. Papers that do not follow the guidelines or potentially reveal the author's identity are subject to immediate rejection.
+
+### Other submissions
+
+Authors are invited to submit proposals for demos and other presentations that are not papers.
+
+Proposals must be submitted as short abstracts (not longer than one page) in PDF format using the paper submission system HotCRP [https://wosc2025.hotcrp.com/](https://wosc2025.hotcrp.com/).
+
+Accepted presentations will not be part of the conference proceedings but will be part of the workshop agenda with dedicated time for live presentation (with video backup), questions etc.
+
+### Questions
+
+To ask questions related to WoSC11 please use wosc11 channel in [our Discord server](https://discord.gg/cAVPZ6Gu). In case of issues that should be reported privately to WoSC11 chairs and organizers use wosc11 (at) serverless computing org domain.
 
 ## Organization
 
@@ -68,31 +145,20 @@ This workshop brings together researchers and practitioners to discuss their exp
 * Etienne Rivière, UCLouvain
 * Geoffrey Fox, Indiana University
 * Gul Agha, University of Illinois at Urbana-Champaign
-* Hans-Arno Jacobsen, MSRG
+* Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)
 * Ian Foster, University of Chicago and Argonne National Laboratory
 * Josef Spillner, Zurich University of Applied Sciences
 * Kyungyong Lee, Kookmin University
 * Lucas Nussbaum, LORIA, France
 * Maciej Malawski, AGH University of Science and Technology, Poland
-* Maciej Pawlik, CYFRONET, University of Science and Technology in Cracow
+* Maciej Pawlik, Academic Computer Centre CYFRONET of the University of Science and Technology in Cracow
 * Marc Sánchez Artigas, Universitat Rovira i Virgili
 * Per Persson, Ericsson Research
 * Peter Pietzuch, Imperial College
 * Rich Wolski, University of California, Santa Barbara
-* Rodric Rabbah, Nimbella / Apache OpenWhisk
+* Rodric Rabbah, Nimbella and Apache OpenWhisk
 * Rodrigo Fonseca, Microsoft Research
 * Samuel Kounev, University of Wuerzburg
 * Tyler R. Caraza-Harter, University of Wisconsin-Madison
 * Volker Hilt, Bell Labs (Nokia)
 * Wes Lloyd, University of Washington Tacoma
-
-## Previous Workshops
-
-See: [Previous workshops list](http://www.serverlesscomputing.org/workshops/)
-
-## Tweets
-
-Use hashtags: **#wosc11 #wosc #serverless**
-
-Tweets by: https://twitter.com/wosc17
-
