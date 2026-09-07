@@ -387,7 +387,6 @@ Program Committee (tentative)
      * Cristina Abad, Escuela Superior Politécnica del Litoral (Ecuador)
      * Dennis Gannon, Indiana University & Formerly Microsoft Research
      * Eric Rozner, Google
-     * Etienne Rivière, UCLouvain
      * Geoffrey Fox, University of Virginia
      * Gul Agha, University of Illinois at Urbana-Champaign
      * Hans-Arno Jacobsen, MSRG (Middleware Systems Research Group)
