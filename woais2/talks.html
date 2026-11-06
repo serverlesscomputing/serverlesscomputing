@@ -83,16 +83,161 @@
     <div class="container px-4 px-lg-5">
       <h1 class="mb-4">Talks</h1>
 
+      <p class="lead">
+        The 12 papers accepted to WoAIS2 (Second International Workshop on AI and Serverless, 2026), in
+        presentation order. See the <a href="program.html">preliminary program</a> for the full schedule.
+      </p>
+
       <div class="alert alert-warning" role="alert">
-        <strong>Note:</strong> Accepted papers for WoAIS2 will be listed here after notification on
-        <strong>October 12, 2026</strong>. This page is currently <strong>to be announced (TBA)</strong>.
+        <strong>Session assignment is preliminary</strong> and may still be adjusted. Author lists are as
+        submitted; the presenting author for each paper is being confirmed.
       </div>
 
+      <h2 class="mt-5 mb-4">Session 1 &mdash; Opening &amp; Keynote 1: Agentic AI Meets Serverless <span class="text-muted">(8:30–10:00)</span></h2>
+
+      <h3 id="p1">Is Serverless a Misfit for Agentic AI?</h3>
+
       <p class="lead">
-        Papers accepted to the Second International Workshop on AI and Serverless (WoAIS) 2026 will be presented on
-        <strong>December 14, 2026</strong>. See the
-        <a href="cfp/index.html">Call for Papers</a> for submission details and the
-        <a href="program.html">program</a> page for the schedule once it is finalized.
+        <strong>Cloud providers run AI agents' tool calls in serverless sandboxes, and a 2026 paper argues that agentic workflows are serverless applications. We test this claim from an operating-system (OS) view, running 14 serverless functions and coding agents on SWE-bench Verified (live, and replayed from three frontier models' published traces) in identical Firecracker microVMs. The sandbox carries over. It boots in 0.16 s for both, and a median tool call runs for 17 ms against 65 ms for a function call. The serverless contract does not. The sandbox idles 99.6% of an agent session; stateless execution breaks 33.6% of tool calls, and 25.1% even with the repository and /tmp restored; a session's largest command peaks at 46× the memory of its median one; and on an 8 GB GPU, cache hits fall from 96.7% to 15.5% of prompt tokens as concurrent sessions grow from two to eight. The OS must therefore manage the agent session, not the function, and we outline four mechanisms to do so. Two that we built return a session to an earlier command in 35 ms instead of 9.6 s and cut the median prefill time with eight sessions from 16.0 s to 0.75 s.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Bita Asoodeh, Amir Noohi, Antonio Barbalace (University of Edinburgh)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="p2">Why “Succeeded” Is Not Enough: Four Axes for Measuring Production Agents</h3>
+
+      <p class="lead">
+        <strong>A production agent platform can report an invocation as succeeded without recording what that success refers to: which task it completed, which interval it charged to the agent, which configuration produced it, or whether the work left any durable trace. Operators use those fields to judge all four. We present AgentAxis, a measurement framework released as a working library that separates what ran from what can be claimed. It pairs four questions with the condition under which a reported number answers each: work unit, execution envelope, cohort version, and effective outcome. We apply it to 543 scheduled invocations of a production operations assistant, to a second on-demand agent that shares the same hosted serverless platform while running different processes on different node infrastructure, and to a local coding-harness arm. On at least one surface, no native field answered its axis. One invocation reports success on every status field while spending 62.75% of its 901.7 s envelope in downstream delivery, against a delivery median of 4.2 s; over agent-succeeded runs the ratio is 1.0173 in the median and 6.9297 at most, where delivery failed. Six long failed runs, all inside one 13-start window, raise the duration-weighted agent share from 96.67% to 99.15% by duration weighting rather than better performance. Reconstructing the local arm turns 5 containers into 22-25 evaluated tasks, a 4.40:1 to 5.00:1 shift in the unit count. For effective outcome the result is negative: neither hosted application retains target-state audits, so we report no audited rate and instead state the minimal telemetry contract that would make one answerable.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Girish Konda (Microsoft)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+      <h2 class="mt-5 mb-4">Session 2 &mdash; LLM Workflows, Routing and Composition <span class="text-muted">(10:30–12:00)</span></h2>
+
+      <h3 id="p3">Toward Spec-Driven Generation of Serverless Workflows with LLMs</h3>
+
+      <p class="lead">
+        <strong>Serverless workflows increasingly consist of functions that run concurrently and exchange data, so their behavior is largely defined by the interaction between functions. Spec-driven development with large language models makes the intended behavior explicit before code is generated. For such workflows, the specification must state this interaction completely, since open decisions are otherwise resolved implicitly, but should leave its realization on the target system open. To meet both demands,we present a spec-driven pipeline centered on a requirements engineering stage that makes such decisions explicit before design, followed by a design and implementation stage that maps the requirements onto the coordination mechanisms of the target system. In a preliminary evaluation, generating code directly from ambiguous descriptions resolved the ambiguity implicitly and with an unintended reading in all runs, while our pipeline flagged its reading as an explicit assumption that the user could correct. Requirements that state only the intended behavior, without being tailored to the target system, sufficed for the pipeline to generate a working workflow.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Christian Chisté, Philipp Gritsch, Ruth Breu, Sashko Ristov (University of Innsbruck)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="p4">Dependency-Aware Task Decomposition and Parallel Multi-LLM Execution on Serverless Workflows</h3>
+
+      <p class="lead">
+        <strong>Complex LLM tasks are increasingly solved by splitting them into dependent subtasks, yet these subtasks are usually executed sequentially by a single strong model. This inflates latency, since independent subtasks wait on one another, and cost, since simple subtasks are over-provisioned with an expensive model. We present RouteFlow, a serverless framework that decomposes a task into a dependency graph, assigns each subtask to a strong, medium or lightweight LLM according to the type of computation it performs, and executes the graph as a serverless workflow in which independent subtasks run in parallel. We evaluate RouteFlow on 100 LongCoT chemistry problems of easy, medium and hard difficulty, using each problem’s own decomposition, against two baselines that use GPT-5.2 for every subtask, one sequential and one parallel. Running independent subtasks in parallel reduces end-to-end latency by 22%. Also assigning simpler subtasks to the medium and lightweight models raises the speedup to 1.47× over sequential execution and reduces cost by 7–9% compared with the parallel baseline and by 2–4% compared with the sequential one, while solving about as many tasks (15–16 of 100 in every configuration).</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Jackson Beem, Amine Barrak (Oakland University)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="p5">Static Before Smart: Exact Cost Accounting and Baselines for Pay-per-Token LLM Routing</h3>
+
+      <p class="lead">
+        <strong>Request-level LLM routing is a middleware control decision over metered model executions: a policy determines which backend serves each request and therefore which token charges are incurred. Yet routing is often evaluated using an aggregate shortcut—model-selection fraction multiplied by each model's average cost, and against baselines matched on routing rate rather than realized spend. These comparisons can misstate the economics of query-dependent routing because assignment can correlate with request and response length. We present an audit methodology for pay-per-token LLM routing built on exact request-level accounting, static baselines matched by realized dollars, held-out evaluation, and explicitly retrospective oracle headroom. On a frozen 243-query held-out test, query-only lexical routers fail to improve over the cost-matched static policy, while a hindsight oracle retains a 5.35-percentage-point quality advantage at nearly the same model cost (95% grouped-bootstrap interval: +2.17 to +8.81 points; permutation p=0.00430), indicating complementarity that the evaluated features do not capture. An aggregate reconstruction of 1,307 released RouteLLM GSM8K examples shows that replacing routing-rate matching with realized-dollar matching reduces the mean descriptive routing edge from 0.756 to 0.566 percentage points; none of the nine interior operating points is individually significant under the stored Monte Carlo analysis. Finally, using hindsight assignments solely as an accounting stress test, 56 public xRouteBench slices exhibit a 4.81% median absolute difference between aggregate-mixture and exact assignment costs (6.55% mean), with the largest observed value, 52.80%, occurring on a 107-query AIME slice. These results support a simple evaluation contract for serverless and agentic LLM systems: before attributing economic benefit to a routing policy, account for every selected model execution at request granularity, compare against the strongest static policy at the same realized budget, and report retrospective oracle headroom separately from deployable routing gain.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Arjun Subramanian (Computer Science and Artificial Intelligence Laboratory (CSAIL), Massachusetts Institute of Technology); Nithilan Karthik (Managent)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="p6">Making Agentic Composition Measurable: Experience from a Kubernetes-Native Placement Backend</h3>
+
+      <p class="lead">
+        <strong>A workload submitted to a federation of Kubernetes clusters often comes with requirements its owner can state but not map onto clusters: where its data may reside, how fast it must respond, how much it may cost. A language-model agent can turn such intent into a placement by fetching live evidence about the federation and reasoning over it, but every decision then spends model calls, tokens and seconds before the workload can start. How much depends on the composition behind the decision: how many agents run, which of them fetch their own evidence, and whether the model emits a reasoning pass on every call. Agent frameworks scatter that composition across prompts, code and configuration, so it is seldom measured as one thing. We built a placement middleware that makes it measurable: it triggers a stateless decision layer for each request through a message broker, serves its evidence through a Model Context Protocol (MCP) server, declares its composition as a Kubernetes custom resource, and records every model call beneath the agent framework. We profiled three compositions on the same requests with Qwen3.5-122B-A10B. With per-call reasoning off, a single model call over evidence fetched in advance spent ~3k tokens per decision, an agent that fetches its own evidence fell in between, and a five-agent crew spent 8 calls, ~26k tokens and, at the median, about ten times as long. The step that lets the model fetch its own evidence added almost all of the extra tokens the model reads; the step that splits the work across agents added most of the extra tokens it writes and of the extra seconds, and decision time tracked what the model writes. Per-call reasoning added on average about a thousand reasoning tokens per call, so the composition decides how often it is paid. The framework's own usage counters missed part of what a decision spent.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Gabriele Scaffidi Militone, Daniele Apiletti, Giovanni Malnati (Politecnico di Torino)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+      <h2 class="mt-5 mb-4">Session 3 &mdash; Serverless AI Workloads, Efficiency and Privacy <span class="text-muted">(13:00–14:30)</span></h2>
+
+      <h3 id="p7">LLM Fine-Tuning Workloads: Characterization, Challenges, and Opportunities for Serverless AI</h3>
+
+      <p class="lead">
+        <strong>Serverless execution of Large Language Models (LLMs) is becoming important, reflecting their wide societal use. An increasingly present stage in LLM pipelines is fine-tuning, which specializes trained models and improves inference performance. Serverless operation of LLM fine-tuning workloads shifts operational concerns from the user to the provider. For these new workloads, providers face important operational complexities, such as performance issues, resource waste, and even service failure due to misconfiguration. However, optimizing such workloads is still at an early stage, and, relevant to this work, relatively little is currently known about how LLM fine-tuning workloads run in practice. In this work, we address the knowledge gap by characterizing the execution of LLM fine-tuning workloads on clusters equipped with different GPUs, running LLM models at various scales. We analyze IBM's LLMFineTuningBench, a large-scale, diverse profiling dataset of 30,920 fine-tuning experiments that records both successful and failing configurations. We provide quantitative insight into throughput (expressed in tokens/s), scaling, failure, and potential for performance optimization for four commonly used GPU types, in setups of 1 to 32 GPUs. We find that (1) job feasibility (run or fail) depends on workload properties, with failure ratios rising from 52% for medium batch sizes (16-64) up to 95% for the largest (1,024); (2) throughput grows logarithmically with batch size; (3) scaling is near-linear when the workload is deployed intra-node, and optimizations such as RoCE substantially improve efficiency for inter-node deployment (e.g., 0.72 vs. 0.26 efficiency without RoCE); and (4) system-level optimizations can outweigh application-level ones (RoCE, up to 2.9×, vs. Fast MoE, 1.7×).</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Radu Nicolae (Vrije Universiteit (The Netherlands)); Daniele Lotito (IBM Research Europe - Dublin (Ireland)); Alexandru Iosup (Vrije Universiteit (The Netherlands))</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="p8">BlockGuard: Serverless Selective Homomorphic Encryption for Federated Learning</h3>
+
+      <p class="lead">
+        <strong>Federated learning (FL) clients share model updates that can leak their training data. Homomorphic encryption (HE) lets the server sum the updates while they stay encrypted. Serverless functions can run this aggregation in parallel and avoid paying for a server that idles most of each round. HE ciphertexts, however, are many times larger than the weights, so a fully encrypted model exceeds a function’s memory. Selective HE, such as MaskCrypt, encrypts only the most sensitive weights, but these are scattered across the model, which MaskCrypt aggregates on one server. We present BlockGuard. It divides the model into blocks (groups of layers): blocks with many sensitive weights are encrypted whole, the other blocks encrypt only their sensitive weights, and every block is cut into shards small enough for one function. Functions then aggregate all shards in parallel. On AWS Lambda with 3 GB functions, encrypted ResNet-18 and ResNet-34 updates do not fit one function, while BlockGuard’s shards stay below 1.4 GB. BlockGuard aggregates 1.9–2.1× faster than MaskCrypt in one function, costs 7× less than full HE, and matches plaintext accuracy. Although encrypting about 10% of the weights stops an attacker that guesses the encrypted weights, an attacker that uses only the unencrypted weights still reconstructs training images, a limit of partial encryption in general.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Amine Barrak (Assistant Professor, Oakland University)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="p11">Towards Energy-Efficient Serverless Computing with Hardware Isolation</h3>
+
+      <p class="lead">
+        <strong>Serverless computing provides just-in-time infrastructure provisioning with rapid elasticity and a finely-grained pricing model. As full control of resource allocation is in the hands of the cloud provider and applications only consume resources when they actually perform work, we believe that serverless computing is uniquely positioned to maximize energy efficiency. However, the focus of current serverless platforms is to run hundreds or thousands of serverless functions from different tenants on traditional server hardware, requiring expensive software isolation mechanisms and a high degree of overprovisioning, i.e., idle servers, to anticipate load spikes. With shared caches, high clock frequencies, and many-core architectures, servers today are optimized for large, singular workloads but <em>not</em> to run thousands of isolated functions. In this vision paper, we propose rethinking the serverless hardware architecture to align it with the requirements of serverless software. Specifically, we propose using hardware isolation with individual processors per function instead of software isolation resulting in a serverless hardware stack that consumes energy only when an application actually performs work. In a preliminary evaluation with real hardware and a typical serverless workload, we find that this could reduce energy consumption overheads by 90.63 % or an average 70.8 MW.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Natalie Carl (Technische Universität Berlin); Tobias Pfandzelter (Unaffiliated); David Bermbach (Technische Universität Berlin)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="p12">How Much Do Co-Located Containers Really Share? A Pairwise Measurement Study</h3>
+
+      <p class="lead">
+        <strong>This paper investigates how much memory saving can be attained in contemporary container platforms by keeping consecutive versions of one image resident on the same node — as they might in a blue-green deployment where different tenants are pinned to the version they were validated against. The expectation is that images built from overlapping layers let the kernel back them with a single physical copy. That expectation has never been verified for a specific pair of instances, and standard metrics cannot verify it: Proportional Set Size (PSS) divides a page’s cost by its mapcount, and so reports sharing with any process on the host rather than with the neighbour a scheduler is reasoning about. We measure it directly, intersecting the resident page frames of two named containers through the kernel’s pagemap interface. Between two consecutive builds of a multi-tenant Java-based application, whose application layers are byte-identical, the instances share 2.4 MiB of mapped memory — under half a percent of either one’s resident footprint. A static analysis of roughly 100 releases each of two widely-used Java applications finds that most consecutive release pairs share no image snapshot whatsoever. The cause is structural rather than semantic. A container runtime names each unpacked layer by the hash chain of every layer beneath it, so a metadata-only difference early in the stack gives byte-identical files above it fresh inodes, and the kernel cannot deduplicate them. In current mainstream container platforms, memory should thus be budgeted per container version, without a sharing discount. Existing proposals that key the storage of container images on content rather than on layer position deserve consideration as a way out.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Hanlin Wu, Eddy Truyen, Wouter Joosen (KU Leuven)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+      <h2 class="mt-5 mb-4">Session 4 &mdash; Serverless Platforms and Execution Semantics, with Keynote 2 <span class="text-muted">(15:00–16:30)</span></h2>
+
+      <h3 id="p9">Towards Stateful Serverless Via Suspension: First Steps by AWS Lambda MicroVMs</h3>
+
+      <p class="lead">
+        <strong>Traditional serverless computing executes functions in stateless, isolated environments, making efficient state management and communication persistent challenges. AWS recently introduced Lambda MicroVMs for executing untrusted code with fast cold starts, direct addressability of individual instances, and suspension capabilities. These features enable stateful serverless architectures that retain execution state across multiple invocations of the same instance. In this paper, we present an extensive evaluation of Lambda MicroVMs, characterizing their performance and identifying critical limitations that constrain their use in stateful applications. We demonstrate their practical benefits through a Retrieval-Augmented Generation (RAG) use case, achieving query speedups of up to $6.1\times$. Finally, we offer an overview of costs and a comparison with other AWS services. Our findings highlight both the opportunities offered by addressable, suspendable serverless instances and the limitations that must be addressed to realize their full potential.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Iván Molinero-Moreno, Javier Mejias-Reverté, Daniel Barcelona-Pons, Pedro Garcia-Lopez (Universitat Rovira i Virgili)</strong>
+      </p>
+
+      <hr class="bg-dark border-2 border-top border-dark mb-5 mt-5" />
+
+      <h3 id="p10">AtomicFaaS: Offloading Side-Effect Compensation to the Serverless Platform</h3>
+
+      <p class="lead">
+        <strong>Function-as-a-Service (FaaS) simplifies distributed application development by offloading operational concerns to the platform, but developers remain responsible for recovering from failures. Retries require idempotent functions, which means that developers have to write complex, error-prone code that undoes or skips the already completed operations of a failed function. To address this, we propose AtomicFaaS, a platform extension that provides semantic atomicity for the external side effects of a function invocation, whether the function fails or its instance crashes, without developer-written compensation code. AtomicFaaS intercepts outbound calls and records their effects in a fault-tolerant log, from which the platform compensates leaked effects outside the failed instance. Compared with a manually implemented saga, AtomicFaaS eliminates compensation code and leaves no compensatable effects after any tested failure, while adding ∼1 ms per intercepted call. Under load, it lowers the sustainable throughput of CPU-bound functions, while its latency overhead becomes negligible once calls to external services dominate the invocation time.</strong>
+      </p>
+
+      <p class="lead">
+        <strong>Jonas Heisterberg, Sebastian Koch, Trever Schirmer, David Bermbach (Technische Universität Berlin)</strong>
       </p>
     </div>
   </section>
